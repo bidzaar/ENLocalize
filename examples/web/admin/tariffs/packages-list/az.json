@@ -1,0 +1,26 @@
+{
+  "trf.pcg.list": {
+    "header": {
+      "title": "[AT] tarif paketləri",
+      "add": "[AT] tarif paketini əlavə et",
+      "records": "[AT] Records: {{ value }}",
+      "search": "[AT] Axtarış sahələr üzrə həyata keçirilir: •tariflər paketinin adı"
+    },
+    "package": {
+      "customers": "[AT] müştərilər",
+      "label": "[AT] redaktə et"
+    },
+    "dialog": {
+      "title": "[AT] tariflər paketi",
+      "input": "[AT] Paket adı",
+      "add": "[AT] Bitti",
+      "cancel": "[AT] Ləğv et",
+      "error": {
+        "title": "[AT] Bu Paket adı artıq mövcuddur",
+        "text": "[AT] tarifin digər adını göstərin"
+      }
+    },
+    "empty": "[AT] tariflər əlavə edilmir",
+    "empty_search": "[AT] sizin sorğunuza görə heç bir şey tapılmadı..."
+  }
+}
