@@ -1828,10 +1828,10 @@
     },
     "light": {
       "create": {
-        "cancel": "ləğv et",
-        "header": "yeni sorğu",
-        "next": "yarat",
-        "placeholder": "ad"
+        "cancel": "Ləğv et",
+        "header": "Yeni sorğu",
+        "next": "Yarat",
+        "placeholder": "Ad"
       },
       "invite": {
         "dialog": {

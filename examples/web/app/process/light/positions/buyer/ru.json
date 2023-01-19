@@ -72,17 +72,18 @@
             "description": "Описание",
             "count": "Кол-во",
             "unit": "Ед. измерения",
-            "target_price": "Целевая стоимость за ед.",
-            "max_price": "Максимальная цена за ед.",
-            "min_price": "Минимальная цена за ед.",
-            "expected_price": "Ожидаемая цена за ед.",
+            "target_price": "Целевая стоимость за ед., {{ value }}",
+            "max_price": "Максимальная цена за ед., {{ value }}",
+            "min_price": "Минимальная цена за ед., {{ value }}",
+            "expected_price": "Ожидаемая цена за ед., {{ value }}",
             "documents": "Документы"
           },
           "proposal": {
             "availability": "Наличие",
             "count": "Кол-во",
             "vat": "Ставка НДС",
-            "price": "Цена за ед.",
+            "price_incl_vat": "Цена за ед., с НДС",
+            "price_excl_vat": "Цена за ед., без НДС",
             "currency": "Валюта",
             "comment": "Комментарий" ,
             "documents": "Документы"

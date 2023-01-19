@@ -334,6 +334,28 @@
     "access_denied": {
       "hint": "web/app: core.access_denied.hint",
       "text": "web/app: core.access_denied.text"
+    },
+    "request_forbidden": {
+      "hint": "web/app: core.request_forbidden.hint",
+      "text": "web/app: core.request_forbidden.text",
+      "help": {
+        "action": "web/app: core.request_forbidden.help.action",
+        "text": "web/app: core.request_forbidden.help.text",
+        "list": {
+          "item_1": {
+            "text": "web/app: core.request_forbidden.help.list.item_1.text"
+          },
+          "item_2": {
+            "text": "web/app: core.request_forbidden.help.list.item_2.text",
+            "info": "web/app: core.request_forbidden.help.list.item_2.info"
+          },
+          "item_3": {
+            "text": "web/app: core.request_forbidden.help.list.item_3.text",
+            "info": "web/app: core.request_forbidden.help.list.item_3.info"
+          }
+        },
+        "footer": "web/app: core.request_forbidden.help.footer"
+      }
     }
   },
   "dashboard": {

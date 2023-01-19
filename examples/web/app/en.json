@@ -1710,10 +1710,10 @@
     },
     "light": {
       "create": {
-        "cancel": "cancel",
-        "header": "new request",
-        "next": "create",
-        "placeholder": "name"
+        "cancel": "Cancel",
+        "header": "New request",
+        "next": "Create",
+        "placeholder": "Name"
       },
       "invite": {
         "dialog": {

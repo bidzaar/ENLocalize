@@ -71,17 +71,18 @@
             "description": "Description",
             "count": "Amount",
             "unit": "Unit",
-            "target_price": "Target cost per unit",
-            "max_price": "Max cost per unit",
-            "min_price": "Min cost per unit",
-            "expected_price": "Expected cost per unit",
+            "target_price": "Target cost per unit, {{ value }}",
+            "max_price": "Max cost per unit, {{ value }}",
+            "min_price": "Min cost per unit, {{ value }}",
+            "expected_price": "Expected cost per unit, {{ value }}",
             "documents": "Documents"
           },
           "proposal": {
             "availability": "Availability",
             "count": "Amount",
             "vat": "VAT rate",
-            "price": "Price for unit",
+            "price_incl_vat": "Price per unit, incl. VAT",
+            "price_excl_vat": "Price per unit, excl. VAT",
             "currency": "Currency",
             "comment": "Comment",
             "documents": "Documents"

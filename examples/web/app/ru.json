@@ -1755,10 +1755,10 @@
     },
     "light": {
       "create": {
-        "cancel": "отмена",
-        "header": "новый запрос",
-        "next": "создать",
-        "placeholder": "наименование"
+        "cancel": "Отмена",
+        "header": "Новый запрос",
+        "next": "Создать",
+        "placeholder": "Наименование"
       },
       "invite": {
         "dialog": {

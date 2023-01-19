@@ -1949,7 +1949,7 @@
               "helper": "Access to the full documentation upon the submission of this section.",
               "description": {
                 "title": "Prequalification / NDA description",
-                "placeholder": "Describe what is required for Prequalification / NDA"
+                "placeholder": "Describe, what is required for Prequalification / NDA"
               },
               "files": {
                 "title": "Prequalification / NDA documents",

@@ -72,17 +72,18 @@
             "description": "Təsvir",
             "count": "Miqdar",
             "unit": "Ölçü vahidi",
-            "target_price": "Vahid başına hədəf dəyəri",
-            "max_price": "Vahid başına maksimum xərc",
-            "min_price": "Vahid üçün minimum xərc",
-            "expected_price": "Vahid üçün gözlənilən xərc",
+            "target_price": "Vahid başına hədəf dəyəri, {{ value }}",
+            "max_price": "Vahid başına maksimum xərc, {{ value }}",
+            "min_price": "Vahid üçün minimum xərc, {{ value }}",
+            "expected_price": "Vahid üçün gözlənilən xərc, {{ value }}",
             "documents": "Sənədlər"
           },
           "proposal": {
             "availability": "Mövcudluq",
             "count": "Miqdar",
             "vat": "ƏDV dərəcəsi",
-            "price": "Vahid başına qiymət",
+            "price_incl_vat": "Vahid başına qiymət, ƏDV daxil",
+            "price_excl_vat": "Vahid başına qiymət, ƏDV-siz",
             "currency": "Valyuta",
             "comment": "Şərh" ,
             "documents": "Sənədlər"
