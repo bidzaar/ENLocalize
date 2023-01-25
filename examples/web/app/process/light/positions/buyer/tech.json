@@ -81,7 +81,9 @@
             "availability": "web/app/process/light/positions/buyer: pl_pop.positions.table.columns.proposal.availability",
             "count": "web/app/process/light/positions/buyer: pl_pop.positions.table.columns.proposal.count",
             "vat": "web/app/process/light/positions/buyer: pl_pop.positions.table.columns.proposal.vat",
-            "price": "web/app/process/light/positions/buyer: pl_pop.positions.table.columns.proposal.price",
+            "price_none_vat": "web/app/process/light/positions/buyer: pl_pop.positions.table.columns.proposal.price_none_vat",
+            "price_incl_vat": "web/app/process/light/positions/buyer: pl_pop.positions.table.columns.proposal.price_incl_vat",
+            "price_excl_vat": "web/app/process/light/positions/buyer: pl_pop.positions.table.columns.proposal.price_excl_vat",
             "currency": "web/app/process/light/positions/buyer: pl_pop.positions.table.columns.proposal.currency",
             "comment": "web/app/process/light/positions/buyer: pl_pop.positions.table.columns.proposal.comment",
             "documents": "web/app/process/light/positions/buyer: pl_pop.positions.table.columns.proposal.documents"

@@ -140,6 +140,7 @@
             "rank": "[AT] Rütbə",
             "total": "[AT] Ümumi, {{ value }}",
             "vat": "ƏDV dərəcəsi",
+            "price_none_vat": "Vahid başına qiymət",
             "price_incl_vat": "Vahid başına qiymət, ƏDV daxil",
             "price_excl_vat": "Vahid başına qiymət, ƏDV-siz",
             "currency": "Valyuta",

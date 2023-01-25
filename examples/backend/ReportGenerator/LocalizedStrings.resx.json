@@ -290,5 +290,8 @@
     "OtherParticipantsVisibility.BestPrices": "Лучшие цены среди предложений конкурентов",
     "CompletedProcedures.FileName": "Завершенные запросы",
     "Diff.MaxPrice": "Максимальная цена",
-    "Diff.MaxPriceChanged": "Изменение максимальной цены"
+    "Diff.MaxPriceChanged": "Изменение максимальной цены",
+    "CompanyProcedures.Fee.None": "Комиссия не взимается",
+    "CompanyProcedures.Fee.Owner": "Заказчик (ваша компания)",
+    "CompanyProcedures.Fee.Participant": "Поставщик-победитель"
 }

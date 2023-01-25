@@ -349,7 +349,8 @@
           },
           "item_2": {
             "text": "[AT] bidzaar tərəfindən göndərilən dəvət məktubundan link vasitəsilə sorğu açın",
-            "məlumat": "[AT] digər mənbələrdən bir sorğuya keçid dəvət deyil."
+            "məlumat": "[AT] digər mənbələrdən bir sorğuya keçid dəvət deyil.",
+            "info": "[AT] Başqa mənbələrdən gələn sorğuya keçid dəvət deyil."
           },
           "item_3": {
             "text": "[AT] müştəridən dəvəti təkrar etməsini xahiş et",
@@ -357,7 +358,8 @@
           }
         },
         "footer": "[AT] işləmədi? Texniki Dəstəklə əlaqə saxlayın."
-      }
+      },
+      "hint": "[AT] Bu sorğu yalnız dəvət olunmuş üzvlər üçündür."
     }
   },
   "dashboard": {

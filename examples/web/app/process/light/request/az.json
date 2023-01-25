@@ -57,7 +57,7 @@
               "h5": "[AT] Başlıq 5",
               "h6": "[AT] Başlıq 6"
             },
-            "remove":"[AT] Sil"
+            "remove": "[AT] Sil"
           }
         },
         "nda": {
@@ -88,7 +88,7 @@
           "1": "[AT] Təklifi yalnız aşağıdakı reyestrlərdə akkreditə olunmuş təchizatçılar təqdim edə bilər",
           "2": "[AT] Akkreditə olunmuş təchizatçılar sorğu dərc edildikdə avtomatik olaraq sorğuya dəvət olunurlar",
           "3": "[AT] Akkreditasiyadan keçməmiş iştirakçılar eyni vaxtda akkreditasiyadan keçə və təklif hazırlaya bilərlər"
-        },  
+        },
         "add": "[AT] Qeydiyyat əlavə et",
         "success": {
           "add": "[AT] Əlavə rosters",
@@ -106,12 +106,27 @@
           "empty": {
             "text": "[AT] şirkətinizin dərc edilmiş reyestrləri yoxdur.",
             "add": "[AT] reyestrləri idarə et",
-            "close":"[AT] aydındır"
+            "close": "[AT] aydındır"
           },
           "search": {
             "placeholder": "[AT] tapın...",
             "remove": "[AT] Sil",
             "empty": "[AT] reyestrlər tapılmadı"
+          }
+        },
+        "dialog": {
+          "title": "[AT] Şirkət qeydiyyatı",
+          "add": "[AT] Reyestr əlavə edin",
+          "cancel": "[AT] Ləğv et",
+          "empty": {
+            "text": "[AT] Şirkətinizin dərc edilmiş reyestrləri yoxdur.",
+            "add": "[AT] Reyestrləri idarə edin",
+            "close": "[AT] Anlaşılır"
+          },
+          "search": {
+            "placeholder": "[AT] Tap...",
+            "remove": "[AT] Sil",
+            "empty": "[AT] Qeydlər tapılmadı"
           }
         }
       },

@@ -64,7 +64,8 @@
           "text": "[AT] İştirak pulsuzdur",
           "closed": "[AT] Qapalı sorğular üçün komissiya yoxdur"
         }
-      }
+      },
+      "info": "[AT] Daha çox"
     },
     "owner_rules": {
       "verified_only": {

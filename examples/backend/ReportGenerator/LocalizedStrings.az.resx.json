@@ -289,5 +289,8 @@
     "OtherParticipantsVisibility.BestPrices": "Rəqiblərin təklifləri arasında ən yaxşı qiymətlər",
     "CompletedProcedures.FileName": "Tamamlanmış Prosedurlar",
     "Diff.MaxPrice": "Maksimum qiymət",
-    "Diff.MaxPriceChanged": "Maksimum qiymətin dəyişdirilməsi"
+    "Diff.MaxPriceChanged": "Maksimum qiymətin dəyişdirilməsi",
+    "CompanyProcedures.Fee.None": "Komissiya tutulmur",
+    "CompanyProcedures.Fee.Owner": "Müştəri (şirkətiniz)",
+    "CompanyProcedures.Fee.Participant": "Qazanan Təchizatçı"
 }

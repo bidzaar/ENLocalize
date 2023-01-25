@@ -82,6 +82,7 @@
             "availability": "Наличие",
             "count": "Кол-во",
             "vat": "Ставка НДС",
+            "price_none_vat": "Цена за ед.",
             "price_incl_vat": "Цена за ед., с НДС",
             "price_excl_vat": "Цена за ед., без НДС",
             "currency": "Валюта",

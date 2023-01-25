@@ -81,6 +81,7 @@
             "availability": "Availability",
             "count": "Amount",
             "vat": "VAT rate",
+            "price_none_vat": "Price per unit",
             "price_incl_vat": "Price per unit, incl. VAT",
             "price_excl_vat": "Price per unit, excl. VAT",
             "currency": "Currency",
