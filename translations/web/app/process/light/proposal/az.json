@@ -1,0 +1,173 @@
+{
+    "pl": {
+        "proposal": {
+            "acceptance_end_date": {
+                "time_left": "qalıb",
+                "title": "Təkliflərin qəbulu "
+            },
+            "actions": {
+                "refuse": "İştrakdan imtina et"
+            },
+            "alternative": {
+                "info": "Alternativ təklif hazırlamağa başlamaq üçün aşağıdakı düyməyə klikləyin.",
+                "prepare": "Təklifi hazırlamaq",
+                "title": "Alternativ təklif"
+            },
+            "blocked": {
+                "sub_title": "Müştərinin istəyi ilə sorğuda iştirak edə bilməzsiniz. Ətraflı məlumat üçün müştəri ilə əlaqə saxlayın",
+                "title": "Müştəri sizi sorğusundan kənarlaşdırdı"
+            },
+            "registries": {
+                "title": "[AT] akkreditasiya",
+                "text": "[AT] təklif vermək üçün Sifarişçinin bu reyestrlərində akkreditasiyadan keçmək tələb olunur:",
+                "open": "[AT] qeydiyyat aç",
+                "status": {
+                    "false": "[AT] akkreditə olunmayıb",
+                    "true": "[AT] akkreditə olunub"
+                },
+                "status_registry": {
+                    "accredited": "Akkreditə olunub",
+                    "accredited_date": "{{value}} tarixinədək",
+                    "suspended": "Akkreditasiya prosesində",
+                    "not_accredited": "Akkreditasiya olunmayıb"
+                }
+            },
+            "card": {
+                "actions": {
+                    "cancel": "Dəyişiklikləri ləğv et",
+                    "change": "Təklifi dəyişdirin",
+                    "more": "Ətraflı",
+                    "order_service": "Xidmət sifariş et",
+                    "recall": "Təklifi geri çəkin",
+                    "submit": "Təklif ver",
+                    "update": "Təklifi yenilə"
+                },
+                "documents": {
+                    "action": "Əlavə et",
+                    "empty": "Bütün sənədləri yekun nəticə edərkən əlavə edə bilərsiniz. Müştərilər kommersiya təklifinin mövcudluğunu alqışlayırlar.",
+                    "sub_title": "Sənədlər: {{value}}",
+                    "title": "Kommersiya təklifi və sənədlər",
+                    "text": "[AT] təkliflərin qəbulu başa çatdıqdan sonra sənədlər də əlavə edilə bilər"
+                },
+                "positions": {
+                    "action": "[AT] Redaktə etmək",
+                    "view_action": "[AT] Bax",
+                    "statistics": {
+                        "total": "Vəzifələr: {{count}}-dən {{value}}-i",
+                        "dont_have_any": "stokda yoxdur: {{value}}"
+                    },
+                    "title": "Maddələrin spesifikasiyası"
+                },
+                "price": {
+                    "info": "Təklifinizin ümumi qiyməti",
+                    "title": "Təklifinizin qiyməti"
+                },
+                "questionnaire": {
+                    "action": "[AT] Redaktə etmək",
+                    "view_action": "[AT] Bax",
+                    "statistics": {
+                        "answers": "Cavablar:",
+                        "answer_count": "{{count}}-dan {{value}}"
+                    },
+                    "title": "Qeyri-qiymət meyarları"
+                },
+                "rank": {
+                    "by_proposal": {
+                        "text": "[AT] təklif dərəcəsi",
+                        "label": "[AT] Rəqiblərin təklifləri arasında təklif dərəcəsi"
+                    },
+                    "by_position": {
+                        "text": "[AT] mövqelərin dərəcəsi",
+                        "label": "Dərəcələrlə maddələrin sayı: 1 (yaşıl), 2 (sarı), 3 və ya ondan az (qırmızı)"
+                    }
+                },
+                "banner": {
+                    "draft": "<strong class=\"banner-bold\">Təklif verin</strong> təkliflərin qəbul müddəti başa çatanadək",
+                    "submitted": {
+                        "text": "<strong class=\"banner-bold\">qələbə şansını artırmaq üçün </strong> təklifini dəyişdirin.",
+                        "button": "dəyişiklik başlayın"
+                    },
+                    "edit": "<strong class=\"banner-bold\">dəyişdirilmiş təklifi verin.</strong> İndi Sifarişçiyə sizin köhnə təklifiniz mümkündür:",
+                    "summarizing": "<strong class=\"banner-bold\">Sənədləri blokunda yeniləyin</strong> \"kommersiya təklifi və sənədlər\""
+                },
+                "title": {
+                    "alternative": "Mənim alternativ təklifim",
+                    "my": "Mənim təklifim"
+                },
+                "with_vat": "ƏDV daxil",
+                "without_vat": "ƏDV-siz"
+            },
+            "confirm_recall_dialog": {
+                "cancel": "Ləğv et",
+                "submit": "Təklifi geri çəkin",
+                "text": "Sifarişçiyə və digər iştirakçılara bu təklif əlçatmaz olacaq.\nTəklifdə düzəliş etmək mümkündür və yekunlardan əvvəl yenidən təqdim edilə bilər",
+                "title": "Təklifi geri götürün?"
+            },
+            "contact_info": {
+                "change": "Dəyiş",
+                "title": "İştirakçının əlaqəli şəxsi"
+            },
+            "esg": {
+                "link": "ESG haqqında daha ətraflı",
+                "text": "Sertifikasiyanı keçin və ESG təchizatçısı statusunuzu əldə edin",
+                "title": "Biznesinizin davamlı inkişafı"
+            },
+            "nda": {
+                "add_files_text": "İmzalanmış müqaviləni və digər tələb olunan sənədləri əlavə edin",
+                "add_files_update_text": "Yenilənmiş müqaviləni və digər tələb olunan sənədləri əlavə edin",
+                "send": "Göndər",
+                "description": "İlkin qiymətləndirmənin təsviri",
+                "errors": {
+                    "correct": "Müraciəti düzəlt və yenilə",
+                    "empty": "Sənədlər yüklənməyib"
+                },
+                "files_info": "Sənədləri nəzərdən keçirmək/doldurmaq üçün yüklə",
+                "files_title": "NDA-nın ilkin qiymətləndirməsi üçün müraciət sənədləri",
+                "manual": {
+                    "title": "[AT] preformed / NDA üçün ərizə",
+                    "message": {
+                        "1": "[AT] Sifarişçidən baxılması üçün ərizə",
+                        "2": "[AT] hazırlanması və yenidən müraciət"
+                    },
+                    "description": {
+                        "text": "[AT] sorğu sənədləri ilə tanış olmaq üçün əvvəlcədən / NİV-ə keçin. ",
+                        "explanation": "[AT] əvvəlcədən təyin edilmiş tamamlama və təklif təqdim etmə təklifin qəbul müddətinin bitməsinə qədər tələb olunur. Müştəri ilə əlaqə-sorğu chat."
+                    }
+                },
+                "title": {
+                    "accepted": "İlkin qiymətləndirmə/NDA keçdi",
+                    "draft": "İlkin qiymətləndirmə / NDA",
+                    "failed": "İlkin qiymətləndirmə / NDA uğursuz oldu",
+                    "rejected": "İlkin qiymətləndirmə / NDA. Müraciətiniz imtina olundu",
+                    "submitted": "İlkin qiymətləndirmə / NDA Müraciətiniz baxılır",
+                    "status": {
+                        "0": "[AT] ərizə verilmir",
+                        "1": "[AT] ərizə verilib",
+                        "2": "[AT] ərizə rədd edildi",
+                        "3": "[AT] tamamlandı"
+                    }
+                },
+                "your_application": "İlkin qiymətləndirmə üçün müraciət / NDA"
+            },
+            "nonexistent": {
+                "info": "Sorğu tamamlandı, təklifin təqdim edilməsi mümkün deyil",
+                "title": "Mənim təklifim"
+            },
+            "refused": {
+                "return": "Sorğuya qayıt",
+                "sub_title": "Sorğuya qayıdıb təklif vermək, təkliflərin qəbulunun bitmə tarixinə kimi mümkündür {{value}}",
+                "title": "Sizin şirkət sorğuda iştrak etməkdən imtina edib"
+            },
+            "status": {
+                "0": "Təqdim edilməyib",
+                "1": "Göndərilib",
+                "2": "Geri çağrılıb",
+                "changing": "Dəyişiklik"
+            },
+            "unavailable": {
+                "message": "Sifarişçi ilə çat",
+                "title": "Sorğunun hazırkı statusunda təkliflərin təqdim edilməsi\nmümkün deyil"
+            }
+        }
+    }
+}
