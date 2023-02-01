@@ -385,7 +385,7 @@
       "text": "Widget is in demo mode"
     },
     "economy": {
-      "empty": "Purchases not found, please choose another period",
+      "empty": "Requests not found, please select another period",
       "on": "on",
       "period": "Money saved",
       "purchases": "requests:"
@@ -399,12 +399,12 @@
     },
     "no_procedures": {
       "action": "Search bid requests",
-      "text": "Participate in tender requests and win new business",
+      "text": "Submit your bids and win new business",
       "title": "Get more customers"
     },
     "no_purchases": {
       "action": "Create request",
-      "text": "Purchasing with your own rules!",
+      "text": "Purchase with your own rules!",
       "title": "Buy to profit"
     },
     "no_tags": {
@@ -419,7 +419,7 @@
     },
     "orders": {
       "count": "Your company received orders in",
-      "empty": "Orders not found, please choose another period",
+      "empty": "Orders not found, please select another period",
       "from": "from",
       "sum": "Purchases in the amount of:"
     },
