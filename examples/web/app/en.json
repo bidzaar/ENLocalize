@@ -25,7 +25,7 @@
           },
           "participationsCount": "Number of bids",
           "pools": "Accreditations in my pools",
-          "registries": "Vendor onboarding",
+          "registries": "Vendor accreditation",
           "rating": {
             "title": "Site activity",
             "high": "High",
@@ -39,7 +39,7 @@
           },
           "accreditations": {
             "title": "Accredited in customer registers",
-            "link": "More about Registries"
+            "link": "More about Vendor pools"
           }
         },
         "item": {
@@ -215,19 +215,19 @@
         },
         "participant": {
           "pool": {
-            "tooltip": "This channel will display the announcements of the pool requester"
+            "tooltip": "This channel will display the announcements of the pool"
           },
           "procedure": {
-            "tooltip": "This channel will display the announcements of the request requester"
+            "tooltip": "This channel will display the announcements of the request"
           },
-          "text": "Public requester channel"
+          "text": "Public buyer channel"
         }
       },
       "participant": {
         "empty": "Currently there are no messages",
         "empty_description": "Send your first message",
         "header": {
-          "owner": "Chats with requester",
+          "owner": "Chats with buyer",
           "participant": "Chats with participants"
         }
       },
@@ -424,7 +424,7 @@
       "sum": "Purchases in the amount of:"
     },
     "promo": {
-      "title": "Recommended suppliers"
+      "title": "Recommended vendors"
     }
   },
   "dialog": {
@@ -650,7 +650,7 @@
   "landing": {
     "cards": {
       "chat": "quick and comfortable communication via integrated chats",
-      "contractors": "find tried suppliers in business network",
+      "contractors": "discover vendors in business network",
       "new_clients": "improve your profile & find new customers in business network",
       "on_flight": "holding electronic requests for bids (RFx) on-the-fly",
       "real_tender": "only real commercial tenders"
@@ -662,10 +662,10 @@
     "logo": "bidzaar",
     "owner": {
       "text": "participate in fair tenders, improve your business reputation and find new customers",
-      "title": "for supplier"
+      "title": "for vendor"
     },
     "page_header": {
-      "text": "marketplace of a new type, created on the basis of the social network of suppliers and buyers",
+      "text": "marketplace of a new type, created on the basis of the social network of vendors and buyers",
       "title": "on-the-fly purchasing management"
     },
     "participant": {
@@ -750,7 +750,7 @@
         "title": "My company's requests"
       },
       "registries": {
-        "title": "My company's registries"
+        "title": "My vendor pools"
       }
     },
     "participant": {
@@ -758,7 +758,7 @@
         "title": "Pools"
       },
       "rfx": {
-        "title": "My suggestions"
+        "title": "My bids"
       },
       "registries": {
         "title": "My company's accreditation"
@@ -833,8 +833,8 @@
           }
         },
         "registry_reports": {
-          "failure": "You requested {{ type }} for the registry \"{{ registry }}\". An error occurred while generating the archive. Repeat the action or contact technical support.",
-          "success": "You requested {{ type }} for the registry \"{{ registry }}\". The archive has been generated on {{date}} and will be available within 30 days.",
+          "failure": "You requested {{ type }} for the Vendor pool \"{{ vendor pool }}\". An error occurred while generating the archive. Repeat the action or contact technical support.",
+          "success": "You requested {{ type }} for the vendor pool \"{{ vendor pool }}\". The archive has been generated on {{date}} and will be available within 30 days.",
           "types": {
             "application-archive": "application for accreditation",
             "registry-commission-protocol": "commision's protocol"
@@ -869,12 +869,12 @@
       "questionnaire": "Non-price request criteria",
       "team": "Users",
       "nda": "NDA",
-      "registries": "Registries",
+      "registries": "Vendor pools",
       "cancel": "Cancel",
       "submit": "Duplicate"
     },
     "common": {
-      "documents": "document for supplier",
+      "documents": "document for vendor",
       "documents_description": "Add documents with a description of the purchase.",
       "general_information": "general information",
       "name": "request name",
@@ -945,7 +945,7 @@
       "documents": "documents",
       "finishDate": "acceptance of bids until",
       "header": "request",
-      "organizer": "requester",
+      "organizer": "buyer",
       "publishDate": "date of creation",
       "status": "status"
     },
@@ -998,7 +998,7 @@
           "required": "Answer is required",
           "description": "Description",
           "hidden": {
-            "owner": "The answer is available only to the requester",
+            "owner": "The answer is available only to the buyer",
             "participant": "The answer will not be available to other participants.",
             "tooltip": "Vendors will have access to competitor responses to this question. We recommend hiding sensitive or confidential information"
           }
@@ -1063,7 +1063,7 @@
     "view": {
       "documents": "documents",
       "finishDate": "acceptance of bids until",
-      "organizer": "requester",
+      "organizer": "buyer",
       "positions": "positions",
       "procedure": "request",
       "publishDate": "date of creation",
@@ -1077,7 +1077,7 @@
         "approve_dialog": {
           "no": "Cancel",
           "success": "Participant is accredited",
-          "text": "Accredit company in pool?",
+          "text": "Onboard company in pool?",
           "title": "",
           "yes": "Accredit"
         },
@@ -1097,7 +1097,7 @@
               "invited": "Participant invited.",
               "draft": "The participant accepted the invitation. Wait for application for accreditation.",
               "participant_refused": "Participant refused to be accredited.",
-              "consideration": "The supplier has applied for accreditation. You can accredit, add a supplier to the pool if, from your point of view, the application is correct.",
+              "consideration": "The vendor has applied for accreditation. You can give accreditation, add a vendor to the pool if, from your point of view, the application is correct.",
               "adjustment_required": "Application returned for adjustment. Wait for a response from the participant.",
               "active": "Accredited to {{accreditationEndDate}} • {{accreditationEndDays}}.",
               "is_blocked": "Participant blocked • {{blockDate}}.\n{{blockReason}}.",
@@ -1154,15 +1154,15 @@
             "actions": {
               "publish": {
                 "title": "Send",
-                "description": "Send the completed application for consideration of accreditation to the pool of trusted suppliers."
+                "description": "Send the completed application for consideration of accreditation to the pool of trusted vendors."
               },
               "refuse": {
                 "title": "refuse to participate",
-                "description": "You can refuse accreditation or its passage at any time.\nThe requester will receive a notification of your refusal. The action is reversible.\nIn the future, renewal of participation is possible."
+                "description": "You can refuse accreditation or its passage at any time.\nThe buyer will receive a notification of your refusal. The action is reversible.\nIn the future, renewal of participation is possible."
               },
               "renew": {
                 "title": "Resume participation",
-                "description": "Resume participation in the pool of trusted suppliers."
+                "description": "Resume participation in the pool of trusted vendors."
               },
               "rejoin": {
                 "title": "Repeat accreditation",
@@ -1206,7 +1206,7 @@
         },
         "renew_dialog": {
           "no": "Cancel",
-          "text": "Resume participation in a supplier pool?",
+          "text": "Resume participation in a vendor pool?",
           "title": "",
           "yes": "Resume participation"
         },
@@ -1332,8 +1332,8 @@
           "state": "request status"
         },
         "sorting": {
-          "company_name_asc": "requester A → Z",
-          "company_name_desc": "requester Z → A",
+          "company_name_asc": "buyer A → Z",
+          "company_name_desc": "buyer Z → A",
           "pool_name_asc": "name A → Z",
           "pool_name_desc": "name Z → A",
           "status_changed": "status change date"
@@ -1358,7 +1358,7 @@
           "dialog": {
             "hint": "press Ctrl + C to copy to clipboard",
             "text": "Any user with a link can apply for accreditation. Copy the link and send it to the participant.",
-            "title": "Supplier pool link"
+            "title": "Vendor pool link"
           },
           "from_site": "from site",
           "header": "invite company",
@@ -1471,7 +1471,7 @@
             },
             "active": {
               "no_auth": {
-                "message": "We invite you to cooperation! Become our accredited supplier.",
+                "message": "We invite you to cooperation! Become our accredited vendor.",
                 "description": "Registered at the site of the company can be accredited at the companies that form pools of partners. To do this, you must create and submit a request for accreditation. You can refuse to participate in the accreditation procedure."
               },
               "waiting": {
@@ -1486,13 +1486,13 @@
                 "description": "Registered at the site of the company can be accredited at the companies that form pools of partners. To do this, you must create and submit a request for accreditation. You can refuse to participate in the accreditation procedure."
               },
               "default": {
-                "message": "We invite you to cooperation! Become our accredited supplier.",
+                "message": "We invite you to cooperation! Become our accredited vendor.",
                 "description": "Registered at the site of the company can be accredited at the companies that form pools of partners. To do this, you must create and submit a request for accreditation. You can refuse to participate in the accreditation procedure."
               }
             },
             "changing": {
               "no_auth": {
-                "message": "We invite you to cooperation! Become our accredited supplier.",
+                "message": "We invite you to cooperation! Become our accredited vendor.",
                 "description": "Registered at the site of the company can be accredited at the companies that form pools of partners. To do this, you must create and submit a request for accreditation. You can refuse to participate in the accreditation procedure."
               },
               "waiting": {
@@ -1507,7 +1507,7 @@
                 "description": "Registered at the site of the company can be accredited at the companies that form pools of partners. To do this, you must create and submit a request for accreditation. You can refuse to participate in the accreditation procedure."
               },
               "default": {
-                "message": "We invite you to cooperation! Become our accredited supplier.",
+                "message": "We invite you to cooperation! Become our accredited vendor.",
                 "description": "Registered at the site of the company can be accredited at the companies that form pools of partners. To do this, you must create and submit a request for accreditation. You can refuse to participate in the accreditation procedure."
               }
             }
@@ -1555,7 +1555,7 @@
             },
             "authorize": {
               "title": "Login / Register",
-              "description": "Register or log in to participate in the accreditation procedure and obtain the status of an accredited supplier"
+              "description": "Register or log in to participate in the accreditation procedure and obtain the status of an accredited vendor"
             },
             "createCompany": {
               "title": "Register company",
@@ -1563,7 +1563,7 @@
             },
             "joinPool": {
               "title": "Begin accreditation",
-              "description": "Become a trusted supplier. Fill out the application and submit it for consideration."
+              "description": "Become a trusted vendor. Fill out the application and submit it for consideration."
             }
           }
         },
@@ -1663,7 +1663,7 @@
           "yes": "remove"
         },
         "empty": {
-          "message_primary": "Create your first pool and invite your suppliers",
+          "message_primary": "Create your first pool and invite your vendor",
           "message_secondary": "Request required data, confirm and reject responses"
         },
         "new_pool": "New pool",
@@ -1757,7 +1757,7 @@
         },
         "code": "request code: {{value}}",
         "company": {
-          "about": "about requester"
+          "about": "about buyer"
         },
         "join_dialog": {
           "text": "user cannot join the request",
@@ -1812,7 +1812,7 @@
           "dialog_info_text": "Describe your need with tags. Press enter to add tag",
           "empty_placeholder": "Enter tags to describe your need.",
           "label": "request hashtags",
-          "tooltip": "List with tags what is in your need. By the entered tags, suppliers will be able to find you."
+          "tooltip": "List with tags what is in your need. By the entered tags, vendors will be able to find you."
         },
         "team": {
           "delete_dialog": {
@@ -1913,7 +1913,7 @@
     "promo_tags": {
       "info_dialog": {
         "how_to": "How to get promotags",
-        "info": "The company is included in the list of recommended suppliers for the selected tags."
+        "info": "The company is included in the list of recommended vendors for the selected tags."
       },
       "select_dialog": {
         "apply": "Apply",
@@ -2166,8 +2166,8 @@
               "tooltip": "Add regions of business"
             },
             "4": {
-              "name": "Requisites",
-              "tooltip": "Specify company requisites"
+              "name": "Company details",
+              "tooltip": "Specify company details"
             },
             "5": {
               "name": "Logo",
@@ -2197,7 +2197,7 @@
             "text": {
               "RUS_FORK": {
                 "compact": "Get certified and get your status\nESG provider",
-                "default": "Bidzaar, together with the National Research University Higher School of Economics, were the first in Russia to develop a methodology for an accessible and quick check of companies for compliance with ESG principles.\nGet certified and become an ESG Supplier"
+                "default": "Bidzaar, together with the National Research University Higher School of Economics, were the first in Russia to develop a methodology for an accessible and quick check of companies for compliance with ESG principles.\nGet certified and become an ESG Vendor"
               }
             }
           },
@@ -2257,7 +2257,7 @@
           "title": "Regions of business",
           "add": "Add country, region or city",
           "empty": "Regions in which the company operates are not specified",
-          "text": "The company provides services or supplies in the territory:"
+          "text": "The company provides services or vendors in the territory:"
         },
         "contacts": {
           "title": "Info",
@@ -2283,7 +2283,7 @@
         "activity": {
           "title": "Activity",
           "on_site": "from {{value}}",
-          "empty": "The company has not yet participated in purchases and sales",
+          "empty": "The company has not yet participated in any tenders",
           "sales": {
             "header": {
               "title": "Sales"
@@ -2325,8 +2325,8 @@
           "description": "The company is an accredited partner of organizations:"
         },
         "registers": {
-          "title": "Registers",
-          "description": "We invite you to cooperation! Become our accredited supplier in the following areas:"
+          "title": "Vendor pools",
+          "description": "We invite you to cooperation! Become our accredited vendor in the following areas:"
         },
         "documents": {
           "title": "Documents",
@@ -2345,7 +2345,7 @@
           "manage": "Management and settings",
           "invite": {
             "request": "Invite to request",
-            "registry": "Add to registry"
+            "registry": "Add to the vendor pool"
           },
           "menu": {
             "employees": "Users",
@@ -2355,7 +2355,7 @@
             "public": "Public page",
             "remove": "Delete company",
             "phantom": "Create phantom",
-            "smtp": "Invitations vendors to requests",
+            "smtp": "Invite vendors to requests",
             "categories": "Category Reference"
           }
         },
@@ -2366,9 +2366,9 @@
             "cancel": "Cancel"
           },
           "registry": {
-            "title": "Invite the company to the registry",
+            "title": "Invite the company to the vendor pool",
             "submit": "Invite",
-            "empty": "There are no suitable registries. You can invite a company to the registry with an open acceptation of applications - contact the registry administrator",
+            "empty": "There are no suitable vendor pools. You can invite a company to the vendor pool with an open acceptation of applications - contact the vendor pool administrator",
             "success": "Invitations have been sent"
           }
         }
@@ -2386,8 +2386,8 @@
           "long": "RFx"
         },
         "2": {
-          "short": "Supplier",
-          "long": "Supplier"
+          "short": "Vendor",
+          "long": "Vendor"
         },
         "4": {
           "short": "Accreditations",
@@ -2437,7 +2437,7 @@
       }
     },
     "shared": {
-      "about_organizer": "about requester",
+      "about_organizer": "about buyer",
       "delete_company_dialog": {
         "cancel": "cancel",
         "delete": "delete company",
@@ -2453,7 +2453,7 @@
       },
       "verified": {
         "checked": "Verified by Bidzaar",
-        "info": "Verified suppliers are more trusted and more likely to receive orders.",
+        "info": "Verified vendors are more trusted and more likely to receive orders.",
         "more": "Learn more",
         "verified": "Information about the company was verified by the specialists of our service."
       }
