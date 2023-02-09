@@ -86,7 +86,7 @@
         "title": "Request type",
         "labels": {
           "true": "Purchase",
-          "false": "Sales"
+          "false": "Sale"
         }
       }
     },

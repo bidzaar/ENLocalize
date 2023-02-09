@@ -12,7 +12,7 @@
         "empty": "nothing found for your request...",
         "filters": {
           "badges": "Badges",
-          "company_sales": "Companies sells",
+          "company_sales": "Company sells",
           "default": "Default",
           "employeesCount": "Number of employees",
           "labels": "Labels",
@@ -24,10 +24,10 @@
             "title": "Region of business"
           },
           "participationsCount": "Number of bids",
-          "pools": "Accreditations in my pools",
+          "pools": "Accreditations in my vendor pools",
           "registries": "Vendor accreditation",
           "rating": {
-            "title": "Site activity",
+            "title": "Activity",
             "high": "High",
             "average": "Average",
             "low": "Low"
@@ -38,20 +38,20 @@
             "link": "How to pass the verification"
           },
           "accreditations": {
-            "title": "Accredited in customer registers",
+            "title": "Accredited in vendor pools",
             "link": "More about Vendor pools"
           }
         },
         "item": {
-          "accredited_count": "the company is accredited by the customer ",
-          "attempts_count": "Participations in the customer's requests"
+          "accredited_count": "the company is accredited by the buyer",
+          "attempts_count": "Bids submission to the buyers's requests"
         },
         "search": {
           "tooltip": "Search fields:\n• Code and company name\n• Activity\n• Location\n• Contacts and details of the company"
         },
         "selected_title": "Selected:",
         "sorting": {
-          "rating": "Site activity",
+          "rating": "Activity",
           "name": "Company name",
           "participations": "Number of bids",
           "registration": "Registration date"
@@ -106,13 +106,13 @@
       "pools": {
         "statuses": {
           "active": "active",
-          "adjustment_required": "adjustment required",
+          "adjustment_required": "revision required",
           "consideration": "consideration",
           "draft": "draft",
           "invited": "invited",
           "is_blocked": "blocked",
           "participant_refused": "refused",
-          "rejected_by_owner": "accreditation revoked"
+          "rejected_by_owner": "accreditation suspended"
         }
       }
     },
@@ -204,18 +204,18 @@
       "broadcast": {
         "owner": {
           "pool": {
-            "empty": "Make general announcements to participants in the pool",
-            "tooltip": "Make general announcements to participants in the pool. Participants can view this feed but cannot post to it"
+            "empty": "Make general announcements to the vendors in the pool",
+            "tooltip": "Make general announcements to the vendors in the pool. Vendors can view this feed but cannot post to it"
           },
           "procedure": {
-            "empty": "Make general announcements to participants in the request",
-            "tooltip": "Make general announcements to participants in the request. Participants can view this feed but cannot post to it"
+            "empty": "Make general announcements to vendors in the request",
+            "tooltip": "Make general announcements to vendors in the request. Vendors can view this feed but cannot post to it"
           },
-          "text": "Channel with all participant"
+          "text": "Channel with all vendors"
         },
         "participant": {
           "pool": {
-            "tooltip": "This channel will display the announcements of the pool"
+            "tooltip": "This channel will display the announcements of the vendor pool"
           },
           "procedure": {
             "tooltip": "This channel will display the announcements of the request"
@@ -228,7 +228,7 @@
         "empty_description": "Send your first message",
         "header": {
           "owner": "Chats with buyer",
-          "participant": "Chats with participants"
+          "participant": "Chats with vendors"
         }
       },
       "team": {
@@ -238,7 +238,7 @@
         }
       }
     },
-    "current_pool": "current pool",
+    "current_pool": "current vendor pool",
     "current_procedure": "current request",
     "drop_zone_text": "Move files here to send",
     "header": {
@@ -336,22 +336,22 @@
       "text": "Access denied"
     },
     "request_forbidden": {
-      "hint": "This request is only for invited participants",
+      "hint": "This request is only for invited vendors",
       "text": "Access to the request is restricted",
       "help": {
         "action": "What to do if you are invited",
         "text": "Possible solutions:",
         "list": {
           "item_1": {
-            "text": "Log in to the site and open a request on behalf of the invited company"
+            "text": "Log in to the platform and open a request on behalf of the invited company"
           },
           "item_2": {
             "text": "Open the request using the link from the invitation letter sent by Bidzaar",
             "info": "The link to the request from other sources is not an invitation."
           },
           "item_3": {
-            "text": "Ask the customer to repeat the invitation",
-            "info": "Please note to the customer that the invitation must be sent from the \"Participants\" tab."
+            "text": "Ask the buyer to repeat the invitation",
+            "info": "Please note to the buyer that the invitation must be sent from the \"Vendors\" tab."
           }
         },
         "footer": "Didn't work? Contact technical support."
@@ -468,7 +468,7 @@
     "http": {
       "status": {
         "0": "An error has occurred. Please, try again",
-        "400": "bad request",
+        "400": "wrong request",
         "401": "Your session has expired. Please reload the page or login again",
         "403": "access denied",
         "404": "resource not found",
@@ -476,10 +476,10 @@
         "408": "request timeout",
         "409": "invalid data",
         "413": "file is too large",
-        "414": "request-uri too long",
+        "414": "request-url too long",
         "500": "internal server error",
         "501": "not implemented",
-        "502": "bad gateway",
+        "502": "wrong gateway",
         "503": "service unavailable",
         "504": "gateway timeout"
       },
@@ -493,7 +493,7 @@
           "WrongState": "Context changed by other users, updated the page to continue."
         },
         "User": {
-          "NotInTeam": "Employee is not in the pool team"
+          "NotInTeam": "Employee is not in the vendor pool team"
         },
         "WrongState": "The context has been changed by other users, refresh the page to continue."
       },
@@ -510,10 +510,10 @@
           },
           "Participant": {
             "Add": {
-              "AlreadyJoined": "participant already exists"
+              "AlreadyJoined": "vendor already exists"
             },
             "Join": {
-              "ParticipantNotFound": "participant not found"
+              "ParticipantNotFound": "vendor not found"
             }
           },
           "Procedure": {
@@ -529,14 +529,14 @@
             },
             "Participant": {
               "Add": {
-                "AddParticipant": "can not add participant",
-                "MaxParticipantsCountExceeded": "you can not add more than 100 participants"
+                "AddParticipant": "can not add vendor",
+                "MaxParticipantsCountExceeded": "you can not add more than 100 vendors"
               },
-              "BlockedByOwner": "participant blocked by request owner",
+              "BlockedByOwner": "vendor blocked by request owner",
               "Check": {
-                "NotActiveParticipant": "participant is not active; refresh page and join request",
-                "NotParticipant": "participant not found",
-                "Refused": "participant left the request"
+                "NotActiveParticipant": "vendor is not active; refresh page and join request",
+                "NotParticipant": "vendor not found",
+                "Refused": "vendor left the request"
               },
               "Invite": {
                 "TokenNotFound": "the invitation to the request is no longer valid"
@@ -560,13 +560,13 @@
             "WrongStatus": "request has wrong status"
           },
           "Proposal": {
-            "AlreadyPublished": "bid already published",
-            "HasDraft": "bid already published",
+            "AlreadyPublished": "bid already submitted",
+            "HasDraft": "bid already submitted",
             "Import": {
               "BrokenFile": "File damaged"
             },
             "PublicNotFound": "bid is not found",
-            "CannotChangePrice": "Updating the price at the moment is not possible, you can submit an offer on the \"Proposal\" tab"
+            "CannotChangePrice": "Updating the price at the moment is not possible, you can submit your bid on the \"Bid\" tab"
           },
           "SendEmail": "can not send email"
         }
@@ -809,7 +809,7 @@
             "procedure": "has invited you to the request \"{{procedure}}\""
           },
           "losed": "Request \"{{procedure}}\" completed, You lost",
-          "published": "Request published: \"{{procedure}}\"",
+          "published": "Request submitted: \"{{procedure}}\"",
           "removed": "You have been removed from the request \"{{procedure}}\"",
           "won": "You won the request \"{{procedure}}\""
         },
@@ -827,8 +827,8 @@
             "all-receipt": "order",
             "all-receipt-archive": "order",
             "my-proposal-archive": "your order",
-            "proposal-archive": "participant's bid",
-            "receipt-archive": "participant's order",
+            "proposal-archive": "vendor's bid",
+            "receipt-archive": "vendor's order",
             "nda-archive": "current prequalification / NDA applications"
           }
         },
@@ -864,10 +864,10 @@
       "name": "Request name",
       "generalInfo": "General information",
       "parameters": "Parameters",
-      "participants": "Participants",
+      "participants": "Vendors",
       "positions": "Goods and services",
-      "questionnaire": "Non-price request criteria",
-      "team": "Users",
+      "questionnaire": "Non-pricing request criteria",
+      "team": "Team",
       "nda": "NDA",
       "registries": "Vendor pools",
       "cancel": "Cancel",
@@ -887,7 +887,7 @@
     },
     "edit": {
       "procedure": "request",
-      "publish": "publish"
+      "publish": "submit"
     },
     "finish-round": {
       "success": "bidding round completed"
@@ -898,7 +898,7 @@
         "item": {
           "statistics": {
             "joins_count": "Total bids",
-            "participants_quantity": "Number of participants",
+            "participants_quantity": "Number of vendors",
             "total_active_proposals": "Active bids"
           }
         }
@@ -908,11 +908,11 @@
     "parameters": {
       "actions": "actions",
       "end_date": "end of acceptance of bids",
-      "list_of_participants": "list of participants",
-      "owner": "the owner sees the bids of the participants before the deadline for accepting offers",
+      "list_of_participants": "list of vendors",
+      "owner": "the owner sees the bids of the vendors before the deadline for accepting bids",
       "parameters": "parameters",
-      "participants_participants": "participants see the names of other participants",
-      "participants_suggestions": "participants see the suggestions of other participants",
+      "participants_participants": "vendors see the names of other vendors",
+      "participants_suggestions": "vendors see the suggestions of other vendors",
       "procedure_currency": "request currency",
       "save": "save",
       "visibility": "visibility"
@@ -920,8 +920,8 @@
     "participants": {
       "add": "add",
       "invite": "invite",
-      "participants": "participants",
-      "total_participants": "participants:"
+      "participants": "vendors",
+      "total_participants": "vendors:"
     },
     "positions": {
       "add": "add",
@@ -946,7 +946,7 @@
       "finishDate": "acceptance of bids until",
       "header": "request",
       "organizer": "buyer",
-      "publishDate": "date of creation",
+      "publishDate": "creation date",
       "status": "status"
     },
     "questionnaire": {
@@ -970,7 +970,7 @@
           "add_option": "add option"
         },
         "options": {
-          "title": "Participant's answer"
+          "title": "Vendor's answer"
         }
       },
       "item_types": {
@@ -999,7 +999,7 @@
           "description": "Description",
           "hidden": {
             "owner": "The answer is available only to the buyer",
-            "participant": "The answer will not be available to other participants.",
+            "participant": "The answer will not be available to other vendors.",
             "tooltip": "Vendors will have access to competitor responses to this question. We recommend hiding sensitive or confidential information"
           }
         },
@@ -1066,7 +1066,7 @@
       "organizer": "buyer",
       "positions": "positions",
       "procedure": "request",
-      "publishDate": "date of creation",
+      "publishDate": "creation date",
       "status": "status"
     }
   },
@@ -1076,8 +1076,8 @@
         "approve": "approve",
         "approve_dialog": {
           "no": "Cancel",
-          "success": "Participant is accredited",
-          "text": "Onboard company in pool?",
+          "success": "Vendor is accredited",
+          "text": "Onboard company in vendor pool?",
           "title": "",
           "yes": "Accredit"
         },
@@ -1085,71 +1085,71 @@
         "block_dialog": {
           "no": "cancel",
           "reason": "message for company",
-          "success": "participant is blocked",
+          "success": "vendor is blocked",
           "text": "The action is reversible. The application will be saved. The application will be restored to the same status, with the exception of cases of withdrawal of accreditation, for example, due to the expiration of the accreditation period.",
-          "title": "block participant",
+          "title": "block vendor",
           "yes": "block"
         },
         "bot-zaar": {
           "owner": {
             "message": {
-              "blocked_pool": "The pool was blocked by owner. Processing of applications and accredited members of management are possible after unlocking the pool.",
-              "invited": "Participant invited.",
-              "draft": "The participant accepted the invitation. Wait for application for accreditation.",
-              "participant_refused": "Participant refused to be accredited.",
-              "consideration": "The vendor has applied for accreditation. You can give accreditation, add a vendor to the pool if, from your point of view, the application is correct.",
-              "adjustment_required": "Application returned for adjustment. Wait for a response from the participant.",
+              "blocked_pool": "The vendor pool was blocked by owner. Processing of applications and accredited members of management are possible after unlocking the vendor pool.",
+              "invited": "Vendor invited.",
+              "draft": "The vendor accepted the invitation. Wait for application for accreditation.",
+              "participant_refused": "Vendor refused to be accredited.",
+              "consideration": "The vendor has applied for accreditation. You can give accreditation, add a vendor to the vendor pool if, from your point of view, the application is correct.",
+              "adjustment_required": "Application returned for revision. Wait for a response from the vendor.",
               "active": "Accredited to {{accreditationEndDate}} • {{accreditationEndDays}}.",
-              "is_blocked": "Participant blocked • {{blockDate}}.\n{{blockReason}}.",
-              "rejected_by_owner": "Company accreditation revoked • {{statusChangedDate}}.\n{{rejectReason}}."
+              "is_blocked": "Vendor blocked • {{blockDate}}.\n{{blockReason}}.",
+              "rejected_by_owner": "Company accreditation suspended • {{statusChangedDate}}.\n{{rejectReason}}."
             },
             "actions": {
               "block": {
-                "title": "Block participant",
-                "description": "A blocked participant will not be able to participate in accreditation."
+                "title": "Block vendor",
+                "description": "A blocked vendor will not be able to participate in accreditation."
               },
               "unblock": {
                 "title": "Unblock",
-                "description": "Unblock the participant so that he can again participate in the accreditation."
+                "description": "Unblock the vendor so that he can again participate in the accreditation."
               },
               "revise": {
-                "title": "Send for adjustment",
-                "description": "Send the application for reprocessing by the participant."
+                "title": "Send for revision",
+                "description": "Send the application for revision by the vendor."
               },
               "approve": {
                 "title": "Accredit",
-                "description": "Accredit the participant in the pool."
+                "description": "Accredit the vendor in the vendor pool."
               },
               "reject": {
-                "title": "Revoke accreditation",
-                "description": "Accreditation of participants will be revoked."
+                "title": "Suspend accreditation",
+                "description": "Accreditation of vendor will be suspended."
               }
             }
           },
           "auditor": {
             "message": {
-              "blocked_pool": "The pool was blocked by owner. Processing of applications and accredited members of management are possible after unlocking the pool.",
-              "invited": "Participant invited.",
-              "draft": "The participant fills out an application for accreditation.",
-              "participant_refused": "Participant refused to be accredited.",
-              "consideration": "Participant's application is being processed.",
-              "adjustment_required": "Application returned for adjustment.",
+              "blocked_pool": "The vendor pool was blocked by owner. Processing of applications and accredited members of management are possible after unlocking the pool.",
+              "invited": "Vendor invited.",
+              "draft": "The vendor fills out an application for accreditation.",
+              "participant_refused": "Vendor refused to be accredited.",
+              "consideration": "Vendor's application is being processed.",
+              "adjustment_required": "Application returned for revision.",
               "active": "Accredited to {{accreditationEndDate}} • {{accreditationEndDays}}.",
-              "is_blocked": "Participant blocked • {{blockDate}}.\n{{blockReason}}",
-              "rejected_by_owner": "Company accreditation revoked • {{statusChangedDate}}.\n{{rejectReason}}"
+              "is_blocked": "Vendor blocked • {{blockDate}}.\n{{blockReason}}",
+              "rejected_by_owner": "Company accreditation suspended • {{statusChangedDate}}.\n{{rejectReason}}"
             }
           },
           "participant": {
             "message": {
-              "blocked_pool": "The pool was suspended by owner {{poolBlockedDate}}. Accreditation will again be valid only if the owner of the pool decides to renew the pool.",
+              "blocked_pool": "The vendor pool was suspended by owner {{poolBlockedDate}}. Accreditation will again be valid only if the owner of the pool decides to renew the pool.",
               "invited": "For accreditation in the pool you need to fill out a questionnaire and send it to the owner of the pool for approval.",
               "draft": "Answer the questionnaire and send an application for accreditation.",
               "consideration": "Application sent for approval • {{statusChangedDate}}.\nWait for the decision of the accreditation commission.",
               "active": "Congratulations, you have successfully completed the accreditation process.\nYour company is accredited to {{accreditationEndDate}}.",
-              "adjustment_required": "Application returned for adjustment. Correct the application and send again.",
+              "adjustment_required": "Application returned for revision. Correct the application and send again.",
               "participant_refused": "You have refused accreditation in the pool, but you can renew your participation. The status of your application will be retained, with the exception of the case of withdrawal at the initiative of the Pool Owner.",
               "is_blocked": "Accreditation in the pool blocked by Pool Owner • {{blockDate}}.\n{{blockReason}}",
-              "rejected_by_owner": "Accreditation of your company in the pool revoked.\n{{rejectReason}}"
+              "rejected_by_owner": "Accreditation of your company in the pool suspended.\n{{rejectReason}}"
             },
             "actions": {
               "publish": {
@@ -1161,8 +1161,8 @@
                 "description": "You can refuse accreditation or its passage at any time.\nThe buyer will receive a notification of your refusal. The action is reversible.\nIn the future, renewal of participation is possible."
               },
               "renew": {
-                "title": "Resume participation",
-                "description": "Resume participation in the pool of trusted vendors."
+                "title": "Resume accreditation",
+                "description": "Resume accreditation in the pool of trusted vendors."
               },
               "rejoin": {
                 "title": "Repeat accreditation",
@@ -1171,7 +1171,7 @@
             }
           }
         },
-        "pool": "pool",
+        "pool": "vendor pool",
         "publish_dialog": {
           "no": "Cancel",
           "success": "Application sent for approval",
@@ -1192,10 +1192,10 @@
         "reject_dialog": {
           "no": "Cancel",
           "reason": "Reason",
-          "success": "Accreditation revoked. The participant will be notified and will be able to go through the accreditation process again.",
-          "text": "The participant will be notified and will be able to go through the accreditation process again. Leave a comment with a reason for revoke.",
-          "title": "Revoke accreditation",
-          "yes": "Revoke"
+          "success": "Accreditation suspended. The vendor will be notified and will be able to go through the accreditation process again.",
+          "text": "The vendor will be notified and will be able to go through the accreditation process again. Leave a comment with a reason for suspension.",
+          "title": "Suspend accreditation",
+          "yes": "Suspend"
         },
         "rejected": "rejected",
         "rejoin_dialog": {
@@ -1218,8 +1218,8 @@
         },
         "revise_dialog": {
           "no": "Cancel",
-          "success": "Application sent for adjustment",
-          "text": "Send an application for adjustment?",
+          "success": "Application sent for revision",
+          "text": "Send an application for revision?",
           "title": "",
           "yes": "Send"
         },
@@ -1227,7 +1227,7 @@
         "title": "accreditation",
         "unblock_dialog": {
           "no": "Cancel",
-          "success": "Participant is unblocked",
+          "success": "Vendor is unblocked",
           "text": "Restoring a blocked member. Upon restoration, the application will be restored in the same status, with the exception of the case of withdrawal of accreditation, for example, due to the expiration of the accreditation period.",
           "title": "",
           "yes": "Unblock"
@@ -1242,7 +1242,7 @@
         "invited": "invitation for accreditation",
         "is_blocked": "blocked",
         "participant_refused": "you have declined to submit a bid",
-        "rejected_by_owner": "accreditation revoked"
+        "rejected_by_owner": "accreditation suspended"
       },
       "create": {
         "cancel": "cancel",
@@ -1254,16 +1254,16 @@
         "bot-zaar": {
           "auditor": {
             "message": {
-              "active": "Pool is published!",
-              "blocked": "Pool is blocked • {{ blockDate }}.",
+              "active": "Vendor pool is published!",
+              "blocked": "Vendor is blocked • {{ blockDate }}.",
               "changing": "The questionnaire has been changed. Changes will take effect after publication.",
-              "draft": "Pool is in draft state."
+              "draft": "Vendor pool is in draft state."
             }
           },
           "owner": {
             "actions": {
               "block": {
-                "description": "Participant questionnaires will not be available for viewing. Action is reversible.",
+                "description": "Vendor questionnaires will not be available for viewing. Action is reversible.",
                 "title": "block"
               },
               "cancelChanges": {
@@ -1275,27 +1275,27 @@
                 "title": "delete draft"
               },
               "openParticipants": {
-                "description": "Open the list of participants.",
-                "title": "participants list"
+                "description": "Open the list of vendors.",
+                "title": "vendors list"
               },
               "publish": {
-                "description": "The accreditation pool will be available to invite participants.",
+                "description": "The vendor pool will be available to invite vendors.",
                 "title": "publish"
               },
               "publishChanges": {
-                "description": "Publish your changes to the questionnaire. Participants will need to provide answers to amended and new questions.",
-                "title": "publish"
+                "description": "Submit your changes to the questionnaire. Vendors will need to provide answers to amended and new questions.",
+                "title": "submit"
               },
               "restore": {
-                "description": "The pool will be restored. Participant questionnaires will be available.",
+                "description": "The vendor pool will be restored. Vendor questionnaires will be available.",
                 "title": "restore"
               }
             },
             "message": {
-              "active": "The pool is published! Invite companies for accreditation and create your own procurement channels.",
-              "blocked": "Pool is blocked • {{ blockDate }}.",
-              "changing": "Publish the questionnaire for the changes to take effect. Participants accreditation will be cancelled, as this will require an answer to the amended and new questions in the questionnaire.",
-              "draft": "Create and publish a questionnaire. Then you can invite companies for accreditation."
+              "active": "The vendor pool is published! Invite companies for accreditation and create your own procurement channels.",
+              "blocked": "Vendor pool is blocked • {{ blockDate }}.",
+              "changing": "Submit the questionnaire for the changes to take effect. Vendors accreditation will be cancelled, as this will require an answer to the amended and new questions in the questionnaire.",
+              "draft": "Create and submit a questionnaire. Then you can invite companies for accreditation."
             }
           }
         },
@@ -1307,28 +1307,28 @@
           "files": {
             "label": "related documents",
             "upload": "Add document",
-            "tooltip": "attach documents common to the accreditation pool. Documents will be available to participants."
+            "tooltip": "attach documents common to the accreditation pool. Documents will be available to vendors."
           },
           "tags": {
             "dialog": {
               "placeholder": "add tags",
               "text": "describe your need with tags. Press Enter to add a tag",
-              "title": "pool tags"
+              "title": "vendor pool tags"
             },
-            "label": "pool tags",
+            "label": "vendor pool tags",
             "placeholder": "enter tags to describe your need.",
-            "tooltip": "tag the category of your pool. This will help providers find, and you better categorize your pools."
+            "tooltip": "tag the category of your vendor pool. This will help providers find, and you better categorize your pools."
           },
           "validity": {
-            "label": "accreditation validity period for provider in pool, months",
-            "tooltip": "indicate the period for which participants will be accredited after confirmation."
+            "label": "accreditation validity period for provider in vendor pool, months",
+            "tooltip": "indicate the period for which vendors will be accredited after confirmation."
           }
         }
       },
       "my_accreditations": {
         "filters": {
           "company_name": "company name",
-          "pool_name": "pool name",
+          "pool_name": "vendor pool name",
           "state": "request status"
         },
         "sorting": {
@@ -1347,11 +1347,11 @@
           "settings": "go to settings"
         },
         "draft": {
-          "message_primary": "Pool has not been published",
-          "message_secondary": "Complete the pool configuration and publish it. After that you will be able to invite and accredit participants"
+          "message_primary": "Vendor pool has not been published",
+          "message_secondary": "Complete the vendor pool configuration and submit it. After that you will be able to invite and accredit participants"
         },
         "empty": {
-          "message_primary": "the list of participants is empty",
+          "message_primary": "the list of vendors is empty",
           "message_secondary": "Invite and accredit the companies you are interested in"
         },
         "invite": {
@@ -1364,68 +1364,68 @@
           "header": "invite company",
           "share_link": "share link",
           "site": {
-            "title": "invite participants to accreditation pool"
+            "title": "invite vendors to accreditation pool"
           }
         },
         "status": {
           "active": "accredicted",
-          "adjustment_required": "adjustment required",
+          "adjustment_required": "revision required",
           "consideration": "application filed",
           "draft": "invitation accepted",
           "invited": "invited",
           "participant_refused": "refused",
-          "rejected_by_owner": "accreditation revoked"
+          "rejected_by_owner": "accreditation suspended"
         },
-        "title": "Participants",
+        "title": "Vendors",
         "tooltips": {
-          "accreditations": "accreditations in my pools"
+          "accreditations": "accreditations in my vendor pools"
         }
       },
       "pool_view": {
         "block_pool": {
           "no": "Cancel",
-          "success": "Pool is blocked",
-          "text": "The pool and all information on it will become inaccessible to users. The action is reversible. You can resume the pool by performing one-click recovery. Pool members, their applications and accreditation received, will also be restored to their original form.",
-          "title": "Block pool?",
+          "success": "Vendor pool is blocked",
+          "text": "The vendor pool and all information on it will become inaccessible to users. The action is reversible. You can resume the pool by performing one-click recovery. Pool members, their applications and accreditation received, will also be restored to their original form.",
+          "title": "Block vendor pool?",
           "yes": "Block"
         },
         "botzaar": {
           "owner": {
             "blocked": {
               "*": {
-                "message": "Pool is blocked • {{blockDate}}"
+                "message": "Vendor pool is blocked • {{blockDate}}"
               }
             },
             "draft": {
               "*": {
-                "message": "Create and publish a questionnaire. Then you can invite companies for accreditation."
+                "message": "Create and submit a questionnaire. Then you can invite companies for accreditation."
               }
             },
             "active": {
               "*": {
-                "message": "The pool is published! Invite companies for accreditation and create your own procurement channels."
+                "message": "The vendor pool is published! Invite companies for accreditation and create your own procurement channels."
               }
             },
             "changing": {
               "*": {
-                "message": "Publish the questionnaire for the changes to take effect. Participants accreditation will be cancelled, as this will require an answer to the amended and new questions in the questionnaire."
+                "message": "Submit the questionnaire for the changes to take effect. Vendors accreditation will be cancelled, as this will require an answer to the amended and new questions in the questionnaire."
               }
             }
           },
           "auditor": {
             "blocked": {
               "*": {
-                "message": "Pool is blocked • {{ blockDate }}."
+                "message": "Vendor pool is blocked • {{ blockDate }}."
               }
             },
             "draft": {
               "*": {
-                "message": "Pool is in draft state."
+                "message": "Vendor pool is in draft state."
               }
             },
             "active": {
               "*": {
-                "message": "Pool is published!"
+                "message": "Vendor pool is published!"
               }
             },
             "changing": {
@@ -1437,36 +1437,36 @@
           "participant": {
             "blocked": {
               "*": {
-                "message": "Pool blocked by owner."
+                "message": "Vendor pool blocked by owner."
               }
             },
             "active": {
               "*": {
-                "message": "You are already in the pool."
+                "message": "You are already in the vendor pool."
               }
             },
             "changing": {
               "*": {
-                "message": "You are already in the pool."
+                "message": "You are already in the vendor pool."
               }
             }
           },
           "guest": {
             "blocked": {
               "no_auth": {
-                "message": "Pool accreditation terminated {{blockDate}}."
+                "message": "Vendor pool accreditation terminated {{blockDate}}."
               },
               "waiting": {
-                "message": "Pool accreditation terminated {{blockDate}}."
+                "message": "Vendor pool accreditation terminated {{blockDate}}."
               },
               "no_company": {
-                "message": "Pool accreditation terminated {{blockDate}}."
+                "message": "Vendor pool  accreditation terminated {{blockDate}}."
               },
               "no_rights": {
-                "message": "Pool accreditation terminated {{blockDate}}."
+                "message": "Vendor pool  accreditation terminated {{blockDate}}."
               },
               "default": {
-                "message": "Pool accreditation terminated {{blockDate}}."
+                "message": "Vendor pool  accreditation terminated {{blockDate}}."
               }
             },
             "active": {
@@ -1515,15 +1515,15 @@
           "actions": {
             "publishPool": {
               "title": "Publish",
-              "description": "The accreditation pool will be available to invite participants."
+              "description": "The accreditation pool will be available to invite vendors."
             },
             "deletePool": {
               "title": "Delete draft",
-              "description": "The pool draft will be permanently deleted."
+              "description": "The vendor pool draft will be permanently deleted."
             },
             "publishChanges": {
-              "title": "Publish",
-              "description": "Publish your changes to the questionnaire. Participants will need to provide answers to amended and new questions."
+              "title": "Submit",
+              "description": "Submit your changes to the questionnaire. Vendors will need to provide answers to amended and new questions."
             },
             "cancelChanges": {
               "title": "Discard changes",
@@ -1531,23 +1531,23 @@
             },
             "blockPool": {
               "title": "Block",
-              "description": "Participant questionnaires will not be available for viewing. Action is reversible."
+              "description": "Vendor questionnaires will not be available for viewing. Action is reversible."
             },
             "restorePool": {
               "title": "Restore",
-              "description": "The pool will be restored. Participant questionnaires will be available."
+              "description": "The vendor pool will be restored. Vendor questionnaires will be available."
             },
             "editPool": {
               "title": "Change questionnaire",
-              "description": "If you change the questionnaire, participants will lose the status of accredited in the pool. To restore the status, participants must submit applications taking into account the changes made. Changes can be undone, in this case the status of accreditation of participants will remain the same."
+              "description": "If you change the questionnaire, vendors will lose the status of accredited in the pool. To restore the status, participants must submit applications taking into account the changes made. Changes can be undone, in this case the status of accreditation of participants will remain the same."
             },
             "clonePool": {
-              "title": "Dublicate pool",
-              "description": "Create a copy of the pool."
+              "title": "Dublicate vendor pool",
+              "description": "Create a copy of the vendor pool."
             },
             "openParticipants": {
-              "title": "Participants list",
-              "description": "Open the list of participants."
+              "title": "Vendor list",
+              "description": "Open the list of vendors."
             },
             "openRequest": {
               "title": "Open application",
@@ -1570,7 +1570,7 @@
         "cancel_changes": {
           "no": "No",
           "success": "The changes have been cancelled",
-          "text": "Changes made to the questionnaire will be cancelled. Accreditation received by participants will be retained.",
+          "text": "Changes made to the questionnaire will be cancelled. Accreditation received by vendors will be retained.",
           "title": "Cancel changes to the questionnaire?",
           "yes": "Yes, cancel"
         },
@@ -1583,45 +1583,45 @@
         },
         "edit_pool": {
           "no": "Cancel",
-          "text": "Changes to the questionnaire will take effect only after the publication of the changes. Until the publication, none of the participants in the pool will not see the changes made. Changes may be undone at any time prior to publication.",
+          "text": "Changes to the questionnaire will take effect only after the publication of the changes. Until the publication, none of the vendors in the pool will not see the changes made. Changes may be undone at any time prior to publication.",
           "title": "Start making changes?",
           "yes": "Edit"
         },
         "clone_pool": {
-          "header": "Dublicate pool",
-          "notice": "The draft will be available in the Pool Management section",
-          "redirect": "Go to the pool settings after duplicating",
+          "header": "Dublicate vendor pool",
+          "notice": "The draft will be available in the Vendor Pool Management section",
+          "redirect": "Go to the vendor pool settings after duplicating",
           "team": "Team",
           "common": "General information",
           "cancel": "Cancel",
           "submit": "Dublicate",
-          "success": "The draft is available in the Pool Management section"
+          "success": "The draft is available in the Vendor Pool Management section"
         },
         "groups": {
           "title": "questionnaire"
         },
-        "header": "Pool Management",
+        "header": "Vendor Pool Management",
         "publish_changes": {
           "no": "Cancel",
           "success": "Changes are posted",
-          "text": "Accreditation received by participants will be revoked. Participants will need to re-go through the accreditation process.",
+          "text": "Accreditation received by vendors will be suspended. Vendors will need to re-go through the accreditation process.",
           "title": "Post a modified questionnaire?",
-          "yes": "Publish"
+          "yes": "Submit"
         },
         "publish_pool": {
           "no": "Cancel",
-          "success": "The pool has been published",
-          "text": "You will be able to accept applications for accreditation to this pool.",
-          "text_no_questionnaire": "The blank application form is suitable for formal accreditation. Participants only need to apply for accreditation.",
-          "title": "Publish pool?",
+          "success": "The vendor pool has been published",
+          "text": "You will be able to accept applications for accreditation to this vendor pool.",
+          "text_no_questionnaire": "The blank application form is suitable for formal accreditation. Vendors only need to apply for accreditation.",
+          "title": "Publish vendor pool?",
           "title_no_questionnaire": "Start formal accreditation?",
           "yes": "Publish"
         },
         "restore_pool": {
           "no": "Cancel",
-          "success": "Pool is restored",
-          "text": "The pool will be restored in the form in which it was before blocking. Participants and accreditation will also be restored.",
-          "title": "Restore pool?",
+          "success": "Vendor pool is restored",
+          "text": "The vendor pool will be restored in the form in which it was before blocking. Vendors and accreditation will also be restored.",
+          "title": "Restore vendor pool?",
           "yes": "Restore"
         },
         "team": {
@@ -1635,7 +1635,7 @@
             },
             "self": {
               "no": "cancel",
-              "text": "You are removing yourself.\nAccess to pool management will be lost",
+              "text": "You are removing yourself.\nAccess to vendor pool management will be lost",
               "yes": "confirm"
             },
             "tooltip": "remove user"
@@ -1645,8 +1645,8 @@
       },
       "pools": {
         "actions": {
-          "create": "create pool",
-          "delete": "delete pool",
+          "create": "create vendor pool",
+          "delete": "delete vendor pool",
           "settings": "settings"
         },
         "columns": {
@@ -1658,16 +1658,16 @@
         },
         "delete_dialog": {
           "no": "cancel",
-          "text": "information about companies in the pool will not be available",
-          "title": "remove the pool?",
+          "text": "information about companies in the vendor pool will not be available",
+          "title": "remove the vendor pool?",
           "yes": "remove"
         },
         "empty": {
-          "message_primary": "Create your first pool and invite your vendor",
+          "message_primary": "Create your first vendor pool and invite your vendor",
           "message_secondary": "Request required data, confirm and reject responses"
         },
-        "new_pool": "New pool",
-        "placeholder": "add pools for accreditation",
+        "new_pool": "New vendor pool",
+        "placeholder": "add vendor pools for accreditation",
         "status": {
           "active": "published",
           "blocked": "blocked",
@@ -1677,16 +1677,16 @@
         "team": {
           "header": "accreditation team ({{count}})"
         },
-        "title": "accreditation pools",
+        "title": "accreditation vendor pools",
         "tooltips": {
           "add_users": "add users",
-          "create": "new pool",
+          "create": "new vendor pool",
           "edit": "edit",
           "remove": "remove",
-          "settings": "go to pool settings",
+          "settings": "go to vendor pool settings",
           "stats": {
             "accreditations": "Accredicted",
-            "adjustments": "Adjustment required",
+            "adjustments": "Revision required",
             "canceled": "Blocked or refused accreditation",
             "considerations": "Applications"
           }
@@ -1694,12 +1694,12 @@
         "update_required": "update required"
       },
       "pools_filter": {
-        "empty": "Your company has not published any pools. You can create and publish a pool in the pool management section.",
+        "empty": "Your company has not published any vendor pools. You can create and publish a pool in the pool management section.",
         "no_pools_body": "Your company has not published any vendor pools. You can create and publish a pool in the pool management section",
-        "no_pools_title": "Participation in pools",
+        "no_pools_title": "Accreditation in vendor pools",
         "search": "Search...",
-        "search_empty": "Pools not found",
-        "show_pools": "Show pools"
+        "search_empty": "Vendor pools not found",
+        "show_pools": "Show vendor pools"
       },
       "pools_selector": {
         "cancel": "cancel",
@@ -1741,7 +1741,7 @@
       },
       "view": {
         "actions": {
-          "publish": "publish"
+          "publish": "submit"
         },
         "authorize": {
           "action": "registration and login",
@@ -1751,8 +1751,8 @@
           "empty_text": "Place an order on the Comparison tab and complete the request"
         },
         "choose": {
-          "hide_participants_name": "names of participants are hidden by the requester of the request",
-          "hide_proposals": "participants' offers are hidden by the requester of the request",
+          "hide_participants_name": "names of vendors are hidden by the requester of the request",
+          "hide_proposals": "vendors' bids are hidden by the requester of the request",
           "updated": "comparison tab was updated"
         },
         "code": "request code: {{value}}",
@@ -1768,11 +1768,11 @@
           "title": "parameters"
         },
         "participants_conclusion": {
-          "empty": "participants did not submit any offers",
-          "header": "participants with submitted offers"
+          "empty": "vendors did not submit any bids",
+          "header": "vendors with submitted bids"
         },
         "pools": {
-          "add": "add pool",
+          "add": "add vendor pool",
           "title": "preferences to pool members"
         },
         "proposal": {
@@ -1781,7 +1781,7 @@
         "saved": "saved",
         "snacks": {
           "acceptanceEndDateChanged": "end of the bidding round is changed",
-          "published": "request is published",
+          "published": "request is submitted",
           "statusChanged": "request status is changed"
         },
         "status": {
@@ -1800,8 +1800,8 @@
           "conclusion": "final summary",
           "events": "events",
           "general": "summary",
-          "participants": "participants",
-          "participants_conclusion": "participants",
+          "participants": "vendors",
+          "participants_conclusion": "vendors",
           "proposal": "bid",
           "request": "request",
           "team": "team"
@@ -1823,10 +1823,10 @@
         },
         "timer": {
           "notice": "Notification will be sent in:",
-          "text": "Participants see changes online immediately after they are made.\nParticipants will be informed about the change in request."
+          "text": "Vendors see changes online immediately after they are made.\nVendors will be informed about the change in request."
         },
         "tooltips": {
-          "economy": "Based on planned prices and average offers",
+          "economy": "Based on planned prices and average bids",
           "order": "order"
         },
         "version_mismatch_dialog": {
@@ -2418,7 +2418,7 @@
           "long": "Chief Vendor Officer"
         },
         "2048": {
-          "short": "Request pool",
+          "short": "Request vendor pool",
           "long": "Request Accreditation Pool"
         }
       },
@@ -2447,7 +2447,7 @@
       },
       "process_invite": {
         "invite": "Invite",
-        "pool": "Invite to pool",
+        "pool": "Invite to vendor pool",
         "procedure": "Invite to request",
         "tooltip": "Invite for cooperation"
       },
