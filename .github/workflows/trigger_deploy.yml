@@ -24,3 +24,4 @@ jobs:
         run: "curl --request POST -A \"${{ secrets.USER_AGENT }}\" --header \"PRIVATE-TOKEN: ${{ secrets.GL_TOKEN }} \" \"${{ secrets.HOST_NAME }}/api/v4/projects/${{ secrets.PROJECT }}/pipeline?ref=${{ secrets.BRANCH }}\" -L"
 
 
+#test
