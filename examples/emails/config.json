@@ -538,5 +538,17 @@
       "Template": "LID_RFx_request",
       "Target": "EmailTarget"
     }
-  ] 
+  ],
+  "PromoCodeApplied": [
+    {
+      "Template": "RFX_Promocode_applied",
+      "Target": "Billing"
+    }
+  ],
+  "ProposalRejected": [
+    {
+      "Template": "RFX_Proposal_rejected2",
+      "Target": "CompanySellers"
+    }
+  ]
 }

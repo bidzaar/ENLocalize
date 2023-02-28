@@ -863,10 +863,12 @@
                 "payment": {
                     "title": "Commission for the participant's victory pays",
                     "free": "There is no service fee on your company's requests",
+                    "code": "There is no service fee on this request (a promo code {{code}} has been applied).",
                     "fee": {
                         "label": "Who pays the fee",
                         "notice": "After the request is published, the value cannot be changed",
                         "private": "No fee is charged for your company's private requests",
+                        "promo": "There is no service fee on this request (a promo code {{code}} has been applied).",
                         "options": {
                             "1": "Winning supplier",
                             "2": "Customer (your company)",
@@ -880,6 +882,16 @@
                         "change": "Change",
                         "required": "A tariff is not selected",
                         "archive": "The selected tariff is in the archive, please change the tariff"
+                    },
+                    "promo": {
+                        "label": "[AT] Promo kodu",
+                        "placeholder": "[AT] Promo kodu daxil edin",
+                        "hint": "[AT] Format: X-XXX-XXX",
+                        "cancel": "[AT] Ləğv et",
+                        "submit": "[AT] Müraciət edin",
+                        "change": "[AT] Promo kodu tətbiq edin",
+                        "expired": "[AT] Bu promo kodu istifadə edilmişdir",
+                        "invalid": "[AT] Etibarsız promo kodu"
                     }
                 }
             },
@@ -935,6 +947,10 @@
                         "multiple": {
                             "more": "daha çox"
                         }
+                    },
+                    "custom": {
+                        "true": "Bəli",
+                        "false": "Yox"
                     }
                 },
                 "answer_dialog": {
