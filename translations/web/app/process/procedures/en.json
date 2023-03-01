@@ -25,7 +25,7 @@
         "filters": {
             "customer": {
                 "title": "Customer",
-                "choose": "Choose customers"
+                "choose": "Select customers"
             },
             "tags": {
                 "title": "Request tags",
@@ -81,12 +81,12 @@
             "search_tooltip": "Search is carried out by fields:\n• Number\n• Name\n• Description\n• Request tags\n• Customer",
             "default": "Default",
             "mytags": "My tags",
-            "acceptance": "Acceptance of proposals",
+            "acceptance": "Bids submission",
             "type_of_change": {
                 "title": "Request type",
                 "labels": {
                     "true": "Purchase",
-                    "false": "Sales"
+                    "false": "Sale"
                 }
             }
         },
@@ -120,7 +120,7 @@
         },
         "participantions": {
             "title": "Manage my bids",
-            "rank": "Rank among competitors"
+            "rank": "Ranking among competitors"
         },
         "public": {
             "title": "Request search",
@@ -128,8 +128,8 @@
             "from": "from",
             "left": "{{value}} left",
             "tarrifs_popover": {
-                "title": "Request only for verified suppliers",
-                "text": "At the request of the customer, participants must have the status of \"Verified Supplier\"",
+                "title": "Request only for verified vendors",
+                "text": "At the request of the customer, participants must have the status of \"Verified Vendor\"",
                 "button": "Get status",
                 "button_verified": "Verification passed"
             }
@@ -149,9 +149,9 @@
         "private": "Closed",
         "views_count": "Views",
         "rank": {
-            "not_available": "Offer rank is not calculated for requests that are subject to variance by position in the offer",
-            "label": "Offer rank"
+            "not_available": "Bids ranking is not calculated for requests that are subject to variance by position in the offer",
+            "label": "Bids ranking"
         },
-        "gold": "Gold request"
+        "gold": "Golden request"
     }
 }
