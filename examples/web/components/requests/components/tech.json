@@ -124,7 +124,8 @@
           "0": "web/components/requests/components: bdz.req.components.parameters.bidding.other_participants_visibility.0",
           "1": "web/components/requests/components: bdz.req.components.parameters.bidding.other_participants_visibility.1",
           "2": "web/components/requests/components: bdz.req.components.parameters.bidding.other_participants_visibility.2",
-          "3": "web/components/requests/components: bdz.req.components.parameters.bidding.other_participants_visibility.3"
+          "3": "web/components/requests/components: bdz.req.components.parameters.bidding.other_participants_visibility.3",
+          "4": "web/components/requests/components: bdz.req.components.parameters.bidding.other_participants_visibility.4"
         }
       }
     },

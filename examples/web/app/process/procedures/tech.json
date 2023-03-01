@@ -104,11 +104,15 @@
       "export": "web/app/process/procedures: prs.my.export",
       "manager_title": "web/app/process/procedures: prs.my.manager_title",
       "download": "web/app/process/procedures: prs.my.download",
-      "vendors_statistics_dialog": {
-        "title": "web/app/process/procedures: prs.my.vendors_statistics_dialog.title",
-        "period": "web/app/process/procedures: prs.my.vendors_statistics_dialog.period",
-        "cancel": "web/app/process/procedures: prs.my.vendors_statistics_dialog.cancel",
-        "download": "web/app/process/procedures: prs.my.vendors_statistics_dialog.download"
+      "report": {
+        "period": "web/app/process/procedures: prs.my.report.period",
+        "cancel": "web/app/process/procedures: prs.my.report.cancel",
+        "download": "web/app/process/procedures: prs.my.report.download",
+        "type": {
+          "0": "web/app/process/procedures: prs.my.report.type.0",
+          "1": "web/app/process/procedures: prs.my.report.type.1",
+          "2": "web/app/process/procedures: prs.my.report.type.2"
+        }
       }
     },
     "manager": {

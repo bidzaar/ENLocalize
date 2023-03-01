@@ -64,7 +64,8 @@
       },
       "sorting": {
         "name": "web/admin/companies/users: cmp.users.list.sorting.name",
-        "status": "web/admin/companies/users: cmp.users.list.sorting.status"
+        "status": "web/admin/companies/users: cmp.users.list.sorting.status",
+        "status_changed": "web/admin/companies/users: cmp.users.list.sorting.status_changed"
       },
       "filters": {
         "rights": {

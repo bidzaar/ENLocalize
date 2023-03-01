@@ -72,7 +72,8 @@
         "Process.Light.Proposal.Item.CustomField.Required": "web/components/requests/models: bdz.req.models.validation.proposal.Process.Light.Proposal.Item.CustomField.Required",
         "Process.Light.Proposal.Item.ReferencePrice.Reduction": "web/components/requests/models: bdz.req.models.validation.proposal.Process.Light.Proposal.Item.ReferencePrice.Reduction",
         "Process.Light.Proposal.Item.ReferencePrice.Auction": "web/components/requests/models: bdz.req.models.validation.proposal.Process.Light.Proposal.Item.ReferencePrice.Auction",
-        "Process.Light.Procedure.VersionMismatch": "web/components/requests/models: bdz.req.models.validation.proposal.Process.Light.Procedure.VersionMismatch"
+        "Process.Light.Procedure.VersionMismatch": "web/components/requests/models: bdz.req.models.validation.proposal.Process.Light.Procedure.VersionMismatch",
+        "Process.Light.Proposal.Item.DontHaveAnyOnNoneDeviation": "web/components/requests/models: bdz.req.models.validation.proposal.Process.Light.Proposal.Item.DontHaveAnyOnNoneDeviation"
       }
     },
     "reports": {

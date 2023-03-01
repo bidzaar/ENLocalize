@@ -14,14 +14,14 @@
           "warning_text": "web/app/process/light/request: pl.request.general.description_and_files.warning_text",
           "editor": {
             "headers": {
-              "h1": "web/app/process/light/request: pl.request.general.description_and_files.headers.h1",
-              "h2": "web/app/process/light/request: pl.request.general.description_and_files.headers.h2",
-              "h3": "web/app/process/light/request: pl.request.general.description_and_files.headers.h3",
-              "h4": "web/app/process/light/request: pl.request.general.description_and_files.headers.h4",
-              "h5": "web/app/process/light/request: pl.request.general.description_and_files.headers.h5",
-              "h6": "web/app/process/light/request: pl.request.general.description_and_files.headers.h6"
+              "h1": "web/app/process/light/request: pl.request.general.description_and_files.editor.headers.h1",
+              "h2": "web/app/process/light/request: pl.request.general.description_and_files.editor.headers.h2",
+              "h3": "web/app/process/light/request: pl.request.general.description_and_files.editor.headers.h3",
+              "h4": "web/app/process/light/request: pl.request.general.description_and_files.editor.headers.h4",
+              "h5": "web/app/process/light/request: pl.request.general.description_and_files.editor.headers.h5",
+              "h6": "web/app/process/light/request: pl.request.general.description_and_files.editor.headers.h6"
             },
-            "remove":"web/app/process/light/request: pl.request.general.description_and_files.remove"
+            "remove": "web/app/process/light/request: pl.request.general.description_and_files.editor.remove"
           }
         },
         "contact_info": {

@@ -55,12 +55,12 @@
       },
       "card": {
         "banner": {
-          "draft": "<strong class=\"banner-bold\">Submit an offer</strong> before the deadline for accepting offers",
+          "draft": "<strong class=\"banner-bold\">Submit a bid </strong> before the end for bids submission",
           "submitted": {
             "text": "<strong class=\"banner-bold\">Change the sentence</strong> to increase the chance of winning.",
             "button": "Start change"
           },
-          "edit": "<strong class=\"banner-bold\">Submit a modified offer.</strong> Now your old offer is available to the Customer:",
+          "edit": "<strong class=\"banner-bold\">Submit a modified bid.</strong> Now your old offer is available to the Customer:",
           "summarizing": "<strong class=\"banner-bold\">Update the documents</strong> in the \"Commercial offer and documentation\" section"
         },
         "title": {
@@ -69,24 +69,24 @@
         },
         "rank": {
           "by_proposal": {
-            "text": "Proposal rank",
-            "label": "Offer rank among competitors' offers"
+            "text": "Bids ranking",
+            "label": "Bids ranking among competitors' bids"
           },
           "by_position": {
-            "text": "Position rank",
-            "label": "Quantity with ranks: 1 (green positions), 2 (yellow), 3 or lower (red)"
+            "text": "Bidding ranking",
+            "label": "Quantity with ranking: 1 (green items), 2 (yellow), 3 or lower (red)"
           }
         },
         "price": {
-          "title": "Price of your proposal",
-          "info": "Total price of your offer"
+          "title": "Your bid price",
+          "info": "Total bid price"
         },
         "positions": {
           "title": "Items specification",
           "action": "Edit",
           "view_action": "Watch",
           "statistics": {
-            "total": "Positions: {{value}} from {{count}}",
+            "total": "Items: {{value}} from {{count}}",
             "dont_have_any": "out of stock: {{value}}"
           }
         },
@@ -103,53 +103,53 @@
           "title": "Commercial bid and documentation",
           "sub_title": "Documents: {{value}}",
           "action": "Attach",
-          "empty": "You can add all the documentation at the summing up.\nCustomers welcome the availability of a commercial offer.",
-          "text": "You can also attach documents after receiving offers"
+          "empty": "You can add all the documentation in final results.\nCustomers welcome the availability of a commercial offer.",
+          "text": "You can also attach documents after receiving bids"
         },
         "actions": {
           "submit": "Submit bid",
           "more": "More",
-          "change": "Change proposal",
-          "update": "Update proposal",
+          "change": "Change bid",
+          "update": "Update bid",
           "cancel": "Cancel changes",
-          "recall": "Withdraw the offer",
+          "recall": "Withdraw the bid",
           "order_service": "Order service"
         },
         "with_vat": "incl. VAT",
         "without_vat": "excl. VAT"
       },
       "alternative": {
-        "title": "Alternative proposal",
-        "info": "To start preparing an alternative proposal, click the button below.",
-        "prepare": "Prepare proposal"
+        "title": "Alternative bid",
+        "info": "To start preparing an alternative bid, click the button below.",
+        "prepare": "Prepare your bid"
       },
       "nonexistent": {
-        "title": "My proposal",
-        "info": "Request completed, proposal submission not possible"
+        "title": "My bid",
+        "info": "Request completed, Bid submission not possible"
       },
       "acceptance_end_date": {
-        "title": "Acceptance of proposals before",
+        "title": "Bids acceptance due",
         "time_left": "Left"
       },
       "contact_info": {
-        "title": "Participant's contact person",
+        "title": "Vendor contact person",
         "change": "Change"
       },
       "actions": {
-        "refuse": "Refuse to participate"
+        "refuse": "Refuse to submit bid"
       },
       "refused": {
-        "title": "Your company has refused to participate in the request",
-        "sub_title": "You can return to the request and submit an offer\nbefore the deadline for accepting offers {{value}}",
+        "title": "Your company has refused to submit bid",
+        "sub_title": "You can return to the request and submit a bid\nbefore the deadline for accepting bids {{value}}",
         "return": "Return to the request"
       },
       "unavailable": {
-        "title": "Acceptance of offers is completed",
+        "title": "Bids acceptance is completed",
         "message": "Chat with the customer"
       },
       "blocked": {
         "title": "The customer excluded you from the request",
-        "sub_title": "You cannot participate in the request at the discretion of the customer.\nTo clarify the details, contact the customer"
+        "sub_title": "You cannot submit bids at the discretion of the customer.\nTo clarify the details, contact the customer"
       },
       "status": {
         "0": "Not submitted",
@@ -158,10 +158,10 @@
         "changing": "Changing"
       },
       "confirm_recall_dialog": {
-        "title": "Withdraw the offer?",
-        "text": "To the customer and other participants this offer will be unavailable.\nOffer can be edited and submit again before summing up",
+        "title": "Withdraw the bid?",
+        "text": "This bid will be unavailable to the customer and other vendors.\nBid can be edited and submitted again before the end of submission period",
         "cancel": "Cancel",
-        "submit": "Withdraw the offer"
+        "submit": "Withdraw the bid"
       },
       "esg": {
         "title": "Sustainable growth of your business",

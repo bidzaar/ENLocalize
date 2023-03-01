@@ -20,7 +20,8 @@
     },
     "description": {
       "expand": "tamamilə göstər",
-      "collapse": "Gizlətmək"
+      "collapse": "Gizlətmək",
+      "empty": "[AT] Təsvir verilmir"
     },
     "contacts": {
       "title": "Əlaqələndirici şəxs"
