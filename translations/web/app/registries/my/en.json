@@ -28,7 +28,7 @@
                         "title": "Application"
                     },
                     "expired_date": {
-                        "title": "Expiry date of accreditation",
+                        "title": "Onboarding expiry date",
                         "options": {
                             "true": "Only expiring"
                         }
