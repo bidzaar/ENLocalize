@@ -2052,7 +2052,7 @@
                     },
                     "general": {
                         "acceptance_end_date": {
-                            "label": "Bids due date"
+                            "label": "Bids submission due"
                         },
                         "currency": {
                             "label": "Bidding currency",
@@ -2085,13 +2085,13 @@
                             }
                         },
                         "owner_visibility": {
-                            "label": "Requester at the bid acceptance window"
+                            "label": "Buyer's viewing permission"
                         },
                         "prolongation": {
                             "label": "Auto extension of bids submission",
                             "minutes": "min.",
                             "time-left": "end of bids submission",
-                            "tooltip": "This is applied when participants submit a bid before the close of the bid extension window. This window is open for up to 99 minutes."
+                            "tooltip": "This is applied when vendors submit a bid before the close of the bid extension window. This window is open for up to 99 minutes."
                         },
                         "title": "Bidding terms",
                         "vat": {
@@ -2105,16 +2105,16 @@
                         "approximate_deadline_for_summing_up": {
                             "label": "Final closing of bids submission",
                             "description": "days after the last accepted bid",
-                            "tooltip": "Bidders will await a decision by the tender committee within the specified time period",
+                            "tooltip": "Vendors will await a decision by the tender committee within the specified time period",
                             "value_null": "Not Specified"
                         },
                         "verified_only": {
                             "label": "Bid submission",
-                            "text": "Verified participants only",
+                            "text": "Verified vendors only",
                             "popover": {
                                 "title": "Request for verified vendors",
-                                "text": "Suppliers with verified legal registration may submit proposals",
-                                "helper": "The site specialists check the suppliers and mark them with a special icon"
+                                "text": "Vendors with verified legal registration may submit proposals",
+                                "helper": "The site specialists check the vendors and mark them with a special icon"
                             }
                         }
                     },
@@ -2137,11 +2137,11 @@
                         "title": "Goods and services"
                     },
                     "questionnaire_enabled": {
-                        "sub_title": "Questionnaire with questions for the supplier. The resulting profiles are conveniently compared in Bidzaar.",
-                        "title": "Participant questionnaire"
+                        "sub_title": "Questionnaire with questions for the vendor. The resulting profiles are conveniently compared in Bidzaar.",
+                        "title": "Vendor questionnaire"
                     },
                     "set_up": "create",
-                    "title": "Supplier's Bid Content"
+                    "title": "Vendor's Bid Content"
                 },
                 "settings": {
                     "sub_title": "We have customized the request in such a way that you can choose the most favorable bid.",
@@ -2156,7 +2156,7 @@
                     },
                     "empty_placeholder": "Describe the subject of your request with keywords",
                     "label": "Tags",
-                    "label_tooltip": "Describe your need with tags. By tags, suppliers will be able to find an open request or receive an invitation to it by subscription"
+                    "label_tooltip": "Describe your need with tags. By tags, vendors will be able to find an open request or receive an invitation to it by subscription"
                 },
                 "team": {
                     "title": "Team",
@@ -2224,10 +2224,10 @@
                 }
             },
             "sellers": {
-                "empty": "Participants did not submit bids",
+                "empty": "Vendors did not submit bids",
                 "header": {
                     "count": "᛫ {{value}}",
-                    "text": "Participants who have submitted bids"
+                    "text": "Vendors who have submitted bids"
                 },
                 "unauthorized": {
                     "register": "Register or login",
@@ -2249,7 +2249,7 @@
                 "there_draft": "Finish editing and update the proposal",
                 "proposal_submitted": "Participant has submitted a proposal, given in Update Comparison",
                 "proposal_update": "Participant updated the offer, update comparison data",
-                "proposal_submitted_current_company": "Proposal submitted, update comparison data",
+                "proposal_submitted_current_company": "Bid submitted, update comparison data",
                 "proposal_update_current_company": "Offer updated, Comparison data updated",
                 "participant_refused": "Participant withdrew proposal, Comparison updated",
                 "participant_refused_current_company": "Participant participation has been suspended",

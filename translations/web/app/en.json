@@ -761,7 +761,7 @@
                 "title": "My bids"
             },
             "registries": {
-                "title": "My onboarding as vendor"
+                "title": "Onboarding status"
             }
         },
         "pools": "Pool management",
@@ -836,7 +836,7 @@
                     "failure": "You requested {{ type }} for the Vendor pool \"{{ vendor pool }}\". An error occurred while generating the archive. Repeat the action or contact technical support.",
                     "success": "You requested {{ type }} for the vendor pool \"{{ vendor pool }}\". The archive has been generated on {{date}} and will be available within 30 days.",
                     "types": {
-                        "application-archive": "application for accreditation",
+                        "application-archive": "application for onboarding",
                         "registry-commission-protocol": "commision's protocol"
                     }
                 },
@@ -925,20 +925,20 @@
         },
         "positions": {
             "add": "add",
-            "add_position": "add position",
+            "add_position": "add item",
             "change": "change",
-            "download_template": "download template for positions",
-            "import": "load position from file",
-            "import_success": "positions loaded: {{count}}",
-            "placeholder": "add positions to the request",
-            "position": "position",
+            "download_template": "download template for items",
+            "import": "add item from file",
+            "import_success": "items added: {{count}}",
+            "placeholder": "add items to the request",
+            "position": "item",
             "positions": "goods or services",
             "save": "save",
             "save_add": "save and add more",
             "saved": "data saved",
             "show_all": "show all",
-            "shown_positions": "positions: {{length}} from {{total}}.",
-            "total_positions": "positions"
+            "shown_positions": "items: {{length}} from {{total}}.",
+            "total_positions": "items"
         },
         "preview": {
             "details": "details",
@@ -1064,7 +1064,7 @@
             "documents": "documents",
             "finishDate": "acceptance of bids until",
             "organizer": "buyer",
-            "positions": "positions",
+            "positions": "items",
             "procedure": "request",
             "publishDate": "creation date",
             "status": "status"
@@ -1079,64 +1079,64 @@
                     "success": "Vendor is accredited",
                     "text": "Onboard company in vendor pool?",
                     "title": "",
-                    "yes": "Accredit"
+                    "yes": "Onboard"
                 },
                 "approved": "approved",
                 "block_dialog": {
                     "no": "cancel",
                     "reason": "message for company",
                     "success": "vendor is blocked",
-                    "text": "The action is reversible. The application will be saved. The application will be restored to the same status, with the exception of cases of withdrawal of accreditation, for example, due to the expiration of the accreditation period.",
+                    "text": "The action is reversible. The application will be saved. The application will be restored to the same status, with the exception of cases of withdrawal of onboarding status, for example, due to the expiration of the onboarding period.",
                     "title": "block vendor",
                     "yes": "block"
                 },
                 "bot-zaar": {
                     "owner": {
                         "message": {
-                            "blocked_pool": "The vendor pool was blocked by owner. Processing of applications and accredited members of management are possible after unlocking the vendor pool.",
+                            "blocked_pool": "The vendor pool was blocked by owner. Processing of applications and onboarding of the members of the management team is possible after unlocking the vendor pool.",
                             "invited": "Vendor invited.",
                             "draft": "The vendor accepted the invitation. Wait for application for accreditation.",
                             "participant_refused": "Vendor refused to be accredited.",
-                            "consideration": "The vendor has applied for accreditation. You can give accreditation, add a vendor to the vendor pool if, from your point of view, the application is correct.",
-                            "adjustment_required": "Application returned for revision. Wait for a response from the vendor.",
-                            "active": "Accredited to {{accreditationEndDate}} • {{accreditationEndDays}}.",
+                            "consideration": "The vendor has applied for onboarding. You can allow onboarding, add a vendor to the vendor pool if, from your point of view, the application is correct.",
+                            "adjustment_required": "Application has returned for revision. Wait for a response from the vendor.",
+                            "active": "Onboarded to {{accreditationEndDate}} • {{accreditationEndDays}}.",
                             "is_blocked": "Vendor blocked • {{blockDate}}.\n{{blockReason}}.",
-                            "rejected_by_owner": "Company accreditation suspended • {{statusChangedDate}}.\n{{rejectReason}}."
+                            "rejected_by_owner": "Company onboarding is suspended • {{statusChangedDate}}.\n{{rejectReason}}."
                         },
                         "actions": {
                             "block": {
                                 "title": "Block vendor",
-                                "description": "A blocked vendor will not be able to participate in accreditation."
+                                "description": "A blocked vendor will not be able to apply for onboarding."
                             },
                             "unblock": {
                                 "title": "Unblock",
-                                "description": "Unblock the vendor so that he can again participate in the accreditation."
+                                "description": "Unblock the vendor so that he can again apply for onboarding."
                             },
                             "revise": {
                                 "title": "Send for revision",
                                 "description": "Send the application for revision by the vendor."
                             },
                             "approve": {
-                                "title": "Accredit",
-                                "description": "Accredit the vendor in the vendor pool."
+                                "title": "Onboard",
+                                "description": "Onboard the vendor to the vendor pool."
                             },
                             "reject": {
-                                "title": "Suspend accreditation",
-                                "description": "Accreditation of vendor will be suspended."
+                                "title": "Suspend onboarding",
+                                "description": "Onboarding of vendor will be suspended."
                             }
                         }
                     },
                     "auditor": {
                         "message": {
-                            "blocked_pool": "The vendor pool was blocked by owner. Processing of applications and accredited members of management are possible after unlocking the pool.",
+                            "blocked_pool": "Processing of applications and onboarding of the members of the management team is possible after unlocking the vendor pool.",
                             "invited": "Vendor invited.",
-                            "draft": "The vendor fills out an application for accreditation.",
-                            "participant_refused": "Vendor refused to be accredited.",
+                            "draft": "The vendor fills out an application for onboarded.",
+                            "participant_refused": "Vendor refused to be onboarded.",
                             "consideration": "Vendor's application is being processed.",
                             "adjustment_required": "Application returned for revision.",
-                            "active": "Accredited to {{accreditationEndDate}} • {{accreditationEndDays}}.",
+                            "active": "Onboarded to {{accreditationEndDate}} • {{accreditationEndDays}}.",
                             "is_blocked": "Vendor blocked • {{blockDate}}.\n{{blockReason}}",
-                            "rejected_by_owner": "Company accreditation suspended • {{statusChangedDate}}.\n{{rejectReason}}"
+                            "rejected_by_owner": "Company onboarding suspended • {{statusChangedDate}}.\n{{rejectReason}}"
                         }
                     },
                     "participant": {
@@ -1338,7 +1338,7 @@
                     "pool_name_desc": "name Z → A",
                     "status_changed": "status change date"
                 },
-                "title": "my accreditations"
+                "title": "onboarding status"
             },
             "participants": {
                 "actions": {
