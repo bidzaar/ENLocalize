@@ -43,7 +43,7 @@
                 "title": "Status of the request"
             },
             "publish_date": {
-                "title": "Submission date"
+                "title": "Creation date"
             },
             "finish_date": {
                 "title": "Completion date"
@@ -61,13 +61,13 @@
                 "title": "Vendor status"
             },
             "acceptance_end_date": {
-                "title": "Bid due date"
+                "title": "Bids submission due"
             },
             "favorite": {
                 "title": "★ Favorites first"
             },
             "participants_quantity": {
-                "title": "Number of participants"
+                "title": "Number of vendors"
             },
             "total_active_proposals": {
                 "title": "Active bids"
@@ -86,7 +86,7 @@
                 "title": "Request type",
                 "labels": {
                     "true": "Purchase",
-                    "false": "Sale"
+                    "false": "Sell"
                 }
             }
         },
@@ -129,7 +129,7 @@
             "left": "{{value}} left",
             "tarrifs_popover": {
                 "title": "Request only for verified vendors",
-                "text": "At the request of the customer, participants must have the status of \"Verified Vendor\"",
+                "text": "Vendors should must have the status of \"Verified Vendor\" for the request",
                 "button": "Get status",
                 "button_verified": "Verification passed"
             }
@@ -142,14 +142,14 @@
             "order_price": "Order price"
         },
         "statistics": {
-            "proposals": "Participants of the current stage with an offer",
+            "proposals": "Vendors of the current stage with a bid",
             "participants": "Participated in the current stage"
         },
         "empty_list": "No results were found for your request...",
         "private": "Closed",
         "views_count": "Views",
         "rank": {
-            "not_available": "Bids ranking is not calculated for requests that are subject to variance by position in the offer",
+            "not_available": "Bids ranking is not calculated for requests that are subject to variance by items of the request",
             "label": "Bids ranking"
         },
         "gold": "Golden request"

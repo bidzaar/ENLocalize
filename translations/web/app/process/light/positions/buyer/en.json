@@ -69,7 +69,7 @@
             },
             "table": {
                 "groups": {
-                    "position": "Organizer columns",
+                    "position": "Buyer columns",
                     "proposal": "Vendor columns"
                 },
                 "columns": {

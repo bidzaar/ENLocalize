@@ -42,9 +42,9 @@
                 "settings": "Settings",
                 "empty": "Provide the specification of purchased items for easy bid comparison",
                 "expand": "Expand all ({{value}})",
-                "disabled": "Request items not specified",
+                "disabled": "Request items are not specified",
                 "open_editable": "Customize specification",
-                "open_readonly": "Full specification of all positions"
+                "open_readonly": "Full specification of all items"
             },
             "questionnaire": {
                 "title": "Questionnaire",
@@ -80,14 +80,14 @@
                 "text": {
                     "1": "Only onboarded vendors in the following vendor pools can submit a bid",
                     "2": "Onboarded vendors are automatically invited to the request when the request is published",
-                    "3": "Non-accredited vendors may simultaneously pass accreditation and prepare a proposal"
+                    "3": "Vendors may be onboarded and prepare a bid"
                 },
                 "add": "Add vendor pool",
                 "success": {
                     "add": "Vendor pools added",
                     "delete": "Vendor pools deleted"
                 },
-                "empty": "Vendor pools are not specified. Accreditation is not required to submit bids",
+                "empty": "Vendor pools are not specified. Onboarding is not required to submit bids",
                 "item": {
                     "open": "Enclose vendor pool",
                     "remove": "Remove vendor pool"
@@ -129,9 +129,9 @@
                 "cancel": "Cancel request",
                 "change_acceptance_end_date": "Change the deadline for accepting bids",
                 "favourites": "Add to favorites",
-                "in_favourite": "In favourite",
-                "refuse": "Refuse to participate",
-                "participate": "Start preparation\nproposal",
+                "in_favourite": "Add to favourites",
+                "refuse": "Refuse to submit a bid",
+                "participate": "Start preparation\nbid",
                 "new_stage": "Set up a new stage",
                 "publish_stage": "Post new stage",
                 "cancel_stage": "Cancel new stage",

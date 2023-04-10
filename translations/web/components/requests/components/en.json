@@ -1,35 +1,35 @@
 {
     "bdz.req.components": {
         "funnel": {
-            "proposals": "Participants with an offer",
-            "participants": "Number of participants",
+            "proposals": "Vendors with a bid",
+            "participants": "Number of vendors",
             "joins": "Total bids"
         },
         "parameters": {
             "owner_rules": {
                 "verified_only": {
-                    "label": "Submission of proposals",
-                    "text": "Only verified suppliers",
+                    "label": "Submission of bids",
+                    "text": "Only verified vendors",
                     "popover": {
-                        "title": "Request for verified suppliers",
-                        "text": "Suppliers with confirmed legal registration can submit proposals",
-                        "helper": "Site specialists check suppliers and mark them with a special icon"
+                        "title": "Request for verified vendors",
+                        "text": "Vendors with confirmed legal registration can submit bids",
+                        "helper": "Specialists of the platform check vendors and mark them with a special icon"
                     }
                 },
                 "acceptance_end_date": {
-                    "label": "Accepting offers before",
+                    "label": "Accepting bids before",
                     "time_left": "Left"
                 },
                 "prolongation": {
-                    "label": "Auto-renewal of accepting offers",
+                    "label": "Auto-renewal of accepting bids",
                     "minutes": "min.",
                     "time-left": "end of the round",
-                    "tooltip": "Applies if the participant submits an offer within the specified time before the deadline for accepting offers. Extension up to 99 min., 0 – without extension"
+                    "tooltip": "Applies if the vendors submit a bi within the specified time before the deadline for accepting bids. Extension up to 99 min., 0 – without extension"
                 },
                 "approximate_deadline_for_summing_up": {
-                    "label": "Approximate deadline for summing up",
-                    "description": "days after the end of accepting offers",
-                    "tooltip": "The participants of the request will expect the decision of the tender commission within the specified period",
+                    "label": "Approximate deadline for summing up final results",
+                    "description": "days after the end of accepting bids",
+                    "tooltip": "The vendors of the request will expect the decision of the tender commission within the specified period",
                     "value_null": "Not specified"
                 },
                 "currency": {
@@ -39,7 +39,7 @@
                     "change_rate_currency": "Change currency rates"
                 },
                 "vat": {
-                    "label": "When choosing a winner, it is taken into account",
+                    "label": "When selecting a winner, it is taken into account",
                     "options": {
                         "false": "Price without VAT",
                         "none": "Not specified",
@@ -49,42 +49,42 @@
                 "open_type": {
                     "label": "Type of request",
                     "tooltips": {
-                        "0": "The circle of participants in the request is not limited",
-                        "1": "The request is available for viewing and participation only to invited suppliers",
-                        "editable": "Open – the circle of participants is not limited. Closed – available for viewing and participation only to invited suppliers"
+                        "0": "The circle of vendors in the request is not limited",
+                        "1": "The request is available for viewing and bids submission to invited vendors only",
+                        "editable": "Open – the circle of vendors is not limited. Closed – available for viewing and bids submission to invited vendors only"
                     }
                 },
                 "owner_visibility": {
-                    "label": "Organizer at the stage of accepting offers",
+                    "label": "Buyers at the stage of accepting bids",
                     "enums": {
-                        "0": "Sees the participants' proposals",
-                        "1": "Does not see the content of the participants' proposals"
+                        "0": "Reviews the vendors' bids",
+                        "1": "Does not see the content of the vendors' bids"
                     }
                 }
             },
             "bidding": {
                 "deviation_type": {
-                    "label": "Offer volume"
+                    "label": "Bid quantity"
                 },
                 "alternative_proposals": {
-                    "label": "Number of alternative offers",
-                    "tooltip": "Specify how many alternative proposals a participant can submit",
+                    "label": "Number of alternative bids",
+                    "tooltip": "Specify how many alternative bids a vendor can submit",
                     "error": "Specify a number from 0 to 10",
                     "count": "Possible number of offers, in addition to the main one: {{value }}",
-                    "none": "It is forbidden to submit alternative offers"
+                    "none": "It is forbidden to submit alternative bids"
                 },
                 "price_null": "Not specified",
                 "expected_price": {
                     "label": "Expected price",
                     "placeholder": "Not set",
-                    "tooltip": "Expected price level of the participant's offer"
+                    "tooltip": "Expected price level of the vendor bid"
                 },
                 "participants_visibility": {
-                    "label": "What the participants see"
+                    "label": "What the vendors see"
                 },
                 "reduction_price": {
                     "errors": {
-                        "best_price_unavailable": "Value \"best offer\" is available if:\n • Volume of the offer = Full satisfaction\n • What the participants see = Competitors' offers\n • Price change rule = Reduction or Auction",
+                        "best_price_unavailable": "Value \"best bid\" is available if:\n • Volume of the bid = Full satisfaction\n • What the vendors see = Competitors' bids\n • Price change rule = Reduction or Auction",
                         "step_over_start_price": "The change step exceeds the maximum price",
                         "step_range_absolute": "The range of the change step in currency: 0.01-100000",
                         "step_range_percent": "The range of the change step in percent: 0.01-10"
@@ -93,38 +93,38 @@
                     "of": "from",
                     "reference": {
                         "0": "your suggestion",
-                        "1": "the best offer",
-                        "2": "according to the positions of your offer",
-                        "3": "according to the positions of the best offer"
+                        "1": "the best bid",
+                        "2": "according to the items of your bid",
+                        "3": "according to the items of the best bid"
                     }
                 },
                 "start_price": {
                     "placeholder": "Not set",
                     "reduction": {
-                        "label": "Maximum offer price",
-                        "tooltip": "The highest price of the supplier's offer"
+                        "label": "Maximum bid price",
+                        "tooltip": "The highest price of the vendor's bid"
                     },
                     "auction": {
-                        "label": "Minimum offer price",
-                        "tooltip": "The lowest price of the supplier's offer"
+                        "label": "Minimum bid price",
+                        "tooltip": "The lowest price of the vendor's bid"
                     }
                 },
-                "title": "Rules for participants",
+                "title": "Rules for vendors",
                 "type_of_change": {
                     "label": "Price change",
-                    "0": "Participants can raise and lower the price",
-                    "1": "Reduction (participants can only lower the price)",
-                    "2": "Auction (participants can only raise the price)"
+                    "0": "Vendors can raise and lower the price",
+                    "1": "Reduction (vendors can only lower the price)",
+                    "2": "Auction (vendors can only raise the price)"
                 },
                 "proposal_deviation_type": {
-                    "0": "Full satisfaction by positions and quantity",
-                    "1": "Acceptable deviation by positions and quantity"
+                    "0": "Full satisfaction on items and quantity",
+                    "1": "Acceptable deviation of items and quantity"
                 },
                 "other_participants_visibility": {
-                    "0": "Only your offer",
-                    "1": "Only rank (place) your offer",
-                    "2": "Competitors' offers – yes, names – no",
-                    "3": "Offers and names of competitors",
+                    "0": "Only your bid",
+                    "1": "Only rank (place) your bi",
+                    "2": "Competitors' bids – yes, names – no",
+                    "3": "Bids and names of competitors",
                     "4": "The best prices among competitors bids"
                 }
             }
@@ -134,7 +134,7 @@
                 "to": "up to"
             },
             "select": {
-                "header": "Tariff of the request",
+                "header": "Comission of the request",
                 "cancel": "Cancel",
                 "submit": "Submit"
             }
