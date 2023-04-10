@@ -24,8 +24,8 @@
                         "title": "Region of business"
                     },
                     "participationsCount": "Number of bids",
-                    "pools": "Accreditations in my vendor pools",
-                    "registries": "Vendor accreditation",
+                    "pools": "Onboarding to my vendor pools",
+                    "registries": "Vendor onboarding",
                     "rating": {
                         "title": "Activity",
                         "high": "High",
@@ -38,12 +38,12 @@
                         "link": "How to pass the verification"
                     },
                     "accreditations": {
-                        "title": "Accredited in vendor pools",
+                        "title": "Onboarded vendors in vendor pools",
                         "link": "More about Vendor pools"
                     }
                 },
                 "item": {
-                    "accredited_count": "the company is accredited by the buyer",
+                    "accredited_count": "the company is onboarded by the buyer",
                     "attempts_count": "Bids submission to the buyers's requests"
                 },
                 "search": {
@@ -112,7 +112,7 @@
                     "invited": "invited",
                     "is_blocked": "blocked",
                     "participant_refused": "refused",
-                    "rejected_by_owner": "accreditation suspended"
+                    "rejected_by_owner": "onboarding suspended"
                 }
             }
         },
@@ -709,7 +709,7 @@
         "changes_saved": "changes saved"
     },
     "navigation": {
-        "accreditations": "Accreditations",
+        "accreditations": "Vendor onboarding",
         "app_store": {
             "title": {
                 "download": "Download in",
@@ -761,7 +761,7 @@
                 "title": "My bids"
             },
             "registries": {
-                "title": "My company's accreditation"
+                "title": "My onboarding as vendor"
             }
         },
         "pools": "Pool management",

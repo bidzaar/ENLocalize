@@ -7,13 +7,13 @@
                         "DeliveryAddress": {
                             "Exists": "This place of delivery has already been added to the list"
                         },
-                        "PositionsDisabled": "Goods and services are not included in the offer of the participant",
-                        "QuestionnaireDisabled": "Supplier questionnaire not included in participant's offer",
+                        "PositionsDisabled": "Goods and services are not added to the bid of the vendor",
+                        "QuestionnaireDisabled": "Vendor questionnaire is not added to the bid of the vendor",
                         "Version": {
                             "DraftNotFound": "Draft is not found"
                         },
                         "Participant": {
-                            "VerificationRequiredError": "Only verified suppliers can submit an offer"
+                            "VerificationRequiredError": "Only verified vendors can submit a bid"
                         },
                         "User": {
                             "LastOwner": "It should be at least one owner",
@@ -23,12 +23,12 @@
                     },
                     "Proposal": {
                         "DraftNotFound": "Bid draft is not found",
-                        "MaxAlternativeProposalReached": "The maximum number of alternative offers has been reached"
+                        "MaxAlternativeProposalReached": "The maximum number of alternative bids has been reached"
                     },
-                    "WrongNdaState": "Supplier's request processed",
+                    "WrongNdaState": "Vendors's request is processed",
                     "Nda": {
-                        "ParticipantBlocked": "Supplier is blocked",
-                        "ParticipantRefused": "Supplier declined to submit a bid"
+                        "ParticipantBlocked": "Vendor is blocked",
+                        "ParticipantRefused": "Vendor has declined to submit a bid"
                     }
                 }
             }
@@ -48,8 +48,8 @@
                 "4": "The best prices among competitors bids"
             },
             "owner_visibility": {
-                "0": "Can view participants` bids",
-                "1": "Can't view bids of other participants"
+                "0": "Can view vendors' bids",
+                "1": "Can't view bids of other vendors"
             },
             "participant_business_status": {
                 "0": {
@@ -58,51 +58,51 @@
                 },
                 "1": {
                     "name": "Submitted bid",
-                    "tooltip": "The supplier submitted an offer for request"
+                    "tooltip": "The vendor has submitted a bid for request"
                 },
                 "2": {
                     "name": "Prepared bid",
-                    "tooltip": "The supplier prepares an offer for request"
+                    "tooltip": "The vendor prepares a bid for request"
                 },
                 "3": {
                     "name": "Provided NDA Documents ",
-                    "tooltip": "Supplier has applied for prequalification / NDA and is awaiting your decision"
+                    "tooltip": "Vendor has applied for prequalification / NDA and is awaiting your decision"
                 },
                 "4": {
                     "name": "Prequalification preparation",
-                    "tooltip": "The supplier prepares documents for prequalification / NDA"
+                    "tooltip": "The vendor prepares documents for prequalification / NDA"
                 },
                 "5": {
                     "name": "Viewed the request",
-                    "tooltip": "The supplier opened the request description using the link from the invitation letter"
+                    "tooltip": "The vendor opened the request description using the link from the invitation letter"
                 },
                 "6": {
                     "name": "Viewed the invitation",
-                    "tooltip": "The supplier opened the invitation letter"
+                    "tooltip": "The vendor opened the invitation letter"
                 },
                 "7": {
                     "name": "Invited",
-                    "tooltip": "An invitation has been sent to the supplier's email"
+                    "tooltip": "An invitation has been sent to the vendor's email"
                 },
                 "8": {
                     "name": "Added",
                     "tooltip": "The invitation will be sent after the request is published"
                 },
                 "9": {
-                    "name": "Rejected participation",
-                    "tooltip": "The supplier declined to submit a bid in the request"
+                    "name": "Rejected bid submission",
+                    "tooltip": "The vendor declined to submit a bid to the request"
                 },
                 "10": {
                     "name": "Blocked",
-                    "tooltip": "The requester of the request has blocked the supplier"
+                    "tooltip": "The buyer has blocked the vendor"
                 },
                 "11": {
                     "name": "Invited by email",
-                    "tooltip": "Invitation Letter has been sent to supplier's email"
+                    "tooltip": "Invitation Letter has been sent to vendor's email"
                 }
             },
             "proposal_deviation_type": {
-                "0": "Bid requirements met with the items and their quantity",
+                "0": "Items and their quantity have met bid requirements",
                 "1": "Allowed variance in items and quantity",
                 "2": "Allowed variance in items"
             },
@@ -114,9 +114,9 @@
                 "4": "Cancelled"
             },
             "type_of_change": {
-                "0": "Participants can increase and decrease the price",
-                "1": "Reduction (participants can only decrease the price)",
-                "2": "Auction (participants can only increase the price)"
+                "0": "Vendors can increase and decrease the price",
+                "1": "Reduction (vendors can only decrease the price)",
+                "2": "Auction (vendors can only increase the price)"
             },
             "vat": {
                 "false": "excl. VAT",
@@ -128,10 +128,10 @@
             },
             "fee": {
                 "0": "",
-                "1": "Supplier",
-                "2": "Requester",
-                "3": "Supplier",
-                "4": "Requester"
+                "1": "Vendor",
+                "2": "Buyer",
+                "3": "Vendor",
+                "4": "Buyer"
             },
             "language": {
                 "0": "Русский",
@@ -147,9 +147,9 @@
             "status": {
                 "0": "Draft",
                 "1": "Submitted requests",
-                "2": "Acceptance of bids ended, request on summing up stage",
-                "3": "Request completed",
-                "4": "Request canceled",
+                "2": "Acceptance of bids has ended, return to the stage of final results",
+                "3": "Completed request",
+                "4": "Canceled request",
                 "until": "until {{ date }}",
                 "tooltip": "Corresponds to the date and time on your computer"
             },
@@ -159,7 +159,7 @@
             },
             "banner": {
                 "changing": {
-                    "date": "Participants have access to the revision of the request from {{ value }}",
+                    "date": "Vendors have access to the revision of the request from {{ value }}",
                     "state": "Publish your changes after editing is complete."
                 },
                 "new_stage": "Customize the order of events, block unaccepted participants, and publish a new request step.",
