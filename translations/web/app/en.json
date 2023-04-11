@@ -2274,10 +2274,10 @@
                     }
                 },
                 "requisites": {
-                    "title": "Requisites",
+                    "title": "Company info",
                     "success": {
-                        "false": "The company requisites will be updated",
-                        "true": "The company requisites will be verified in the near future"
+                        "false": "The company info will be updated",
+                        "true": "The company info will be verified in the near future"
                     }
                 },
                 "activity": {
@@ -2382,16 +2382,16 @@
                     "long": "Rights are not defined"
                 },
                 "1": {
-                    "short": "RFx",
-                    "long": "RFx"
+                    "short": "Tender management",
+                    "long": "Tender management"
                 },
                 "2": {
-                    "short": "Vendor",
-                    "long": "Vendor"
+                    "short": "Bids submission",
+                    "long": "Bids submission"
                 },
                 "4": {
-                    "short": "Onboardings",
-                    "long": "Apply for onboarding"
+                    "short": "Onboarding",
+                    "long": "Apply For Onboarding"
                 },
                 "8": {
                     "short": "Vendor Pools",
@@ -2402,29 +2402,29 @@
                     "long": "Manage Company"
                 },
                 "128": {
-                    "short": "Chief",
+                    "short": "CPO",
                     "long": "Chief Procurement Officer"
                 },
                 "256": {
-                    "short": "Manage groups",
-                    "long": "Manage groups"
+                    "short": "Manage Groups",
+                    "long": "Manage Groups"
                 },
                 "512": {
                     "short": "Vendor Pools",
                     "long": "Vendor Pools"
                 },
                 "1024": {
-                    "short": "Chief",
+                    "short": "Chief Vendor Officer",
                     "long": "Chief Vendor Officer"
                 },
                 "2048": {
-                    "short": "Request vendor pool",
-                    "long": "Request Vendor Pool"
+                    "short": "Apply for Vendor Pool",
+                    "long": "Apply for Vendor Pool"
                 }
             },
             "role": {
-                "title": "Role in request loading",
-                "tooltip": "Role in default download request",
+                "title": "Role",
+                "tooltip": "Role",
                 "items": {
                     "0": "Auditor",
                     "1": "Editor",
