@@ -125,7 +125,7 @@
                 "delete": "Delete draft",
                 "clone": "Dublicate",
                 "notice_report": "Download notice",
-                "message": "Ask a question to owner",
+                "message": "Ask a question to the buyer",
                 "cancel": "Cancel request",
                 "change_acceptance_end_date": "Change the deadline for accepting bids",
                 "favourites": "Add to favorites",
@@ -136,7 +136,7 @@
                 "publish_stage": "Post new stage",
                 "cancel_stage": "Cancel new stage",
                 "view_summary": "View request summary",
-                "view_journal": "Open the journal",
+                "view_journal": "Open report",
                 "return_to_summary": "Return to summary",
                 "end_round": "Finish accepting bids"
             },

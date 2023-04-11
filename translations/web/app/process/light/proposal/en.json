@@ -61,7 +61,7 @@
                         "button": "Start change"
                     },
                     "edit": "<strong class=\"banner-bold\">Submit a modified bid.</strong> Now your old offer is available to the Customer:",
-                    "summarizing": "<strong class=\"banner-bold\">Update the documents</strong> in the \"Commercial offer and documentation\" section"
+                    "summarizing": "<strong class=\"banner-bold\">Update the documents</strong> in the \"Quotation and documentation\" section"
                 },
                 "title": {
                     "my": "My bid",
@@ -100,10 +100,10 @@
                     }
                 },
                 "documents": {
-                    "title": "Commercial bid and documentation",
+                    "title": "Quotation and documentation",
                     "sub_title": "Documents: {{value}}",
                     "action": "Attach",
-                    "empty": "You can add all the documentation in final results.\nCustomers welcome the availability of a commercial offer.",
+                    "empty": "You can add all the documentation in final results.\nCustomers welcome the availability of quotation.",
                     "text": "You can also attach documents after receiving bids"
                 },
                 "actions": {
@@ -132,7 +132,7 @@
                 "time_left": "Left"
             },
             "contact_info": {
-                "title": "Vendor contact person",
+                "title": "Vendor contact details",
                 "change": "Change"
             },
             "actions": {

@@ -258,7 +258,7 @@
                 "forbidden": {
                     "owner-version": {
                         "title": "Vendor bids are currently unavailable",
-                        "text": "At the time of the change in the request for bids, the vendors are not available.\nFinish editing to return to the suggestions."
+                        "text": "Vendors bids are not available while request revision.\nFinish editing to see bids."
                     },
                     "owner-draft": {
                         "title": "Vendor bids are currently unavailable",
@@ -266,7 +266,7 @@
                     },
                     "owner-hidden": {
                         "title": "Vendor bids are currently unavailable",
-                        "text": "The buyer has denied access to the bids of the participants at the stage of accepting the bids. Bids will be available after the end of submission."
+                        "text": "The buyer has denied access to the vendor bids at the stage of accepting the bids. Bids will be available after the end of submission."
                     },
                     "guest": {
                         "title": "Competitors' bids",
@@ -306,7 +306,7 @@
                     "about_company": "about company",
                     "cancel_selection": "Cancel selection",
                     "change_price": "Change price",
-                    "chose_proposal": "Choose bid",
+                    "chose_proposal": "Select bid",
                     "no_requisites": "Not provided",
                     "open_requisites": "Open",
                     "participant": "Vendor",
@@ -332,7 +332,7 @@
                     "from": "from",
                     "not_full_tooltip": "The item is presented in an incomplete volume",
                     "rank_tooltip": "Bid rank",
-                    "add_to_order": "Choose",
+                    "add_to_order": "Select",
                     "in_order": "In order: {{count}} {{unit}} ",
                     "empty": "Not available",
                     "details": "Show details"
@@ -399,8 +399,8 @@
                     "download_proposal": "Download bid",
                     "customize_view": "Customize view"
                 },
-                "total_order_sum": "Choice",
-                "order_distribution": "Choice distribution",
+                "total_order_sum": "Selection",
+                "order_distribution": "Order distribution",
                 "order_price": "Order price",
                 "order_cell": {
                     "choose": "Select bid",
@@ -433,10 +433,10 @@
                 "sorting": {
                     "button": "Bids",
                     "tooltip": "Customize order of the bid",
-                    "0": "First with the best price",
-                    "1": "First with complete satisfaction",
-                    "2": "First with the highest ranks by item",
-                    "3": "First with order"
+                    "0": "Sort by best price",
+                    "1": "Sort by fulfilled requirements",
+                    "2": "Sort by the highest item ranks",
+                    "3": "Sort by order"
                 },
                 "group": {
                     "settings": "Settings"
@@ -833,7 +833,7 @@
                 "back": "Done",
                 "editing": "(Editing)",
                 "positions": "Goods and services",
-                "questionnaire": "Non-price estimates"
+                "questionnaire": "Non-price criteria"
             },
             "number": "Code",
             "participant": {
@@ -1706,7 +1706,7 @@
                                 "message": "Bids are accepted until {{acceptanceEndDate}} ({{acceptanceEndDays}} left).\nManage vendors on the Vendors tab.\nCompare bids on the Comparison tab."
                             },
                             "editable": {
-                                "message": "Publish the changes of the request. Vendors will be able to update their bids. While editing the draft, the members of the owner team do not have access to the \"Vendors\", \"Comparison\" and \"Conclusion\" tabs and actions regarding the published request (start new round, choose a winner)"
+                                "message": "Publish the changes of the request. Vendors will be able to update their bids. While editing the draft, the members of the owner team do not have access to the \"Vendors\", \"Comparison\" and \"Conclusion\" tabs and actions regarding the published request (start new round, select a winner)"
                             }
                         },
                         "summarize": {
@@ -1714,7 +1714,7 @@
                                 "message": "Review the vendors' bids and complete request on the Summary tab."
                             },
                             "editable": {
-                                "message": "Publish the changes of the request. Vendors will be able to update their bids. While editing the draft, the members of the owner team do not have access to the \"Vendors\", \"Comparison\" and \"Conclusion\" tabs and actions regarding the published request (start new round, choose a winner)"
+                                "message": "Publish the changes of the request. Vendors will be able to update their bids. While editing the draft, the members of the owner team do not have access to the \"Vendors\", \"Comparison\" and \"Conclusion\" tabs and actions regarding the published request (start new round, select a winner)"
                             }
                         }
                     },
@@ -2144,7 +2144,7 @@
                     "title": "Vendor's Bid Content"
                 },
                 "settings": {
-                    "sub_title": "We have customized the request in such a way that you can choose the most favorable bid.",
+                    "sub_title": "We have customized the request in such a way that you can select the most favorable bid.",
                     "title": "Request settings"
                 },
                 "stub": "Information is available only to company employees.\nLog in or register your company for free on the site.",

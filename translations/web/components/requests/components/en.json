@@ -21,7 +21,7 @@
                     "time_left": "Left"
                 },
                 "prolongation": {
-                    "label": "Auto-renewal of accepting bids",
+                    "label": "Auto-extension of bids submission",
                     "minutes": "min.",
                     "time-left": "end of the round",
                     "tooltip": "Applies if the vendors submit a bi within the specified time before the deadline for accepting bids. Extension up to 99 min., 0 – without extension"
@@ -39,7 +39,7 @@
                     "change_rate_currency": "Change currency rates"
                 },
                 "vat": {
-                    "label": "When selecting a winner, it is taken into account",
+                    "label": "When selecting a winner consider ",
                     "options": {
                         "false": "Price without VAT",
                         "none": "Not specified",
@@ -55,7 +55,7 @@
                     }
                 },
                 "owner_visibility": {
-                    "label": "Buyers at the stage of accepting bids",
+                    "label": "Buyer at the stage of accepting bids",
                     "enums": {
                         "0": "Reviews the vendors' bids",
                         "1": "Does not see the content of the vendors' bids"
