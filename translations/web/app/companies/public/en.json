@@ -24,8 +24,8 @@
                     "title": "Requests"
                 },
                 "registries": {
-                    "placeholder": "The company hasn't published any registries on Bidzaar yet.",
-                    "title": "Registries"
+                    "placeholder": "The company hasn't published any vendor pools on Bidzaar yet.",
+                    "title": "Vendor pools"
                 }
             },
             "profile": {
@@ -50,7 +50,7 @@
                         "title": "List title"
                     },
                     "registries": {
-                        "header": "Registries section",
+                        "header": "Vendor pools section",
                         "placeholder": "Message if the list is empty",
                         "show": "Show this section on the public page",
                         "show_if_empty": "Show sections if the list is empty",
@@ -102,7 +102,7 @@
                                 "page": "Public page",
                                 "pools": "Vendor pools",
                                 "tenders": "Requests",
-                                "registries": "Registries"
+                                "registries": "Vendor pools"
                             },
                             "title": "Code for iframe"
                         },
@@ -125,10 +125,10 @@
                         }
                     },
                     "registries": {
-                        "header": "Registries",
+                        "header": "Vendor pools",
                         "notice": {
                             "message": "The data is refreshed every time the page is opened. You can customize the block parameters. Use Preview to preview the result.",
-                            "title": "Registries are published on the Bidzaar."
+                            "title": "Vendor pools are published on the Bidzaar."
                         },
                         "empty": {
                             "message_primary": "The section is not displayed on the public page",

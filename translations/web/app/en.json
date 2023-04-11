@@ -2283,7 +2283,7 @@
                 "activity": {
                     "title": "Activity",
                     "on_site": "from {{value}}",
-                    "empty": "The company has not yet participated in any tenders",
+                    "empty": "The company has not submitted any bids yet",
                     "sales": {
                         "header": {
                             "title": "Sales"
@@ -2356,7 +2356,7 @@
                         "remove": "Delete company",
                         "phantom": "Create phantom",
                         "smtp": "Invite vendors to requests",
-                        "categories": "Category Reference"
+                        "categories": "Categories"
                     }
                 },
                 "dialogs": {
@@ -2390,12 +2390,12 @@
                     "long": "Vendor"
                 },
                 "4": {
-                    "short": "Accreditations",
-                    "long": "Request Accreditation"
+                    "short": "Onboardings",
+                    "long": "Apply for onboarding"
                 },
                 "8": {
-                    "short": "Accreditation Pools",
-                    "long": "Manage Accreditation Pools"
+                    "short": "Vendor Pools",
+                    "long": "Manage Vendor Pools"
                 },
                 "16": {
                     "short": "Manage Company",
@@ -2410,8 +2410,8 @@
                     "long": "Manage groups"
                 },
                 "512": {
-                    "short": "Vendor Lists",
-                    "long": "Vendor Lists"
+                    "short": "Vendor Pools",
+                    "long": "Vendor Pools"
                 },
                 "1024": {
                     "short": "Chief",
@@ -2419,7 +2419,7 @@
                 },
                 "2048": {
                     "short": "Request vendor pool",
-                    "long": "Request Accreditation Pool"
+                    "long": "Request Vendor Pool"
                 }
             },
             "role": {
