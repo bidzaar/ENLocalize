@@ -99,7 +99,7 @@
                 "region": "region",
                 "save": "save",
                 "search": "search...",
-                "site": "site"
+                "site": "platform"
             }
         },
         "contractors": {
@@ -408,7 +408,7 @@
             "title": "Buy to profit"
         },
         "no_tags": {
-            "action": "Add hashtags",
+            "action": "Add tags",
             "text": "Business partners will find you by #tags",
             "title": "Become more visible"
         },
@@ -1472,43 +1472,43 @@
                         "active": {
                             "no_auth": {
                                 "message": "We invite you to cooperation! Become our onboarded vendor.",
-                                "description": "Registered at the site of the company can be onboarded to the companies that form pools of partners. To do this, you must create and submit a request for onboarding. You can refuse to apply for onboarding."
+                                "description": "Registered members at the platform can be onboarded to the companies that form pools of partners. To do this, you must create and submit a request for onboarding. You can refuse to apply for onboarding."
                             },
                             "waiting": {
                                 "message": "You will be able to apply for onboarding after confirming you as an employee of the company. Contact your company administrator."
                             },
                             "no_company": {
                                 "message": "Register your company and apply for onboarding. Company registered? Contact your company administrator.",
-                                "description": "Registered at the platform of the company can be onboarded to the companies that form pools of partners. To do this, you must create and submit a request for onboarding. You can refuse to apply for onboarding."
+                                "description": "Registered members at the platform can be onboarded to the companies that form pools of partners. To do this, you must create and submit a request for onboarding. You can refuse to apply for onboarding."
                             },
                             "no_rights": {
                                 "message": "You do not have the right to apply for onboarding. Contact your company administrator to obtain the right.",
-                                "description": "Registered at the platform of the company can be onboarded to the companies that form pools of partners. To do this, you must create and submit a request for onboarding. You can refuse to apply for onboarding."
+                                "description": "Registered members at the platform can be onboarded to the companies that form pools of partners. To do this, you must create and submit a request for onboarding. You can refuse to apply for onboarding."
                             },
                             "default": {
                                 "message": "We invite you to cooperation! Become our onboarded vendor.",
-                                "description": "Registered vendors at the platform of the company can be onboarded to the companies that form pools of partners. To do this, you must create and submit a request for onboarding. You can refuse to apply for onboarding."
+                                "description": "Registered members at the platform can be onboarded to the companies that form pools of partners. To do this, you must create and submit a request for onboarding. You can refuse to apply for onboarding."
                             }
                         },
                         "changing": {
                             "no_auth": {
                                 "message": "We invite you to cooperation! Become our onboarded vendor.",
-                                "description": "Registered at the site of the company can be onboarded to the companies that form pools of partners. To do this, you must create and submit a request for onboarding. You can refuse to apply for onboarding."
+                                "description": "Registered members at the platform can be onboarded to the companies that form pools of partners. To do this, you must create and submit a request for onboarding. You can refuse to apply for onboarding."
                             },
                             "waiting": {
                                 "message": "You will be able to apply for onboarding after confirming you as an employee of the company. Contact your company administrator."
                             },
                             "no_company": {
                                 "message": "Register your company and apply for onboarding. Company registered? Contact your company administrator.",
-                                "description": "Registered at the site of the company can be onboarded to the companies that form pools of partners. To do this, you must create and submit a request for onboarding. You can refuse to apply for onboarding."
+                                "description": "Registered members at the platform can be onboarded to the companies that form pools of partners. To do this, you must create and submit a request for onboarding. You can refuse to apply for onboarding."
                             },
                             "no_rights": {
                                 "message": "You do not have the right to apply for onboarding. Contact your company administrator to obtain the right.",
-                                "description": "Registered at the site of the company can be onboarded to the companies that form pools of partners. To do this, you must create and submit a request for onboarding. You can refuse to apply for onboarding."
+                                "description": "Registered members at the platform can be onboarded to the companies that form pools of partners. To do this, you must create and submit a request for onboarding. You can refuse to apply for onboarding."
                             },
                             "default": {
                                 "message": "We invite you to cooperation! Become our onboarded vendor.",
-                                "description": "Registered at the site of the company can be onboarded to the companies that form pools of partners. To do this, you must create and submit a request for onboarding. You can refuse to apply for onboarding."
+                                "description": "Registered members at the platform can be onboarded to the companies that form pools of partners. To do this, you must create and submit a request for onboarding. You can refuse to apply for onboarding."
                             }
                         }
                     },
@@ -1694,8 +1694,8 @@
                 "update_required": "update required"
             },
             "pools_filter": {
-                "empty": "Your company has not published any vendor pools. You can create and publish a pool in the pool management section.",
-                "no_pools_body": "Your company has not published any vendor pools. You can create and publish a pool in the pool management section",
+                "empty": "Your company has not published any vendor pools. You can create and publish a vendor pool in the pool management section.",
+                "no_pools_body": "Your company has not published any vendor pools. You can create and publish a vendor pool in the pool management section",
                 "no_pools_title": "Onboarding in vendor pools",
                 "search": "Search...",
                 "search_empty": "Vendor pools not found",
@@ -1722,11 +1722,11 @@
                         "next": "Invite"
                     },
                     "empty": {
-                        "primary": "No matching purchases",
-                        "secondary": "You have no purchases  with the Draft or Bid status."
+                        "primary": "No matching requests",
+                        "secondary": "You have no requests with the Draft or Bidding status."
                     },
                     "header": {
-                        "notice": "Requests in which the company is not yet involved",
+                        "notice": "Requests with no involved companies",
                         "title": "Invitation to Request"
                     },
                     "procedures": {
@@ -1735,7 +1735,7 @@
                     }
                 },
                 "success": {
-                    "message": "Company invited to purchase",
+                    "message": "Company invited to request",
                     "open": "Open"
                 }
             },
@@ -1751,8 +1751,8 @@
                     "empty_text": "Place an order on the Comparison tab and complete the request"
                 },
                 "choose": {
-                    "hide_participants_name": "names of vendors are hidden by the requester of the request",
-                    "hide_proposals": "vendors' bids are hidden by the requester of the request",
+                    "hide_participants_name": "names of vendors are hidden by the buyer",
+                    "hide_proposals": "vendors' bids are hidden by the buyer",
                     "updated": "comparison tab was updated"
                 },
                 "code": "request code: {{value}}",
@@ -1792,7 +1792,7 @@
                     "summarize": "pending requests"
                 },
                 "summarizing_dialog": {
-                    "text": "request is on summarizing stage. Request denied",
+                    "text": "request is on stage of summarizing final results. Request denied",
                     "title": "request denied"
                 },
                 "tabs": {
@@ -1808,10 +1808,10 @@
                 },
                 "tags": {
                     "dialog_empty_placeholder": "add tags",
-                    "dialog_header": "request hashtags",
+                    "dialog_header": "request tags",
                     "dialog_info_text": "Describe your need with tags. Press enter to add tag",
                     "empty_placeholder": "Enter tags to describe your need.",
-                    "label": "request hashtags",
+                    "label": "request tags",
                     "tooltip": "List with tags what is in your need. By the entered tags, vendors will be able to find you."
                 },
                 "team": {
@@ -1918,7 +1918,7 @@
             "select_dialog": {
                 "apply": "Apply",
                 "cancel": "Cancel",
-                "choose": "Choose up to {{value}} promotags.",
+                "choose": "Select {{value}} promotags.",
                 "help": "What is promotags? How to get more promotogs?"
             },
             "title": "Promotags",
@@ -2007,7 +2007,7 @@
                     "title": "In this case:",
                     "reasons": {
                         "0": "The company will not appear in listings and search results, and cannot be invited to participate in a tender",
-                        "1": "The facts of the company's participation in business processes on the site will be saved, but the mark \"Left the site\" will be added",
+                        "1": "The facts of the company's participation in business processes on the platform will be saved, but the mark \"Left the platform\" will be added",
                         "2": "You can resume working with Bidzaar by re-registering"
                     }
                 },
@@ -2104,7 +2104,7 @@
                 },
                 "name": {
                     "header": "Brand",
-                    "label": "Company name on the site so to be recognized by your counterparties."
+                    "label": "Company name on the platform to be recognized by vendors."
                 },
                 "description": {
                     "header": "Company description",
@@ -2132,7 +2132,7 @@
             "self_invite": {
                 "info": "you can work on behalf of the company after processing the application for joining the administrator of the company.",
                 "no": "cancel",
-                "success": "joining application sent",
+                "success": "application sent",
                 "text": "you are joining to company",
                 "title": "join to company",
                 "yes": "join"
@@ -2217,7 +2217,7 @@
                         "report": "ESG-Report",
                         "questionnaire": "Questionnaire",
                         "copy_link": "Copy link for social networks",
-                        "site": "Place on the site"
+                        "site": "Place on the platform"
                     },
                     "dialogs": {
                         "share": {
@@ -2231,7 +2231,7 @@
                                 "badge": "Badge"
                             },
                             "show_points": "Show points",
-                            "info": "Copy the code below and place it in the required place on the site.",
+                            "info": "Copy the code below and place it in the required place on the platform.",
                             "hint": "The medals link leads to the page",
                             "link": "ESG certification",
                             "copy_snack": "Code copied"
@@ -2245,7 +2245,7 @@
                     "dialog": {
                         "header": "We sell",
                         "placeholder": "List items for sale",
-                        "text": "Use tags to list what your company is about to sell on the site."
+                        "text": "Use tags to list what your company is about to sell on the platform."
                     }
                 },
                 "photos": {
@@ -2335,7 +2335,7 @@
                     "max_size": "The maximum file size is {{value}} MB."
                 },
                 "deleted": {
-                    "date": "The company left the site {{value}}.",
+                    "date": "The company left the platform {{value}}.",
                     "irrelevant_information": "Information may not be relevant."
                 },
                 "actions": {
@@ -2368,7 +2368,7 @@
                     "registry": {
                         "title": "Invite the company to the vendor pool",
                         "submit": "Invite",
-                        "empty": "There are no suitable vendor pools. You can invite a company to the vendor pool with an open acceptation of applications - contact the vendor pool administrator",
+                        "empty": "There are no suitable vendor pools. You can invite a company to the vendor pool with an open applications - contact the vendor pool administrator",
                         "success": "Invitations have been sent"
                     }
                 }
