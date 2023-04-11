@@ -6,7 +6,7 @@
                 "steps": {
                     "create": {
                         "country": {
-                            "header": "Country of company incorporation"
+                            "header": "Country of incorporation"
                         },
                         "manual": {
                             "header": "Your company details"
@@ -15,9 +15,9 @@
                             "search": {
                                 "header": "Search for company",
                                 "title": "Company name or TIN",
-                                "notice": "Or full name for an IE",
+                                "notice": "Or full name of the enterprise",
                                 "placeholder": "Company name or TIN",
-                                "requisites": "TIN: {{ inn }}, KPP: {{ kpp }}",
+                                "requisites": "TIN: {{ inn }}, Сompany ID: {{ company id }}",
                                 "empty": {
                                     "title": "Company hasn't been found",
                                     "text": "Change the search query\nor",
@@ -26,7 +26,7 @@
                             },
                             "approve": {
                                 "inn": "TIN",
-                                "kpp": "KPP",
+                                "kpp": "Company ID",
                                 "address": "Legal address",
                                 "cancel": "Other company",
                                 "submit": "It is my company"
@@ -34,7 +34,7 @@
                         },
                         "search": {
                             "similar": {
-                                "header": "Similar companies on the site",
+                                "header": "Similar companies on the platform",
                                 "notice": "Join your company to work on its behalf or register a new company",
                                 "tin": "TIN: {{ value }}",
                                 "register": {
@@ -63,21 +63,21 @@
                             }
                         },
                         "brand": {
-                            "header": "Company name on the site",
+                            "header": "Company name on the platform",
                             "legal": {
                                 "title": "Legal name"
                             },
                             "brand": {
-                                "title": "Name on the site",
+                                "title": "Name on the platform",
                                 "notice": "Your unique brand or abbreviated name without legal form",
-                                "placeholder": "Name on the site"
+                                "placeholder": "Name on the platform"
                             }
                         },
                         "contacts": {
-                            "header": "How can counterparties find you?",
+                            "header": "How can vendors find you?",
                             "email": {
-                                "title": "Sales / Purchasing Email",
-                                "label": "Sales / Purchasing Email"
+                                "title": "Email of Sales / Procurement",
+                                "label": "Email of Sales / Procurement"
                             },
                             "phone": {
                                 "title": "Contact phone number",
@@ -97,23 +97,23 @@
                     "editor": {
                         "areas": {
                             "header": "Specify the regions where you do business",
-                            "notice": "Specify the countries, regions and cities where your company operates",
+                            "notice": "Specify the countries, regions and cities where your company is present",
                             "append": "Add country, region or city"
                         },
                         "roles": {
-                            "header": "What will you do on the site?",
+                            "header": "What will you do on the platform?",
                             "seller": {
-                                "title": "I will be bidding",
-                                "notice": "submit bids and win procurements or auctions"
+                                "title": "I will submit bids",
+                                "notice": "submit bids and win tenders"
                             },
                             "purchaser": {
-                                "title": "I will conduct the bidding",
+                                "title": "I will create tenders",
                                 "notice": "review bids and select winners"
                             }
                         },
                         "tags": {
-                            "header": "What kind of bidding will you participate in?",
-                            "title": "We'll pick up the bidding for you",
+                            "header": "What kind of tenders will you target?",
+                            "title": "We'll select the requests for you",
                             "notice": "Specify what you sell/buy, what services you provide",
                             "append": "Add tags (three at least)"
                         },
@@ -121,10 +121,10 @@
                             "header": "Your company is registered",
                             "seller": {
                                 "title": "You can now sell goods and services",
-                                "text": "• Participation is free of charge\n• No deposit is required for the application\n• Accreditation and EDS are not required"
+                                "text": "• Participation is free of charge\n• No deposit is required for the application\n• Onboarding and EDS are not required"
                             },
                             "purchaser": {
-                                "title": "Contact your personal manager\nto be authorized to place your requests"
+                                "title": "Contact your personal manager\nto create your requests"
                             }
                         }
                     },
@@ -137,19 +137,19 @@
             },
             "joining": {
                 "confirmation": {
-                    "title": "Join to your company",
+                    "title": "Join your company",
                     "text": "You will be able to work on behalf of your company once your company administrator has confirmed the application.",
                     "cancel": "Cancel",
                     "submit": "Join",
                     "success": "Application has been sent"
                 },
                 "unauthorized": {
-                    "text": "Log in or register to perform an action.",
+                    "text": "Log in or register to start.",
                     "cancel": "Cancel",
                     "submit": "Login / Register"
                 },
                 "loading": {
-                    "title": "Join to your company"
+                    "title": "Join your company"
                 }
             }
         }

@@ -2382,16 +2382,16 @@
                     "long": "Rights are not defined"
                 },
                 "1": {
-                    "short": "Tender management",
-                    "long": "Tender management"
+                    "short": "Tender Management",
+                    "long": "Tender Management"
                 },
                 "2": {
-                    "short": "Bids submission",
-                    "long": "Bids submission"
+                    "short": "Bids Submission",
+                    "long": "Bids Submission"
                 },
                 "4": {
                     "short": "Onboarding",
-                    "long": "Apply For Onboarding"
+                    "long": "Apply for Onboarding"
                 },
                 "8": {
                     "short": "Vendor Pools",

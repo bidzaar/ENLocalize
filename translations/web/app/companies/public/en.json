@@ -10,13 +10,13 @@
             },
             "empty": {
                 "message_primary": "Create a public company page",
-                "message_secondary": "Display your public requests and vendor pools to your partners, set participation terms such as information regarding goods or services you purchase, contacts of the tender committee..."
+                "message_secondary": "Display your public requests and vendor pools to your partners, set application terms such as information regarding goods or services you purchase, contacts of the tender committee..."
             },
             "defaults": {
                 "title": "Section for vendors",
-                "description": "We invite vendors who have the necessary qualifications and resources to supply the relevant goods, perform work, provide services with experience in the relevant field, experience in implementing similar projects, and also meet other requirements specified in the tender documents.",
+                "description": "We invite vendors who have the necessary qualifications and resources to supply the relevant goods, perform work, provide services with the knowledge in the relevant field and experience in implementing similar projects, also meet other requirements specified in the tender documents.",
                 "pools": {
-                    "placeholder": "The company hasn't published any pools on Bidzaar yet.",
+                    "placeholder": "The company hasn't published any vendor pools on Bidzaar yet.",
                     "title": "Vendor pools"
                 },
                 "tenders": {
@@ -35,8 +35,8 @@
                         "title": "Page title"
                     },
                     "description": {
-                        "header": "Block information for potential suppliers",
-                        "title": "Information for suppliers"
+                        "header": "Block information for potential vendors",
+                        "title": "Information for vendors"
                     },
                     "actions": {
                         "cancel": "Cancel",
@@ -75,20 +75,20 @@
                         "header": "Page title",
                         "empty": {
                             "message_primary": "Specify a page title",
-                            "message_secondary": "For example, \"Purchasing section for company suppliers\".\nThe title is important for users and search engines."
+                            "message_secondary": "For example, \"Purchasing section for company vendors\".\nThe title is important for users and search engines."
                         }
                     },
                     "description": {
                         "header": "Information for potential vendors",
                         "empty": {
-                            "message_primary": "Information for suppliers",
-                            "message_secondary": "Specify the terms and conditions for the participation in requests, the goods and services\nthat you buy, the contacts of the tender commission..."
+                            "message_primary": "Information for vendors",
+                            "message_secondary": "Specify the terms and conditions for the bid submission to the requests, the goods and services\nthat you buy, the contacts of the tender commission..."
                         }
                     },
                     "files": {
                         "empty": {
                             "message_primary": "Upload documents from vendors",
-                            "message_secondary": "For example, Participation terms and Bid submission,\nRequest Events..."
+                            "message_secondary": "For example, participation terms and bid submission details,\nrequest events..."
                         },
                         "header": "Documents for vendors"
                     },
