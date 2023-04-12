@@ -7,7 +7,7 @@
                     "list": "Template list"
                 },
                 "list": {
-                    "empty": "Templates not saved"
+                    "empty": "Templates are not saved"
                 },
                 "dialogs": {
                     "apply": {

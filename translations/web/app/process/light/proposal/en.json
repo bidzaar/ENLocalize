@@ -34,23 +34,23 @@
                     },
                     "description": {
                         "text": "Go through prequalification / NDA to get acquainted with the documentation of the request. ",
-                        "explanation": "It is required to complete prequalification and submit an offer before the deadline for accepting offers. Communication with the customer is in the request chat."
+                        "explanation": "It is required to complete prequalification and submit an bid before the deadline for accepting bids. Communication with the customer is in the request chat."
                     }
                 }
             },
             "registries": {
-                "title": "Accreditation",
-                "text": "To submit an offer, it is required to be accredited in these Customer registries:",
-                "open": "Open the registry",
+                "title": "Onboarding",
+                "text": "To submit a bid, it is required to be onboarded in these Vendor Pools:",
+                "open": "Open the vendor pool",
                 "status": {
-                    "false": "Not accredited",
-                    "true": "Accredited"
+                    "false": "Not onboarded",
+                    "true": "Onboarded"
                 },
                 "status_registry": {
-                    "accredited": "Accredited",
+                    "accredited": "Onboarded",
                     "accredited_date": "until {{value}}",
-                    "suspended": "In the process of accreditation",
-                    "not_accredited": "Not accredited"
+                    "suspended": "In the process of onboarding",
+                    "not_accredited": "Not onboarded"
                 }
             },
             "card": {
@@ -60,7 +60,7 @@
                         "text": "<strong class=\"banner-bold\">Change the sentence</strong> to increase the chance of winning.",
                         "button": "Start change"
                     },
-                    "edit": "<strong class=\"banner-bold\">Submit a modified bid.</strong> Now your old offer is available to the Customer:",
+                    "edit": "<strong class=\"banner-bold\">Submit a modified bid.</strong> Now your previous bid is available to the Buyer:",
                     "summarizing": "<strong class=\"banner-bold\">Update the documents</strong> in the \"Quotation and documentation\" section"
                 },
                 "title": {
@@ -112,7 +112,7 @@
                     "change": "Change bid",
                     "update": "Update bid",
                     "cancel": "Cancel changes",
-                    "recall": "Withdraw the bid",
+                    "recall": "Cancel the bid",
                     "order_service": "Order service"
                 },
                 "with_vat": "incl. VAT",
@@ -158,14 +158,14 @@
                 "changing": "Changing"
             },
             "confirm_recall_dialog": {
-                "title": "Withdraw the bid?",
+                "title": "Cancel the bid?",
                 "text": "This bid will be unavailable to the customer and other vendors.\nBid can be edited and submitted again before the end of submission period",
                 "cancel": "Cancel",
-                "submit": "Withdraw the bid"
+                "submit": "Cancel the bid"
             },
             "esg": {
                 "title": "Sustainable growth of your business",
-                "text": "Certify and get your ESG provider status",
+                "text": "Certify and get your ESG vendor status",
                 "link": "More about ESG"
             }
         }

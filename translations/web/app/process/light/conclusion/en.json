@@ -137,7 +137,7 @@
                             }
                         },
                         "alternative": {
-                            "tooltip": "Alternative suggestion - {{value}}",
+                            "tooltip": "Alternative bid - {{value}}",
                             "icon": "a"
                         },
                         "docs": {
@@ -189,8 +189,8 @@
                     },
                     "promo": {
                         "title": "Procure goods and services to fulfil the order",
-                        "text": "Our managers will help you make your purchase as quickly as possible <b>for free</b>!",
-                        "order": "Order a purchase"
+                        "text": "Our managers will help you complete your tender as quickly as possible <b>for free</b>!",
+                        "order": "Make an order"
                     }
                 },
                 "dialogs": {
