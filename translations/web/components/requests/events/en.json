@@ -31,7 +31,7 @@
                     "title": "Event source",
                     "options": {
                         "0": "Owner",
-                        "1": "Supplier",
+                        "1": "Vendor",
                         "2": "Site"
                     }
                 }
@@ -47,7 +47,7 @@
                     "label": "Reason:",
                     "default": "The customer has made significant changes to the request"
                 },
-                "summing": "Participants with an offer: {{ participants }}",
+                "summing": "Vendors with a bid: {{ vendors }}",
                 "prolongation": "(before {{ date}})",
                 "reports": {
                     "comparison": "Comparison table",
@@ -62,12 +62,12 @@
                         "orderFor": "Order for {{value }}"
                     },
                     "participant": {
-                        "winner": "The customer chose you as the winner",
-                        "loser": "The customer chose another company as the winner",
+                        "winner": "The customer selected you as the winner",
+                        "loser": "The customer selected another company as the winner",
                         "nobody": "The request is completed without selecting a winner"
                     }
                 },
-                "tariff": "Tariff: {{ value }}"
+                "tariff": "Comission: {{ value }}"
             },
             "proposals": {
                 "price": "{{ price }} {{ currency }}",
@@ -89,17 +89,17 @@
             "7": "Request is completed.",
             "8": "Completed request is returned to conclusion stage",
             "9": "Participation is confirmed",
-            "10": "Invalid proposal is submitted",
-            "11": "Proposal is submitted",
-            "12": "Proposal is recalled",
-            "13": "Participant is blocked",
-            "14": "Participant is unblocked",
-            "15": "Participant refused",
+            "10": "Invalid bid is submitted",
+            "11": "Bid is submitted",
+            "12": "Bid is recalled",
+            "13": "Vendor is blocked",
+            "14": "Vendor is unblocked",
+            "15": "Vendor refused",
             "16": "The Purchaser authorised to break the price change rule by the Bidder",
             "17": "Request Team. User is added",
             "18": "Request Team. User is removed",
             "19": "Request Team. User role is changed",
-            "20": "The tariff is changed",
+            "20": "The comission is changed",
             "21": "Promo code applied"
         }
     }

@@ -178,7 +178,7 @@
                 "number_range": "Number Range",
                 "attachment": "Attachment",
                 "formula": "Variable",
-                "tree": "Selection from the directory"
+                "tree": "Selection from the list"
             },
             "validation_types": {
                 "boolean": "",

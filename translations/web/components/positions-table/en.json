@@ -16,7 +16,7 @@
             "delete": "Delete"
         },
         "documents_menu": {
-            "title": "Allow attaching documents to positions",
+            "title": "Allow attaching documents to items",
             "info": "Enabled option gives members the ability to attach documents to line items"
         },
         "index_cell": {
@@ -33,8 +33,8 @@
             "target_cost_tooltip": "Specify the price, which will be a guide when choosing.\nThe price is displayed only to you - members will not see it.",
             "files": "Files",
             "availability": "Availability",
-            "header_tooltip": "Filled by supplier",
-            "deviation_tooltip": "The field is available if the request parameter Supply volume will be set as Deviation allowed by positions and quantity",
+            "header_tooltip": "Filled by vendor",
+            "deviation_tooltip": "The field is available if the request parameter Supply volume will be set as Deviation allowed by items and quantity",
             "vat": "VAT rate",
             "price": "Price for unit",
             "currency": "Currency",

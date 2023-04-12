@@ -28,7 +28,7 @@
                 },
                 "2": {
                     "name": "Owner",
-                    "descr": "Edit, publish and complete request, review the bids of the participants"
+                    "descr": "Edit, submit and complete request, review the bids of the vendors"
                 }
             },
             "participant_business_status": {
@@ -54,8 +54,8 @@
                 "Process.Light.Proposal.Price.MaxValueExceeded": "The bid price must be less than 99 billions.",
                 "Process.Light.Proposal.Price.StartPrice.Auction": "The bid price is lower than min price: <b>{{ LowerThan }} {{ BaseCurrency }}</b>, specified by the Customer.",
                 "Process.Light.Proposal.Price.StartPrice.Reduction": "The bid price is higher than max price: <b>{{ GreaterThan }} {{ BaseCurrency }}</b>, specified by the Customer.",
-                "Process.Light.Proposal.Price.RuleMismatch.Auction": "The new bid price violates the rule of price changes. Recommended price: <b>{{ GreaterThan }} {{ BaseCurrency }} or more</b>. It is allowed to submit an offer with the previous price.",
-                "Process.Light.Proposal.Price.RuleMismatch.Reduction": "The new bid price violates the rule of price changes. Recommended price: <b>{{ LowerThan }} {{ BaseCurrency }} or less</b>. It is allowed to submit an offer with the previous price.",
+                "Process.Light.Proposal.Price.RuleMismatch.Auction": "The new bid price violates the rule of price changes. Recommended price: <b>{{ GreaterThan }} {{ BaseCurrency }} or more</b>. It is allowed to submit a bid with the previous price.",
+                "Process.Light.Proposal.Price.RuleMismatch.Reduction": "The new bid price violates the rule of price changes. Recommended price: <b>{{ LowerThan }} {{ BaseCurrency }} or less</b>. It is allowed to submit a bid with the previous price.",
                 "Process.Light.Proposal.Price.RuleMismatch.RaiseReduce": "The new bid price violates the rule of price changes. Recommended price: <b>{{ GreaterThan}} {{ BaseCurrency }} and more or {{ LowerThan }} {{ BaseCurrency }} and less</b>. It is allowed to submit an offer with the previous price.",
                 "Process.Light.Proposal.Item.CurrencyIsNotValid": "b>{{ PositionName }}.</b> The currency ({{ Currency }}) is not included in the list of currencies specified in the request rules.",
                 "Process.Light.Proposal.Item.VatIsNotValid": "<b>{{ PositionName }}.</b> Incorrect value of the VAT rate.",
@@ -72,7 +72,7 @@
                 "Process.Light.Proposal.Item.CustomField.Required": "  <b>{{ PositionName }}.</b> Value \"{{ FieldName }}\" does not filled",
                 "Process.Light.Proposal.Item.ReferencePrice.Reduction": "<b>{{ PositionName }}.</b> Unit price must be reduced to {{ LowerThan }} {{BaseCurrency}} or lower, or set to the previous price ({{ PreviousPrice }} {{ BaseCurrency }})",
                 "Process.Light.Proposal.Item.ReferencePrice.Auction": "<b>{{ PositionName }}.</b> Unit price must be increased to {{ GreaterThan }} {{BaseCurrency}} or higher, or set to the previous price ({{ PreviousPrice }} {{ BaseCurrency }})",
-                "Process.Light.Procedure.VersionMismatch": "The customer changed the application, your proposal is no longer relevant. Review the changes and update the proposal.",
+                "Process.Light.Procedure.VersionMismatch": "The customer changed the application, your bid is no longer relevant. Review the changes and update the proposal.",
                 "Process.Light.Proposal.Item.DontHaveAnyOnNoneDeviation": "<b>{{ PositionName }}.</b> Full delivery required"
             }
         },

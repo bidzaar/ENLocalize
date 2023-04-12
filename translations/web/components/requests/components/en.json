@@ -70,7 +70,7 @@
                     "label": "Number of alternative bids",
                     "tooltip": "Specify how many alternative bids a vendor can submit",
                     "error": "Specify a number from 0 to 10",
-                    "count": "Possible number of offers, in addition to the main one: {{value }}",
+                    "count": "Possible number of bids, in addition to the main one: {{value }}",
                     "none": "It is forbidden to submit alternative bids"
                 },
                 "price_null": "Not specified",
