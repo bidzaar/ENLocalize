@@ -48,7 +48,7 @@
                     "collapse": "Collapse",
                     "empty": {
                         "filter": "The search has not given any results",
-                        "items": "Your company has not published any registries. You can create and publish a vendor pool in the registry management section."
+                        "items": "Your company has not published any vendor pools. You can create and publish a vendor pool in the vendor pool management section."
                     }
                 }
             },
@@ -56,17 +56,17 @@
                 "default": {
                     "title": "You do not have access to this part of the vendor pool.",
                     "text": "Contact your vendor pool administrator to obtain rights in the vendor pool.",
-                    "link": "To the list of registries"
+                    "link": "To the list of vendor pools"
                 },
                 "rights": {
                     "title": "You do not have access to this part of the vendor pool.",
                     "text": "Contact your vendor pool administrator to obtain rights in the vendor pool \"{{ value }}\".",
-                    "link": "To the list of registries"
+                    "link": "To the list of vendor pools"
                 },
                 "archive": {
                     "title": "The work with the vendor pool has been stopped.",
                     "text": "The vendor pool \"{{ value }}\" is archived.\nHave questions? Contact your Vendor Pool Administrator.",
-                    "link": "To the list of registries"
+                    "link": "To the list of vendor pools"
                 }
             },
             "application": {
@@ -118,7 +118,7 @@
                         },
                         "3": {
                             "title": "Suspend onboarding",
-                            "description": "The company is temporarily losing its onboarding to this vendor pool. To update onboarding, a company can reapply"
+                            "description": "The company has temporarily failed to get onboarding to this vendor pool. To update onboarding, a company can reapply"
                         },
                         "4": {
                             "title": "Update onboarding",

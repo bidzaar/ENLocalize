@@ -84,7 +84,7 @@
                 "error_dialog": {
                     "obsolete": {
                         "title": "Application is out of date",
-                        "text": "The vendor pool owner has updated the questionnaire. Update your application. Make sure that all blocks of the application are ready and repeat the action."
+                        "text": "The vendor pool owner has updated the questionnaire. Update your application. Make sure that all sections of the application are ready and repeat the action."
                     },
                     "block_is_not_complete": {
                         "title": "Application form not completed",
