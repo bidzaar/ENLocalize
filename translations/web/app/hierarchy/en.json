@@ -77,7 +77,7 @@
             },
             "registry": {
                 "accreditations": {
-                    "tooltip": "Accredited companies"
+                    "tooltip": "Onboarded companies"
                 },
                 "applications": {
                     "tooltip": "Unprocessed applications "
@@ -108,7 +108,7 @@
                 "override": "Override inherited permissions",
                 "cancel": "Cancel",
                 "submit": "Done",
-                "no_rights": "The employee does not have access to the Vendor pool module. Setting permissions will be available after providing access by the company administrator",
+                "no_rights": "The employee does not have access to the Vendor Pool Module. Setting permissions will be available after providing access by the company administrator",
                 "no_permissions": "The available permissions for the group are not assigned. Contact the head of the department",
                 "allowed_permissions": "The list is limited by the allowed group permissions"
             },
@@ -119,11 +119,11 @@
                 },
                 "2": {
                     "title": "View requests",
-                    "description": "Viewing companies requests. The visibility of blocks in the application is determined in the vendor pools settings."
+                    "description": "Viewing companies requests. The visibility of sections in the application is determined in the vendor pools settings."
                 },
                 "4": {
                     "title": "Approve",
-                    "description": "Approve companies requests. The composition of the accreditation commission is determined in the vendor pools settings."
+                    "description": "Approve companies requests. The composition of the onboarding commission is determined in the vendor pools settings."
                 },
                 "8": {
                     "title": "Vendor pool setting",
