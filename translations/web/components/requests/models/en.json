@@ -49,7 +49,7 @@
             "proposal": {
                 "Process.Light.Proposal.Answers.Required": "Non-price bid criteria not completed.",
                 "Process.Light.Proposal.MainProposalShouldBeSubmitted": "An alternative bid can only be submitted after the primary bid.",
-                "Process.Light.Proposal.Price.InvalidProposalCurrency": "The bid currency ({{ Currency }}) is not included in the list of currencies specified in the request rules.",
+                "Process.Light.Proposal.Price.InvalidProposalCurrency": "The bid currency ({{ Currency }}) is not included in the list of currencies specified in the tender rules.",
                 "Process.Light.Proposal.Price.MinValueSubceeded": "The bid price must be greater than zero.",
                 "Process.Light.Proposal.Price.MaxValueExceeded": "The bid price must be less than 99 billions.",
                 "Process.Light.Proposal.Price.StartPrice.Auction": "The bid price is lower than min price: <b>{{ LowerThan }} {{ BaseCurrency }}</b>, specified by the Customer.",
@@ -57,7 +57,7 @@
                 "Process.Light.Proposal.Price.RuleMismatch.Auction": "The new bid price violates the rule of price changes. Recommended price: <b>{{ GreaterThan }} {{ BaseCurrency }} or more</b>. It is allowed to submit a bid with the previous price.",
                 "Process.Light.Proposal.Price.RuleMismatch.Reduction": "The new bid price violates the rule of price changes. Recommended price: <b>{{ LowerThan }} {{ BaseCurrency }} or less</b>. It is allowed to submit a bid with the previous price.",
                 "Process.Light.Proposal.Price.RuleMismatch.RaiseReduce": "The new bid price violates the rule of price changes. Recommended price: <b>{{ GreaterThan}} {{ BaseCurrency }} and more or {{ LowerThan }} {{ BaseCurrency }} and less</b>. It is allowed to submit an offer with the previous price.",
-                "Process.Light.Proposal.Item.CurrencyIsNotValid": "b>{{ PositionName }}.</b> The currency ({{ Currency }}) is not included in the list of currencies specified in the request rules.",
+                "Process.Light.Proposal.Item.CurrencyIsNotValid": "b>{{ PositionName }}.</b> The currency ({{ Currency }}) is not included in the list of currencies specified in the tender rules.",
                 "Process.Light.Proposal.Item.VatIsNotValid": "<b>{{ PositionName }}.</b> Incorrect value of the VAT rate.",
                 "Process.Light.Proposal.Item.DeviationUnavailableByPosition": "<b>{{ PositionName }}.</b> Delivery in full is required, or indicate \"Not available\".",
                 "Process.Light.Proposal.Item.DeviationUnavailable": "<b>{{ PositionName }}.</b> Quantity does not match the requirements of the request",

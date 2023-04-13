@@ -97,8 +97,8 @@
                             "true": "Not available",
                             "false": "Available"
                         },
-                        "deviation_tooltip": "Deviation from the quantity in the request",
-                        "deviation_error_tooltip": "Deviation from the quantity in the request is not allowed",
+                        "deviation_tooltip": "Deviation from the quantity in the tender",
+                        "deviation_error_tooltip": "Deviation from the quantity in the tender is not allowed",
                         "free": "Free",
                         "auction_error_tooltip": "Your unit price in {{currency}} ({{price}} {{currency}}) below the minimum price per unit specified by the Customer ({{startPrice}} {{currency}})",
                         "reduction_error_tooltip": "Your unit price in {{currency}} ({{price}} {{currency}}) exceeds the maximum price per unit specified by the Customer ({{startPrice}} {{currency}})",
@@ -133,7 +133,7 @@
                             },
                             "count": {
                                 "label": "Quantity",
-                                "deviation": "Deviation from the quantity in the request"
+                                "deviation": "Deviation from the quantity in the tender"
                             },
                             "price": {
                                 "label": "Price per unit",

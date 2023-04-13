@@ -59,7 +59,7 @@
                 },
                 "demote_self": {
                     "title": "Attention!",
-                    "text": "You are removing the group leader's right. To restore the rights contact a company employee with the \"Group Manager\" permission ",
+                    "text": "You are removing the group leader's right. To update the rights contact a company employee with the \"Group Manager\" permission ",
                     "cancel": "Cancel",
                     "submit": "Continue"
                 }

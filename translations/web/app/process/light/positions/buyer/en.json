@@ -13,7 +13,7 @@
                     "title": "<b>Invalid file format.</b> Select the file with the extension \".xlsx\"."
                 },
                 "Process.Light.Import.Positions.InvalidFile": {
-                    "title": "<b>The file does not match the specification for the items in the request</b>. Download the actual template and upload it again."
+                    "title": "<b>The file does not match the specification for the items in the tender</b>. Download the actual template and upload it again."
                 },
                 "Process.Light.Import.Positions.FileHasErrors": {
                     "title": "<b>Items with errors are not loaded.</b> Correct the errors and upload again.",
@@ -107,9 +107,9 @@
                     "insert": "Insert",
                     "remove": "Remove",
                     "deviation": "The field is available if the request parameter Supply volume will be set as Deviation allowed by items and quantity",
-                    "target_price": "Specify the price, which will be a guide when choosing.\nThe price is displayed only to you - members will not see it.",
-                    "max_price": "The maximum price a vendor can offer for an item.\nVendor cannot exceed the specified price",
-                    "min_price": "The lowest price a vendor can offer for an item.\nVendor cannot offer a lower price",
+                    "target_price": "Specify the price, which will be a guide for selecting vendors.\nThe price is displayed only to you - members will not see it.",
+                    "max_price": "Vendor can set a maximum price for an item.\nVendor cannot exceed the specified price",
+                    "min_price": "Vendor can set a minimum price for an item.\nVendor cannot offer a lower price",
                     "expected_price": "The price per item expected from the vendor.\nThe customer expects a specified or lower price"
                 }
             },

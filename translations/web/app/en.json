@@ -793,7 +793,7 @@
     "notifications": {
         "list": {
             "header": "notifications",
-            "load": "load more",
+            "load": "add more",
             "templates": {
                 "default": "unknown notification",
                 "pool": {
@@ -808,7 +808,7 @@
                         "company": "The company {{company}}",
                         "procedure": "has invited you to the request \"{{procedure}}\""
                     },
-                    "losed": "Request \"{{procedure}}\" completed, You lost",
+                    "losed": "Request \"{{procedure}}\" completed, You did not get the order",
                     "published": "Request submitted: \"{{procedure}}\"",
                     "removed": "You have been removed from the request \"{{procedure}}\"",
                     "won": "You won the request \"{{procedure}}\""
@@ -1539,7 +1539,7 @@
                         },
                         "editPool": {
                             "title": "Change questionnaire",
-                            "description": "If you change the questionnaire, vendors will lose the status of onboarded to the vendor pool. To renew the status, vendors must submit applications taking into account the changes made. Changes can be undone, in this case the onboarding status will remain the same."
+                            "description": "If you change the questionnaire, vendors will not receive the status of onboarded to the vendor pool. To renew the status, vendors must submit applications taking into account the changes made. Changes can be undone, in this case the onboarding status will remain the same."
                         },
                         "clonePool": {
                             "title": "Dublicate vendor pool",
