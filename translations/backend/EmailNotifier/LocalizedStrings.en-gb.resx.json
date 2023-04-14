@@ -1,5 +1,5 @@
 {
     "CompleteReason.DontNeedAnyMore": "There are no need to make a request",
-    "CompleteReason.NoSuitableProposalFound": "There are no suitable offers",
-    "Custom.OwnerMessage": "Requester's message:"
+    "CompleteReason.NoSuitableProposalFound": "There are no suitable bids",
+    "Custom.OwnerMessage": "Buyer's message:"
 }
