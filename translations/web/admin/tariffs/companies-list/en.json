@@ -10,13 +10,13 @@
             "rights": {
                 "0": "Rights not assigned",
                 "1": "Buyer",
-                "2": "Supplier",
-                "4": "Accreditation",
+                "2": "Vendor",
+                "4": "Onboarding",
                 "8": "Pool management",
                 "16": "CC",
                 "128": "Hands. procurement",
                 "512": "Registries",
-                "2048": "Accreditation in pools"
+                "2048": "Onboarding to the vendor pools"
             }
         },
         "invite": {
@@ -53,7 +53,7 @@
                     "registration_date": "Registration date"
                 },
                 "search": "TIN, Brand, Legal Name, Company Code, Description, Legal Address, Tags, Phone, Email",
-                "empty": "Nothing was found for your query...",
+                "empty": "Nothing was found for your request...",
                 "crm": "CRM",
                 "actions": {
                     "notify_users_tooltip": "Send email"
@@ -62,11 +62,11 @@
             "success": "Companies added"
         },
         "dialog": {
-            "title": "Cancel the tariff package",
-            "text": "The standard tariff package will be valid in the company's requests.",
+            "title": "Cancel the comission package",
+            "text": "The standard comission package will be valid in the company's requests.",
             "sub": "Apply",
             "cancel": "Cancel"
         },
-        "empty": "Add customers for whom the tariff package will be applied"
+        "empty": "Add customers for whom the comission package will be applied"
     }
 }

@@ -111,7 +111,7 @@
                     "errors": {
                         "no_active_version": "The vendor pool does not contain a valid profile",
                         "no_active_formula": "The questionnaire does not contain a scoring formula",
-                        "no_deferred_formula": "The questionnaire that comes into force does not contain a scoring formula"
+                        "no_deferred_formula": "The questionnaire is active does not contain a scoring formula"
                     }
                 },
                 "actions": {
@@ -214,7 +214,7 @@
                 "title": "Vendor pool questionnaire",
                 "card_title": "Questionnaire version",
                 "version": "Version",
-                "did_not_come_into_force": "did not come into force",
+                "did_not_come_into_force": "was not activated",
                 "dates": {
                     "from": "from {{ value }}",
                     "to": "until {{ value }}"
@@ -364,7 +364,7 @@
                         "ByRequest": {
                             "Questionnaire.Deferred.NotExists": {
                                 "title": "Questionnaire",
-                                "text": "The vendor pool questionnaire has not been put into force. We recommend using the questionnaire to obtain detailed information about the applicant company."
+                                "text": "The vendor pool questionnaire has not been activated. We recommend using the questionnaire to obtain detailed information about the applicant company."
                             },
                             "Questionnaire.Active.NotExists": {
                                 "title": "Questionnaire",
@@ -396,20 +396,20 @@
                             },
                             "Questionnaire.Deferred.NoScoring": {
                                 "title": "Questionnaire",
-                                "text": "The questionnaire that comes into force does not contain a scoring formula. Set up the scoring formula."
+                                "text": "The questionnaire is active does not contain a scoring formula. Set up the scoring formula."
                             }
                         }
                     }
                 },
                 "activate": {
-                    "title": "Launch questionnaire",
+                    "title": "Activate questionnaire",
                     "immediately": "Immediately",
                     "from_date": "From the specified date",
                     "cancel": "Cancel",
                     "submit": "Submit",
                     "timezone": "MSK 00:01",
                     "immediately_snack": "The questionnaire has been launched",
-                    "from_date_snack": "The questionnaire will come into force on the specified date",
+                    "from_date_snack": "The questionnaire will be active on the specified date",
                     "errors": {
                         "is_not_draft": "Questionnaire status has been changed",
                         "common_error": "The questionnaire section \"{{value}}\" contains configuration errors.",

@@ -1,8 +1,8 @@
 {
     "request.view": {
         "tabs": {
-            "query": "Query",
-            "participants": "Participants",
+            "query": "Request",
+            "participants": "Vendors",
             "events": "Events"
         }
     }

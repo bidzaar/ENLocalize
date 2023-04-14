@@ -116,7 +116,7 @@
             }
         },
         "manager": {
-            "search_tooltip": "The search is carried out by the fields:\n• Number\n• Name\n• Description\n• Query tags\n• Customer"
+            "search_tooltip": "The search is carried out by the fields:\n• Number\n• Name\n• Description\n• Request tags\n• Customer"
         },
         "participantions": {
             "title": "Manage my bids",

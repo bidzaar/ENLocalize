@@ -3,7 +3,7 @@
     "OpisanieZaprosa": "• Request description",
     "ValyutaZaprosa": "• Request currency",
     "DobavlenSoputstvuyushchiyDokumentCurrentValue": "• Added supporting document: {CurrentValue}",
-    "IzmenenSoputstvuyushchiyDokumentPreviousValueCurrentValue": "• Changed companion document: {PreviousValue}: {CurrentValue}",
+    "IzmenenSoputstvuyushchiyDokumentPreviousValueCurrentValue": "• Changed supporting document: {PreviousValue}: {CurrentValue}",
     "UdalenSoputstvuyushchiyDokumentPreviousValue": "• Removed accompanying document: {PreviousValue}",
     "DobavlenoMestoPostavkiCurrentValue": "• Added place of delivery: {CurrentValue}",
     "UdalenoMestoPostavkiPreviousValue": "• Removed place of delivery: {PreviousValue}",
