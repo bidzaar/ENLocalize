@@ -224,7 +224,7 @@
                     "change_step": "Changing step",
                     "down": "Down",
                     "important": "Important:",
-                    "info": "the price will be changed proportionally for each item. Subject to rounding, a deviation from the indicated New Price is possible. To change prices for individual items, go to the Items Specification in your bid.",
+                    "info": "Important: the price will be changed proportionally for each item. There may be deviations due to rounding of the New Price. To change prices for individual items, go to the Specification of Items in your quotation.",
                     "new_price": "New price",
                     "reduction_step": "Reduction step",
                     "auction_step": "Price increase step",
@@ -241,7 +241,7 @@
                         "title": "Price change is not available now"
                     },
                     "errors": {
-                        "refused": "Your company refused to participate in the request",
+                        "refused": "Your company refused to participate in the tender",
                         "blocked": "The customer excluded you from the request",
                         "draft": "The bid is in the edit mode. Update the bid on the \"Bid\" tab",
                         "recalled": "The bid was temporarily unavailable, please refresh the page and try again",
@@ -390,7 +390,7 @@
                     "no_files_or_comment": "No comments and files",
                     "private": "Private answer"
                 },
-                "rank": "Proposal rank",
+                "rank": "Bid ranking",
                 "rank_inaccessible": "Rank unavailable",
                 "selected_participants": "Bids in selection",
                 "timer": "Time left",
@@ -427,7 +427,7 @@
                 "fast_price_change_not_available_dialog": {
                     "title": "Fast price change not available",
                     "text": "The bid is under revision.\nFinish editing and update the bid on the Bid tab.",
-                    "submit": "Go to the bid",
+                    "submit": "View quotation",
                     "cancel": "Cancel"
                 },
                 "sorting": {
@@ -493,7 +493,7 @@
                     },
                     "status_changed": {
                         "title": "Acceptance of bids completed",
-                        "text": "The request has been transferred to the stage of summing up"
+                        "text": "The request has been transferred to the stage of final summary"
                     },
                     "completed": {
                         "title": "Request completed",
@@ -569,7 +569,7 @@
                 "leave": {
                     "header": "Decline to submit a bid",
                     "no": "Cancel",
-                    "success": "You have declined to submit a bid in the request",
+                    "success": "You have declined to submit a bid to the request",
                     "text": "Your bid will not be saved if you decline to submit it",
                     "yes": "Refuse"
                 },
@@ -695,7 +695,7 @@
                                 "notice": ""
                             },
                             "NotDefined": {
-                                "title": "Tariff is not selected",
+                                "title": "Comission is not selected",
                                 "notice": ""
                             }
                         },
@@ -731,9 +731,9 @@
                             "2": "We will notify the vendors about the new stage"
                         },
                         "subtitle": {
-                            "0": "You can supplement our letter with your message to the vendors",
-                            "1": "You can supplement our letter with your message to the vendors",
-                            "2": "You can supplement our letter with your message to the vendors"
+                            "0": "You can add our letter for your message to the vendors",
+                            "1": "You can add our letter for your message to the vendors",
+                            "2": "You can add our letter for your message to the vendors"
                         }
                     }
                 },
@@ -758,7 +758,7 @@
                 "wrong_status": {
                     "Process": {
                         "Light": {
-                            "Denied": "Unable to participate in the request.",
+                            "Denied": "Unable to participate in the tender.",
                             "Procedure": {
                                 "Canceled": "Request denied. The status of the request has changed.",
                                 "Deleted": "Request denied. The status of the request has changed.",
@@ -817,7 +817,7 @@
                     "form_placeholder": "Reason...",
                     "cancel": "Cancel",
                     "submit": "Return for summary",
-                    "success": "The request has been transferred to the stage of summing up",
+                    "success": "The request has been transferred to the stage of final summary",
                     "order": "The selection for <span class=\"price\">{{value}} {{currency}}</span> will be cancelled.",
                     "label_empty": "Return request for summarizing?",
                     "mail": {
@@ -1156,12 +1156,12 @@
                                 "text": "Refresh the page or re-enter the request to see the result"
                             },
                             "errors": {
-                                "title": "Participation in the request is not possible",
+                                "title": "Participation in the tender is not possible",
                                 "access_denied": "This request was posted by your company. Contact the owner of the request to gain access",
                                 "status_summarize": "Acceptance of bids is completed, the request is at the \"Summing up\" stage",
                                 "status_finished": "Request completed",
                                 "status_canceled": "Request canceled",
-                                "private": "The circle of vendors in the request is limited. Contact the Customer to receive",
+                                "private": "The circle of vendors in the tender is limited. Contact the Customer to receive",
                                 "unknown": "Please contact tech support, we will help you"
                             }
                         }
@@ -1571,7 +1571,7 @@
                             "title": "Submit"
                         },
                         "leaveProcedure": {
-                            "description": "Decline to submit a bid in the request. You can re-take part in the request later.",
+                            "description": "Decline to submit a bid to the request. You can re-take part in the tender later.",
                             "title": "Decline to submit a bid"
                         },
                         "publishProcedure": {
@@ -1649,7 +1649,7 @@
                                 "message": "Submit a bid until {{acceptanceEndDate}} ({{acceptanceEndDays}} left).\n\nVendors have access to the chat with buyer."
                             },
                             "no_auth": {
-                                "message": "Bids submission to the request is available only to registered users.\nRegister or login to see all the information and take part in the request."
+                                "message": "Bids submission to the request is available only to registered users.\nRegister or login to see all the information and participate in the tender."
                             },
                             "no_company": {
                                 "message": "Register your company to submit bids to the request. Company already registered? Contact your company administrator."
@@ -1839,7 +1839,7 @@
                                 }
                             },
                             "refused": {
-                                "message": "You have declined to submit a bid in the request. You can submit a bid again until {{acceptanceEndDate}} ({{acceptanceEndDays}} left)."
+                                "message": "You have declined to submit a bid to the request. You can submit a bid again until {{acceptanceEndDate}} ({{acceptanceEndDays}} left)."
                             }
                         },
                         "summarize": {

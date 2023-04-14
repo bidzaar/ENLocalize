@@ -1994,9 +1994,9 @@
                             "from": "from"
                         },
                         "text": {
-                            "free-for-company": "<span class=\"free\">Participation in the request is free, without deposits and blocking of funds!</span> Your company will not pay operator's reward if you are declared the winner of the request.",
-                            "free-for-request": "<span class=\"free\">Participation in the request is free, without deposits and blocking of funds!</span> At the current request, the operator's reward will not be charged if you are declared the winner of the request.",
-                            "payment": "<span class=\"free\">Participation in the request is free, without deposits and blocking of funds!</span> The Service operator's Commission is payable only by the winner of the request as determined by the client and is independent of the actual conclusion of the contract between the client and the winner and the signing of other legally binding documents based on the results of the request."
+                            "free-for-company": "<span class=\"free\">Participation in the tender is free, without deposits and blocking of funds!</span> Your company will not pay operator's reward if you are declared the winner of the request.",
+                            "free-for-request": "<span class=\"free\">Participation in the tender is free, without deposits and blocking of funds!</span> At the current request, the operator's reward will not be charged if you are declared the winner of the request.",
+                            "payment": "<span class=\"free\">Participation in the tender is free, without deposits and blocking of funds!</span> The Service operator's Commission is payable only by the winner of the request as determined by the client and is independent of the actual conclusion of the contract between the client and the winner and the signing of other legally binding documents based on the results of the request."
                         },
                         "total": {
                             "multi": "The amount of the Service operator's Commission depends on the amount of the order and is as follows:",

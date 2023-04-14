@@ -49,7 +49,7 @@
                 "open_type": {
                     "label": "Type of request",
                     "tooltips": {
-                        "0": "The circle of vendors in the request is not limited",
+                        "0": "The circle of vendors in the tender is not limited",
                         "1": "The request is available for viewing and bids submission to invited vendors only",
                         "editable": "Open – the circle of vendors is not limited. Closed – available for viewing and bids submission to invited vendors only"
                     }
@@ -84,7 +84,7 @@
                 },
                 "reduction_price": {
                     "errors": {
-                        "best_price_unavailable": "Value \"best bid\" is available if:\n • Volume of the bid = Full satisfaction\n • What the vendors see = Competitors' bids\n • Price change rule = Reduction or Auction",
+                        "best_price_unavailable": "Value \"best bid\" is available if:\n • Volume of the bid = Met requirements\n • What the vendors see = Competitors' bids\n • Price change rule = Reduction or Auction",
                         "step_over_start_price": "The change step exceeds the maximum price",
                         "step_range_absolute": "The range of the change step in currency: 0.01-100000",
                         "step_range_percent": "The range of the change step in percent: 0.01-10"
@@ -92,7 +92,7 @@
                     "label": "Minimum price change step",
                     "of": "from",
                     "reference": {
-                        "0": "your suggestion",
+                        "0": "your bid",
                         "1": "the best bid",
                         "2": "according to the items of your bid",
                         "3": "according to the items of the best bid"
@@ -117,7 +117,7 @@
                     "2": "Auction (vendors can only raise the price)"
                 },
                 "proposal_deviation_type": {
-                    "0": "Full satisfaction on items and quantity",
+                    "0": "Items and quantity met requirements",
                     "1": "Acceptable deviation of items and quantity"
                 },
                 "other_participants_visibility": {
