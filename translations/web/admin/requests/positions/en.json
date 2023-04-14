@@ -1,6 +1,6 @@
 {
     "req.positions": {
-        "title": "Position specification",
+        "title": "Item specification",
         "price": {
             "auction": {
                 "label": "Minimum price",

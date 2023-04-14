@@ -4,7 +4,7 @@
     "Application.Scoring": "Scoring",
     "Page.Title": "Bidzaar",
     "Participant.State.Accreditated": "Onboarded",
-    "Participant.State.Active": "In the accreditation process",
+    "Participant.State.Active": "In the onboarding process",
     "Participant.State.Blocked": "Blocked",
     "Participant.State.Expired": "Onboarding expired",
     "Participant.State.Invited": "Invited to the vendor pool",
