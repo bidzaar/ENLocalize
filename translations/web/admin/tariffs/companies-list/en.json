@@ -12,11 +12,10 @@
                 "1": "Buyer",
                 "2": "Vendor",
                 "4": "Onboarding",
-                "8": "Pool management",
                 "16": "CC",
                 "128": "Hands. procurement",
-                "512": "Vendor pools",
-                "2048": "Onboarding to the vendor pools"
+                "256": "Group Administrator",
+                "512": "Vendor pools"
             }
         },
         "invite": {

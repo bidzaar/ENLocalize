@@ -93,5 +93,9 @@
     "RisePermitted": "You can change the price of your bid that violates the bidding rule once.",
     "RoundProcedure": "Attention, a new bidding round has been announced! Better bid will increase your chances of winning!",
     "UnCompleteProcedure": "The customer has returned the request to the bids submission stage. Reason: \"{Comment}\".",
-    "ProcedureTariffChanged": "The Service operator's fee for the current Request has been changed. The continued participation of Vendors in the Tenders means acceptance of the changes, in case of disagreement, the Vendor must refuse to participate in the Tender."
+    "ProcedureTariffChanged": "The Service operator's fee for the current Request has been changed. The continued participation of Vendors in the Tenders means acceptance of the changes, in case of disagreement, the Vendor must refuse to participate in the Tender.",
+    "ProposalRejected": "The customer rejected your proposal \"{ProposalType}\". Reason: {Reason}.",
+    "ProposalRejected.ProposalType.Alternative": "Alternative",
+    "ProposalRejected.ProposalType.Main": "Main",
+    "ProcedureEndedBroadcastWithoutOrder": "The request has ended without a winner being selected. Reason: {reason}. Thanks to all participants!"
 }

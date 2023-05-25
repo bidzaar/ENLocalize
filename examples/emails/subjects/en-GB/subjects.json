@@ -41,7 +41,7 @@
   "ReviewCompanyNotification": "🔴 Confirm the details of the company",
   "ErrorNotification": "🔴 Something went wrong",
   "StartRoundProcedureEvent": "🔴 Records of proposals are again open: \"@ProcedureContext.ProcedureName\"",
-  "SummingUpProcedureReminderEvent": "🔴 48 hours left until submission closing: \"@ProcedureContext.ProcedureName\"",
+  "SummingUpProcedureReminderEvent": "🔴 @SummingUpProcedureReminderPrecontext.Hours hours left until submission closing: \"@ProcedureContext.ProcedureName\"",
   "FinishRoundProcedureEvent": "🔴 Submission closed \"@ProcedureContext.ProcedureName\"",
   "FinishRoundProcedureOrgEvent": "🔴 Submission closed: \"@ProcedureContext.ProcedureName\"",
   "SummingUpProcedureEvent": "🔴 Submission closed: \"@ProcedureContext.ProcedureName\"",
@@ -90,5 +90,6 @@
   "SellerWantsToBeVerifiedCommand": "Request for checking the company",
   "SellerWantsTariffCommand": "Ordering tariff plan (landing)",
   "CreateBuyerLeadCommand": "Request to receive the rights of the buyer",
-  "ProposalRejected": "🔴 Your proposal rejected in request \"@ProcedureContext.ProcedureName\""
+  "ProposalRejected": "🔴 Your proposal rejected in request \"@ProcedureContext.ProcedureName\"",
+  "CompanyRightsChangedNotification": "Rights changed for \"@CompanyContext.CompanyName\" at \"@ConfigurationContext.ProjectName\""
 }

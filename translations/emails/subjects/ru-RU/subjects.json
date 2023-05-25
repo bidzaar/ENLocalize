@@ -90,5 +90,6 @@
     "SellerWantsToBeVerifiedCommand": "Запрос на проверку компании",
     "SellerWantsTariffCommand": "Заказ тарифного плана (лендинг)",
     "CreateBuyerLeadCommand": "Запрос на получения прав закупщика",
-    "ProposalRejected": "🔴 Предложение отклонено в запросе \"@ProcedureContext.ProcedureName\""
+    "ProposalRejected": "🔴 Предложение отклонено в запросе \"@ProcedureContext.ProcedureName\"",
+    "CompanyRightsChangedNotification": "Изменены права \"@CompanyContext.CompanyName\" на \"@ConfigurationContext.ProjectName\""
 }

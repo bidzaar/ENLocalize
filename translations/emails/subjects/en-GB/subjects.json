@@ -90,5 +90,6 @@
     "SellerWantsToBeVerifiedCommand": "Request for checking the company",
     "SellerWantsTariffCommand": "Ordering comission plan (landing)",
     "CreateBuyerLeadCommand": "Request to receive the rights of the buyer",
-    "ProposalRejected": "🔴 Your bid was rejected in request \"@ProcedureContext.ProcedureName\""
+    "ProposalRejected": "🔴 Your bid was rejected in request \"@ProcedureContext.ProcedureName\"",
+    "CompanyRightsChangedNotification": "Rights changed for \"@CompanyContext.CompanyName\" at \"@ConfigurationContext.ProjectName\""
 }

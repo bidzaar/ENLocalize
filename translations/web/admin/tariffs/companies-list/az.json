@@ -12,11 +12,10 @@
                 "1": "[AT] Qaynaqçı",
                 "2": "[AT] təchizatçı",
                 "4": "[AT] akkreditasiya",
-                "8": "[AT] hovuzların idarə edilməsi",
                 "16": "[AT] cinayət məcəlləsi",
                 "128": "[AT] əllər. satınalma",
-                "512": "[AT] reyestrlər",
-                "2048": "[AT] hovuzlarda akkreditasiya"
+                "256": "[AT] Qrup administratoru",
+                "512": "[AT] reyestrlər"
             }
         },
         "invite": {

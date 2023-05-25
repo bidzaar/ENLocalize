@@ -41,7 +41,7 @@
   "ReviewCompanyNotification": "🔴 Şirkətin rekvizitlərinini təsdiq edin",
   "ErrorNotification": "–",
   "StartRoundProcedureEvent": "🔴 \"@ProcedureContext.ProcedureName\" sorğusunda təkliflər qəbulu yenidən açıqdı",
-  "SummingUpProcedureReminderEvent": "🔴 \"@ProcedureContext.ProcedureName\" sorğusunda təkliflər qəbulunun bitməsinə 48 saat qalıb.",
+  "SummingUpProcedureReminderEvent": "🔴 \"@ProcedureContext.ProcedureName\" sorğusunda təkliflər qəbulunun bitməsinə @SummingUpProcedureReminderPrecontext.Hours saat qalıb.",
   "FinishRoundProcedureEvent": "🔴 \"@ProcedureContext.ProcedureName\" sorğusunda təkliflər qəbulu bitib",
   "FinishRoundProcedureOrgEvent": "🔴 \"@ProcedureContext.ProcedureName\" sorğusunda təkliflər qəbulu bitib",
   "SummingUpProcedureEvent": "🔴 \"@ProcedureContext.ProcedureName\" sorğusunda təkliflər qəbulu bitib",

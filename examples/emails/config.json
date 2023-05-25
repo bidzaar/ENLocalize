@@ -515,12 +515,6 @@
       "Target": "EmailTarget"
     }
   ],
-  "UnVerifiedParticipantInVerifiedOnlyEvent": [
-    {
-      "Template": "LID_Tender_for_verified_only",
-      "Target": "EmailTarget"
-    }
-  ],
   "SellerWantsToBeVerifiedCommand": [
     {
       "Template": "LID_Verify_request",
@@ -548,7 +542,13 @@
   "ProposalRejected": [
     {
       "Template": "RFX_Proposal_rejected2",
-      "Target": "CompanySellers"
+      "Target": "CompanySellers"  
+    }
+  ],
+  "CompanyRightsChangedNotification": [
+    {
+      "Template": "Rights_changed",
+      "Target": "CompanyManagers"  
     }
   ]
 }

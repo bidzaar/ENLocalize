@@ -9,7 +9,7 @@
         <mj-text>
           <h1 class="bb">New stage was published</b></h1>
           <h2>Stage: @ProcedureContext.StageComment</h2>
-          <p>Please review the request and update your proposal if needed.</p>
+          <p><a href="@ProcedureVersionContext.CompareUrl">Review the changes</a> and update your proposal if needed.</p>
           <p class="mb-0"><b>Request:</b> <a href="@ProcedureContext.Url">@ProcedureContext.ProcedureName</a><br />
             <b>Requester:</b> @ProcedureContext.ProcedureOwnerCompanyName
           </p>

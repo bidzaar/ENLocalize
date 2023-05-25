@@ -8,7 +8,7 @@
       <mj-column>
         <mj-text>
           <h1 class="bb">Request changed</b></h1>
-          <p>Please review the changes and update your proposal if necessary.</p>
+          <p><a href="@ProcedureVersionContext.CompareUrl">Review the changes</a> and update your proposal if necessary.</p>
           <p class="mb-0"><b>Request:</b> <a href="@ProcedureContext.Url">@ProcedureContext.ProcedureName</a><br />
             <b>Requester:</b> @ProcedureContext.ProcedureOwnerCompanyName
           </p>
