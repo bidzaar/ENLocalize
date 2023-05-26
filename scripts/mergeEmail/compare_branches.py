@@ -26,7 +26,7 @@ def compare_branches(repo_path, branch1, branch2, folder1, folder2, exceptions=[
     # Copy the changed and added files to folder2, preserving the relative path
     for f in changed_files + list(added_files):
         src_path = os.path.join(repo_path, f)
-        dst_path = os.path.join(repo_path, folder2, f.replace(f"{folder1}/", ""))
+        dst_path = os.path.join(repo_path, f.replace(f"{folder1}/", f"{folder2}/"))
         os.makedirs(os.path.dirname(dst_path), exist_ok=True)
         shutil.copy2(src_path, dst_path)
 
@@ -34,11 +34,11 @@ def compare_branches(repo_path, branch1, branch2, folder1, folder2, exceptions=[
     with open(readme_path, "w") as readme:
         readme.write("Files changed in the '{}' branch compared to the '{}' branch:\n\n".format(branch2, branch1))
         for f in sorted(changed_files, key=str.lower):
-            readme.write("- {}\n".format(f))
+            readme.write("- {}\n".format(f.replace(f"{folder1}/", f"{folder2}/")))
         readme.write("\nFiles added in the '{}' branch:\n\n".format(branch2))
         for f in sorted(added_files, key=str.lower):
-            readme.write("- {}\n".format(f))
+            readme.write("- {}\n".format(f.replace(f"{folder1}/", f"{folder2}/")))
 
 
 if __name__ == "__main__":
-    compare_branches("../..", "releasetr-3.18.2", "releasetr-4.1.1", "examples/emails/templates/", "translations/emails/templates/")
+    compare_branches("../..", "releasetr-3.18.2", "releasetr-4.1.1", "examples/emails/templates", "translations/emails/templates")
