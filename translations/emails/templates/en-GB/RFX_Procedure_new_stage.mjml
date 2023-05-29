@@ -7,11 +7,11 @@
     <mj-section mj-class="section-intro" css-class="intro">
       <mj-column>
         <mj-text>
-          <h1 class="bb">New stage was published</b></h1>
+          <h1 class="bb">New stage has been published</b></h1>
           <h2>Stage: @ProcedureContext.StageComment</h2>
-          <p><a href="@ProcedureVersionContext.CompareUrl">Review the changes</a> and update your proposal if needed.</p>
+          <p><a href="@ProcedureVersionContext.CompareUrl">Review the changes</a> and update your bid if necessary.</p>
           <p class="mb-0"><b>Request:</b> <a href="@ProcedureContext.Url">@ProcedureContext.ProcedureName</a><br />
-            <b>Requester:</b> @ProcedureContext.ProcedureOwnerCompanyName
+            <b>Buyer:</b> @ProcedureContext.ProcedureOwnerCompanyName
           </p>
           @CustomMailContext.Body
           <p>

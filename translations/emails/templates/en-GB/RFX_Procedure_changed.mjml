@@ -7,10 +7,10 @@
     <mj-section mj-class="section-intro" css-class="intro">
       <mj-column>
         <mj-text>
-          <h1 class="bb">Request changed</b></h1>
-          <p><a href="@ProcedureVersionContext.CompareUrl">Review the changes</a> and update your proposal if necessary.</p>
+          <h1 class="bb">Request has been changed</b></h1>
+          <p><a href="@ProcedureVersionContext.CompareUrl">Review the changes</a> and update your bid if necessary.</p>
           <p class="mb-0"><b>Request:</b> <a href="@ProcedureContext.Url">@ProcedureContext.ProcedureName</a><br />
-            <b>Requester:</b> @ProcedureContext.ProcedureOwnerCompanyName
+            <b>Buyer:</b> @ProcedureContext.ProcedureOwnerCompanyName
           </p>
           @CustomMailContext.Body
           <p>
