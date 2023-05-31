@@ -2,101 +2,101 @@
     "pl_cpr": {
         "enums": {
             "groups": {
-                "0": "Этап предквалификации / NDA",
-                "1": "Описание и документы",
-                "2": "Правила проведения запроса",
-                "3": "Аккредитация участников",
-                "4": "Спецификация по позициям",
-                "5": "Неценовые критерии запроса"
+                "0": "Pre-qualification stage / NDA",
+                "1": "Description and documentation",
+                "2": "Tender terms",
+                "3": "Vendors onboarding",
+                "4": "Items specification",
+                "5": "Non-pricing criteria"
             },
             "types": {
-                "0": "Этап",
-                "1": "Описание",
-                "2": "Документы",
-                "3": "Наименование запроса",
-                "4": "Описание",
-                "5": "Документы",
-                "6": "Место поставки",
-                "7": "Приём предложений до",
-                "8": "Вид запроса",
-                "9": "После подачи предложения участники видят",
-                "10": "При выборе победителя учитывается",
-                "11": "Альтернативных предложений",
-                "12": "Валюта запросa",
-                "13": "Автопродление приема предложений",
-                "14": "Напоминание участникам о завершении приема предложений за",
-                "15": "Дополнительное напоминание участникам о завершении приема предложений за",
-                "16": "Организатор на этапе приема предложений",
-                "17": "Ориентировочный срок подведения итогов",
-                "18": "Для подачи предложения требуется аккредитация в реестрах",
-                "19": "Кол-во позиций",
-                "20": "Группа {{index}}",
-                "21": "Наименование группы",
-                "22": "Объём предложения участника",
-                "23": "После подачи первого предложения",
-                "24": "Минимальный шаг изменения цены",
-                "25": "Ожидаемая сумма предложения",
-                "26": "Максимальная сумма предложения",
-                "27": "Минимальная сумма предложения",
-                "28": "Колонки поставщика",
-                "29": "Позиции",
-                "30": "Позиция {{index}}",
-                "31": "Кол-во вопросов",
-                "32": "Раздел {{index}}",
-                "33": "Наименование раздела",
-                "34": "Вопрос {{index}}"
+                "0": "Stage",
+                "1": "Description",
+                "2": "Documents",
+                "3": "Request name",
+                "4": "Description",
+                "5": "Documents",
+                "6": "Place of delivery",
+                "7": "Bids submission until",
+                "8": "Request type",
+                "9": "After bids submission vendors can see",
+                "10": "Criteria for winner selection",
+                "11": "Alternative quotations",
+                "12": "Request currency",
+                "13": "Auto extension of bids submission",
+                "14": "A reminder of the end of bids submission",
+                "15": "Additional reminder of the end of bids submission",
+                "16": "Buyer at the bids acceptance stage",
+                "17": "Due date for results summary",
+                "18": "Onboarding to the vendor pool is required to submit a bid",
+                "19": "Items quantity",
+                "20": "Group {{index}}",
+                "21": "Group name",
+                "22": "Vendor quotation",
+                "23": "After submitting first bid",
+                "24": "Minimum price increment",
+                "25": "Expected price",
+                "26": "Maximum price",
+                "27": "Minimum price",
+                "28": "Vendor columns",
+                "29": "Items",
+                "30": "Item {{index}}",
+                "31": "Number of questions",
+                "32": "Section {{index}}",
+                "33": "Section name",
+                "34": "Question {{index}}"
             }
         },
         "forbidden": {
-            "text": "Требуется авторизация.",
-            "notice": "Сведения доступны участникам запроса, прошедшим предквалификацию / NDA\nили приглашённым в закрытый запрос"
+            "text": "Activation is necessary.",
+            "notice": "Information is available to pre-qualified vendors / NDA\nor invited to a closed request"
         },
         "comparison": {
             "header": "{{number}} • {{name}}",
             "table": {
                 "filter": {
-                    "label": "Показать только изменения"
+                    "label": "Show changes only"
                 },
                 "version": {
-                    "draft": "Новая редакция (не опубликована)",
-                    "date": "Редакция от {{ value }} (MSK)",
-                    "current": "Стало",
-                    "previous": "Было"
+                    "draft": "New version (not published)",
+                    "date": "Version from {{ value }} (MSK)",
+                    "current": "Current version",
+                    "previous": "Previous version"
                 },
                 "record": {
                     "date": "{{value}} (MSK)",
-                    "summing_up": "{{ value }} дн",
-                    "prolongation_time": "{{value}} мин.",
-                    "notification_hours": "{{value}} ч",
+                    "summing_up": "{{ value }} days",
+                    "prolongation_time": "{{value}} minutes.",
+                    "notification_hours": "{{value}} hours",
                     "price": "{{value}} {{currency}}",
                     "nda": {
-                        "true": "Проводится",
-                        "false": "Не проводится"
+                        "true": "Available",
+                        "false": "Not available"
                     },
                     "position": {
-                        "description": "Описание:",
-                        "documents": "Документы:",
-                        "count": "Количество:",
-                        "exp_price": "Ожидаемая цена за ед.,",
-                        "max_price": "Максимальная цена за ед.,",
-                        "min_price": "Минимальная цена за ед.,",
-                        "trg_price": "Целевая цена за ед.,"
+                        "description": "Description:",
+                        "documents": "Documents:",
+                        "count": "Quantity:",
+                        "exp_price": "Expected price per unit.,",
+                        "max_price": "Maximum price per unit.,",
+                        "min_price": "Maximum price per unit.,",
+                        "trg_price": "Target price per unit.,"
                     },
                     "question": {
-                        "text": "Текст:",
-                        "type": "Тип ответа:",
-                        "required": "Ответ обязательный:",
-                        "hidden": "Ответ скрыт от других участников:",
-                        "true": "Да",
-                        "false": "Нет"
+                        "text": "Text:",
+                        "type": "Answer type:",
+                        "required": "Mandatory answer:",
+                        "hidden": "The answer is hidden from other vendor:",
+                        "true": "Yes",
+                        "false": "No"
                     }
                 },
                 "empty": {
-                    "text": "Нет изменений"
+                    "text": "No changes"
                 },
                 "soon": {
-                    "4": "Сравнение спецификаций по позициям запроса будет реализовано в ближайшее время",
-                    "5": "Сравнение неценовых критериев запроса будет реализовано в ближайшее время"
+                    "4": "Comparison of specifications according to request items will be implemented in the near future",
+                    "5": "Comparison of non-price request criteria will be implemented soon"
                 }
             }
         }
