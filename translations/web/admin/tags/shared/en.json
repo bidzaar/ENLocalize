@@ -1,5 +1,10 @@
 {
     "tags": {
-        "shared": {}
+        "shared": {
+            "actions": {
+                "manual_input": "[AT] Manual input",
+                "from_cloud": "[AT] Choose from the cloud"
+            }
+        }
     }
 }

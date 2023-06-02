@@ -1,5 +1,36 @@
 {
   "req.inv": {
-
+    "similar": {
+      "header": {
+        "title": "[AT] Invite members",
+        "done": "[AT] Ready",
+        "invite": "[AT] Invite"
+      },
+      "list": {
+        "header": {
+          "title": "[AT] Requests",
+          "search": "[AT] The search is carried out by the name, description and tags of the request"
+        },
+        "empty": {
+          "text": "[AT] Find related queries by title, description, positions and tags"
+        },
+        "filters": {
+          "address": {
+            "title": "[AT] Delivery address"
+          }
+        },
+        "sorting": {
+          "participants": "[AT] Members"
+        },
+        "card": {
+          "participants": "[AT] Bidders submitting proposals",
+          "link": "[AT] Open request",
+          "invite": "[AT] Invite"
+        }
+      }
+    },
+    "companies": {
+      "success": "[AT] Invitations sent"
+    }
   }
 }

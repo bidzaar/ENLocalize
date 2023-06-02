@@ -1,3 +1,89 @@
 {
-    "req.side": {}
+    "req.side": {
+        "request": {
+            "header": {
+                "publish": "[AT] Published on {{ date }}"
+            },
+            "details": {
+                "participants": "[AT] List of participants",
+                "site": "[AT] Open request"
+            },
+            "contacts": {
+                "title": "[AT] Customer contact person"
+            },
+            "owners": {
+                "title": "[AT] Query Owners"
+            },
+            "statistics": {
+                "stage": {
+                    "label": "[AT] Stage"
+                },
+                "participants": {
+                    "label": "[AT] Took part",
+                    "tooltip": "[AT] Number of stage participants, including those who refused and blocked"
+                },
+                "proposals": {
+                    "label": "[AT] Participants with an offer",
+                    "tooltip": "[AT] Number of stage participants who submitted an offer within the stage"
+                }
+            }
+        },
+        "supplier": {
+            "header": {
+                "number": "[AT] ID: {{ number }}",
+                "date": "[AT] On site since {{ date }}",
+                "invite": "[AT] Invited by email"
+            },
+            "invite": {
+                "additional": {
+                    "text": "[AT] Company data\nmissing"
+                }
+            },
+            "company": {
+                "categories": {
+                    "title": "[AT] Company categories"
+                },
+                "contacts": {
+                    "title": "[AT] About company",
+                    "placeholders": {
+                        "location": "[AT] Legal address not specified",
+                        "email": "[AT] Email not specified",
+                        "site": "[AT] Site not specified",
+                        "phone": "[AT] Phone not listed",
+                        "employees": "[AT] Company size not specified"
+                    }
+                },
+                "areas": {
+                    "title": "[AT] Business region",
+                    "text": "[AT] The company provides services or supplies in the territory:",
+                    "empty": "[AT] Not specified"
+                },
+                "details": {
+                    "profile": "[AT] Company Profile",
+                    "manage": "[AT] Open in admin"
+                },
+                "tags": {
+                    "title": "[AT] Company tags",
+                    "count": "[AT] Matched: {{ count }}",
+                    "expand": "[AT] show all",
+                    "collapse": "[AT] Hide",
+                    "empty": "[AT] The company did not specify tags in the profile"
+                },
+                "additional": {
+                    "description": {
+                        "title": "[AT] Company Description",
+                        "placeholder": "[AT] Description not provided"
+                    },
+                    "requisites": {
+                        "title": "[AT] Requisites"
+                    }
+                }
+            },
+            "participant": {
+                "contacts": {
+                    "title": "[AT] Supplier contact person"
+                }
+            }
+        }
+    }
 }

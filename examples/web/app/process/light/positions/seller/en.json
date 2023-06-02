@@ -60,7 +60,7 @@
       "actions": {
         "download": "Download template",
         "upload": "Upload from file",
-        "patch": "Не подавать предложение по группе"
+        "patch": "[AT] Do not submit a proposal for the group"
       },
       "table": {
         "validation": {
@@ -84,8 +84,6 @@
             "not_equal_to_position": "Deviation from the quantity in the request"
           },
           "price": {
-            "lt_minimum": "Отрицательная цена недопустима",
-            "gt_maximum": "Укажите цену меньше 99 млрд",
             "equal_to_zero": "The price is not specified",
             "equal_to_zero_count_gte_zero": "The price is not specified. If there is no position, specify \"Out of stock\"",
             "start_price_auction": "The price per unit must be greater than or equal to the initial minimum: {{price}} {{currency}}",
@@ -93,7 +91,10 @@
             "new_price_worse_auction": "The price per unit must be be greater than or equal to the previous price.",
             "new_price_worse_reduction": "The price per unit must less than or equal to the previous price.",
             "refer_price_auction": "The bid price violates the rule of change in price. Recommended price: {{price}} {{currency}} or more.",
-            "refer_price_reduction": "The bid price violates the rule of change in price. Recommended price: {{price}} {{currency}} or less."
+            "refer_price_reduction": "The bid price violates the rule of change in price. Recommended price: {{price}} {{currency}} or less.",
+            "refer_price_all": "[AT] The offer price violates the price change rule. Recommended price: {{max}} {{currency}} and above or {{min}} {{currency}} and below.",
+            "lt_minimum": "[AT] Negative price is not allowed",
+            "gt_maximum": "[AT] Specify a price less than 99 billion"
           }
         }
       }

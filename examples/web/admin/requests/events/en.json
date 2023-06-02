@@ -1,5 +1,12 @@
 {
   "req.evt": {
-
+    "header": "[AT] The event log",
+    "empty": "[AT] Events not found",
+    "search": "[AT] The search is carried out by the fields: Event name",
+    "actions": {
+      "open_request": "[AT] Open request",
+      "open_chat": "[AT] Chat with the organizer",
+      "open_participants": "[AT] Members"
+    }
   }
 }

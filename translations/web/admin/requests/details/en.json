@@ -1,3 +1,77 @@
 {
-    "req.details": {}
+    "req.details": {
+        "tabs": {
+            "open": "[AT] Open",
+            "nda": "[AT] Request data protected by NDA",
+            "tags": "[AT] tags",
+            "docs": "[AT] Documentation",
+            "rules_general": "[AT] Rules for making a request",
+            "rules_participant": "[AT] Rules for Request Participants",
+            "questions_on": "[AT] Non-price criteria",
+            "questions_off": "[AT] Non-price criteria are not set",
+            "positions_on": "[AT] Position specification",
+            "positions_off": "[AT] Position specification disabled",
+            "positions_off_notice": "[AT] Participants indicate the total price for the entire request"
+        },
+        "expansions": {
+            "nda": {
+                "title": "[AT] NDA documents"
+            },
+            "docs": {
+                "title": "[AT] Documentation"
+            }
+        },
+        "description": {
+            "expand": "[AT] Show all",
+            "collapse": "[AT] Hide",
+            "empty": "[AT] Description not set"
+        },
+        "contacts": {
+            "title": "[AT] The contact person"
+        },
+        "owners": {
+            "title": "[AT] Query Owners"
+        },
+        "statistics": {
+            "stage": {
+                "label": "[AT] Stage"
+            },
+            "participants": {
+                "label": "[AT] Took part",
+                "tooltip": "[AT] Number of stage participants, including those who refused and blocked"
+            },
+            "proposals": {
+                "label": "[AT] Participants with an offer",
+                "tooltip": "[AT] Number of stage participants who submitted an offer within the stage"
+            }
+        },
+        "category": {
+            "title": "[AT] Request Category"
+        },
+        "comment": {
+            "title": "[AT] A comment",
+            "edit": "[AT] Change",
+            "add": "[AT] Add a comment"
+        },
+        "tariffs": {
+            "title": "[AT] Rate",
+            "free": {
+                "title": "[AT] Fare not applicable",
+                "text": "[AT] Participation is free",
+                "closed": "[AT] No commission for closed requests"
+            },
+            "promo": {
+                "title": "[AT] Fare not applicable",
+                "text": "[AT] Promo code applied: {{value}}"
+            },
+            "tariff": {
+                "info": "[AT] More",
+                "purchaser": "[AT] Customer pays",
+                "seller": "[AT] Winning supplier pays"
+            },
+            "dialog": {
+                "edit": "[AT] Change request rate"
+            }
+        }
+    }
 }

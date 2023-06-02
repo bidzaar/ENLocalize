@@ -81,7 +81,10 @@
           "Tariff.Name .isEmpty": "Name not specified",
           "Tariff.Code.isEmpty": "No code specified",
           "Tariff.Code.IsNotUnique": "Not a unique code",
-          "Tariff.Conditions.HasNoActive": "The tariff schedule is not configured"
+          "Tariff.Conditions.HasNoActive": "The tariff schedule is not configured",
+          "Tariff.Description.IsEmpty": "[AT] No description provided",
+          "Tariff.Name.IsEmpty": "[AT] Name not specified",
+          "Tariff.Code.IsEmpty": "[AT] No code specified"
         }
       }
     }

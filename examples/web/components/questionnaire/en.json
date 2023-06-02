@@ -30,7 +30,8 @@
         "fields": {
           "text": "Question text",
           "comment": "Description (optional)",
-          "type": "Answer type"
+          "type": "Answer type",
+          "group": "[AT] Section name"
         },
         "defaults": {
           "group": "New group",
@@ -247,6 +248,15 @@
           },
           "tree": {
             "empty": "Select and add a value from the list..."
+          },
+          "input": {
+            "placeholder": "[AT] Your Answer..."
+          },
+          "number": {
+            "placeholder": "[AT] Number..."
+          },
+          "datetime": {
+            "placeholder": "[AT] Date of..."
           }
         }
       }

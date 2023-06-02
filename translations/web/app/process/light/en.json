@@ -426,17 +426,17 @@
                     "cancel": "Cancel"
                 },
                 "sorting": {
-                    "button": "Bids",
-                    "tooltip": "Customize order of the bid",
                     "0": {
                         "1": "Initially with a minimum bid price",
                         "2": "First with the maximum bid price"
                     },
                     "1": "Sort by fulfilled requirements",
                     "2": "Sort by the highest item ranks",
+                    "4": "Last updated first",
+                    "button": "Bids",
+                    "tooltip": "Customize order of the bid",
                     "3_false": "First rank first",
                     "3_true": "At the beginning with the first ranks by positions",
-                    "4": "Last updated first",
                     "all_groups": "In all groups"
                 },
                 "group": {
@@ -650,12 +650,12 @@
                                 "title": "Acceptance of bids until:"
                             },
                             "LessThen": {
-                                "48": {
-                                    "notice": "less than 48 hours for vendors to prepare bids",
-                                    "title": "Acceptance of bids until:"
-                                },
                                 "15": {
                                     "notice": "less than 15 min for vendors to prepare bids",
+                                    "title": "Acceptance of bids until:"
+                                },
+                                "48": {
+                                    "notice": "less than 48 hours for vendors to prepare bids",
                                     "title": "Acceptance of bids until:"
                                 }
                             }
@@ -759,14 +759,15 @@
                                 "title": "The group name is not specified",
                                 "notice": ""
                             },
-                            "AcceptanceEndNotificationHours.OutOfRange": {
-                                "title": "Напоминание участникам о завершении приёма предложений установлено позже окончания приёма предложений",
-                                "notice": ""
-                            },
-                            "AdditionalAcceptanceEndNotificationHours.OutOfRange": {
-                                "title": "Дополнительное напоминание участникам о завершении приёма предложений установлено позже окончания приёма предложений",
-                                "notice": ""
-                            }
+                            "AcceptanceEndNotificationHours.OutOfRange": {}
+                        },
+                        "AcceptanceEndNotificationHours.OutOfRange": {
+                            "title": "[AT] Reminder to participants about the end of the acceptance of proposals is set later than the end of the acceptance of proposals",
+                            "notice": ""
+                        },
+                        "AdditionalAcceptanceEndNotificationHours.OutOfRange": {
+                            "title": "[AT] An additional reminder to participants about the end of the acceptance of proposals is set later than the end of the acceptance of proposals",
+                            "notice": ""
                         }
                     },
                     "comment": {
@@ -840,7 +841,11 @@
                     },
                     "close": "Not now",
                     "order_check": "Order check",
-                    "message_for_verified": "Your company has been verified!"
+                    "message_for_verified": "Your company has been verified!",
+                    "requisites": {
+                        "label": "[AT] Verified suppliers are marked with a special icon",
+                        "text": "[AT] Counterparties will be able to immediately see that your company is verified and trustworthy"
+                    }
                 },
                 "participant_nda": {
                     "title": "Documents for prequalification / NDA",
@@ -852,12 +857,14 @@
                     "accept": {
                         "title": "Confirm vendors",
                         "text": "The vendor will have access to the specification and request documents",
-                        "result": "Vendor admitted"
+                        "result": "Vendor admitted",
+                        "result_group": "[AT] Participants allowed:"
                     },
                     "reject": {
                         "title": "Reject a vendor's application",
                         "text": "A repeated application for access is possible after the request is corrected",
-                        "result": "The vendor's request has been sent for correction"
+                        "result": "The vendor's request has been sent for correction",
+                        "result_group": "[AT] Applications rejected:"
                     },
                     "comment_placeholder": "Chatting with a vendor ...",
                     "cancel": "Cancel",
@@ -999,6 +1006,10 @@
                             "submitProposal": {
                                 "description": "Submit your bid for consideration by the buyer.",
                                 "title": "Submit bid"
+                            },
+                            "verify": {
+                                "description": "[AT] Submit an application to verify your company to receive the status of \"Verified Supplier\"",
+                                "title": "[AT] Order service"
                             }
                         },
                         "canceled": {
@@ -1018,6 +1029,12 @@
                             },
                             "refused": {
                                 "message": "The buyer did not consider your bid."
+                            },
+                            "nda_pending": {
+                                "message": "[AT] Request canceled"
+                            },
+                            "nda_submitted": {
+                                "message": "[AT] Request canceled"
                             }
                         },
                         "finished": {
@@ -1043,6 +1060,12 @@
                             },
                             "winner": {
                                 "message": "Request completed."
+                            },
+                            "nda_pending": {
+                                "message": "[AT] Request completed. You have not passed the prequalification / NDA stage and have not submitted an offer."
+                            },
+                            "nda_submitted": {
+                                "message": "[AT] Request completed. You have not passed the prequalification / NDA stage and have not submitted an offer."
                             }
                         },
                         "proposal": {
@@ -1087,6 +1110,12 @@
                             },
                             "refused": {
                                 "message": "The buyer does not consider your bid."
+                            },
+                            "nda_pending": {
+                                "message": "[AT] The call for proposals has ended. You have not passed the prequalification / NDA stage and have not submitted an offer."
+                            },
+                            "nda_submitted": {
+                                "message": "[AT] The call for proposals has ended. You have not passed the prequalification / NDA stage and have not submitted an offer."
                             }
                         }
                     },
@@ -1177,10 +1206,10 @@
                                     "cancel": "Close"
                                 },
                                 "how_rise": {
-                                    "button": "How do I submit a bid with an increased price?",
                                     "1": "Request permission to increase the bid price in the chat with the Customer",
                                     "2": "The customer will inform you about his decision in the chat",
-                                    "3": "If you receive permission, you will be able to submit a bid with an increased price once"
+                                    "3": "If you receive permission, you will be able to submit a bid with an increased price once",
+                                    "button": "How do I submit a bid with an increased price?"
                                 },
                                 "helper_auction": {
                                     "label": "How to submit a bid, which violate the rights of the price change?",
@@ -1193,14 +1222,14 @@
                                 "helper_positions": {
                                     "label": "How do I change the price for individual items?",
                                     "description": {
-                                        "label": "Changing the price will proportionally change the price of the item offerings. If you are not happy with this, you have the option to adjust the prices individually. To do this:",
                                         "1": {
                                             "1_1": "Go to the",
                                             "1_2": "Proposal",
                                             "1_3": "tab and click Change Bid"
                                         },
                                         "2": "Change the prices for items and update the bid",
-                                        "3": "Remember that the updated price must comply with the price change rule"
+                                        "3": "Remember that the updated price must comply with the price change rule",
+                                        "label": "Changing the price will proportionally change the price of the item offerings. If you are not happy with this, you have the option to adjust the prices individually. To do this:"
                                     }
                                 }
                             },

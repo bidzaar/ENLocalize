@@ -4,6 +4,95 @@
       "empty": {
         "filtered": "Unfortunately, it was not possible to find employees for this request...",
         "absolute": "The company has no registered employees on Bidzaar yet"
+      },
+      "header": {
+        "title": "[AT] Company employees",
+        "search": "[AT] The search is carried out by the name of the employee and contact information"
+      },
+      "sorting": {
+        "name": "[AT] Name",
+        "status": "[AT] Status",
+        "status_changed": "[AT] Status change date"
+      },
+      "filters": {
+        "rights": {
+          "title": "[AT] Rights"
+        },
+        "status": {
+          "title": "[AT] Status"
+        },
+        "statusChangedOn": {
+          "title": "[AT] Status change date"
+        }
+      },
+      "card": {
+        "rights": {
+          "empty": "[AT] No rights"
+        }
+      },
+      "preview": {
+        "status": {
+          "date": "[AT] with {{ value }}"
+        },
+        "rights": {
+          "list": "[AT] User rights",
+          "empty": "[AT] Rights not assigned"
+        },
+        "confirm": "[AT] Confirm",
+        "give_admin": "[AT] Give company administrator rights"
+      }
+    },
+    "enums": {
+      "rights": {
+        "0": {
+          "short": "[AT] Rights not assigned",
+          "long": "[AT] Rights not assigned"
+        },
+        "1": {
+          "short": "[AT] Purchaser",
+          "long": "[AT] Purchaser"
+        },
+        "2": {
+          "short": "[AT] Provider",
+          "long": "[AT] Provider"
+        },
+        "4": {
+          "short": "[AT] Applicant for accreditation",
+          "long": "[AT] Applicant for accreditation"
+        },
+        "8": {
+          "short": "[AT] Ex. pools",
+          "long": "[AT] Management of accreditation pools"
+        },
+        "16": {
+          "short": "[AT] Company administrator",
+          "long": "[AT] Company administrator"
+        },
+        "128": {
+          "short": "[AT] Buyer (department manager)",
+          "long": "[AT] Head of Purchasing Department"
+        },
+        "256": {
+          "short": "[AT] Group admin",
+          "long": "[AT] Group admin"
+        },
+        "512": {
+          "short": "[AT] Registry Administrator",
+          "long": "[AT] Registry Administrator"
+        },
+        "1024": {
+          "short": "[AT] Registry Administrator (head of department)",
+          "long": "[AT] Head of Registry Department"
+        },
+        "2048": {
+          "short": "[AT] Accreditation request. pool",
+          "long": "[AT] Applying for accreditation to the pool"
+        }
+      },
+      "role": {
+        "0": "[AT] Auditor",
+        "1": "[AT] Editor",
+        "2": "[AT] Owner"
       }
     }
   }

@@ -1,45 +1,45 @@
 {
   "req.shared": {
     "markers": {
-      "nda": "NDA",
-      "verify": "Для проверенных",
-      "private": "Закрытый запрос"
+      "nda": "[AT] NDA",
+      "verify": "[AT] For verified",
+      "private": "[AT] Closed request"
     },
     "status": {
-      "until": "до",
-      "since": "с",
-      "orders": "Завершен без победителя"
+      "until": "[AT] before",
+      "since": "[AT] With",
+      "orders": "[AT] Completed without a winner"
     },
     "timer": {
-      "minutes": "мин",
-      "hours": "ч",
-      "days": "дн",
-      "past": "назад"
+      "minutes": "[AT] min",
+      "hours": "[AT] h",
+      "days": "[AT] days",
+      "past": "[AT] back"
     },
     "comment": {
-      "add": "Добавить комментарий"
+      "add": "[AT] Add a comment"
     },
     "responsible": {
-      "change": "Изменить",
-      "remove": "Удалить",
-      "assign": "Оператор не назначен"
+      "change": "[AT] Change",
+      "remove": "[AT] Delete",
+      "assign": "[AT] Operator not assigned"
     },
     "header": {
-      "back": "Возврат к списку",
-      "publish": "Опубликован {{ date }}",
-      "details": "Детали",
+      "back": "[AT] Return to list",
+      "publish": "[AT] Published on {{ date }}",
+      "details": "[AT] Details",
       "stats": {
-        "proposals": "Участники с предложением",
-        "participants": "Приняли участие"
+        "proposals": "[AT] Participants with an offer",
+        "participants": "[AT] Took part"
       }
     },
     "dialogs": {
       "comment": {
-        "header": "Комментарий",
-        "label": "Ваш комментарий",
-        "cancel": "Отмена",
-        "submit": "Сохранить",
-        "success": "Комментарий обновлен"
+        "header": "[AT] A comment",
+        "label": "[AT] your comment",
+        "cancel": "[AT] Cancel",
+        "submit": "[AT] Save",
+        "success": "[AT] Comment updated"
       }
     }
   }

@@ -1,3 +1,71 @@
 {
-    "cmp.shared": {}
+    "cmp.shared": {
+        "enums": {
+            "rights": {
+                "0": "[AT] Rights not assigned",
+                "1": "[AT] Purchaser",
+                "2": "[AT] Provider",
+                "4": "[AT] Accreditations",
+                "8": "[AT] Pool Management",
+                "16": "[AT] UK",
+                "128": "[AT] Ruk. procurement",
+                "512": "[AT] Registers",
+                "2048": "[AT] Accreditations in pools"
+            }
+        },
+        "list": {
+            "title": "[AT] Companies",
+            "selected_title": "[AT] Selected:",
+            "filters": {
+                "tags": "[AT] Companies sell",
+                "rights": "[AT] Rights",
+                "badges": "[AT] Badges",
+                "location": "[AT] Location",
+                "areas": "[AT] Business region",
+                "shown": {
+                    "title": "[AT] Display on site",
+                    "true": "[AT] Are displayed",
+                    "false": "[AT] Hidden"
+                },
+                "phantom": {
+                    "title": "[AT] phantoms",
+                    "true": "[AT] Only phantoms",
+                    "false": "[AT] Just not phantoms"
+                },
+                "verified": {
+                    "title": "[AT] Verified",
+                    "true": "[AT] Only verified",
+                    "false": "[AT] Only unverified"
+                },
+                "deleted": {
+                    "title": "[AT] Show deleted",
+                    "false": "[AT] Only active",
+                    "true": "[AT] Remote only"
+                }
+            },
+            "sort": {
+                "registration_date": "[AT] Date of registration"
+            },
+            "search": "[AT] TIN, Brand, Legal name, Company code, Description, Legal address, Tags, Phone, Email",
+            "empty": "[AT] Nothing found for your search...",
+            "crm": "[AT] CRM",
+            "actions": {
+                "notify_users_tooltip": "[AT] Send email"
+            }
+        },
+        "email": {
+            "header": "[AT] to send a letter",
+            "subject_label": "[AT] Subject:",
+            "subject_placeholder": "[AT] Letter subject",
+            "message_placeholder": "[AT] Message",
+            "to_label": "[AT] To whom:",
+            "to_text": "[AT] Employees of companies (selected companies: {{value}})",
+            "from_label": "[AT] From:",
+            "success": "[AT] Letter sent",
+            "actions": {
+                "cancel": "[AT] Cancel",
+                "submit": "[AT] to send a letter"
+            }
+        }
+    }
 }

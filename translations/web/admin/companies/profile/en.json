@@ -1,3 +1,216 @@
 {
-    "cmp.profile": {}
+    "cmp.profile": {
+        "enums": {
+            "tariff_fee": {
+                "0": "[AT] Participation is free",
+                "1": "[AT] Supplier only",
+                "2": "[AT] Only the customer",
+                "3": "[AT] Primarily supplier",
+                "4": "[AT] Mainly customer"
+            }
+        },
+        "company": {
+            "viewer": {
+                "header": {
+                    "info": "[AT] ID: {{ number }} • Registration: {{ date }}",
+                    "actions": {
+                        "chat": "[AT] Chat with the company",
+                        "crm": "[AT] CRM",
+                        "profile": "[AT] Profile"
+                    }
+                },
+                "sections": {
+                    "general": "[AT] General information",
+                    "supplier": "[AT] Supplier tariff",
+                    "purchaser": "[AT] Buyer Options",
+                    "company": "[AT] Company data"
+                },
+                "employees": {
+                    "title": "[AT] Employees"
+                },
+                "rights": {
+                    "title": "[AT] Company rights",
+                    "empty": "[AT] Rights not set"
+                },
+                "achievements": {
+                    "header": "[AT] Badges",
+                    "empty": "[AT] Badges are not set"
+                },
+                "tags": {
+                    "title": "[AT] Purchased tags",
+                    "text": "[AT] Tags:"
+                },
+                "suppliers": {
+                    "header": "[AT] Company presence in customer widgets",
+                    "empty": "[AT] Customer companies are not specified",
+                    "add": "[AT] Add"
+                },
+                "requisites": {
+                    "header": "[AT] Company details",
+                    "empty": "[AT] Details not set",
+                    "edit": "[AT] Edit"
+                },
+                "groups": {
+                    "rights_visibility": "[AT] Company rights and visibility",
+                    "tariff": "[AT] Supplier tariff",
+                    "buyer_options": "[AT] Buyer Options",
+                    "company": "[AT] Company data"
+                },
+                "is_shown": {
+                    "title": "[AT] Display in company lists",
+                    "shown": "[AT] The company is displayed in the list",
+                    "hidden": "[AT] The company is hidden from the list"
+                },
+                "tariff_plan": {
+                    "title": "[AT] Supplier tariff",
+                    "tax_free": {
+                        "true": "[AT] The company pays no commission",
+                        "false": "[AT] The company pays a commission"
+                    },
+                    "enabled": {
+                        "true": "[AT] Fare included: “{{value}}”",
+                        "false": "[AT] Tariff disabled: “{{value}}”"
+                    }
+                },
+                "csm": {
+                    "title": "[AT] Responsible Sale/CSM",
+                    "pin": "[AT] Pin",
+                    "unpin": "[AT] Unpin",
+                    "empty": "[AT] Not assigned",
+                    "journal": "[AT] Appointment log",
+                    "success": "[AT] Employee assigned",
+                    "dialog": {
+                        "table": {
+                            "header": {
+                                "size": "[AT] Records: {{ value }}",
+                                "role": "[AT] Role",
+                                "employee": "[AT] Employee",
+                                "event": "[AT] Event",
+                                "initiator": "[AT] Initiator",
+                                "date": "[AT] date"
+                            },
+                            "role": {
+                                "0": "[AT] CSM",
+                                "1": "[AT] Sale"
+                            },
+                            "event": {
+                                "0": "[AT] Unpinned",
+                                "1": "[AT] Pinned"
+                            },
+                            "empty": "[AT] Responsible has not been previously assigned"
+                        }
+                    }
+                },
+                "esg": {
+                    "title": "[AT] ESG certification",
+                    "change": "[AT] Tune",
+                    "enabled": {
+                        "true": "[AT] Enabled",
+                        "false": "[AT] Disabled"
+                    },
+                    "reports": {
+                        "certificate": "[AT] ESG Certificate",
+                        "report": "[AT] ESG Report"
+                    }
+                },
+                "payment_rules": {
+                    "title": "[AT] Purchasing company setup: pay-to-win rules",
+                    "fee": "[AT] Who pays",
+                    "free": "[AT] Closed requests are free"
+                },
+                "change": "[AT] Tune"
+            },
+            "editor": {
+                "crm": {
+                    "header": "[AT] Link to profile in CRM",
+                    "label": "[AT] Link"
+                },
+                "chat": {
+                    "header": "[AT] Link to chat with the company",
+                    "label": "[AT] Link"
+                },
+                "tags": {
+                    "header": "[AT] Purchased tags",
+                    "label": "[AT] Quantity",
+                    "hint": "[AT] Up to 25 tags"
+                },
+                "rights": {
+                    "header": "[AT] Company rights"
+                },
+                "achievements": {
+                    "header": "[AT] Badges"
+                },
+                "suppliers": {
+                    "header": "[AT] Choosing a customer company",
+                    "label": "[AT] Company ID",
+                    "hint": "[AT] Profile ID: 000-0000",
+                    "not_found": "[AT] Company not found. Copy ID from company profile"
+                },
+                "common": {
+                    "actions": {
+                        "cancel": "[AT] Cancel",
+                        "submit": "[AT] Apply",
+                        "save": "[AT] Save"
+                    }
+                },
+                "requisites": {
+                    "success": "[AT] Company details updated"
+                },
+                "tariff_plan": {
+                    "header": "[AT] Tariff parameters",
+                    "name": "[AT] Tariff name",
+                    "dates": "[AT] Tariff validity period",
+                    "enabled": "[AT] Tariff included",
+                    "taxFree": "[AT] The company does not pay commission for winning",
+                    "cancel": "[AT] Cancel",
+                    "submit": "[AT] Save",
+                    "success": "[AT] Tariff plan updated",
+                    "already_exists": "[AT] A verified company with a similar TIN already exists"
+                },
+                "esg": {
+                    "header": "[AT] ESG certification",
+                    "enabled": "[AT] The company is certified",
+                    "category": "[AT] Specify a category",
+                    "certificate": {
+                        "title": "[AT] ESG Certificate",
+                        "upload": "[AT] Download Certificate"
+                    },
+                    "report": {
+                        "title": "[AT] ESG Report",
+                        "upload": "[AT] Download Report"
+                    },
+                    "rating": {
+                        "title": "[AT] ESG rating",
+                        "common": "[AT] Total score",
+                        "ecology": "[AT] (E) Ecology",
+                        "society": "[AT] (S) Society",
+                        "management": "[AT] (G) Management"
+                    },
+                    "actions": {
+                        "cancel": "[AT] Cancel",
+                        "submit": "[AT] Save"
+                    }
+                },
+                "payment_rules": {
+                    "header": "[AT] Pay to Win Rules",
+                    "fee": "[AT] Who pays",
+                    "free": "[AT] Closed requests are free"
+                }
+            },
+            "dialogs": {
+                "remove_supplier": {
+                    "text": "[AT] Exclude the presence of the company in the customer's company widget?",
+                    "confirm": "[AT] Exclude",
+                    "cancel": "[AT] Cancel"
+                }
+            }
+        }
+    },
+    "errors": {
+        "logic": {
+            "UserManagement": {
+                "VerifiedCompanyAlreadyExists": "[AT] A verified company with the specified details already exists"
+            }
+        }
+    }
 }

@@ -1,5 +1,75 @@
 {
     "usr": {
-        "users": {}
+        "users": {
+            "list": {
+                "title": "[AT] Admin Team",
+                "search": {
+                    "name": "[AT] The search is carried out by the fields:\n• User name\n• email"
+                },
+                "filters": {
+                    "status": "[AT] Status",
+                    "statusChangedOn": "[AT] Status change date",
+                    "rights": "[AT] Rights"
+                },
+                "sorting": {
+                    "name_asc": "[AT] Administrator name A→Z",
+                    "name_desc": "[AT] Administrator name I→A",
+                    "status": "[AT] Status change date"
+                },
+                "empty": "[AT] Users not found",
+                "rights": "[AT] Permissions ({{value}})",
+                "no_rights": "[AT] Rights not assigned",
+                "wait_for_approve": "[AT] Request for administrator rights"
+            },
+            "status": {
+                "0": "[AT] Not admin",
+                "1": "[AT] Awaiting confirmation",
+                "2": "[AT] Invited",
+                "3": "[AT] Active",
+                "4": "[AT] blocked"
+            },
+            "rights": {
+                "0": "[AT] Rights not assigned",
+                "1": "[AT] Company rights management",
+                "2": "[AT] Assignment of badges to companies",
+                "4": "[AT] Creating and editing badges",
+                "8": "[AT] Bidzaar team management",
+                "16": "[AT] The right to send emails to users",
+                "32": "[AT] Company management",
+                "64": "[AT] Request List",
+                "256": "[AT] Tag Management",
+                "512": "[AT] Setting request rates",
+                "1024": "[AT] Category Management"
+            },
+            "change_role_dialog": {
+                "title": "[AT] Administrator rights",
+                "cancel": "[AT] Cancel",
+                "apply": "[AT] Save"
+            },
+            "dialog": {
+                "block": {
+                    "title": "[AT] Block an employee?",
+                    "text": "",
+                    "no": "[AT] Cancel",
+                    "yes": "[AT] block"
+                }
+            }
+        },
+        "user_preview": {
+            "title": "[AT] User rights",
+            "add": "[AT] Assign user rights",
+            "approve": "[AT] Accept",
+            "reject": "[AT] Reject",
+            "reject_dialog": {
+                "text": "[AT] Reject an application?",
+                "yes": "[AT] Reject",
+                "no": "[AT] Cancel"
+            },
+            "success": "[AT] Employee rights have been changed."
+        },
+        "button_management": {
+            "delete": "[AT] Block an employee",
+            "unblock": "[AT] Unblock employee"
+        }
     }
 }

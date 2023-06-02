@@ -158,7 +158,7 @@
         "sorting": {
           "name": "Employee name",
           "date_change": "Status change date"
-                  },
+        },
         "preview": {
           "grant_access": "approve",
           "reject": "reject",
@@ -628,7 +628,9 @@
       "cancel": "cancel",
       "description": "file description",
       "placeholder": "description",
-      "save": "save"
+      "save": "save",
+      "label": "[AT] Description",
+      "title": "[AT] File Description"
     },
     "errors": {
       "ext": "Error. Unsupported file format.",
@@ -842,7 +844,8 @@
             "my-proposal-archive": "your order",
             "proposal-archive": "participant's bid",
             "receipt-archive": "participant's order",
-            "nda-archive": "current prequalification / NDA applications"
+            "nda-archive": "current prequalification / NDA applications",
+            "comparison": "[AT] comparison table"
           }
         },
         "registry_reports": {
@@ -1388,7 +1391,8 @@
           "draft": "invitation accepted",
           "invited": "invited",
           "participant_refused": "refused",
-          "rejected_by_owner": "accreditation revoked"
+          "rejected_by_owner": "accreditation revoked",
+          "blocked": "[AT] blocked"
         },
         "title": "Participants",
         "tooltips": {
@@ -1523,6 +1527,56 @@
               "default": {
                 "message": "We invite you to cooperation! Become our accredited supplier.",
                 "description": "Registered at the site of the company can be accredited at the companies that form pools of partners. To do this, you must create and submit a request for accreditation. You can refuse to participate in the accreditation procedure."
+              }
+            },
+            "actions": {
+              "authorize": {
+                "description": "[AT] Register or login to take part in the accreditation procedure and get the status of an accredited supplier",
+                "title": "[AT] Registration and login"
+              },
+              "blockPool": {
+                "description": "[AT] Participant questionnaires will not be available for viewing. The action is reversible.",
+                "title": "[AT] Block Pool"
+              },
+              "cancelChanges": {
+                "description": "[AT] All changes will be cancelled. The questionnaire will be returned to the last active state.",
+                "title": "[AT] cancel changes"
+              },
+              "createCompany": {
+                "description": "[AT] Register a company, or join a registered company if your colleague has already done so.",
+                "title": "[AT] Register a company"
+              },
+              "deletePool": {
+                "description": "[AT] A draft, unlike a published pool, is permanently deleted.",
+                "title": "[AT] Delete draft"
+              },
+              "editPool": {
+                "description": "[AT] When changing the questionnaire, participants will lose the status of accredited in the pool. To restore the status, participants must submit applications, taking into account the changes made. Changes can be canceled, in which case the status of participants' accreditations will remain the same.",
+                "title": "[AT] Change profile"
+              },
+              "joinPool": {
+                "description": "[AT] Become a trusted supplier. Fill out the application and submit it for consideration.",
+                "title": "[AT] Start accreditation"
+              },
+              "openParticipants": {
+                "description": "[AT] Open a list of pool companies.",
+                "title": "[AT] List of suppliers"
+              },
+              "openRequest": {
+                "description": "[AT] Open your accreditation application.",
+                "title": "[AT] Open application"
+              },
+              "publishChanges": {
+                "description": "[AT] Publish the changes to the questionnaire. Participants will be required to provide answers to the revised and new questions in the questionnaire.",
+                "title": "[AT] Publish"
+              },
+              "publishPool": {
+                "description": "[AT] The accreditation pool will be available to invite participants.",
+                "title": "[AT] Publish"
+              },
+              "restorePool": {
+                "description": "[AT] The pool will be restored. Participant forms will become available.",
+                "title": "[AT] Restore"
               }
             }
           },
@@ -1730,8 +1784,8 @@
         "name": "Name",
         "type": "Type of the request",
         "options": {
-          "1": "Закупка",
-          "2": "Продажа"
+          "1": "[AT] Purchase",
+          "2": "[AT] Sale"
         }
       },
       "invite": {
@@ -2125,12 +2179,14 @@
         },
         "name": {
           "header": "Brand",
-          "label": "Company name on the site so to be recognized by your counterparties."
+          "label": "Company name on the site so to be recognized by your counterparties.",
+          "title": "[AT] The name of the company on the site so that counterparties recognize you."
         },
         "description": {
           "header": "Company description",
           "label": "Description",
-          "placeholder": "Add a description of the company: what you do, area of expertise, work experience"
+          "placeholder": "Add a description of the company: what you do, area of expertise, work experience",
+          "title": "[AT] Add a description of the company: what you do, specialization, work experience"
         },
         "actions": {
           "cancel": "Cancel",
@@ -2299,7 +2355,8 @@
           "success": {
             "false": "The company requisites will be updated",
             "true": "The company requisites will be verified in the near future"
-          }
+          },
+          "edit": "[AT] Edit"
         },
         "activity": {
           "title": "Activity",
@@ -2504,6 +2561,121 @@
       "cancel": "Cancel",
       "submit": "Submit",
       "not-found": "There are no employees with the necessary rights. Contact the company manager to assign rights to employees"
+    },
+    "public_profile": {
+      "actions": {
+        "create": "[AT] create a public page",
+        "link": "[AT] get the link",
+        "preview": "[AT] preview"
+      },
+      "defaults": {
+        "description": "[AT] Suppliers are invited to participate in tenders if they have experience in the relevant field, experience in implementing similar projects, qualifications and resources necessary for the supply of relevant goods, performance of work, provision of services, as well as meeting other requirements specified in the tender documentation.",
+        "pools": {
+          "placeholder": "[AT] The company did not publish supplier pools on Bidzaar :(",
+          "title": "[AT] Company supplier pools"
+        },
+        "tenders": {
+          "placeholder": "[AT] Currently there are no active requests from the company for Bidzaar :(",
+          "title": "[AT] Open Requests"
+        },
+        "title": "[AT] Purchasing section for company suppliers"
+      },
+      "empty": {
+        "message_primary": "[AT] create a public company page",
+        "message_secondary": "[AT] show partners your open requests and pools of suppliers, indicate the rules and conditions for participation in tenders, what goods and services you buy, contacts of the tender commission..."
+      },
+      "profile": {
+        "editor": {
+          "description": {
+            "header": "[AT] Block Information for Suppliers",
+            "title": "[AT] Information for suppliers"
+          },
+          "pools": {
+            "header": "[AT] Block Company Supplier Pools",
+            "placeholder": "[AT] Message if the list is empty",
+            "show": "[AT] Show block on public page",
+            "show_if_empty": "[AT] Show block if list is empty",
+            "title": "[AT] Company supplier pools"
+          },
+          "tenders": {
+            "header": "[AT] Block Open Requests",
+            "placeholder": "[AT] Message if the list is empty",
+            "show": "[AT] Show block on public page",
+            "show_if_empty": "[AT] Show block if list is empty",
+            "title": "[AT] Open Requests"
+          },
+          "title": {
+            "header": "[AT] Page title block",
+            "title": "[AT] Page Title"
+          }
+        },
+        "viewer": {
+          "description": {
+            "empty": {
+              "message_primary": "[AT] Information for suppliers",
+              "message_secondary": "[AT] Specify the rules and conditions for participation of suppliers in tenders, which goods or services\nyou buy, contacts of the tender committee..."
+            },
+            "header": "[AT] information for potential suppliers"
+          },
+          "files": {
+            "empty": {
+              "message_primary": "[AT] Add supplier documents",
+              "message_secondary": "[AT] For example, Rules for participation and submission of proposals,\nOrder of requests..."
+            },
+            "header": "[AT] documents for suppliers"
+          },
+          "links": {
+            "header": "[AT] Link to public page",
+            "iframe": {
+              "action": {
+                "copy": "[AT] Highlight the code and press Ctrl + C to copy to clipboard"
+              },
+              "options": {
+                "page": "[AT] Public page",
+                "pools": "[AT] Supplier pools",
+                "tenders": "[AT] Open Requests"
+              },
+              "title": "[AT] code for iframe"
+            },
+            "page": {
+              "action": {
+                "copy": "[AT] Select the link and press Ctrl + C to copy to clipboard"
+              },
+              "title": "[AT] link to the page"
+            }
+          },
+          "pools": {
+            "empty": {
+              "message_primary": "[AT] The block is not displayed on the public page",
+              "message_secondary": "[AT] Display control - in the block settings"
+            },
+            "header": "[AT] company supplier pools",
+            "notice": {
+              "message": "[AT] The data is updated each time the page is opened. You can customize block parameters. Use Preview to see the result.",
+              "title": "[AT] Supplier pools published on Bidzaar."
+            }
+          },
+          "tenders": {
+            "empty": {
+              "message_primary": "[AT] The block is not displayed on the public page",
+              "message_secondary": "[AT] Display control - in the block settings"
+            },
+            "header": "[AT] open requests",
+            "notice": {
+              "message": "[AT] The data is updated each time the page is opened. You can customize block parameters. Use Preview to see the result.",
+              "title": "[AT] Current open requests posted on Bidzaar."
+            }
+          },
+          "title": {
+            "empty": {
+              "message_primary": "[AT] Specify the title of the page",
+              "message_secondary": "[AT] For example, \"Purchasing section for the company's suppliers.\"\nThe title is important for both users and search engines."
+            },
+            "header": "[AT] page title"
+          }
+        }
+      },
+      "title": "[AT] public page"
     }
   },
   "user_menu": {
@@ -2514,7 +2686,8 @@
     "exit": "Exit",
     "my_profile": "My profile",
     "subscriptions": "Notification Settings",
-    "user_agreement": "User agreement"
+    "user_agreement": "User agreement",
+    "company_profile": "[AT] Company Profile"
   },
   "validation": {
     "already_exists": "User with the specified email is already registered",

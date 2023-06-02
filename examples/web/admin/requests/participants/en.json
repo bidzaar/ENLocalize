@@ -1,5 +1,49 @@
 {
   "req.prt": {
-
+    "list": {
+      "header": {
+        "title": "[AT] Members",
+        "search": "[AT] Number, TIN, Name, Email, Description, Phone"
+      },
+      "empty": {
+        "text": "[AT] Nothing found for your search..."
+      },
+      "sorting": {
+        "status": "[AT] Status",
+        "statusDate": "[AT] Change of status",
+        "overlapTagsCount": "[AT] Tag match"
+      },
+      "filters": {
+        "status": {
+          "title": "[AT] Status"
+        },
+        "address": {
+          "title": "[AT] Location"
+        },
+        "invited_by": {
+          "title": "[AT] Who invited"
+        }
+      },
+      "card": {
+        "wins": {
+          "tooltip": "[AT] Wins/Participations"
+        },
+        "tags": {
+          "tooltip": "[AT] Number of matching tags"
+        },
+        "invite": {
+          "no_profile": "[AT] Company profile not created"
+        }
+      },
+      "actions": {
+        "download_report": "[AT] Download the \"Request Participants\" report",
+        "open_chat": "[AT] Chat with the organizer",
+        "open_request": "[AT] Open request",
+        "open_events": "[AT] Magazine",
+        "invite": "[AT] Invite",
+        "invite_site": "[AT] Invite from the site",
+        "invite_similar": "[AT] Invite from related queries"
+      }
+    }
   }
 }

@@ -426,17 +426,17 @@
           "cancel": "Cancel"
         },
         "sorting": {
-          "button": "Sorting",
-          "tooltip": "Customize order of offers",
           "0": {
             "1": "Initially with a minimum bid price",
             "2": "First with the maximum bid price"
           },
           "1": "First with order",
           "2": "First with complete satisfaction",
+          "4": "Last updated first",
+          "button": "Sorting",
+          "tooltip": "Customize order of offers",
           "3_false": "First rank first",
           "3_true": "At the beginning with the first ranks by positions",
-          "4": "Last updated first",
           "all_groups": "In all groups"
         },
         "group": {
@@ -650,12 +650,12 @@
                 "title": "Acceptance of bids until:"
               },
               "LessThen": {
-                "48": {
-                  "notice": "less than 48 hours for participants to prepare bids",
-                  "title": "Acceptance of bids until:"
-                },
                 "15": {
                   "notice": "less than 15 min for participants to prepare bids",
+                  "title": "Acceptance of bids until:"
+                },
+                "48": {
+                  "notice": "less than 48 hours for participants to prepare bids",
                   "title": "Acceptance of bids until:"
                 }
               }
@@ -759,14 +759,15 @@
                 "title": "The group name is not specified",
                 "notice": ""
               },
-              "AcceptanceEndNotificationHours.OutOfRange": {
-                "title": "Напоминание участникам о завершении приёма предложений установлено позже окончания приёма предложений",
-                "notice": ""
-              },
-              "AdditionalAcceptanceEndNotificationHours.OutOfRange": {
-                "title": "Дополнительное напоминание участникам о завершении приёма предложений установлено позже окончания приёма предложений",
-                "notice": ""
-              }
+              "AcceptanceEndNotificationHours.OutOfRange": {}
+            },
+            "AcceptanceEndNotificationHours.OutOfRange": {
+              "title": "[AT] Reminder to participants about the end of the acceptance of proposals is set later than the end of the acceptance of proposals",
+              "notice": ""
+            },
+            "AdditionalAcceptanceEndNotificationHours.OutOfRange": {
+              "title": "[AT] An additional reminder to participants about the end of the acceptance of proposals is set later than the end of the acceptance of proposals",
+              "notice": ""
             }
           },
           "comment": {
@@ -840,7 +841,11 @@
           },
           "close": "Not now",
           "order_check": "Order check",
-          "message_for_verified": "Your company has been verified!"
+          "message_for_verified": "Your company has been verified!",
+          "requisites": {
+            "label": "[AT] Verified suppliers are marked with a special icon",
+            "text": "[AT] Counterparties will be able to immediately see that your company is verified and trustworthy"
+          }
         },
         "participant_nda": {
           "title": "Documents for prequalification / NDA",
@@ -852,12 +857,14 @@
           "accept": {
             "title": "Allow to participate in the request",
             "text": "Access to the specification and the request documents will be open",
-            "result": "Participant admitted"
+            "result": "Participant admitted",
+            "result_group": "[AT] Participants allowed:"
           },
           "reject": {
             "title": "Reject the application",
             "text": "Re-submission is possible after the correction of the application",
-            "result": "Application rejected"
+            "result": "Application rejected",
+            "result_group": "[AT] Applications rejected:"
           },
           "comment_placeholder": "Chatting with a participant ...",
           "cancel": "Cancel",
@@ -999,6 +1006,10 @@
               "submitProposal": {
                 "description": "Submit your bid for consideration by the requester.",
                 "title": "Submit bid"
+              },
+              "verify": {
+                "description": "[AT] Submit an application to verify your company to receive the status of \"Verified Supplier\"",
+                "title": "[AT] Order service"
               }
             },
             "canceled": {
@@ -1018,6 +1029,12 @@
               },
               "refused": {
                 "message": "The requester did not consider your offer."
+              },
+              "nda_pending": {
+                "message": "[AT] Request canceled"
+              },
+              "nda_submitted": {
+                "message": "[AT] Request canceled"
               }
             },
             "finished": {
@@ -1043,6 +1060,12 @@
               },
               "winner": {
                 "message": "Request completed."
+              },
+              "nda_pending": {
+                "message": "[AT] Request completed. You have not passed the prequalification / NDA stage and have not submitted an offer."
+              },
+              "nda_submitted": {
+                "message": "[AT] Request completed. You have not passed the prequalification / NDA stage and have not submitted an offer."
               }
             },
             "proposal": {
@@ -1087,6 +1110,12 @@
               },
               "refused": {
                 "message": "The requester does not consider your offer."
+              },
+              "nda_pending": {
+                "message": "[AT] The call for proposals has ended. You have not passed the prequalification / NDA stage and have not submitted an offer."
+              },
+              "nda_submitted": {
+                "message": "[AT] The call for proposals has ended. You have not passed the prequalification / NDA stage and have not submitted an offer."
               }
             }
           },
@@ -1177,10 +1206,10 @@
                   "cancel": "Close"
                 },
                 "how_rise": {
-                  "button": "How do I submit an offer with an increased price?",
                   "1": "Request permission to increase the offer price in the chat with the Customer",
                   "2": "The customer will inform you about his decision in the chat",
-                  "3": "If you receive permission, you will be able to submit an offer with an increased price once"
+                  "3": "If you receive permission, you will be able to submit an offer with an increased price once",
+                  "button": "How do I submit an offer with an increased price?"
                 },
                 "helper_auction": {
                   "label": "How to submit a bid, which violate the rights of the price change?",
@@ -1193,14 +1222,14 @@
                 "helper_positions": {
                   "label": "How do I change the price for individual items?",
                   "description": {
-                    "label": "Changing the price will proportionally change the price of the item offerings. If you are not happy with this, you have the option to adjust the prices individually. To do this:",
                     "1": {
                       "1_1": "Go to the",
                       "1_2": "Proposal",
                       "1_3": "tab and click Improve the bid"
                     },
                     "2": "Change the prices for items and update the offer",
-                    "3": "Remember that the updated price must comply with the price change rule"
+                    "3": "Remember that the updated price must comply with the price change rule",
+                    "label": "Changing the price will proportionally change the price of the item offerings. If you are not happy with this, you have the option to adjust the prices individually. To do this:"
                   }
                 }
               },
@@ -1264,9 +1293,9 @@
             "submit": "Participate",
             "cancel": "I will think about it",
             "agreements": {
-              "order": "Согласен с оплатой комиссии при выборе моего предложения Заказчиком",
-              "users": "Нажимая кнопку \"Принять участие\", вы принимаете условия <a href=\"{{value}}\" target=\"_blank\">Пользовательского соглашения</a>",
-              "tooltip": "Оплачивается только участниками, выбранными Заказчиком и не зависит от подписания договора между Заказчиком и Участником. Размер комиссии зависит от суммы выбранных Заказчиком позиций."
+              "order": "[AT] I agree with the payment of a commission when choosing my offer by the Customer",
+              "users": "[AT] By clicking the \"Participate\" button, you accept the terms of the <a href=\"{{value}}\" target=\"_blank\">User Agreement</a>",
+              "tooltip": "[AT] Paid only by participants selected by the Customer and does not depend on the signing of an agreement between the Customer and the Participant. The amount of the commission depends on the amount of positions selected by the Customer."
             }
           },
           "verification": {

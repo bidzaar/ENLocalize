@@ -17,16 +17,6 @@
                 "0": "Public",
                 "1": "Private"
             },
-            "deviation": {
-                "0": "Лот: обязательная подача на все позиции",
-                "1": "Допускается отклонение количества по позиции",
-                "2": "Возможна подача на часть позиций"
-            },
-            "updown": {
-                "0": "Участники могут повышать и понижать цену",
-                "1": "Участники могут только понижать цену (редукцион)",
-                "2": "Участники могут только повышать цену (аукцион)"
-            },
             "reference": {
                 "0": "from your suggestion",
                 "1": "from the best offer"
@@ -85,6 +75,16 @@
             "owner_visibility": {
                 "0": "Sees the participants' proposals",
                 "1": "Does not see the content of the participants' proposals"
+            },
+            "deviation": {
+                "0": "Лот: обязательная подача на все позиции",
+                "1": "Допускается отклонение количества по позиции",
+                "2": "Возможна подача на часть позиций"
+            },
+            "updown": {
+                "0": "Участники могут повышать и понижать цену",
+                "1": "Участники могут только понижать цену (редукцион)",
+                "2": "Участники могут только повышать цену (аукцион)"
             }
         },
         "validation": {
@@ -94,9 +94,6 @@
                 "Process.Light.Proposal.MainProposalShouldBeSubmitted": "An alternative bid can only be submitted after the primary bid.",
                 "Process.Light.Proposal.NotSuitablePrice": "The bid price does not match the rules of the request",
                 "Process.Light.Proposal.Specification": "The position specification contains errors. Go to Specification. Incorrectly filled fields are highlighted in red",
-                "Process.Light.Proposal.Price.MinValueSubceededFake": "Цена предложения должна быть больше нуля",
-                "Process.Light.Proposal.Price.MaxValueExceededFake": "Цена предложения должна быть меньше 99 млрд.",
-                "Process.Light.Proposal.DontHaveAnyOnNoneDeviation": "<b>{{ GroupName }}.</b> Требуется поставка либо в полном объёме, либо откажитесь от подачи предложения по группе",
                 "Process.Light.Proposal.Price.InvalidProposalCurrency": "The bid currency ({{ Currency }}) is not included in the list of currencies specified in the tender rules.",
                 "Process.Light.Proposal.Price.MinValueSubceeded": "The bid price must be greater than zero.",
                 "Process.Light.Proposal.Price.MaxValueExceeded": "The bid price must be less than 99 billions.",
@@ -116,7 +113,6 @@
                 "Process.Light.Proposal.Item.DeviationUnavailable": "<b>{{ PositionName }}.</b> Quantity does not match the requirements of the request",
                 "Process.Light.Proposal.Item.DontHaveAnyOnNoneDeviation": "<b>{{ PositionName }}.</b> Full delivery required",
                 "Process.Light.Proposal.Item.DeviationUnavailableByPosition": "<b>{{ PositionName }}.</b> Delivery in full is required, or indicate \"Not available\".",
-                "Process.Light.Proposal.Item.ZeroCount": "<b>{{ PositionName }}.</b> Incorrect quantity. Set \"Not available\", if there is no item.",
                 "Process.Light.Proposal.Item.NonZeroCount": "<b>{{ PositionName }}.</b> Incorrect quantity. Set quantity = 0.",
                 "Process.Light.Proposal.Item.Price.MinValueSubceeded": "<b>{{ PositionName }}.</b> Negative price is not allowed",
                 "Process.Light.Proposal.Item.Price.MaxValueExceeded": "<b>{{ PositionName }}.</b> Enter a price less than 99 billions.",
@@ -125,10 +121,13 @@
                 "Process.Light.Proposal.Item.StartPrice.Auction": "<b>{{ PositionName }}.</b> The price per unit in {{ BaseCurrency }} ({{ Price }} {{ BaseCurrency }}) is lower than the min price per unit specified by the Customer ({{ StartPrice }} {{ BaseCurrency }}).",
                 "Process.Light.Proposal.Item.StartPrice.Reduction": "<b>{{ PositionName }}.</b> The price per unit in {{ BaseCurrency }} ({{ Price }} {{ BaseCurrency }}) is higher than the max price per unit specified by the Customer ({{ StartPrice }} {{ BaseCurrency }}).",
                 "Process.Light.Proposal.Item.Price.Worse.Auction": "<b>{{ PositionName }}.</b> The price per unit must be greater than or equal to the previous price {{ PreviousPrice }} {{ BaseCurrency }}",
-                "Process.Light.Proposal.Item.Price.Worse.Reduction": "<b>{{ PositionName }}.</b> The price per unit must be less than or equal to the previous price {{ PreviousPrice }} {{ BaseCurrency }}"
+                "Process.Light.Proposal.Item.Price.Worse.Reduction": "<b>{{ PositionName }}.</b> The price per unit must be less than or equal to the previous price {{ PreviousPrice }} {{ BaseCurrency }}",
+                "Process.Light.Proposal.Price.MinValueSubceededFake": "Цена предложения должна быть больше нуля",
+                "Process.Light.Proposal.Price.MaxValueExceededFake": "Цена предложения должна быть меньше 99 млрд.",
+                "Process.Light.Proposal.DontHaveAnyOnNoneDeviation": "<b>{{ GroupName }}.</b> Требуется поставка либо в полном объёме, либо откажитесь от подачи предложения по группе",
+                "Process.Light.Proposal.Item.ZeroCount": "<b>{{ PositionName }}.</b> Incorrect quantity. Set \"Not available\", if there is no item."
             },
             "price": {
-                "smth_no_deviation": "Требуется поставка в полном объёме либо откажитесь от подачи предложения по группе",
                 "lt_or_equal_to_minimum": "The bid price must be greater than zero.",
                 "lt_minimum": "The bid price must be greater than or equal to zero.",
                 "gt_maximum": "The bid price must be less than 99 billions.",
@@ -138,7 +137,8 @@
                 "start_price_reduction": "The bid price must be less than or equal to the initial maximum: {{price}} {{currency}}.",
                 "refer_price_all": "The bid price violates the rule of change in price. Recommended price: {{max}} {{currency}} or less or {{min}} {{currency}} or more.",
                 "refer_price_auction": "The bid price violates the rule of change in price. Recommended price: {{price}} {{currency}} or more.",
-                "refer_price_reduction": "The bid price violates the rule of change in price. Recommended price: {{price}} {{currency}} or less."
+                "refer_price_reduction": "The bid price violates the rule of change in price. Recommended price: {{price}} {{currency}} or less.",
+                "smth_no_deviation": "Требуется поставка в полном объёме либо откажитесь от подачи предложения по группе"
             }
         },
         "reports": {

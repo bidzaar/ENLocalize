@@ -28,11 +28,12 @@
             "options": {
               "append": "Add to the end of the list",
               "replace": "Replace the current criteria"
-              },
+            },
             "text": "The current non-price criteria will be replaced",
             "cancel": "Cancel",
             "submit": "Apply",
-            "success": "The template has been applied"
+            "success": "The template has been applied",
+            "complement": "[AT] Supplement"
           },
           "remove": {
             "title": "Remove template?",

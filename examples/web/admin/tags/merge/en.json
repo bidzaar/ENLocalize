@@ -1,5 +1,29 @@
 {
   "merge": {
-
+    "title": "[AT] Tag Consolidation",
+    "description": "[AT] Enter tags or select from the cloud to merge",
+    "empty": "[AT] No tags added...",
+    "add_tags_actions": {
+      "manual_input": "[AT] Manual input",
+      "input_cloud": "[AT] Choose from the cloud"
+    },
+    "actions": {
+      "clear": "[AT] clear the list",
+      "merge": "[AT] Merge"
+    },
+    "success": "[AT] Tags merged",
+    "manual_tags_dialog": {
+      "title": "[AT] Enter tags",
+      "text": "[AT] Tags are separated by a comma or a line break. The # symbol is ignored",
+      "send": "[AT] Tag search",
+      "cancel": "[AT] Cancel"
+    },
+    "confirmation_dialog": {
+      "title": "[AT] Tag Consolidation",
+      "text": "[AT] Tags in the group will be replaced with the resulting tag in queries and company profiles",
+      "cancel": "[AT] Cancel",
+      "merge": "[AT] Merge"
+    },
+    "tag_not_found": "[AT] Tag not found"
   }
 }
