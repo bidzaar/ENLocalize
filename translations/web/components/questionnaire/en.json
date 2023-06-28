@@ -31,7 +31,7 @@
                     "text": "Question text",
                     "comment": "Description (optional)",
                     "type": "Answer type",
-                    "group": "[AT] Section name"
+                    "group": "Section name"
                 },
                 "defaults": {
                     "group": "New group",
@@ -250,13 +250,13 @@
                         "empty": "Select and add a value from the list..."
                     },
                     "input": {
-                        "placeholder": "[AT] Your Answer..."
+                        "placeholder": "Your Answer..."
                     },
                     "number": {
-                        "placeholder": "[AT] Number..."
+                        "placeholder": "Number..."
                     },
                     "datetime": {
-                        "placeholder": "[AT] Date of..."
+                        "placeholder": "Date of..."
                     }
                 }
             }
