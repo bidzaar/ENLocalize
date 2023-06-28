@@ -92,9 +92,9 @@
                         "new_price_worse_reduction": "The price per unit must less than or equal to the previous price.",
                         "refer_price_auction": "The bid price violates the rule of change in price. Recommended price: {{price}} {{currency}} or more.",
                         "refer_price_reduction": "The bid price violates the rule of change in price. Recommended price: {{price}} {{currency}} or less.",
-                        "refer_price_all": "[AT] The offer price violates the price change rule. Recommended price: {{max}} {{currency}} and above or {{min}} {{currency}} and below.",
-                        "lt_minimum": "Отрицательная цена недопустима",
-                        "gt_maximum": "Укажите цену меньше 99 млрд"
+                        "refer_price_all": "The bid price violates the price change rule. Recommended price: {{max}} {{currency}} and above or {{min}} {{currency}} and below.",
+                        "lt_minimum": "Negative price is unacceptable",
+                        "gt_maximum": "Indicate a price of less than 99 billion"
                     }
                 }
             }

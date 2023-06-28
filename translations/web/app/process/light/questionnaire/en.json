@@ -33,7 +33,7 @@
                         "cancel": "Cancel",
                         "submit": "Apply",
                         "success": "The template has been applied",
-                        "complement": "[AT] Supplement"
+                        "complement": "Add"
                     },
                     "remove": {
                         "title": "Remove template?",

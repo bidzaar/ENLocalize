@@ -762,11 +762,11 @@
                             "AcceptanceEndNotificationHours.OutOfRange": {}
                         },
                         "AcceptanceEndNotificationHours.OutOfRange": {
-                            "title": "[AT] Reminder to participants about the end of the acceptance of proposals is set later than the end of the acceptance of proposals",
+                            "title": "Reminder to vendors about the end of the bids acceptance is set later than the end of the bids acceptance",
                             "notice": ""
                         },
                         "AdditionalAcceptanceEndNotificationHours.OutOfRange": {
-                            "title": "[AT] An additional reminder to participants about the end of the acceptance of proposals is set later than the end of the acceptance of proposals",
+                            "title": "An additional reminder to vendors about the end of the bids acceptance is set later than the end of the bids acceptance",
                             "notice": ""
                         }
                     },
@@ -843,8 +843,8 @@
                     "order_check": "Order check",
                     "message_for_verified": "Your company has been verified!",
                     "requisites": {
-                        "label": "[AT] Verified suppliers are marked with a special icon",
-                        "text": "[AT] Counterparties will be able to immediately see that your company is verified and trustworthy"
+                        "label": "Verified vendors are marked with a special icon",
+                        "text": "Vendors will be able to immediately see that your company is verified and trustworthy"
                     }
                 },
                 "participant_nda": {
@@ -858,13 +858,13 @@
                         "title": "Confirm vendors",
                         "text": "The vendor will have access to the specification and request documents",
                         "result": "Vendor admitted",
-                        "result_group": "[AT] Participants allowed:"
+                        "result_group": "Vendors allowed:"
                     },
                     "reject": {
                         "title": "Reject a vendor's application",
                         "text": "A repeated application for access is possible after the request is corrected",
                         "result": "The vendor's request has been sent for correction",
-                        "result_group": "[AT] Applications rejected:"
+                        "result_group": "Applications rejected:"
                     },
                     "comment_placeholder": "Chatting with a vendor ...",
                     "cancel": "Cancel",
@@ -1008,8 +1008,8 @@
                                 "title": "Submit bid"
                             },
                             "verify": {
-                                "description": "[AT] Submit an application to verify your company to receive the status of \"Verified Supplier\"",
-                                "title": "[AT] Order service"
+                                "description": "Submit an application to verify your company to receive the status of \"Verified Vendor\"",
+                                "title": "Order service"
                             }
                         },
                         "canceled": {
@@ -1031,10 +1031,10 @@
                                 "message": "The buyer did not consider your bid."
                             },
                             "nda_pending": {
-                                "message": "[AT] Request canceled"
+                                "message": "Request canceled"
                             },
                             "nda_submitted": {
-                                "message": "[AT] Request canceled"
+                                "message": "Request canceled"
                             }
                         },
                         "finished": {
@@ -1062,10 +1062,10 @@
                                 "message": "Request completed."
                             },
                             "nda_pending": {
-                                "message": "[AT] Request completed. You have not passed the prequalification / NDA stage and have not submitted an offer."
+                                "message": "Request completed. You have not passed the prequalification / NDA stage and have not submitted a bid."
                             },
                             "nda_submitted": {
-                                "message": "[AT] Request completed. You have not passed the prequalification / NDA stage and have not submitted an offer."
+                                "message": "Request completed. You have not passed the prequalification / NDA stage and have not submitted a bid."
                             }
                         },
                         "proposal": {
@@ -1112,10 +1112,10 @@
                                 "message": "The buyer does not consider your bid."
                             },
                             "nda_pending": {
-                                "message": "[AT] The call for proposals has ended. You have not passed the prequalification / NDA stage and have not submitted an offer."
+                                "message": "Bids submission period has ended. You have not passed the prequalification / NDA stage and have not submitted a bid."
                             },
                             "nda_submitted": {
-                                "message": "[AT] The call for proposals has ended. You have not passed the prequalification / NDA stage and have not submitted an offer."
+                                "message": "Bids submission period has ended. You have not passed the prequalification / NDA stage and have not submitted a bid."
                             }
                         }
                     },
@@ -1270,7 +1270,7 @@
                             },
                             "blocked": {
                                 "title": "The owner excluded you from the request",
-                                "text": "[AT] You cannot to submit bids to the request by the customer's decision. For more details, contact the customer"
+                                "text": "You cannot to submit bids to the request by the customer's decision. For more details, contact the buyer"
                             },
                             "already_participate": {
                                 "title": "Your company is already submitting bids to the request",
