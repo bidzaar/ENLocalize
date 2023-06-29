@@ -8,9 +8,9 @@
     },
     "req.view": {
         "tabs": {
-            "details": "[AT] Request",
-            "participants": "[AT] Members",
-            "events": "[AT] Magazine"
+            "details": "Request",
+            "participants": "Vendors",
+            "events": "Request report"
         }
     }
 }

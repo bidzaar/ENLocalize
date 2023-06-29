@@ -2,8 +2,8 @@
     "tags": {
         "shared": {
             "actions": {
-                "manual_input": "[AT] Manual input",
-                "from_cloud": "[AT] Choose from the cloud"
+                "manual_input": "Manual input",
+                "from_cloud": "Select from the cloud"
             }
         }
     }

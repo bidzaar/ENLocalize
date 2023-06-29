@@ -1,17 +1,17 @@
 {
     "trf.shared": {
-        "default": "[AT] Default rate",
+        "default": "Default rate",
         "code": {
-            "value": "[AT] Code: {{ value }}",
-            "empty": "[AT] Code not specified"
+            "value": "Code: {{ value }}",
+            "empty": "Code not specified"
         },
         "name": {
-            "empty": "[AT] Name not specified"
+            "empty": "Name not specified"
         },
         "status": {
-            "0": "[AT] Draft",
-            "1": "[AT] current",
-            "2": "[AT] Not valid"
+            "0": "Draft",
+            "1": "Сurrent",
+            "2": "Not valid"
         }
     }
 }

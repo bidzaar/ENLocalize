@@ -2,47 +2,47 @@
     "req.prt": {
         "list": {
             "header": {
-                "title": "[AT] Members",
-                "search": "[AT] Number, TIN, Name, Email, Description, Phone"
+                "title": "Vendors",
+                "search": "Number, TIN, Name, Email, Description, Phone"
             },
             "empty": {
-                "text": "[AT] Nothing found for your search..."
+                "text": "Nothing found for your search..."
             },
             "sorting": {
-                "status": "[AT] Status",
-                "statusDate": "[AT] Change of status",
-                "overlapTagsCount": "[AT] Tag match"
+                "status": "Status",
+                "statusDate": "Status change",
+                "overlapTagsCount": "Tag match"
             },
             "filters": {
                 "status": {
-                    "title": "[AT] Status"
+                    "title": "Status"
                 },
                 "address": {
-                    "title": "[AT] Location"
+                    "title": "Location"
                 },
                 "invited_by": {
-                    "title": "[AT] Who invited"
+                    "title": "Who invited"
                 }
             },
             "card": {
                 "wins": {
-                    "tooltip": "[AT] Wins/Participations"
+                    "tooltip": "Wins/Participations"
                 },
                 "tags": {
-                    "tooltip": "[AT] Number of matching tags"
+                    "tooltip": "Number of matching tags"
                 },
                 "invite": {
-                    "no_profile": "[AT] Company profile not created"
+                    "no_profile": "Company profile not created"
                 }
             },
             "actions": {
-                "download_report": "[AT] Download the \"Request Participants\" report",
-                "open_chat": "[AT] Chat with the organizer",
-                "open_request": "[AT] Open request",
-                "open_events": "[AT] Magazine",
-                "invite": "[AT] Invite",
-                "invite_site": "[AT] Invite from the site",
-                "invite_similar": "[AT] Invite from related queries"
+                "download_report": "Download the \"Vendors\" report",
+                "open_chat": "Chat with the buyer",
+                "open_request": "Public request",
+                "open_events": "Request report",
+                "invite": "Invite",
+                "invite_site": "Invite from the platform",
+                "invite_similar": "Invite from related requests"
             }
         }
     }

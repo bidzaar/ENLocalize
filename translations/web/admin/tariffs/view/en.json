@@ -82,9 +82,9 @@
                     "Tariff.Code.isEmpty": "No code specified",
                     "Tariff.Code.IsNotUnique": "Not a unique code",
                     "Tariff.Conditions.HasNoActive": "The comission scheme is not configured",
-                    "Tariff.Description.IsEmpty": "[AT] No description provided",
-                    "Tariff.Name.IsEmpty": "[AT] Name not specified",
-                    "Tariff.Code.IsEmpty": "[AT] No code specified"
+                    "Tariff.Description.IsEmpty": "No description provided",
+                    "Tariff.Name.IsEmpty": "Name not specified",
+                    "Tariff.Code.IsEmpty": "No code specified"
                 }
             }
         }
