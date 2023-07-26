@@ -36,17 +36,17 @@
                     },
                     "content": {
                         "factor": "Criteria",
-                        "weight": "[AT] Weight"
+                        "weight": "Priority"
                     }
                 },
                 "editor": {
-                    "weight": "[AT] Weight",
-                    "low_bound": "[AT] From",
-                    "score": "[AT] score",
-                    "inconsistent_bounds": "[AT] Range boundaries must follow in ascending order",
-                    "cancel": "[AT] Cancel",
-                    "submit": "[AT] Save",
-                    "success": "[AT] Data saved. Rating will be updated at 01:00"
+                    "weight": "Priority",
+                    "low_bound": "From",
+                    "score": "score",
+                    "inconsistent_bounds": "Range boundaries must follow in ascending order",
+                    "cancel": "Cancel",
+                    "submit": "Save",
+                    "success": "Data is saved. Rating will be updated at 01:00"
                 }
             }
         }
@@ -55,7 +55,7 @@
         "logic": {
             "Cognitive": {
                 "Ratings": {
-                    "TaskInProgress": "[AT] Recalculation of the rating has already started"
+                    "TaskInProgress": "Recalculation of the rating has already started"
                 }
             }
         }
