@@ -24,8 +24,8 @@
     <mj-section>
       <mj-column>
         <mj-text>
-          <h2>@ConfigurationContext.ProjectName – это...</h2>
-          <p><b>@ConfigurationContext.ProjectName</b> – это торговая площадка нового типа, созданная по принципу социальной сети поставщиков и заказчиков.</p>
+          <h2>@ConfigurationContext.ProjectName – is...</h2>
+          <p><b>@ConfigurationContext.ProjectName</b> is a next-generation eSourcing platform matching the network of suppliers and buyers.</p>
         </mj-text>
       </mj-column>
     </mj-section>

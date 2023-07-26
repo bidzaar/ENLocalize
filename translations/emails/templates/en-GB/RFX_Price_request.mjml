@@ -7,16 +7,16 @@
     <mj-section mj-class="section-intro" css-class="intro">
       <mj-column>
         <mj-text>
-          <h1 class="bb">Заявка на изменение цены предложения</h1>
-          <p>Участник <b>@TargetContext.CompanyName</b> запросил разрешение на изменение цены предложения.<br /> Причина: @Reason.</p>
+          <h1 class="bb">Application for bid price change </h1>
+          <p>The company <b>@TargetContext.CompanyName</b> requested permission for bid price change.<br /> Reason: @Reason.</p>
           <p>
-            <b>Запрос:</b> <a href="@ProcedureContext.Url">@ProcedureContext.ProcedureName</a>
+            <b>Request:</b> <a href="@ProcedureContext.Url">@ProcedureContext.ProcedureName</a>
             <br />
-            <b>Приём предложений:</b> до @ProcedureContext.AcceptanceEndDate (осталось часов: @SummingUpProcedureReminderPrecontext.Hours)
+            <b>Bids submission:</b> until @ProcedureContext.AcceptanceEndDate (hours left: @SummingUpProcedureReminderPrecontext.Hours)
           </p>
-          <p class="mb-0">Разрешите участнику изменить цену предложения или отклоните его заявку.</p>
+          <p class="mb-0">Authorize the vendor to change the bid price or reject his bid.</p>
         </mj-text>
-        <mj-button align="center" href="@ProcedureContext.Url">Обработать заявку</mj-button>
+        <mj-button align="center" href="@ProcedureContext.Url">View request</mj-button>
       </mj-column>
     </mj-section>
     <!-- /intro -->

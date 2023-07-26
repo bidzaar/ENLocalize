@@ -2,40 +2,40 @@
     "rts": {
         "enums": {
             "factors": {
-                "0": "[AT] Profile completeness",
-                "1": "[AT] Number of participations in purchases",
-                "2": "[AT] Number of wins in purchases",
-                "3": "[AT] Number of active accreditations",
-                "4": "[AT] Verified company",
-                "5": "[AT] Reviews",
-                "6": "[AT] Badges"
+                "0": "Complete profile",
+                "1": "Number of participations in tenders",
+                "2": "Number of wins in tenders",
+                "3": "Number of active onboardings",
+                "4": "Verified company",
+                "5": "Reviews",
+                "6": "Badges"
             }
         },
         "ratings": {
             "header": {
-                "title": "[AT] Rating"
+                "title": "Scoring"
             },
             "content": {
                 "statistics": {
                     "header": {
-                        "title": "[AT] Supplier rating",
-                        "date": "[AT] on"
+                        "title": "Vendor scoring",
+                        "date": "on"
                     },
                     "content": {
                         "recalculate": {
-                            "tooltip": "[AT] Recalculate rating",
-                            "snack": "[AT] The rating recalculation has been started, it will take some time",
-                            "time": "[AT] The rating will be updated at 01:00.",
-                            "hint": "[AT] Recalculating the rating can slow down the service, update the rating only when necessary."
+                            "tooltip": "Recalculate scoring",
+                            "snack": "The scoring recalculation has been started, it will take some time",
+                            "time": "The scoring will be updated at 01:00.",
+                            "hint": "Recalculating the scoring can slow down the service, update the scoring only when necessary."
                         }
                     }
                 },
                 "criteria": {
                     "header": {
-                        "title": "[AT] Criteria"
+                        "title": "Criteria"
                     },
                     "content": {
-                        "factor": "[AT] Criterion",
+                        "factor": "Criteria",
                         "weight": "[AT] Weight"
                     }
                 },

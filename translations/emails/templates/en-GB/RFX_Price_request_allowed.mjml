@@ -7,17 +7,17 @@
     <mj-section mj-class="section-intro" css-class="intro">
       <mj-column>
         <mj-text>
-          <h1 class="bb">Изменение цены предложения разрешено</h1>
-          <p>Заказчик разрешил вам однократно изменить предложение с нарушением правила изменения цены.</p>
+          <h1 class="bb">Bid price change is allowed </h1>
+          <p>The buyer allowed you to change the bid one time in violation of the price change rule.</p>
           <p>
-            <b>Запрос:</b> <a href="@ProcedureContext.Url">@ProcedureContext.ProcedureName</a>
+            <b>Request:</b> <a href="@ProcedureContext.Url">@ProcedureContext.ProcedureName</a>
             <br />
-            <b>Приём предложений:</b> до @ProcedureContext.AcceptanceEndDate (осталось часов: @SummingUpProcedureReminderPrecontext.Hours)
+            <b>Bid submission:</b> until @ProcedureContext.AcceptanceEndDate (hours left: @SummingUpProcedureReminderPrecontext.Hours)
           </p>
           <p>
           </p>
         </mj-text>
-        <mj-button align="center" href="@ProcedureContext.Url/proposal">Перейти к предложению</mj-button>
+        <mj-button align="center" href="@ProcedureContext.Url/proposal">View bid</mj-button>
       </mj-column>
     </mj-section>
     <!-- /intro -->
