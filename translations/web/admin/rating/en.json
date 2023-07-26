@@ -36,11 +36,11 @@
                     },
                     "content": {
                         "factor": "Criteria",
-                        "weight": "Priority"
+                        "weight": "Rating"
                     }
                 },
                 "editor": {
-                    "weight": "Priority",
+                    "weight": "Rating",
                     "low_bound": "From",
                     "score": "score",
                     "inconsistent_bounds": "Range boundaries must follow in ascending order",
