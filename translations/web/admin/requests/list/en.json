@@ -1,84 +1,84 @@
 {
-    "req.lst": {
-        "list": {
-            "header": {
-                "title": "Запросы",
-                "search": "Поиск осуществляется по полям: Код запроса, Наименование запроса, Наименование компании-организатора"
-            },
-            "empty": {
-                "text": "Запросы не найдены"
-            },
-            "sorting": {
-                "publishDate": "Опубликован",
-                "proposalsCount": "Предложения",
-                "acceptanceEndDate": "Прием предложений",
-                "finishDate": "Завершен"
-            },
-            "filters": {
-                "status": {
-                    "title": "Статус запроса"
-                },
-                "publishDate": {
-                    "title": "Дата публикации"
-                },
-                "acceptanceEndDate": {
-                    "title": "Дата завершения приема предложений"
-                },
-                "finishDate": {
-                    "title": "Дата завершения"
-                },
-                "orders": {
-                    "title": "С победителем",
-                    "options": {
-                        "true": "Да",
-                        "false": "Нет"
-                    }
-                },
-                "proposals": {
-                    "title": "Предложения"
-                },
-                "address": {
-                    "title": "Место поставки"
-                },
-                "category": {
-                    "title": "Категория"
-                },
-                "company": {
-                    "title": "Заказчик",
-                    "choose": "Выбрать заказчиков"
-                },
-                "responsible": {
-                    "title": "Ответственный",
-                    "choose": "Показать команду"
-                },
-                "open_type": {
-                    "title": "Тип запроса",
-                    "options": {
-                        "0": "Только открытые",
-                        "1": "Только закрытые"
-                    }
-                }
-            },
-            "card": {
-                "links": {
-                    "journal": "Журнал запроса",
-                    "participants": "Участники",
-                    "open": "Открыть запрос на площадке"
-                },
-                "link": {
-                    "open": ""
-                },
-                "publish": {
-                    "date": "Опубликован"
-                },
-                "category": {
-                    "empty": "Без категории"
-                },
-                "stats": {
-                    "proposals": "Участники текущего этапа с предложением",
-                    "participants": "Приняли участие в этапе"
-                }
-            }
+  "req.lst": {
+    "list": {
+      "header": {
+        "title": "[AT] Requests",
+        "search": "[AT] The search is carried out in the fields: Request code, Request name, Organizer company name"
+      },
+      "empty": {
+        "text": "[AT] Requests not found"
+      },
+      "sorting": {
+        "publishDate": "[AT] published",
+        "proposalsCount": "[AT] Offers",
+        "acceptanceEndDate": "[AT] Acceptance of proposals",
+        "finishDate": "[AT] Completed"
+      },
+      "filters": {
+        "status": {
+          "title": "[AT] Request Status"
+        },
+        "publishDate": {
+          "title": "[AT] Publication date"
+        },
+        "acceptanceEndDate": {
+          "title": "[AT] Closing date for proposals"
+        },
+        "finishDate": {
+          "title": "[AT] Date of completion"
+        },
+        "orders": {
+          "title": "[AT] With the winner",
+          "options": {
+            "true": "[AT] Yes",
+            "false": "[AT] No"
+          }
+        },
+        "proposals": {
+          "title": "[AT] Offers"
+        },
+        "address": {
+          "title": "[AT] Delivery address"
+        },
+        "category": {
+          "title": "[AT] Category"
+        },
+        "company": {
+          "title": "[AT] Customer",
+          "choose": "[AT] Select customers"
+        },
+        "responsible": {
+          "title": "[AT] Responsible",
+          "choose": "[AT] Show command"
+        },
+        "open_type": {
+          "title": "[AT] Request type",
+          "options": {
+            "0": "[AT] Only open",
+            "1": "[AT] Only closed"
+          }
         }
+      },
+      "card": {
+        "links": {
+          "journal": "[AT] Query log",
+          "participants": "[AT] Members",
+          "open": "[AT] Open a request on the site"
+        },
+        "link": {
+          "open": ""
+        },
+        "publish": {
+          "date": "[AT] published"
+        },
+        "category": {
+          "empty": "[AT] Uncategorized"
+        },
+        "stats": {
+          "proposals": "[AT] Participants of the current stage with a proposal",
+          "participants": "[AT] took part in the stage"
+        }
+      }
     }
+  }
 }

@@ -1,46 +1,46 @@
 {
-    "req.shared": {
-        "markers": {
-            "nda": "NDA",
-            "verify": "Для проверенных",
-            "private": "Закрытый запрос"
-        },
-        "status": {
-            "until": "до",
-            "since": "с",
-            "orders": "Завершен без победителя"
-        },
-        "timer": {
-            "minutes": "мин",
-            "hours": "ч",
-            "days": "дн",
-            "past": "назад"
-        },
-        "comment": {
-            "add": "Добавить комментарий"
-        },
-        "responsible": {
-            "change": "Изменить",
-            "remove": "Удалить",
-            "assign": "Оператор не назначен"
-        },
-        "header": {
-            "back": "Возврат к списку",
-            "publish": "Опубликован {{ date }}",
-            "details": "Детали",
-            "stats": {
-                "proposals": "Участники с предложением",
-                "participants": "Приняли участие"
-            }
-        },
-        "dialogs": {
-            "comment": {
-                "header": "Комментарий",
-                "label": "Ваш комментарий",
-                "cancel": "Отмена",
-                "submit": "Сохранить",
-                "success": "Комментарий обновлен"
-            }
-        }
+  "req.shared": {
+    "markers": {
+      "nda": "[AT] NDA",
+      "verify": "[AT] For verified",
+      "private": "[AT] Closed Request"
+    },
+    "status": {
+      "until": "[AT] before",
+      "since": "[AT] With",
+      "orders": "[AT] Completed without a winner"
+    },
+    "timer": {
+      "minutes": "[AT] min",
+      "hours": "[AT] h",
+      "days": "[AT] days",
+      "past": "[AT] back"
+    },
+    "comment": {
+      "add": "[AT] Add a comment"
+    },
+    "responsible": {
+      "change": "[AT] Change",
+      "remove": "[AT] Delete",
+      "assign": "[AT] Operator not assigned"
+    },
+    "header": {
+      "back": "[AT] Return to list",
+      "publish": "[AT] Published on {{ date }}",
+      "details": "[AT] Details",
+      "stats": {
+        "proposals": "[AT] Participants with an offer",
+        "participants": "[AT] Took part"
+      }
+    },
+    "dialogs": {
+      "comment": {
+        "header": "[AT] A comment",
+        "label": "[AT] your comment",
+        "cancel": "[AT] Cancel",
+        "submit": "[AT] Save",
+        "success": "[AT] Comment updated"
+      }
     }
+  }
 }
