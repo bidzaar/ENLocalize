@@ -1293,9 +1293,9 @@
             "submit": "Submit bid",
             "cancel": "I will think about it",
             "agreements": {
-              "order": "[AT] I agree with the payment of a commission when choosing my offer by the Customer",
-              "users": "[AT] By clicking the \"Participate\" button, you accept the terms of the <a href=\"{{value}}\" target=\"_blank\">User Agreement</a>",
-              "tooltip": "[AT] Paid only by participants selected by the Customer and does not depend on the signing of an agreement between the Customer and the Participant. The amount of the commission depends on the amount of positions selected by the Customer."
+              "order": "I agree with the commission when selecting my bid by the Buyer",
+              "users": "By clicking the \"Participate\" button, you accept the terms of the <a href=\"{{value}}\" target=\"_blank\">User Agreement</a>",
+              "tooltip": "Paid only by participants selected by the Buyer and does not depend on the signing of an agreement between the Buyer and the Vendor. The amount of the commission depends on the amount of items selected by the Buyer."
             }
           },
           "verification": {

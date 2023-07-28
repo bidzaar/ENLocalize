@@ -60,7 +60,7 @@
       "actions": {
         "download": "Download template",
         "upload": "Upload from file",
-        "patch": "[AT] Do not submit a proposal for the group"
+        "patch": "Do not submit a bid for the group"
       },
       "table": {
         "validation": {

@@ -3,33 +3,33 @@
     "proposal": {
       "nda": {
         "banner": {
-          "draft": "[AT] Prequalify and submit your proposal before the call for proposals closes.",
-          "submitted": "[AT] Application under consideration. Communication with the customer - in the request chat."
+          "draft": "Prequalify and submit your bid before the end of the bid submission.",
+          "submitted": "Application under consideration. Communication with the customer - in the request chat."
         },
         "header": {
-          "title": "[AT] Application for prequalification / NDA",
+          "title": "Application for prequalification / NDA",
           "status": {
-            "0": "[AT] Application not submitted",
-            "1": "[AT] Application submitted",
-            "2": "[AT] Application rejected",
-            "3": "[AT] Application approved"
+            "0": "Application is not submitted",
+            "1": "Application is submitted",
+            "2": "Application is rejected",
+            "3": "Application is approved"
           }
         },
         "action": {
-          "title": "[AT] Apply for prequalification / NDA",
-          "text": "[AT] Make sure that the application contains a complete set of documents. It is not possible to change an application after it has been submitted.",
-          "cancel": "[AT] Cancel",
-          "submit": "[AT] Apply"
+          "title": "Apply for prequalification / NDA",
+          "text": "Make sure that the application contains a complete set of documents. It is not possible to change an application after it has been submitted.",
+          "cancel": "Cancel",
+          "submit": "Apply"
         },
         "description": {
-          "title": "[AT] Description and documents",
-          "notice": "[AT] Familiarize yourself with the requirements of the Customer on the \"Request\" tab",
-          "open": "[AT] Go"
+          "title": "Description and documents",
+          "notice": "Familiarize yourself with the requirements of the Customer on the \"Request\" tab",
+          "open": "View"
         },
         "documents": {
-          "title": "[AT] Application Documents",
-          "notice": "[AT] Attach a set of documents",
-          "append": "[AT] Attach"
+          "title": "Application Documents",
+          "notice": "Attach a set of documents",
+          "append": "Attach"
         }
       },
       "registries": {

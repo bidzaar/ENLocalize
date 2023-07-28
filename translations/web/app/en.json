@@ -1784,8 +1784,8 @@
         "name": "Name",
         "type": "Type of the request",
         "options": {
-          "1": "[AT] Purchase",
-          "2": "[AT] Sale"
+          "1": "Purchase",
+          "2": "Sell"
         }
       },
       "invite": {
