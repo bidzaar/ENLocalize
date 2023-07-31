@@ -66,11 +66,11 @@
         "false": "Price excl. VAT"
       },
       "custom": {
-        "string": "Текст",
-        "double": "Число",
-        "bool": "Да / Нет",
-        "datetime": "Дата",
-        "decimal": "Деньги"
+        "string": "[AT] Text",
+        "double": "[AT] Number",
+        "bool": "[AT] Not really",
+        "datetime": "[AT] date",
+        "decimal": "[AT] Money"
       },
       "owner_visibility": {
         "0": "Sees the participants' proposals",
