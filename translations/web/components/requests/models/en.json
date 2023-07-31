@@ -138,7 +138,7 @@
         "refer_price_all": "The bid price violates the rule of change in price. Recommended price: {{max}} {{currency}} or less or {{min}} {{currency}} or more.",
         "refer_price_auction": "The bid price violates the rule of change in price. Recommended price: {{price}} {{currency}} or more.",
         "refer_price_reduction": "The bid price violates the rule of change in price. Recommended price: {{price}} {{currency}} or less.",
-        "smth_no_deviation": "[AT] Full delivery required or refuse to submit an offer for the group"
+        "smth_no_deviation": "Full delivery required or refuse to submit an quotation for the group"
       }
     },
     "reports": {
