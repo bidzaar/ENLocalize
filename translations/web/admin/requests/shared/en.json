@@ -1,45 +1,45 @@
 {
   "req.shared": {
     "markers": {
-      "nda": "[AT] NDA",
-      "verify": "[AT] For verified",
-      "private": "[AT] Closed Request"
+      "nda": "NDA",
+      "verify": "For verified",
+      "private": "Private Request"
     },
     "status": {
-      "until": "[AT] before",
-      "since": "[AT] With",
-      "orders": "[AT] Completed without a winner"
+      "until": "before",
+      "since": "With",
+      "orders": "Completed without a winner"
     },
     "timer": {
-      "minutes": "[AT] min",
-      "hours": "[AT] h",
-      "days": "[AT] days",
-      "past": "[AT] back"
+      "minutes": "min",
+      "hours": "h",
+      "days": "days",
+      "past": "ago"
     },
     "comment": {
-      "add": "[AT] Add a comment"
+      "add": "Add a comment"
     },
     "responsible": {
-      "change": "[AT] Change",
-      "remove": "[AT] Delete",
-      "assign": "[AT] Operator not assigned"
+      "change": "Change",
+      "remove": "Delete",
+      "assign": "Reponsible person not assigned"
     },
     "header": {
-      "back": "[AT] Return to list",
-      "publish": "[AT] Published on {{ date }}",
-      "details": "[AT] Details",
+      "back": "Return to list",
+      "publish": "Published on {{ date }}",
+      "details": "Details",
       "stats": {
-        "proposals": "[AT] Participants with an offer",
-        "participants": "[AT] Took part"
+        "proposals": "Vendors with the submitted bid",
+        "participants": "Vendors who submitted bid"
       }
     },
     "dialogs": {
       "comment": {
-        "header": "[AT] A comment",
-        "label": "[AT] your comment",
-        "cancel": "[AT] Cancel",
-        "submit": "[AT] Save",
-        "success": "[AT] Comment updated"
+        "header": "A comment",
+        "label": "Your comment",
+        "cancel": "Cancel",
+        "submit": "Save",
+        "success": "Comment is updated"
       }
     }
   }
