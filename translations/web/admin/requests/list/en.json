@@ -2,81 +2,81 @@
   "req.lst": {
     "list": {
       "header": {
-        "title": "[AT] Requests",
-        "search": "[AT] The search is carried out in the fields: Request code, Request name, Organizer company name"
+        "title": "Requests",
+        "search": "The search is carried out in the fields: Request code, Request name, Buyer company name"
       },
       "empty": {
-        "text": "[AT] Requests not found"
+        "text": "Requests are not found"
       },
       "sorting": {
-        "publishDate": "[AT] published",
-        "proposalsCount": "[AT] Offers",
-        "acceptanceEndDate": "[AT] Acceptance of proposals",
-        "finishDate": "[AT] Completed"
+        "publishDate": "Submitted",
+        "proposalsCount": "Bids",
+        "acceptanceEndDate": "Bid acceptance",
+        "finishDate": "Completed"
       },
       "filters": {
         "status": {
-          "title": "[AT] Request Status"
+          "title": "Request Status"
         },
         "publishDate": {
-          "title": "[AT] Publication date"
+          "title": "Publication date"
         },
         "acceptanceEndDate": {
-          "title": "[AT] Closing date for proposals"
+          "title": "Bids due date"
         },
         "finishDate": {
-          "title": "[AT] Date of completion"
+          "title": "Date of completion"
         },
         "orders": {
-          "title": "[AT] With the winner",
+          "title": "With the winner",
           "options": {
-            "true": "[AT] Yes",
-            "false": "[AT] No"
+            "true": "Yes",
+            "false": "No"
           }
         },
         "proposals": {
-          "title": "[AT] Offers"
+          "title": "Bids"
         },
         "address": {
-          "title": "[AT] Delivery address"
+          "title": "Delivery address"
         },
         "category": {
-          "title": "[AT] Category"
+          "title": "Category"
         },
         "company": {
-          "title": "[AT] Customer",
-          "choose": "[AT] Select customers"
+          "title": "Buyer",
+          "choose": "Select buyers"
         },
         "responsible": {
-          "title": "[AT] Responsible",
-          "choose": "[AT] Show command"
+          "title": "Responsible",
+          "choose": "Show command"
         },
         "open_type": {
-          "title": "[AT] Request type",
+          "title": "Request type",
           "options": {
-            "0": "[AT] Only open",
-            "1": "[AT] Only closed"
+            "0": "Only public",
+            "1": "Only private"
           }
         }
       },
       "card": {
         "links": {
-          "journal": "[AT] Query log",
-          "participants": "[AT] Members",
-          "open": "[AT] Open a request on the site"
+          "journal": "Request notice",
+          "participants": "Vendors",
+          "open": "View request on the platform"
         },
         "link": {
           "open": ""
         },
         "publish": {
-          "date": "[AT] published"
+          "date": "Published"
         },
         "category": {
-          "empty": "[AT] Uncategorized"
+          "empty": "Uncategorized"
         },
         "stats": {
-          "proposals": "[AT] Participants of the current stage with a proposal",
-          "participants": "[AT] took part in the stage"
+          "proposals": "Vendors of the current stage with a bid",
+          "participants": "Participated in the stage"
         }
       }
     }

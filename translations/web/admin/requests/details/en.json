@@ -1,76 +1,76 @@
 {
     "req.details": {
         "tabs": {
-            "open": "[AT] Open",
-            "nda": "[AT] Request data protected by NDA",
-            "tags": "[AT] tags",
-            "docs": "[AT] Documentation",
-            "rules_general": "[AT] Rules for making a request",
-            "rules_participant": "[AT] Rules for Request Participants",
-            "questions_on": "[AT] Non-price criteria",
-            "questions_off": "[AT] Non-price criteria are not set",
-            "positions_on": "[AT] Position specification",
-            "positions_off": "[AT] Position specification disabled",
-            "positions_off_notice": "[AT] Participants indicate the total price for the entire request"
+            "open": "View",
+            "nda": "Request data protected by NDA",
+            "tags": "Tags",
+            "docs": "Documentation",
+            "rules_general": "Request terms",
+            "rules_participant": "Conditions for Request Participants",
+            "questions_on": "Non-pricing criteria",
+            "questions_off": "Non-pricing criteria is not set",
+            "positions_on": "Item specification",
+            "positions_off": "Item specification is disabled",
+            "positions_off_notice": "Vendors indicate the total price for the entire request"
         },
         "expansions": {
             "nda": {
-                "title": "[AT] NDA documents"
+                "title": "NDA documents"
             },
             "docs": {
-                "title": "[AT] Documentation"
+                "title": "Documentation"
             }
         },
         "description": {
-            "expand": "[AT] Show all",
-            "collapse": "[AT] Hide",
-            "empty": "[AT] Description not set"
+            "expand": "how all",
+            "collapse": "Hide",
+            "empty": "Description is not set"
         },
         "contacts": {
-            "title": "[AT] The contact person"
+            "title": "Contact person"
         },
         "owners": {
-            "title": "[AT] Query Owners"
+            "title": "Request Owners"
         },
         "statistics": {
             "stage": {
-                "label": "[AT] Stage"
+                "label": "Stage"
             },
             "participants": {
-                "label": "[AT] Took part",
-                "tooltip": "[AT] Number of stage participants, including those who refused and blocked"
+                "label": "Participated",
+                "tooltip": "Number of stage participants, including those who refused and blocked"
             },
             "proposals": {
-                "label": "[AT] Participants with an offer",
-                "tooltip": "[AT] Number of stage participants who submitted an offer within the stage"
+                "label": "Vendors with bid",
+                "tooltip": "Number of stage participants who submitted a bid within the stage"
             }
         },
         "category": {
-            "title": "[AT] Request Category"
+            "title": "Request Category"
         },
         "comment": {
-            "title": "[AT] A comment",
-            "edit": "[AT] Change",
-            "add": "[AT] Add a comment"
+            "title": "A comment",
+            "edit": "Change",
+            "add": "Add a comment"
         },
         "tariffs": {
-            "title": "[AT] Rate",
+            "title": "Rate",
             "free": {
-                "title": "[AT] Fare not applicable",
-                "text": "[AT] Participation is free",
-                "closed": "[AT] No commission for closed requests"
+                "title": "Comission is not applicable",
+                "text": "Participation is free",
+                "closed": "No commission for private requests"
             },
             "promo": {
-                "title": "[AT] Fare not applicable",
-                "text": "[AT] Promo code applied: {{value}}"
+                "title": "Comission is not applicable",
+                "text": "Promo code applied: {{value}}"
             },
             "tariff": {
-                "info": "[AT] More",
-                "purchaser": "[AT] Customer pays",
-                "seller": "[AT] Winning supplier pays"
+                "info": "More",
+                "purchaser": "Customer pays",
+                "seller": "Winning vendor pays"
             },
             "dialog": {
-                "edit": "[AT] Change request rate"
+                "edit": "Change request comission"
             }
         }
     }
