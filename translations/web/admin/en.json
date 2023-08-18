@@ -32,8 +32,8 @@
             },
             "UserManagement": {
                 "Admin": {
-                    "LastAdmin": "[AT] You are the only employee with the \"Manage Bidzaar team\" right. Transfer authority to another employee and repeat the operation.",
-                    "BlockYourself": "[AT] You can't block yourself."
+                    "LastAdmin": "You are the only employee with the \"Manage Bidzaar team\" rights. Transfer access rights to another employee and redo the action.",
+                    "BlockYourself": "You can't block yourself."
                 }
             }
         }
@@ -64,77 +64,77 @@
     },
     "core": {
         "marketplace": {
-            "name": "[AT] BIDZAAR"
+            "name": "BIDZAAR"
         },
         "user_toolbar": {
-            "login": "[AT] Entrance",
-            "register": "[AT] Registration",
-            "logout": "[AT] Go out"
+            "login": "Login",
+            "register": "Company Registration",
+            "logout": "Log out"
         },
         "navigation": {
-            "all_companies": "[AT] All companies",
-            "team": "[AT] Team",
-            "ratings": "[AT] Company rating",
-            "buyers": "[AT] Customers",
-            "requests": "[AT] Requests",
-            "stop_list": "[AT] Stop list tags",
-            "merge_tags": "[AT] Tag Consolidation",
-            "tariffs": "[AT] Tariff packages",
-            "categories": "[AT] Categories directory",
-            "promo_codes": "[AT] Promo codes"
+            "all_companies": "All companies",
+            "team": "Team",
+            "ratings": "Company ranking",
+            "buyers": "Buyers",
+            "requests": "Requests",
+            "stop_list": "Stop tag list",
+            "merge_tags": "Tag Merge",
+            "tariffs": "Comission packages",
+            "categories": "Categories",
+            "promo_codes": "Promo codes"
         }
     },
     "dashboard": {
         "guest": {
             "request_access": {
-                "title": "[AT] Hello",
-                "text": "[AT] to access the administration you need to be a member of the Bidzaar team.",
-                "action": "[AT] I want to join the Bidzaar team"
+                "title": "Hello",
+                "text": "to access the administration you need to be a member of the Bidzaar team.",
+                "action": "I want to join the Bidzaar team"
             },
             "wait_for_approval": {
-                "title": "[AT] application submitted",
-                "text": "[AT] wait for your admin status to be confirmed."
+                "title": "Application is submitted",
+                "text": "Wait for your admin status to be confirmed."
             }
         }
     },
     "filters": {
-        "clear": "[AT] clear",
-        "clear_all": "[AT] clear",
-        "filter": "[AT] filter",
-        "more_filters": "[AT] more filters",
+        "clear": "Clear",
+        "clear_all": "Clear",
+        "filter": "Filter",
+        "more_filters": "More filters",
         "operators": {
-            "date_after": "[AT] date after",
-            "date_before": "[AT] date before",
-            "equal": "[AT] equals",
-            "exact_date": "[AT] exact date",
-            "greater_than": "[AT] more",
-            "greater_than_or_equal": "[AT] more or equal",
-            "less_than": "[AT] less",
-            "less_than_or_equal": "[AT] less or equal",
-            "not_equal": "[AT] not equal",
-            "period": "[AT] period",
-            "range": "[AT] in the range"
+            "date_after": "date after",
+            "date_before": "date before",
+            "equal": "equals",
+            "exact_date": "exact date",
+            "greater_than": "more",
+            "greater_than_or_equal": "more or equal",
+            "less_than": "less",
+            "less_than_or_equal": "less or equal",
+            "not_equal": "not equal",
+            "period": "period",
+            "range": "in the range"
         },
         "placeholders": {
-            "end": "[AT] end",
-            "enter_number": "[AT] enter the number",
-            "enter_text_value": "[AT] provide a text value",
-            "from": "[AT] from",
-            "to": "[AT] before"
+            "end": "end",
+            "enter_number": "enter the number",
+            "enter_text_value": "provide a text value",
+            "from": "from",
+            "to": "before"
         },
-        "search": "[AT] find...",
-        "show": "[AT] show filters",
-        "hide": "[AT] hide filters",
-        "tooltip": "[AT] The search is performed on the following fields: {{value}}",
-        "sorting": "[AT] sort"
+        "search": "find...",
+        "show": "show filters",
+        "hide": "hide filters",
+        "tooltip": "The search is performed on the following fields: {{value}}",
+        "sorting": "sort"
     },
     "common": {
         "rights": {
-            "1": "[AT] Purchaser",
-            "2": "[AT] Provider",
-            "4": "[AT] Applicant for accreditation",
-            "256": "[AT] Group admin",
-            "512": "[AT] Registry Administrator"
+            "1": "Buyer",
+            "2": "Supplier",
+            "4": "Applicant for onboarding to the vendor pool",
+            "256": "Group admin",
+            "512": "Vendor Pool Administrator"
         }
     }
 }
