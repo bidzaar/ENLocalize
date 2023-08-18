@@ -52,7 +52,7 @@
                         "phone": "Phone number is not listed",
                         "employees": "Company size is not specified"
                     }
-                }
+                },
                 "areas": {
                     "title": "Business region",
                     "text": "The company provides services or goods in the territory:",
