@@ -131,7 +131,7 @@
     "common": {
         "rights": {
             "1": "Buyer",
-            "2": "Supplier",
+            "2": "Vendor",
             "4": "Applicant for onboarding to the vendor pool",
             "256": "Group admin",
             "512": "Vendor Pool Administrator"
