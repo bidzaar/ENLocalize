@@ -16,7 +16,8 @@
                     "actions": {
                         "chat": "Chat with the company",
                         "crm": "CRM",
-                        "profile": "Profile"
+                        "profile": "Profile",
+                        "recover": "[AT] Restore the company"
                     }
                 },
                 "sections": {
@@ -48,7 +49,15 @@
                 "requisites": {
                     "header": "Company details",
                     "empty": "Details are not set",
-                    "edit": "Edit"
+                    "edit": "Edit",
+                    "edit_confirm_tin": {
+                        "true": "[AT] Cancel TIN confirmation",
+                        "false": "[AT] Confirm TIN"
+                    },
+                    "edit_сonfirm_tin": {
+                        "true": "[AT] Cancel TIN Confirmation",
+                        "false": "[AT] Confirm TIN"
+                    }
                 },
                 "groups": {
                     "rights_visibility": "Company rights and visibility",
@@ -80,6 +89,7 @@
                     "journal": "Assignments report",
                     "success": "Employee is assigned",
                     "dialog": {
+                        "empty": "[AT] No employees found",
                         "table": {
                             "header": {
                                 "size": "Records: {{ value }}",
@@ -118,7 +128,15 @@
                     "fee": "Who pays",
                     "free": "Private tenders are free"
                 },
-                "change": "Set"
+                "change": "Set",
+                "sales": {
+                    "sale": "[AT] Responsible sale",
+                    "csm": "[AT] Responsible CSM",
+                    "attach": "[AT] to fix",
+                    "detach": "[AT] unpin",
+                    "empty": "[AT] Not assigned",
+                    "journal": "[AT] Appointment log"
+                }
             },
             "editor": {
                 "crm": {
@@ -198,10 +216,36 @@
                 }
             },
             "dialogs": {
+                "recover": {
+                    "title": "Restore the company?",
+                    "text": "The company will be able to work on the site again",
+                    "cancel": "Cancel",
+                    "submit": "Restore",
+                    "snack_success": "The company has been restored"
+                },
                 "remove_supplier": {
                     "text": "Exclude the visibility of the company in the customer's company widget?",
                     "confirm": "Exclude",
                     "cancel": "Cancel"
+                },
+                "assignment_journal": {
+                    "title": "[AT] Appointment log",
+                    "columns": {
+                        "role": "[AT] Role",
+                        "employee": "[AT] Employee",
+                        "event": "[AT] Event",
+                        "initiator": "[AT] Initiator",
+                        "date": "[AT] date"
+                    },
+                    "role": {
+                        "0": "[AT] Sale",
+                        "1": "[AT] CSM"
+                    },
+                    "event": {
+                        "0": "[AT] Pinned",
+                        "1": "[AT] Unpinned"
+                    },
+                    "empty": "[AT] Responsible has not been previously assigned"
                 }
             }
         }

@@ -1,5 +1,5 @@
 {
-    "bdz.loc.filters": {
-        "choose": "web/components/locations/filters: bdz.loc.filters.choose"
-    }
+  "bdz.loc.filters": {
+    "choose": "web/components/locations/filters: bdz.loc.filters.choose"
+  }
 }

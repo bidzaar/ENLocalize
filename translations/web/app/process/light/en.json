@@ -134,7 +134,7 @@
         "4": "Buyer"
       },
       "language": {
-        "0": "Русский",
+        "0": "Russian",
         "1": "English"
       },
       "invited_by": {
@@ -289,7 +289,8 @@
             "remove_from_procedure_info": "Reversible action",
             "select_all_positions": "Select all bids",
             "show_profile": "Open vendor profile",
-            "reject": "Reject a bidTəklifi rədd edin"
+            "reject": "Reject a bidTəklifi rədd edin",
+            "download_bid": "Download offer"
           },
           "not_full": "Variance in buyer requested quantity on some items",
           "vat_title": "VAT",
@@ -339,7 +340,8 @@
           "details": "Show details",
           "full_description_tooltip": "Click to see full description",
           "best_price_tooltip": "Best price per unit",
-          "target_price_tooltip": "Target price per unit"
+          "target_price_tooltip": "Target price per unit",
+          "banned_tooltip": "Submission of new proposals for this position is prohibited"
         },
         "position_info_dialog": {
           "has_vat": "price incl. VAT",
@@ -371,7 +373,8 @@
           "comment": "Comment",
           "documents": "Documents",
           "float_count_warning": "Ensure fractional delivery is possible",
-          "success_snack": "Data saved"
+          "success_snack": "Data saved",
+          "banned_info": "The organizer forbade submitting a new proposal for this position"
         },
         "position_proposal_total_dialog": {
           "title": "Change selection amount",
@@ -556,6 +559,8 @@
           },
           "options": {
             "attachment": "Download with attached documents",
+            "order_filter": "Only with suggestions from filtered participants ({{select}}/{{all}})",
+            "questionnaire": "With non-price criteria",
             "selectable": "Select the fields of bids to download"
           },
           "columns": {
@@ -571,6 +576,7 @@
             "4096": "Rank by item",
             "16384": "VAT, {{ currency }}"
           },
+          "custom_column": "Other fields",
           "actions": {
             "cancel": "Cancel",
             "submit": "Download"
@@ -697,6 +703,14 @@
               "title": "Maximum / Minimum / Expected price"
             },
             "Questionnaire": {
+              "Empty": {
+                "notice": "[AT] Set non-price query criteria or disable block",
+                "title": "[AT] Requirements for the participant and conditions of the request"
+              },
+              "HasErrors": {
+                "notice": "[AT] Non-price query criteria contain errors.",
+                "title": "[AT] Requirements for the participant and conditions of the request"
+              },
               "notice": "",
               "title": "Requirements for vendors and conditions of request"
             },
@@ -805,6 +819,10 @@
           "proposals": {
             "title": "Team member changed the bid",
             "text": "Please refresh the page and re-summarize."
+          },
+          "deleted": {
+            "title": "The selected company has left the site",
+            "text": "Company <b>{{name}}</b> has left the site. Choose another company"
           }
         },
         "wrong_status": {
@@ -916,6 +934,22 @@
             },
             "undo": "You can cancel the blocking at the stage of accepting offers"
           }
+        },
+        "allow_change_price": {
+          "title": "Allow the participant to change the price?",
+          "text": "The participant asks to be allowed to change the offer price in violation of the rule",
+          "reason": "Reason given by the participant:",
+          "reject": "Reject",
+          "allow": "Allow",
+          "snack": {
+            "allow": "Permission granted",
+            "reject": "Request rejected"
+          }
+        },
+        "can_not_show_banned_positions": {
+          "title": "Setting prohibitions is not available",
+          "text": "To set line item submission bans, add members to the request",
+          "submit": "Got it"
         }
       },
       "header": {
@@ -1211,14 +1245,6 @@
                   "3": "If you receive permission, you will be able to submit a bid with an increased price once",
                   "button": "How do I submit a bid with an increased price?"
                 },
-                "helper_auction": {
-                  "label": "How to submit a bid, which violate the rights of the price change?",
-                  "description": {
-                    "1": "Request permission from the Customer in the Request chat",
-                    "2": "The customer will inform you of his decision",
-                    "3": "Once approved, you will be able to submit a bid that violates the price change rule once."
-                  }
-                },
                 "helper_positions": {
                   "label": "How do I change the price for individual items?",
                   "description": {
@@ -1230,6 +1256,14 @@
                     "2": "Change the prices for items and update the bid",
                     "3": "Remember that the updated price must comply with the price change rule",
                     "label": "Changing the price will proportionally change the price of the item offerings. If you are not happy with this, you have the option to adjust the prices individually. To do this:"
+                  }
+                },
+                "helper_auction": {
+                  "label": "How to submit a bid, which violate the rights of the price change?",
+                  "description": {
+                    "1": "Request permission from the Customer in the Request chat",
+                    "2": "The customer will inform you of his decision",
+                    "3": "Once approved, you will be able to submit a bid that violates the price change rule once."
                   }
                 }
               },
@@ -1446,12 +1480,17 @@
             "bulk": {
               "button": "Actions"
             },
-            "block_many": {
-              "button": "Block vendors",
-              "tooltip": "Block selected vendors. This action is reversible."
-            },
-            "block_others": {
-              "button": "Block all vendors except selected ones"
+            "block_selected": {
+              "title": "Block participants",
+              "block_many": {
+                "button": "Block selected",
+                "tooltip": "Block selected participants. This action is reversible.",
+                "text": "Your chosen participants will be blocked"
+              },
+              "block_others": {
+                "button": "Block all participants except selected ones",
+                "text": "Only the participants you selected will remain, the rest will be blocked"
+              }
             },
             "block_one": {
               "button": "Block vendor",
@@ -1504,6 +1543,10 @@
               "title": "Download current prequalification applications/NDA",
               "tooltip": "Download current prequalification applications/NDA"
             },
+            "ban_individual_positions": {
+              "title": "Set bans on submission for individual positions",
+              "tooltip": "Set bans on submission for individual positions"
+            },
             "block_participants": {
               "title": "Block participants without an offer",
               "tooltip": "Block participants without an offer"
@@ -1520,14 +1563,6 @@
               "request": "Prequalification / NDA documents",
               "decision": "Admission decision",
               "open": "Open an application"
-            },
-            "permit_change": {
-              "reduction": {
-                "button": "Allow price increase"
-              },
-              "auction": {
-                "button": "Allow price reduction"
-              }
             },
             "chat": {
               "button": "Chat with members"
@@ -1551,7 +1586,29 @@
               "success": "Invite sent",
               "mach_success": "Invitations Sent",
               "error": "Invitations were not sent, please reload the page and try again"
+            },
+            "block_many": {
+              "button": "Block vendors",
+              "tooltip": "Block selected vendors. This action is reversible."
+            },
+            "block_others": {
+              "button": "Block all vendors except selected ones"
+            },
+            "permit_change": {
+              "reduction": {
+                "button": "Allow price increase"
+              },
+              "auction": {
+                "button": "Allow price reduction"
+              }
             }
+          },
+          "allow_violate": {
+            "banner": {
+              "title": "Request to change the price",
+              "text": "The participant asks to be allowed to change the offer price in violation of the rule"
+            },
+            "dialog": ""
           },
           "gold": {
             "title": "Bidzaar magic is enabled",
@@ -2409,12 +2466,26 @@
           "4": "Inactive ({{ publishDate }})"
         }
       },
+      "violate": {
+        "title": "How can I change the offer price in violation of the rule?",
+        "text": "1. Request permission from the Organizer, specifying the reason\n2. Based on the results of the review, you will receive a letter with its solution\n3. If the Organizer grants permission, you will be able to change the offer price once in violation of the rule",
+        "placeholder": "Reason",
+        "success": "The request has been sent to the Customer",
+        "actions": {
+          "cancel": "Cancel",
+          "submit": "Request"
+        }
+      },
       "owner": {
         "title": "Owner",
         "profile": "About buyer",
         "preference": "The buyer gives preference to trusted vendors."
       },
-      "keywords": "request, purchase, tender, supply, services"
+      "keywords": "request, purchase, tender, supply, services",
+      "autoupdate_indicator": {
+        "online": "[AT] Data is updated automatically",
+        "offline": "[AT] Connection terminated...\nReload the page"
+      }
     }
   }
 }

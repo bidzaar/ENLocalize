@@ -12,7 +12,8 @@
         "empty": "nothing found for your request...",
         "filters": {
           "badges": "Badges",
-          "company_sales": "Company sells",
+          "salesTags": "[AT] The company sells",
+          "purchaseTags": "[AT] The company buys",
           "default": "Default",
           "employeesCount": "Number of employees",
           "labels": "Labels",
@@ -40,7 +41,8 @@
           "accreditations": {
             "title": "Onboarded vendors in vendor pools",
             "link": "More about vendor pools"
-          }
+          },
+          "company_sales": "Company sells"
         },
         "item": {
           "accredited_count": "the company is onboarded by the buyer",
@@ -607,7 +609,8 @@
       },
       "default": "An error has occurred. Please contact your administrator",
       "ShouldBeExcel": "Invalid file extension",
-      "AlreadyExists": "The user with the specified email is already registered"
+      "AlreadyExists": "The user with the specified email is already registered",
+      "FileStorage.Images.InvalidImage": "[AT] Invalid image format. Upload jpg, png, gif or bmp"
     }
   },
   "files": {
@@ -879,12 +882,14 @@
       "header": "Duplicate request",
       "name": "Request name",
       "generalInfo": "General information",
+      "docs": "Documents",
       "parameters": "Parameters",
       "participants": "Vendors",
       "positions": "Goods and services",
       "questionnaire": "Non-pricing request criteria",
       "team": "Team",
       "nda": "NDA",
+      "tags": "Tags",
       "registries": "Vendor pools",
       "cancel": "Cancel",
       "submit": "Duplicate"
@@ -2135,6 +2140,8 @@
     "company": {
       "achievements": {
         "header": "Badges",
+        "description": "Company insignia",
+        "how_get": "How to get it?",
         "popup": {
           "how_get": "How to get",
           "message": "A badge shows that a company has been verified in a particular service criteria. \nBadges increase trust and distinguish the company from competitors.",
@@ -2170,9 +2177,14 @@
           "header": "Company website",
           "label": "Website"
         },
-        "employeescount": {
+        "employeesCount": {
           "header": "The number of employees in the company",
           "label": "The number of employees"
+        },
+        "edm": {
+          "header": "EDO ID",
+          "label": "Specify the ID without dashes and spaces",
+          "placeholder": "EDO ID"
         },
         "location": {
           "header": "Legal address"
@@ -2198,6 +2210,10 @@
             "submit": "Delete",
             "cancel": "Cancel"
           }
+        },
+        "employeescount": {
+          "header": "The number of employees in the company",
+          "label": "The number of employees"
         }
       },
       "select": {
@@ -2223,8 +2239,23 @@
           "completed": "Profile is filled",
           "toggle": "See Partner View"
         },
+        "menu": {
+          "items": {
+            "0": "Details",
+            "1": "Employees",
+            "2": "Widgets for the site",
+            "3": "Category Directory",
+            "4": "Setting up invitations",
+            "5": "Groups of employees",
+            "6": "Groups of companies",
+            "7": "Victory bills"
+          },
+          "bills_message": "There are unpaid bills",
+          "mobile_action": "Menu"
+        },
         "progress": {
           "title": "Complete your profile to get more orders",
+          "sub_title": "Your company will become more visible and cause more trust",
           "items": {
             "0": {
               "name": "General\ninformation",
@@ -2316,8 +2347,19 @@
           }
         },
         "tags": {
-          "title": "We sell",
+          "sales": {
+            "title": "We sell",
+            "add": "Add tags",
+            "empty": "Describe with tags the goods and services that your company provides so that customers and the Bazaar system can select requests specifically for you"
+          },
+          "purchase": {
+            "title": "We are buying",
+            "add": "Add tags",
+            "empty": "Describe with tags the goods and services that your company would like to buy so that customers and the Bidzaar system can select requests specifically for you"
+          },
           "add": "Add tags",
+          "edit": "Edit tags",
+          "title": "We sell",
           "empty": "Describe product and service tags so customers find you",
           "dialog": {
             "header": "We sell",
@@ -2335,6 +2377,44 @@
           "add": "Add country, region or city",
           "empty": "Regions in which the company operates are not specified",
           "text": "The company provides services or vendors in the territory:"
+        },
+        "edm": {
+          "title": "EDO ID",
+          "empty": "ID not specified",
+          "info": "ID is a unique code of the electronic document flow participant that the EDO operator assigns to senders and recipients of electronic documents",
+          "dialogs": {
+            "add": {
+              "title": "EDO ID",
+              "description": "Specify the ID without dashes and spaces",
+              "placeholder": "EDO ID",
+              "save": "Save",
+              "cancel": "Cancel",
+              "delete": "Delete ID",
+              "validate": {
+                "other_symbols": "Only numbers and letters of the Latin alphabet are allowed",
+                "required": "Required field"
+              }
+            },
+            "delete": {
+              "title": "Delete ID",
+              "submit": "Delete",
+              "cancel": "Cancel"
+            },
+            "actions": {
+              "save": "Save",
+              "cancel": "Cancel",
+              "delete": "Delete"
+            }
+          },
+          "actions": {
+            "copy": "Copy to Clipboard",
+            "add": "Add ID",
+            "edit": "Change ID"
+          },
+          "snacks": {
+            "copy": "ID copied",
+            "deleted": "ID deleted"
+          }
         },
         "contacts": {
           "title": "Info",
@@ -2360,6 +2440,7 @@
         },
         "activity": {
           "title": "Activity",
+          "title_statistics": "Statistics",
           "on_site": "from {{value}}",
           "empty": "The company has not submitted any bids yet",
           "sales": {
@@ -2396,6 +2477,18 @@
                 "tooltip": "Number of requests completed by the company"
               }
             }
+          }
+        },
+        "notes": {
+          "title": "Your company notes",
+          "labels": {
+            "title": "Labels",
+            "empty": "No shortcuts added",
+            "text": "[AT] Attach labels to a company to create a list of companies for your needs."
+          },
+          "custom": {
+            "title": "Custom parameters",
+            "text": "Coming soon!"
           }
         },
         "partners": {
@@ -2708,7 +2801,8 @@
     "user_not_exists": "Specified email is not registered",
     "wrong_code": "Wrong code",
     "wrong_format": "Wrong format",
-    "pattern": "{{value}} - forbidden characters"
+    "pattern": "{{value}} - forbidden characters",
+    "range_max_gt_min": "[AT] The end value of the range is greater than the start value"
   },
   "widgets": {
     "cropper": {
@@ -2808,5 +2902,25 @@
       "10": "November",
       "11": "December"
     }
+  },
+  "ngx_editor": {
+    "headers": {
+      "h1": "Header 1",
+      "h2": "Header 2",
+      "h3": "Header 3",
+      "h4": "Header 4",
+      "h5": "Header 5",
+      "h6": "Header 6"
+    },
+    "remove": "Delete",
+    "message": {
+      "error": "A large description will not be displayed by aggregators. We recommend making a concise description, and attach the full one as a file. The field has a length limit, make sure that the entire text fits",
+      "warning": "A large description will not be displayed by aggregators. We recommend making a concise description, and attach the full one as a file",
+      "warning-nda": "We recommend making a concise description, and attach the full one as a file",
+      "error-nda": "We recommend making a concise description and attaching the full one as a file. The field has a length limit, make sure that all the text fits"
+    }
+  },
+  "subscribtions": {
+    "mail": "[AT] Subscription canceled"
   }
 }

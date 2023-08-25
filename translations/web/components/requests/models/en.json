@@ -11,7 +11,26 @@
       "invited_by": {
         "0": "Other",
         "1": "Owner",
-        "2": "Bidzaar invited"
+        "2": "Bidzaar invited",
+        "3": "Invited by the Organizer through cloning",
+        "4": "Bidzaar invited from similar requests",
+        "5": "Bidzaar invited using AI",
+        "6": "Bidzaar invited from the site",
+        "7": "Invited from the annual registers",
+        "8": "Invited by the Organizer from a registry"
+      },
+      "invitation": {
+        "0": "[AT] Invited by the Organizer from the venue",
+        "1": "[AT] Invited by Organizer via email",
+        "2": "[AT] Invited by Organizer via cloning",
+        "3": "[AT] Invited by paid tag organizer",
+        "4": "[AT] Invited by the Organizer from the register",
+        "5": "[AT] Invited Bidzaar from gold registries",
+        "6": "[AT] Bidzaar invited by email",
+        "7": "[AT] Bidzaar invited from the court",
+        "8": "[AT] Invited by Bidzaar from similar queries",
+        "9": "[AT] Invited by Bidzaar with AI",
+        "10": "[AT] Other"
       },
       "open_type": {
         "0": "Public",
@@ -89,6 +108,7 @@
     },
     "validation": {
       "proposal": {
+        "Process.Light.Proposal.Item.PositionAreNotIncluded": "The specification does not contain items included in the offer",
         "Process.Light.Procedure.VersionMismatch": "The customer changed the application, your bid is no longer relevant. Review the changes and update the proposal.",
         "Process.Light.Proposal.Answers.Required": "Non-price bid criteria not completed.",
         "Process.Light.Proposal.MainProposalShouldBeSubmitted": "An alternative bid can only be submitted after the primary bid.",
@@ -122,23 +142,30 @@
         "Process.Light.Proposal.Item.StartPrice.Reduction": "<b>{{ PositionName }}.</b> The price per unit in {{ BaseCurrency }} ({{ Price }} {{ BaseCurrency }}) is higher than the max price per unit specified by the Customer ({{ StartPrice }} {{ BaseCurrency }}).",
         "Process.Light.Proposal.Item.Price.Worse.Auction": "<b>{{ PositionName }}.</b> The price per unit must be greater than or equal to the previous price {{ PreviousPrice }} {{ BaseCurrency }}",
         "Process.Light.Proposal.Item.Price.Worse.Reduction": "<b>{{ PositionName }}.</b> The price per unit must be less than or equal to the previous price {{ PreviousPrice }} {{ BaseCurrency }}",
-        "Process.Light.Proposal.Item.ZeroCount": "<b>{{ PositionName }}.</b> Incorrect quantity. Set \"Not available\", if there is no item.",
         "Process.Light.Proposal.Price.MinValueSubceededFake": "Bid price must be greater than zero",
         "Process.Light.Proposal.Price.MaxValueExceededFake": "The bid price must be less than 99 billion rubles.",
-        "Process.Light.Proposal.DontHaveAnyOnNoneDeviation": "<b>{{ GroupName }}.</b> Requires either full delivery or refuse to submit a group quotation"
+        "Process.Light.Proposal.DontHaveAnyOnNoneDeviation": "<b>{{ GroupName }}.</b> Requires either full delivery or refuse to submit a group quotation",
+        "Process.Light.Proposal.Item.ZeroCount": "<b>{{ PositionName }}.</b> Incorrect quantity. Set \"Not available\", if there is no item.",
+        "Process.Light.Proposal.Group.Auction.StepDownNotPossiblePriceIncrease": "[AT] <b>{{ GroupName }}.</b>. The price violates the price change rule. Recommended price: <b>{{ GreaterThan }} {{ BaseCurrency }} or higher or {{ PreviousPrice }} {{ BaseCurrency }} and lower.</b>.",
+        "Process.Light.Proposal.Group.Auction.StepUpNotPossiblePriceDecrease": "[AT] <b>{{ GroupName }}.</b>. The price violates the price change rule. Suggested price: <b>{{ PreviousPrice }} {{ BaseCurrency }} or higher or {{ LowerThan }} {{BaseCurrency}} and lower.",
+        "Process.Light.Proposal.Item.ExcludedPositionInProposal": "[AT] <b>{{ PositionName }}.</b> The Organizer forbade submission of new position proposals. Specify \"Not included in the offer\".",
+        "Process.Light.Proposal.Item.Auction.StepDownNotOvertaken": "[AT] <b>{{ PositionName }}.</b> The unit price violates the price change rule. Suggested price: {{ GreaterThan }} {{BaseCurrency}} or higher or {{ LowerThan }} {{BaseCurrency}} or lower, or set the previous price ({{ PreviousPrice }} {{ BaseCurrency }})",
+        "Process.Light.Proposal.Item.Reduction.StepUpNotOvertaken": "[AT] <b>{{ PositionName }}.</b> The unit price violates the price change rule. Suggested price: {{ GreaterThan }} {{BaseCurrency}} or higher or {{ LowerThan }} {{BaseCurrency}} or lower, or set the previous price ({{ PreviousPrice }} {{ BaseCurrency }})"
       },
       "price": {
+        "smth_no_deviation": "Full delivery required or refuse to submit an quotation for the group",
         "lt_or_equal_to_minimum": "The bid price must be greater than zero.",
         "lt_minimum": "The bid price must be greater than or equal to zero.",
         "gt_maximum": "The bid price must be less than 99 billions.",
-        "new_price_worse_auction": "The bid price must be greater than or equal to the previous price.",
-        "new_price_worse_reduction": "The bid price must be less than or equal to the previous price.",
         "start_price_auction": "The bid price must be greater than or equal to the initial minimum: {{price}} {{currency}}.",
         "start_price_reduction": "The bid price must be less than or equal to the initial maximum: {{price}} {{currency}}.",
+        "new_price_worse_auction": "The bid price must be greater than or equal to the previous price.",
+        "new_price_worse_reduction": "The bid price must be less than or equal to the previous price.",
         "refer_price_all": "The bid price violates the rule of change in price. Recommended price: {{max}} {{currency}} or less or {{min}} {{currency}} or more.",
         "refer_price_auction": "The bid price violates the rule of change in price. Recommended price: {{price}} {{currency}} or more.",
         "refer_price_reduction": "The bid price violates the rule of change in price. Recommended price: {{price}} {{currency}} or less.",
-        "smth_no_deviation": "Full delivery required or refuse to submit an quotation for the group"
+        "step_down_is_not_overtaken": "The bid price violates the rule of change in price. Recommended price: {{max}} {{currency}} or less or {{min}} {{currency}} or more.",
+        "step_up_is_not_overtaken": "The bid price violates the rule of change in price. Recommended price: {{max}} {{currency}} or less or {{min}} {{currency}} or more."
       }
     },
     "reports": {

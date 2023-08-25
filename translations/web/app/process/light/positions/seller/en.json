@@ -43,6 +43,7 @@
     },
     "positions": {
       "total": "Total: <b>{{ price }} {{ currency }}</b>",
+      "errors": "errors",
       "forbidden": {
         "title": "Information is not available right now",
         "text": "",
@@ -53,8 +54,16 @@
           "0": "All items",
           "1": "Available",
           "2": "Low rank",
-          "3": "Not available"
+          "3": "Not available",
+          "all": "All positions",
+          "available": "Included in the bid",
+          "not_available": "Not included in the bid",
+          "bad_prices": "Prices are worse than competitors",
+          "forbidden": "[AT] Not allowed to submit",
+          "permitted": "[AT] Allowed to submit",
+          "invalid": "[AT] Positions with errors"
         },
+        "menu": "Filters",
         "empty": "No items in the category"
       },
       "actions": {
@@ -71,7 +80,8 @@
             "invalid": "The specified VAT rate is not included in the catalog"
           },
           "availability": {
-            "invalid": "The owner requires the presence of all items"
+            "invalid": "The owner requires the presence of all items",
+            "banned": "[AT] The organizer forbade the submission of new proposals for this position. Specify \"Not included in the offer\""
           },
           "custom": {
             "required": "Value is not specified"
@@ -84,6 +94,8 @@
             "not_equal_to_position": "Deviation from the quantity in the tender"
           },
           "price": {
+            "lt_minimum": "Negative price is unacceptable",
+            "gt_maximum": "Indicate a price of less than 99 billion",
             "equal_to_zero": "The price is not specified",
             "equal_to_zero_count_gte_zero": "The price is not specified. If there is no item, specify \"Out of stock\"",
             "start_price_auction": "Your unit price in {{currency}} ({{price}} {{currency}}) below the minimum price per unit specified by the Customer ({{startPrice}} {{currency}})",
@@ -93,8 +105,8 @@
             "refer_price_auction": "The bid price violates the rule of change in price. Recommended price: {{price}} {{currency}} or more.",
             "refer_price_reduction": "The bid price violates the rule of change in price. Recommended price: {{price}} {{currency}} or less.",
             "refer_price_all": "The bid price violates the price change rule. Recommended price: {{max}} {{currency}} and above or {{min}} {{currency}} and below.",
-            "lt_minimum": "Negative price is unacceptable",
-            "gt_maximum": "Indicate a price of less than 99 billion"
+            "step_down_is_not_overtaken": "The bid price violates the rule of change in price. Recommended price: {{max}} {{currency}} or less or {{min}} {{currency}} or more.",
+            "step_up_is_not_overtaken": "The bid price violates the rule of change in price. Recommended price: {{max}} {{currency}} or less or {{min}} {{currency}} or more."
           }
         }
       }

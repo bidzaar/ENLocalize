@@ -88,7 +88,10 @@
             "required": "Mandatory answer:",
             "hidden": "The answer is hidden from other vendors:",
             "true": "Yes",
-            "false": "No"
+            "false": "No",
+            "documents": "[AT] Documentation:",
+            "comment": "[AT] Comment on the answer:",
+            "files": "[AT] Answer files:"
           }
         },
         "empty": {

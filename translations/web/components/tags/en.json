@@ -15,7 +15,7 @@
                         "create": "Add the tag",
                         "empty": {
                             "text": "Change search query or",
-                            "title": "Tag is not found"
+              "title": "Tag not found"
                         },
                         "more": "Load more"
                     },

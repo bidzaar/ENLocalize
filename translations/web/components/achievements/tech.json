@@ -1,7 +1,7 @@
 {
-    "bdz.acm": {
-        "popover": {
-            "title": "web/components/achievements: bdz.acm.popover.title"
-        }
+  "bdz.acm": {
+    "popover": {
+      "title": "web/components/achievements: bdz.acm.popover.title"
     }
+  }
 }
