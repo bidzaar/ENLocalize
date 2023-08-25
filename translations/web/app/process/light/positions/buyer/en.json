@@ -46,7 +46,7 @@
             "download": "Download the error description file"
           }
         },
-        "count_failure": "[AT] Questions loaded: <b>{{ questions }}</b> from {{ total }}"
+        "count_failure": "Loaded questions : <b>{{ questions }}</b> from {{ total }}"
       }
     },
     "configurator": {

@@ -53,10 +53,6 @@
                     "edit_confirm_tin": {
                         "true": "[AT] Cancel TIN confirmation",
                         "false": "[AT] Confirm TIN"
-                    },
-                    "edit_сonfirm_tin": {
-                        "true": "[AT] Cancel TIN Confirmation",
-                        "false": "[AT] Confirm TIN"
                     }
                 },
                 "groups": {
