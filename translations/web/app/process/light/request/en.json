@@ -129,7 +129,7 @@
                     "search": {
                         "placeholder": "Find...",
                         "remove": "Delete",
-                        "empty": "Vendor pools not found"
+                        "empty": "Vendor pools are not found"
                     }
                 }
             },
