@@ -23,7 +23,7 @@
       "editor": {
         "content": {
           "title": "Question",
-          "group": "[AT] Section name",
+          "group": "Section name",
           "text": "Question text",
           "type": "Answer type",
           "comment": "Description (optional)",
@@ -32,22 +32,22 @@
         "parameters": {
           "comments": "Allow to post a comment on the answer",
           "files": "Allow attaching files to response",
-          "title": "[AT] Options",
+          "title": "Options",
           "required": {
-            "title": "[AT] Required",
-            "descr": "[AT] The participant must answer the question"
+            "title": "Required",
+            "descr": "The vendor must answer the question"
           },
           "private": {
-            "title": "[AT] Private",
-            "descr": "[AT] The answer is visible only to the organizer"
+            "title": "Private",
+            "descr": "The answer is visible only to the buyer"
           },
           "comment": {
-            "title": "[AT] A comment",
-            "descr": "[AT] The participant can add a comment to the answer"
+            "title": "A comment",
+            "descr": "The vendor can add a comment to the answer"
           },
           "attaches": {
-            "title": "[AT] Files",
-            "descr": "[AT] You can attach a file to your answer."
+            "title": "Files",
+            "descr": "You can attach a file to your answer."
           }
         },
         "logic": {
@@ -56,23 +56,23 @@
           "end_quiz": "End of quiz",
           "no_response_provided": "No response provided",
           "selector": {
-            "header": "[AT] Go to...",
+            "header": "Go to...",
             "actions": {
-              "cancel": "[AT] Cancel",
-              "submit": "[AT] Apply"
+              "cancel": "Cancel",
+              "submit": "Apply"
             },
             "search": {
-              "label": "[AT] Find"
+              "label": "Search for"
             },
             "total": {
-              "false": "[AT] Questions: {{ value }}",
-              "true": "[AT] Found: {{ value }}"
+              "false": "Questions: {{ value }}",
+              "true": "Found: {{ value }}"
             },
             "list": {
-              "title": "[AT] Available questions:",
-              "next": "[AT] Next question",
-              "end": "[AT] End of the survey",
-              "empty": "[AT] Questions not found"
+              "title": "Available questions:",
+              "next": "Next question",
+              "end": "End of the survey",
+              "empty": "Questions are not found"
             }
           },
           "widgets": {
@@ -101,19 +101,19 @@
             "cancel": "cancel",
             "apply": "apply"
           },
-          "transition": "[AT] Transition",
-          "answer": "[AT] Answer",
-          "append": "[AT] Add an answer",
-          "remove": "[AT] Delete",
-          "default": "[AT] Other responses other than the above"
+          "transition": "Transition",
+          "answer": "Answer",
+          "append": "Add an answer",
+          "remove": " Delete",
+          "default": "Other answers expect for those above"
         },
         "points": {
           "title": "Points",
           "answer": "Answer",
           "points": "Point",
           "append": " Add answer",
-          "remove": "[AT] Delete",
-          "default": "[AT] Other responses other than the above",
+          "remove": "Delete",
+          "default": "Other answers expect for those above",
           "notice": {
             "multiple": {
               "title": "Total points for question",
@@ -128,7 +128,7 @@
           "close": "Save",
           "delete": "Delete",
           "close_and_create": "Save and add question",
-          "append": "[AT] Add next question"
+          "append": "Add next question"
         },
         "defaults": {
           "group": "New group",
@@ -177,12 +177,12 @@
             "loading": "Loading the catalog...",
             "errors": {
               "Process.Light.Import.InvalidFile": {
-                "title": "[AT] File not loaded",
-                "text": "[AT] Review the reference template and try again"
+                "title": "File is not uploaded",
+                "text": "Review the reference template and try again"
               },
               "Process.Light.Import.TooManyElements": {
-                "title": "[AT] File not loaded",
-                "text": "[AT] Directory cannot contain more than 500 items"
+                "title": "File is not uploaded",
+                "text": "Directory cannot contain more than 500 items"
               }
             },
             "upload": "Upload new catalog",
@@ -194,7 +194,7 @@
             }
           },
           "agreement": {
-            "placeholder": "[AT] Agree"
+            "placeholder": "Agree"
           }
         },
         "validation": {
@@ -235,10 +235,10 @@
             "change": "Change"
           },
           "source": {
-            "title": "[AT] Response data will be deleted",
+            "title": "Response data will be deleted",
             "text": "",
-            "cancel": "[AT] Cancel",
-            "change": "[AT] Continue"
+            "cancel": "Cancel",
+            "change": "Continue"
           },
           "title": "The transition logic is configured for the question",
           "text": "Changing the question type will result in loss of navigation logic data",
@@ -247,15 +247,15 @@
         },
         "delete_item_dialog": {
           "confirm": {
-            "header": "[AT] Delete question?",
-            "text": "[AT] The issue cannot be restored.",
-            "submit": "[AT] Delete",
-            "cancel": "[AT] Cancel"
+            "header": "Delete question?",
+            "text": "Cannot be restored.",
+            "submit": "Delete",
+            "cancel": "Cancel"
           },
           "failure": {
-            "header": "[AT] Deleting a question is not allowed",
-            "text": "[AT] To delete a question, remove the logical jumps to it from the questions:",
-            "submit": "[AT] It's clear"
+            "header": "Deleting a question is not allowed",
+            "text": "To delete a question, remove the logical jumps to it from the questions:",
+            "submit": "It's clear"
           }
         },
         "tabs": {
@@ -284,7 +284,7 @@
         "attachment": "Attachment",
         "formula": "Variable",
         "tree": "Selection from the list",
-        "agreement": "[AT] Agreement"
+        "agreement": "Agreement"
       },
       "validation_types": {
         "boolean": "",
@@ -328,10 +328,10 @@
       },
       "parts": {
         "panel": {
-          "title": "[AT] Sections",
-          "collapse": "[AT] Collapse",
-          "expand": "[AT] Expand Sections",
-          "configure": "[AT] Tune"
+          "title": "Sections",
+          "collapse": "Collapse",
+          "expand": "Expand Sections",
+          "configure": "Tune"
         },
         "table": {
           "headers": {
@@ -459,7 +459,7 @@
             "cancel": "Cancel",
             "submit": "Apply",
             "success": "The template has been applied",
-            "complement": "[AT] Supplement"
+            "complement": "Add"
           },
           "remove": {
             "title": "Remove template?",

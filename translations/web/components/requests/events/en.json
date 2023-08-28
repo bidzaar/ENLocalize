@@ -45,7 +45,7 @@
     "data": {
       "procedure": {
         "reason": {
-          "nobody": "[AT] Previously, the request was completed without winners",
+          "nobody": "Previously, the request was completed without winners",
           "label": "Reason:",
           "default": "The customer has made significant changes to the request"
         },
@@ -78,19 +78,19 @@
         "alternative": "Alternative {{index }}",
         "errors": "Sentence \"{{value}}\" contains errors:",
         "rejected": {
-          "reason": "[AT] Message to the participant:"
+          "reason": "Message to the vendor:"
         }
       },
       "participants": {
         "contact": "Contact person: {{ value }}",
         "forbidden": {
-          "true": "[AT] Feed forbidden",
-          "false": "[AT] Submission allowed"
+          "true": "Submission forbidden",
+          "false": "Submission allowed"
         }
       },
       "toggle": {
-        "true": "[AT] Show more",
-        "false": "[AT] Collapse"
+        "true": "Show more",
+        "false": "Collapse"
       }
     },
     "types": {
@@ -116,10 +116,10 @@
       "20": "The comission is changed",
       "21": "Promo code applied",
       "22": "Proposal is rejected",
-      "23": "[AT] The participant requested permission from the Organizer to change the offer price in violation of the rule",
-      "24": "[AT] The Organizer rejected the Participant's request to change the offer price in violation of the rule",
-      "25": "[AT] Participant invited",
-      "26": "[AT] The customer changed the prohibitions on submitting proposals for positions"
+      "23": "The vendor requested permission from the Organizer to change the offer price in violation of the rule",
+      "24": "The Buyer rejected the Vendor's request to change the offer price in violation of the rule",
+      "25": "Vendor is invited",
+      "26": "The customer changed the prohibitions on submitting bids for items"
     }
   }
 }

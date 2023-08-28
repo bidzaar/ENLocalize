@@ -1,7 +1,7 @@
 {
   "controls": {
     "list": {
-      "total": "[AT] Entries: {{value}}"
+      "total": "Entries: {{value}}"
     }
   },
   "errors": {

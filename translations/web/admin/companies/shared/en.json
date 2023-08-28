@@ -42,9 +42,9 @@
           "false": "Only active",
           "true": "Deleted only"
         },
-        "sell_tags": "[AT] Companies sell",
-        "buy_tags": "[AT] Companies buy",
-        "category": "[AT] Category"
+        "sell_tags": "Companies sell",
+        "buy_tags": "Companies buy",
+        "category": "Category"
       },
       "sort": {
         "registration_date": "Date of company registration"

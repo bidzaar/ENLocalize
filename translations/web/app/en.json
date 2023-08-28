@@ -12,8 +12,8 @@
         "empty": "nothing found for your request...",
         "filters": {
           "badges": "Badges",
-          "salesTags": "[AT] The company sells",
-          "purchaseTags": "[AT] The company buys",
+          "salesTags": "The company sells",
+          "purchaseTags": "The company buys",
           "default": "Default",
           "employeesCount": "Number of employees",
           "labels": "Labels",
@@ -610,7 +610,7 @@
       "default": "An error has occurred. Please contact your administrator",
       "ShouldBeExcel": "Invalid file extension",
       "AlreadyExists": "The user with the specified email is already registered",
-      "FileStorage.Images.InvalidImage": "[AT] Invalid image format. Upload jpg, png, gif or bmp"
+      "FileStorage.Images.InvalidImage": "Invalid image format. Upload jpg, png, gif or bmp"
     }
   },
   "files": {
@@ -2484,7 +2484,7 @@
           "labels": {
             "title": "Labels",
             "empty": "No shortcuts added",
-            "text": "[AT] Attach labels to a company to create a list of companies for your needs."
+            "text": "Attach labels to a company to create a list of companies for your needs."
           },
           "custom": {
             "title": "Custom parameters",
@@ -2802,7 +2802,7 @@
     "wrong_code": "Wrong code",
     "wrong_format": "Wrong format",
     "pattern": "{{value}} - forbidden characters",
-    "range_max_gt_min": "[AT] The end value of the range is greater than the start value"
+    "range_max_gt_min": "The end value of the range is greater than the start value"
   },
   "widgets": {
     "cropper": {
@@ -2921,6 +2921,6 @@
     }
   },
   "subscribtions": {
-    "mail": "[AT] Subscription canceled"
+    "mail": "Subscription is canceled"
   }
 }

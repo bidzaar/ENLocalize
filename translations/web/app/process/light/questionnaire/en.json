@@ -59,8 +59,8 @@
           }
         }
       },
-      "back": "[AT] To request",
-      "disabled": "[AT] Non-price criteria are not included in the participant's proposal"
+      "back": "To request",
+      "disabled": "Non-pricing criteria are not included in the vendors's quotation"
     }
   }
 }

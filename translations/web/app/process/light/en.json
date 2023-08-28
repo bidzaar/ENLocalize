@@ -704,12 +704,12 @@
             },
             "Questionnaire": {
               "Empty": {
-                "notice": "[AT] Set non-price query criteria or disable block",
-                "title": "[AT] Requirements for the participant and conditions of the request"
+                "notice": "Set non-pricing request criteria or disable block",
+                "title": "Requirements for the vendor and the request terms"
               },
               "HasErrors": {
-                "notice": "[AT] Non-price query criteria contain errors.",
-                "title": "[AT] Requirements for the participant and conditions of the request"
+                "notice": "Non-pricing request criteria contain errors.",
+                "title": "Requirements for the vendor and the request terms"
               },
               "notice": "",
               "title": "Requirements for vendors and conditions of request"
@@ -2483,8 +2483,8 @@
       },
       "keywords": "request, purchase, tender, supply, services",
       "autoupdate_indicator": {
-        "online": "[AT] Data is updated automatically",
-        "offline": "[AT] Connection terminated...\nReload the page"
+        "online": "Data is updated automatically",
+        "offline": "Connection is terminated...\nReload the page"
       }
     }
   }

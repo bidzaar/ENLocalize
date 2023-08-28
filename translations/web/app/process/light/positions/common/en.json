@@ -19,9 +19,9 @@
             "min_price": "Min cost per unit, {{ value }}",
             "expected_price": "Expected cost per unit, {{ value }}",
             "documents": "Documents",
-            "permission": "[AT] Innings",
-            "permission_true": "[AT] Allowed",
-            "permission_false": "[AT] Forbidden"
+            "permission": "Request submission",
+            "permission_true": "Allowed",
+            "permission_false": "Forbidden"
           },
           "proposal": {
             "availability": "Availability",
@@ -46,7 +46,7 @@
           "max_price": "The maximum price a supplier can offer for an item.\nSupplier cannot exceed the specified price",
           "min_price": "The lowest price a supplier can offer for an item.\nSupplier cannot offer a lower price",
           "expected_price": "The price per item expected from the supplier.\nThe customer expects a specified or lower price",
-          "permission": "[AT] The organizer forbade you to submit new proposals for some items of the request"
+          "permission": "The buyer forbids you to submit new bis for some items of the request"
         }
       },
       "common": {

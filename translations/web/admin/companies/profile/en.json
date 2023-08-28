@@ -17,7 +17,7 @@
                         "chat": "Chat with the company",
                         "crm": "CRM",
                         "profile": "Profile",
-                        "recover": "[AT] Restore the company"
+                        "recover": "Restore the company"
                     }
                 },
                 "sections": {
@@ -51,8 +51,8 @@
                     "empty": "Details are not set",
                     "edit": "Edit",
                     "edit_confirm_tin": {
-                        "true": "[AT] Cancel TIN confirmation",
-                        "false": "[AT] Confirm TIN"
+                        "true": "Cancel TIN confirmation",
+                        "false": "Confirm TIN"
                     }
                 },
                 "groups": {
@@ -85,7 +85,7 @@
                     "journal": "Assignments report",
                     "success": "Employee is assigned",
                     "dialog": {
-                        "empty": "[AT] No employees found",
+                        "empty": "No employees found",
                         "table": {
                             "header": {
                                 "size": "Records: {{ value }}",
@@ -126,12 +126,12 @@
                 },
                 "change": "Set",
                 "sales": {
-                    "sale": "[AT] Responsible sale",
-                    "csm": "[AT] Responsible CSM",
-                    "attach": "[AT] to fix",
-                    "detach": "[AT] unpin",
-                    "empty": "[AT] Not assigned",
-                    "journal": "[AT] Appointment log"
+                    "sale": "Responsible saleperson",
+                    "csm": "Responsible CSM",
+                    "attach": "to fix",
+                    "detach": "unpin",
+                    "empty": "Not assigned",
+                    "journal": "Appointment log"
                 }
             },
             "editor": {
@@ -225,23 +225,23 @@
                     "cancel": "Cancel"
                 },
                 "assignment_journal": {
-                    "title": "[AT] Appointment log",
+                    "title": "Appointment log",
                     "columns": {
-                        "role": "[AT] Role",
-                        "employee": "[AT] Employee",
-                        "event": "[AT] Event",
-                        "initiator": "[AT] Initiator",
-                        "date": "[AT] date"
+                        "role": "Role",
+                        "employee": "Employee",
+                        "event": "Event",
+                        "initiator": "Buyer",
+                        "date": "date"
                     },
                     "role": {
-                        "0": "[AT] Sale",
-                        "1": "[AT] CSM"
+                        "0": "Sale",
+                        "1": "CSM"
                     },
                     "event": {
-                        "0": "[AT] Pinned",
-                        "1": "[AT] Unpinned"
+                        "0": "Pinned",
+                        "1": "Unpinned"
                     },
-                    "empty": "[AT] Responsible has not been previously assigned"
+                    "empty": "Responsible person has not been previously assigned"
                 }
             }
         }

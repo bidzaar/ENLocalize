@@ -20,17 +20,17 @@
         "8": "Invited by the Organizer from a registry"
       },
       "invitation": {
-        "0": "[AT] Invited by the Organizer from the venue",
-        "1": "[AT] Invited by Organizer via email",
-        "2": "[AT] Invited by Organizer via cloning",
-        "3": "[AT] Invited by paid tag organizer",
-        "4": "[AT] Invited by the Organizer from the register",
-        "5": "[AT] Invited Bidzaar from gold registries",
-        "6": "[AT] Bidzaar invited by email",
-        "7": "[AT] Bidzaar invited from the court",
-        "8": "[AT] Invited by Bidzaar from similar queries",
-        "9": "[AT] Invited by Bidzaar with AI",
-        "10": "[AT] Other"
+        "0": "Invited by the Buyer from the platfrom",
+        "1": "Invited by Buyer via email",
+        "2": "Invited by Buyer via cloning",
+        "3": "Invited by paid tag",
+        "4": "Invited by the Buyer from the vendor pool",
+        "5": "Invited from gold vendor pools",
+        "6": "The platform invited by email",
+        "7": "The platform invited from its vendor pool",
+        "8": "The platform invited from similar requests",
+        "9": "The platform invited with AI",
+        "10": "Other"
       },
       "open_type": {
         "0": "Public",
@@ -146,11 +146,11 @@
         "Process.Light.Proposal.Price.MaxValueExceededFake": "The bid price must be less than 99 billion rubles.",
         "Process.Light.Proposal.DontHaveAnyOnNoneDeviation": "<b>{{ GroupName }}.</b> Requires either full delivery or refuse to submit a group quotation",
         "Process.Light.Proposal.Item.ZeroCount": "<b>{{ PositionName }}.</b> Incorrect quantity. Set \"Not available\", if there is no item.",
-        "Process.Light.Proposal.Group.Auction.StepDownNotPossiblePriceIncrease": "[AT] <b>{{ GroupName }}.</b>. The price violates the price change rule. Recommended price: <b>{{ GreaterThan }} {{ BaseCurrency }} or higher or {{ PreviousPrice }} {{ BaseCurrency }} and lower.</b>.",
-        "Process.Light.Proposal.Group.Auction.StepUpNotPossiblePriceDecrease": "[AT] <b>{{ GroupName }}.</b>. The price violates the price change rule. Suggested price: <b>{{ PreviousPrice }} {{ BaseCurrency }} or higher or {{ LowerThan }} {{BaseCurrency}} and lower.",
-        "Process.Light.Proposal.Item.ExcludedPositionInProposal": "[AT] <b>{{ PositionName }}.</b> The Organizer forbade submission of new position proposals. Specify \"Not included in the offer\".",
-        "Process.Light.Proposal.Item.Auction.StepDownNotOvertaken": "[AT] <b>{{ PositionName }}.</b> The unit price violates the price change rule. Suggested price: {{ GreaterThan }} {{BaseCurrency}} or higher or {{ LowerThan }} {{BaseCurrency}} or lower, or set the previous price ({{ PreviousPrice }} {{ BaseCurrency }})",
-        "Process.Light.Proposal.Item.Reduction.StepUpNotOvertaken": "[AT] <b>{{ PositionName }}.</b> The unit price violates the price change rule. Suggested price: {{ GreaterThan }} {{BaseCurrency}} or higher or {{ LowerThan }} {{BaseCurrency}} or lower, or set the previous price ({{ PreviousPrice }} {{ BaseCurrency }})"
+        "Process.Light.Proposal.Group.Auction.StepDownNotPossiblePriceIncrease": "<b>{{ GroupName }}.</b>. The price violates the price change rule. Recommended price: <b>{{ GreaterThan }} {{ BaseCurrency }} or higher or {{ PreviousPrice }} {{ BaseCurrency }} and lower.</b>.",
+        "Process.Light.Proposal.Group.Auction.StepUpNotPossiblePriceDecrease": "<b>{{ GroupName }}.</b>. The price violates the price change rule. Suggested price: <b>{{ PreviousPrice }} {{ BaseCurrency }} or higher or {{ LowerThan }} {{BaseCurrency}} and lower.",
+        "Process.Light.Proposal.Item.ExcludedPositionInProposal": "<b>{{ PositionName }}.</b> The Organizer forbade submission of new position proposals. Specify \"Not included in the offer\".",
+        "Process.Light.Proposal.Item.Auction.StepDownNotOvertaken": "<b>{{ PositionName }}.</b> The unit price violates the price change rule. Suggested price: {{ GreaterThan }} {{BaseCurrency}} or higher or {{ LowerThan }} {{BaseCurrency}} or lower, or set the previous price ({{ PreviousPrice }} {{ BaseCurrency }})",
+        "Process.Light.Proposal.Item.Reduction.StepUpNotOvertaken": "<b>{{ PositionName }}.</b> The unit price violates the price change rule. Suggested price: {{ GreaterThan }} {{BaseCurrency}} or higher or {{ LowerThan }} {{BaseCurrency}} or lower, or set the previous price ({{ PreviousPrice }} {{ BaseCurrency }})"
       },
       "price": {
         "smth_no_deviation": "Full delivery required or refuse to submit an quotation for the group",

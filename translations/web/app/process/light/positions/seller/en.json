@@ -59,9 +59,9 @@
           "available": "Included in the bid",
           "not_available": "Not included in the bid",
           "bad_prices": "Prices are worse than competitors",
-          "forbidden": "[AT] Not allowed to submit",
-          "permitted": "[AT] Allowed to submit",
-          "invalid": "[AT] Positions with errors"
+          "forbidden": "Not allowed to submit",
+          "permitted": "Allowed to submit",
+          "invalid": "Items with errors"
         },
         "menu": "Filters",
         "empty": "No items in the category"
@@ -81,7 +81,7 @@
           },
           "availability": {
             "invalid": "The owner requires the presence of all items",
-            "banned": "[AT] The organizer forbade the submission of new proposals for this position. Specify \"Not included in the offer\""
+            "banned": "The buyer forbids the submission of new bids for this position. Specify \"Not included in quotation\""
           },
           "custom": {
             "required": "Value is not specified"
