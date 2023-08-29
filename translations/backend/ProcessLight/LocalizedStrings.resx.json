@@ -12,7 +12,7 @@
     "SimplifiedEventType.ParticipantPermittedToChangePrice": "Заказчик разрешил нарушить правило изменения цены Участником",
     "SimplifiedEventType.ParticipantRefused": "Участник отказался от участия",
     "SimplifiedEventType.ParticipantUnblocked": "Участник разблокирован",
-    "SimplifiedEventType.ProcedureCompleted": "Запрос завершен",
+    "SimplifiedEventType.ProcedureCompleted": "Запрос завершён",
     "SimplifiedEventType.ProcedureProlonged": "Автопродление приёма предложений",
     "SimplifiedEventType.ProcedurePublished": "Запрос опубликован",
     "SimplifiedEventType.ProcedureTariffChanged": "Тариф запроса изменен",
