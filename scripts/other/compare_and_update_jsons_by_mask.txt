@@ -1,0 +1,591 @@
+2023-08-25 16:49:09,235 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/en.json
+2023-08-25 16:49:09,236 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/rating/en.json
+2023-08-25 16:49:09,237 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/users/en.json
+2023-08-25 16:49:09,237 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/tags/merge/en.json
+2023-08-25 16:49:09,238 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/tags/shared/en.json
+2023-08-25 16:49:09,238 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/tags/stop/en.json
+2023-08-25 16:49:09,239 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/buyers/en.json
+2023-08-25 16:49:09,239 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/companies/users/en.json
+2023-08-25 16:49:09,241 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/companies/profile/en.json
+2023-08-25 16:49:09,241 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/companies/shared/en.json
+2023-08-25 16:49:09,242 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/requests/side/en.json
+2023-08-25 16:49:09,243 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/requests/participants/en.json
+2023-08-25 16:49:09,243 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/requests/invites/en.json
+2023-08-25 16:49:09,244 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/requests/details/en.json
+2023-08-25 16:49:09,245 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/requests/positions/en.json
+2023-08-25 16:49:09,245 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/requests/shared/en.json
+2023-08-25 16:49:09,246 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/requests/view/en.json
+2023-08-25 16:49:09,246 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/requests/events/en.json
+2023-08-25 16:49:09,248 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/requests/list/en.json
+2023-08-25 16:49:09,249 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/tariffs/companies-list/en.json
+2023-08-25 16:49:09,252 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/tariffs/shared/en.json
+2023-08-25 16:49:09,252 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/tariffs/view/en.json
+2023-08-25 16:49:09,266 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/en.json
+2023-08-25 16:49:09,267 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/registries/suppliers/en.json
+2023-08-25 16:49:09,267 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/registries/applications/en.json
+2023-08-25 16:49:09,268 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/registries/my/en.json
+2023-08-25 16:49:09,271 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/registries/owner/en.json
+2023-08-25 16:49:09,272 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/registries/details/en.json
+2023-08-25 16:49:09,276 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/registries/participant/en.json
+2023-08-25 16:49:09,277 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/registries/shared/en.json
+2023-08-25 16:49:09,278 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/registries/view/en.json
+2023-08-25 16:49:09,279 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/ugroups/view/en.json
+2023-08-25 16:49:09,280 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/ugroups/list/en.json
+2023-08-25 16:49:09,281 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/hierarchy/en.json
+2023-08-25 16:49:09,292 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/process/light/en.json
+2023-08-25 16:49:09,293 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/process/light/proposal-positions/en.json
+2023-08-25 16:49:09,295 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/process/light/conclusion/en.json
+2023-08-25 16:49:09,296 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/process/light/proposal/en.json
+2023-08-25 16:49:09,297 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/process/light/request/en.json
+2023-08-25 16:49:09,298 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/process/light/positions/buyer/en.json
+2023-08-25 16:49:09,302 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/process/light/positions/seller/en.json
+2023-08-25 16:49:09,303 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/process/light/questionnaire/en.json
+2023-08-25 16:49:09,303 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/process/light/comparator/en.json
+2023-08-25 16:49:09,304 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/process/procedures/en.json
+2023-08-25 16:49:09,305 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/process/shared/en.json
+2023-08-25 16:49:09,305 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/companies/invite/en.json
+2023-08-25 16:49:09,306 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/companies/buyers/en.json
+2023-08-25 16:49:09,306 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/companies/esg/en.json
+2023-08-25 16:49:09,307 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/companies/wizard/en.json
+2023-08-25 16:49:09,308 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/companies/smtp/en.json
+2023-08-25 16:49:09,309 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/companies/public/en.json
+2023-08-25 16:49:09,310 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/unsubscribe/en.json
+2023-08-25 16:49:09,311 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/cgroups/view/en.json
+2023-08-25 16:49:09,311 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/cgroups/list/en.json
+2023-08-25 16:49:09,312 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/mail-customizer/en.json
+2023-08-25 16:49:09,313 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/components/locations/filters/en.json
+2023-08-25 16:49:09,315 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/components/locations/components/en.json
+2023-08-25 16:49:09,315 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/components/requisites/en.json
+2023-08-25 16:49:09,316 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/components/tags/en.json
+2023-08-25 16:49:09,318 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/components/dialogs/en.json
+2023-08-25 16:49:09,318 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/components/positions-table/en.json
+2023-08-25 16:49:09,319 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/components/hierarchy/en.json
+2023-08-25 16:49:09,319 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/components/comments/en.json
+2023-08-25 16:49:09,320 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/components/rights/en.json
+2023-08-25 16:49:09,321 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/components/companies/en.json
+2023-08-25 16:49:09,323 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/components/questionnaire/en.json
+2023-08-25 16:49:09,324 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/components/categories/en.json
+2023-08-25 16:49:09,325 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/components/requests/components/en.json
+2023-08-25 16:49:09,326 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/components/requests/models/en.json
+2023-08-25 16:49:09,327 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/components/requests/events/en.json
+2023-08-25 16:49:09,328 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/components/files/en.json
+2023-08-25 17:03:14,821 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/en.json
+2023-08-25 17:03:14,822 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/rating/en.json
+2023-08-25 17:03:14,823 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/users/en.json
+2023-08-25 17:03:14,824 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/tags/merge/en.json
+2023-08-25 17:03:14,824 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/tags/shared/en.json
+2023-08-25 17:03:14,825 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/tags/stop/en.json
+2023-08-25 17:03:14,825 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/buyers/en.json
+2023-08-25 17:03:14,826 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/companies/users/en.json
+2023-08-25 17:03:14,828 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/companies/profile/en.json
+2023-08-25 17:03:14,829 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/companies/shared/en.json
+2023-08-25 17:03:14,830 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/requests/side/en.json
+2023-08-25 17:03:14,830 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/requests/participants/en.json
+2023-08-25 17:03:14,831 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/requests/invites/en.json
+2023-08-25 17:03:14,832 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/requests/details/en.json
+2023-08-25 17:03:14,832 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/requests/positions/en.json
+2023-08-25 17:03:14,833 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/requests/shared/en.json
+2023-08-25 17:03:14,833 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/requests/view/en.json
+2023-08-25 17:03:14,833 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/requests/events/en.json
+2023-08-25 17:03:14,836 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/requests/list/en.json
+2023-08-25 17:03:14,837 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/tariffs/companies-list/en.json
+2023-08-25 17:03:14,838 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/tariffs/shared/en.json
+2023-08-25 17:03:14,839 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/tariffs/view/en.json
+2023-08-25 17:03:14,856 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/en.json
+2023-08-25 17:03:14,857 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/registries/suppliers/en.json
+2023-08-25 17:03:14,857 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/registries/applications/en.json
+2023-08-25 17:03:14,858 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/registries/my/en.json
+2023-08-25 17:03:14,860 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/registries/owner/en.json
+2023-08-25 17:03:14,861 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/registries/details/en.json
+2023-08-25 17:03:14,862 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/registries/participant/en.json
+2023-08-25 17:03:14,863 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/registries/shared/en.json
+2023-08-25 17:03:14,863 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/registries/view/en.json
+2023-08-25 17:03:14,864 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/ugroups/view/en.json
+2023-08-25 17:03:14,865 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/ugroups/list/en.json
+2023-08-25 17:03:14,865 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/hierarchy/en.json
+2023-08-25 17:03:14,877 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/process/light/en.json
+2023-08-25 17:03:14,879 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/process/light/proposal-positions/en.json
+2023-08-25 17:03:14,880 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/process/light/conclusion/en.json
+2023-08-25 17:03:14,881 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/process/light/proposal/en.json
+2023-08-25 17:03:14,882 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/process/light/request/en.json
+2023-08-25 17:03:14,883 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/process/light/positions/buyer/en.json
+2023-08-25 17:03:14,884 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/process/light/positions/seller/en.json
+2023-08-25 17:03:14,887 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/process/light/questionnaire/en.json
+2023-08-25 17:03:14,888 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/process/light/comparator/en.json
+2023-08-25 17:03:14,899 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/process/procedures/en.json
+2023-08-25 17:03:14,899 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/process/shared/en.json
+2023-08-25 17:03:14,900 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/companies/invite/en.json
+2023-08-25 17:03:14,900 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/companies/buyers/en.json
+2023-08-25 17:03:14,901 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/companies/esg/en.json
+2023-08-25 17:03:14,902 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/companies/wizard/en.json
+2023-08-25 17:03:14,902 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/companies/smtp/en.json
+2023-08-25 17:03:14,924 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/companies/public/en.json
+2023-08-25 17:03:14,926 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/unsubscribe/en.json
+2023-08-25 17:03:14,928 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/cgroups/view/en.json
+2023-08-25 17:03:14,929 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/cgroups/list/en.json
+2023-08-25 17:03:14,931 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/mail-customizer/en.json
+2023-08-25 17:03:14,931 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/components/locations/filters/en.json
+2023-08-25 17:03:14,933 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/components/locations/components/en.json
+2023-08-25 17:03:14,934 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/components/requisites/en.json
+2023-08-25 17:03:14,935 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/components/tags/en.json
+2023-08-25 17:03:14,936 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/components/dialogs/en.json
+2023-08-25 17:03:14,936 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/components/positions-table/en.json
+2023-08-25 17:03:14,937 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/components/hierarchy/en.json
+2023-08-25 17:03:14,938 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/components/comments/en.json
+2023-08-25 17:03:14,938 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/components/rights/en.json
+2023-08-25 17:03:14,939 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/components/companies/en.json
+2023-08-25 17:03:14,943 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/components/questionnaire/en.json
+2023-08-25 17:03:14,944 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/components/categories/en.json
+2023-08-25 17:03:14,948 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/components/requests/components/en.json
+2023-08-25 17:03:14,950 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/components/requests/models/en.json
+2023-08-25 17:03:14,951 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/components/requests/events/en.json
+2023-08-25 17:03:14,952 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/components/files/en.json
+2023-08-25 17:09:59,861 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/en.json
+2023-08-25 17:09:59,862 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/rating/en.json
+2023-08-25 17:09:59,864 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/users/en.json
+2023-08-25 17:09:59,864 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/tags/merge/en.json
+2023-08-25 17:09:59,865 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/tags/shared/en.json
+2023-08-25 17:09:59,866 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/tags/stop/en.json
+2023-08-25 17:09:59,867 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/buyers/en.json
+2023-08-25 17:09:59,868 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/companies/users/en.json
+2023-08-25 17:09:59,869 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/companies/profile/en.json
+2023-08-25 17:09:59,870 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/companies/shared/en.json
+2023-08-25 17:09:59,871 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/requests/side/en.json
+2023-08-25 17:09:59,876 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/requests/participants/en.json
+2023-08-25 17:09:59,876 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/requests/invites/en.json
+2023-08-25 17:09:59,877 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/requests/details/en.json
+2023-08-25 17:09:59,877 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/requests/positions/en.json
+2023-08-25 17:09:59,878 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/requests/shared/en.json
+2023-08-25 17:09:59,878 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/requests/view/en.json
+2023-08-25 17:09:59,878 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/requests/events/en.json
+2023-08-25 17:09:59,879 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/requests/list/en.json
+2023-08-25 17:09:59,879 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/tariffs/companies-list/en.json
+2023-08-25 17:09:59,880 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/tariffs/shared/en.json
+2023-08-25 17:09:59,880 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/tariffs/view/en.json
+2023-08-25 17:09:59,892 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/en.json
+2023-08-25 17:09:59,894 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/registries/suppliers/en.json
+2023-08-25 17:09:59,894 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/registries/applications/en.json
+2023-08-25 17:09:59,895 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/registries/my/en.json
+2023-08-25 17:09:59,897 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/registries/owner/en.json
+2023-08-25 17:09:59,898 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/registries/details/en.json
+2023-08-25 17:09:59,899 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/registries/participant/en.json
+2023-08-25 17:09:59,900 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/registries/shared/en.json
+2023-08-25 17:09:59,900 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/registries/view/en.json
+2023-08-25 17:09:59,901 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/ugroups/view/en.json
+2023-08-25 17:09:59,902 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/ugroups/list/en.json
+2023-08-25 17:09:59,903 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/hierarchy/en.json
+2023-08-25 17:09:59,912 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/process/light/en.json
+2023-08-25 17:09:59,914 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/process/light/proposal-positions/en.json
+2023-08-25 17:09:59,915 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/process/light/conclusion/en.json
+2023-08-25 17:09:59,916 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/process/light/proposal/en.json
+2023-08-25 17:09:59,917 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/process/light/request/en.json
+2023-08-25 17:09:59,918 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/process/light/positions/buyer/en.json
+2023-08-25 17:09:59,919 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/process/light/positions/seller/en.json
+2023-08-25 17:09:59,920 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/process/light/questionnaire/en.json
+2023-08-25 17:09:59,921 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/process/light/comparator/en.json
+2023-08-25 17:09:59,922 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/process/procedures/en.json
+2023-08-25 17:09:59,922 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/process/shared/en.json
+2023-08-25 17:09:59,923 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/companies/invite/en.json
+2023-08-25 17:09:59,924 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/companies/buyers/en.json
+2023-08-25 17:09:59,925 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/companies/esg/en.json
+2023-08-25 17:09:59,925 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/companies/wizard/en.json
+2023-08-25 17:09:59,926 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/companies/smtp/en.json
+2023-08-25 17:09:59,927 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/companies/public/en.json
+2023-08-25 17:09:59,928 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/unsubscribe/en.json
+2023-08-25 17:09:59,928 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/cgroups/view/en.json
+2023-08-25 17:09:59,929 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/cgroups/list/en.json
+2023-08-25 17:09:59,930 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/mail-customizer/en.json
+2023-08-25 17:09:59,930 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/components/locations/filters/en.json
+2023-08-25 17:09:59,931 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/components/locations/components/en.json
+2023-08-25 17:09:59,931 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/components/requisites/en.json
+2023-08-25 17:09:59,932 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/components/tags/en.json
+2023-08-25 17:09:59,933 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/components/dialogs/en.json
+2023-08-25 17:09:59,934 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/components/positions-table/en.json
+2023-08-25 17:09:59,934 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/components/hierarchy/en.json
+2023-08-25 17:09:59,935 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/components/comments/en.json
+2023-08-25 17:09:59,935 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/components/rights/en.json
+2023-08-25 17:09:59,936 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/components/companies/en.json
+2023-08-25 17:09:59,938 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/components/questionnaire/en.json
+2023-08-25 17:09:59,940 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/components/categories/en.json
+2023-08-25 17:09:59,941 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/components/requests/components/en.json
+2023-08-25 17:09:59,943 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/components/requests/models/en.json
+2023-08-25 17:09:59,943 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/components/requests/events/en.json
+2023-08-25 17:09:59,944 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/components/files/en.json
+2023-08-25 17:18:31,463 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/backend/ProcedureChatNotificator/az.json
+2023-08-25 17:18:31,464 - Base file path: /home/barykin/bz/release/forks/AZLocalize/translations/backend/ProcedureChatNotificator/az.json
+2023-08-25 17:18:31,464 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/backend/AuthServer/az.json
+2023-08-25 17:18:31,464 - Base file path: /home/barykin/bz/release/forks/AZLocalize/translations/backend/AuthServer/az.json
+2023-08-25 17:18:31,464 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/backend/ReportGenerator/az.json
+2023-08-25 17:18:31,464 - Base file path: /home/barykin/bz/release/forks/AZLocalize/translations/backend/ReportGenerator/az.json
+2023-08-25 17:18:31,464 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/backend/ProcessLight/az.json
+2023-08-25 17:18:31,464 - Base file path: /home/barykin/bz/release/forks/AZLocalize/translations/backend/ProcessLight/az.json
+2023-08-25 17:18:31,464 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/backend/PublicProfile/az.json
+2023-08-25 17:18:31,464 - Base file path: /home/barykin/bz/release/forks/AZLocalize/translations/backend/PublicProfile/az.json
+2023-08-25 17:18:31,464 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/backend/ImportExport/az.json
+2023-08-25 17:18:31,464 - Base file path: /home/barykin/bz/release/forks/AZLocalize/translations/backend/ImportExport/az.json
+2023-08-25 17:18:31,464 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/backend/EmailNotifier/az.json
+2023-08-25 17:18:31,464 - Base file path: /home/barykin/bz/release/forks/AZLocalize/translations/backend/EmailNotifier/az.json
+2023-08-25 17:18:31,465 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/backend/Registry/az.json
+2023-08-25 17:18:31,465 - Base file path: /home/barykin/bz/release/forks/AZLocalize/translations/backend/Registry/az.json
+2023-08-25 17:18:31,466 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/az.json
+2023-08-25 17:18:31,470 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/rating/az.json
+2023-08-25 17:18:31,471 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/promo-codes/list/az.json
+2023-08-25 17:18:31,473 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/users/az.json
+2023-08-25 17:18:31,474 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/tags/stop/az.json
+2023-08-25 17:18:31,475 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/companies/users/az.json
+2023-08-25 17:18:31,477 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/companies/profile/az.json
+2023-08-25 17:18:31,478 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/companies/shared/az.json
+2023-08-25 17:18:31,479 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/requests/side/az.json
+2023-08-25 17:18:31,479 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/requests/participants/az.json
+2023-08-25 17:18:31,480 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/requests/invites/az.json
+2023-08-25 17:18:31,480 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/requests/details/az.json
+2023-08-25 17:18:31,481 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/requests/shared/az.json
+2023-08-25 17:18:31,482 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/requests/list/az.json
+2023-08-25 17:18:31,482 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/tariffs/companies-list/az.json
+2023-08-25 17:18:31,483 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/tariffs/packages-list/az.json
+2023-08-25 17:18:31,483 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/tariffs/shared/az.json
+2023-08-25 17:18:31,484 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/tariffs/view/az.json
+2023-08-25 17:18:31,485 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/tariffs/list/az.json
+2023-08-25 17:18:31,499 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/az.json
+2023-08-25 17:18:31,502 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/registries/owner/az.json
+2023-08-25 17:18:31,504 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/registries/participant/az.json
+2023-08-25 17:18:31,505 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/registries/shared/az.json
+2023-08-25 17:18:31,506 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/registries/view/az.json
+2023-08-25 17:18:31,506 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/ugroups/view/az.json
+2023-08-25 17:18:31,508 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/hierarchy/az.json
+2023-08-25 17:18:31,522 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/process/light/az.json
+2023-08-25 17:18:31,524 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/process/light/proposal-positions/az.json
+2023-08-25 17:18:31,525 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/process/light/journal/az.json
+2023-08-25 17:18:31,527 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/process/light/conclusion/az.json
+2023-08-25 17:18:31,527 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/process/light/proposal/az.json
+2023-08-25 17:18:31,529 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/process/light/request/az.json
+2023-08-25 17:18:31,530 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/process/light/positions/buyer/az.json
+2023-08-25 17:18:31,531 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/process/light/positions/common/az.json
+2023-08-25 17:18:31,532 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/process/light/positions/seller/az.json
+2023-08-25 17:18:31,532 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/process/light/questionnaire/az.json
+2023-08-25 17:18:31,533 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/process/light/comparator/az.json
+2023-08-25 17:18:31,536 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/process/procedures/az.json
+2023-08-25 17:18:31,537 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/process/shared/az.json
+2023-08-25 17:18:31,537 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/companies/invite/az.json
+2023-08-25 17:18:31,538 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/companies/buyers/az.json
+2023-08-25 17:18:31,539 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/companies/esg/az.json
+2023-08-25 17:18:31,540 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/companies/wizard/az.json
+2023-08-25 17:18:31,540 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/companies/smtp/az.json
+2023-08-25 17:18:31,542 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/companies/public/az.json
+2023-08-25 17:18:31,542 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/unsubscribe/az.json
+2023-08-25 17:18:31,543 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/cgroups/items/az.json
+2023-08-25 17:18:31,543 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/cgroups/view/az.json
+2023-08-25 17:18:31,546 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/mail-customizer/az.json
+2023-08-25 17:18:31,548 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/components/requisites/az.json
+2023-08-25 17:18:31,549 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/components/users/az.json
+2023-08-25 17:18:31,553 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/components/tags/az.json
+2023-08-25 17:18:31,554 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/components/positions-table/az.json
+2023-08-25 17:18:31,554 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/components/hierarchy/az.json
+2023-08-25 17:18:31,555 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/components/comments/az.json
+2023-08-25 17:18:31,555 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/components/rights/az.json
+2023-08-25 17:18:31,556 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/components/companies/az.json
+2023-08-25 17:18:31,559 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/components/questionnaire/az.json
+2023-08-25 17:18:31,559 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/components/categories/az.json
+2023-08-25 17:18:31,561 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/components/requests/components/az.json
+2023-08-25 17:18:31,562 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/components/requests/models/az.json
+2023-08-25 17:18:31,563 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/components/requests/events/az.json
+2023-08-25 17:18:31,563 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/components/files/az.json
+2023-08-29 12:45:57,585 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/admin/en.json
+2023-08-29 12:45:57,586 - Base file path: /home/barykin/bz/release/forks/ENLocalize/translations/web/admin/en.json
+2023-08-29 12:45:57,586 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/admin/rating/en.json
+2023-08-29 12:45:57,586 - Base file path: /home/barykin/bz/release/forks/ENLocalize/translations/web/admin/rating/en.json
+2023-08-29 12:45:57,586 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/admin/promo-codes/list/en.json
+2023-08-29 12:45:57,586 - Base file path: /home/barykin/bz/release/forks/ENLocalize/translations/web/admin/promo-codes/list/en.json
+2023-08-29 12:45:57,586 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/admin/users/en.json
+2023-08-29 12:45:57,586 - Base file path: /home/barykin/bz/release/forks/ENLocalize/translations/web/admin/users/en.json
+2023-08-29 12:45:57,586 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/admin/tags/merge/en.json
+2023-08-29 12:45:57,587 - Base file path: /home/barykin/bz/release/forks/ENLocalize/translations/web/admin/tags/merge/en.json
+2023-08-29 12:45:57,587 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/admin/tags/shared/en.json
+2023-08-29 12:45:57,587 - Base file path: /home/barykin/bz/release/forks/ENLocalize/translations/web/admin/tags/shared/en.json
+2023-08-29 12:45:57,587 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/admin/tags/stop/en.json
+2023-08-29 12:45:57,587 - Base file path: /home/barykin/bz/release/forks/ENLocalize/translations/web/admin/tags/stop/en.json
+2023-08-29 12:45:57,587 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/admin/buyers/en.json
+2023-08-29 12:45:57,587 - Base file path: /home/barykin/bz/release/forks/ENLocalize/translations/web/admin/buyers/en.json
+2023-08-29 12:45:57,587 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/admin/companies/users/en.json
+2023-08-29 12:45:57,587 - Base file path: /home/barykin/bz/release/forks/ENLocalize/translations/web/admin/companies/users/en.json
+2023-08-29 12:45:57,587 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/admin/companies/profile/en.json
+2023-08-29 12:45:57,587 - Base file path: /home/barykin/bz/release/forks/ENLocalize/translations/web/admin/companies/profile/en.json
+2023-08-29 12:45:57,587 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/admin/companies/shared/en.json
+2023-08-29 12:45:57,587 - Base file path: /home/barykin/bz/release/forks/ENLocalize/translations/web/admin/companies/shared/en.json
+2023-08-29 12:45:57,588 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/admin/requests/side/en.json
+2023-08-29 12:45:57,588 - Base file path: /home/barykin/bz/release/forks/ENLocalize/translations/web/admin/requests/side/en.json
+2023-08-29 12:45:57,588 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/admin/requests/participants/en.json
+2023-08-29 12:45:57,588 - Base file path: /home/barykin/bz/release/forks/ENLocalize/translations/web/admin/requests/participants/en.json
+2023-08-29 12:45:57,588 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/admin/requests/invites/en.json
+2023-08-29 12:45:57,588 - Base file path: /home/barykin/bz/release/forks/ENLocalize/translations/web/admin/requests/invites/en.json
+2023-08-29 12:45:57,588 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/admin/requests/details/en.json
+2023-08-29 12:45:57,588 - Base file path: /home/barykin/bz/release/forks/ENLocalize/translations/web/admin/requests/details/en.json
+2023-08-29 12:45:57,588 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/admin/requests/positions/en.json
+2023-08-29 12:45:57,588 - Base file path: /home/barykin/bz/release/forks/ENLocalize/translations/web/admin/requests/positions/en.json
+2023-08-29 12:45:57,588 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/admin/requests/shared/en.json
+2023-08-29 12:45:57,588 - Base file path: /home/barykin/bz/release/forks/ENLocalize/translations/web/admin/requests/shared/en.json
+2023-08-29 12:45:57,588 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/admin/requests/intelligence/en.json
+2023-08-29 12:45:57,588 - Base file path: /home/barykin/bz/release/forks/ENLocalize/translations/web/admin/requests/intelligence/en.json
+2023-08-29 12:45:57,588 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/admin/requests/view/en.json
+2023-08-29 12:45:57,589 - Base file path: /home/barykin/bz/release/forks/ENLocalize/translations/web/admin/requests/view/en.json
+2023-08-29 12:45:57,589 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/admin/requests/events/en.json
+2023-08-29 12:45:57,589 - Base file path: /home/barykin/bz/release/forks/ENLocalize/translations/web/admin/requests/events/en.json
+2023-08-29 12:45:57,589 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/admin/requests/list/en.json
+2023-08-29 12:45:57,589 - Base file path: /home/barykin/bz/release/forks/ENLocalize/translations/web/admin/requests/list/en.json
+2023-08-29 12:45:57,589 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/admin/tariffs/companies-list/en.json
+2023-08-29 12:45:57,589 - Base file path: /home/barykin/bz/release/forks/ENLocalize/translations/web/admin/tariffs/companies-list/en.json
+2023-08-29 12:45:57,589 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/admin/tariffs/packages-list/en.json
+2023-08-29 12:45:57,589 - Base file path: /home/barykin/bz/release/forks/ENLocalize/translations/web/admin/tariffs/packages-list/en.json
+2023-08-29 12:45:57,589 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/admin/tariffs/shared/en.json
+2023-08-29 12:45:57,589 - Base file path: /home/barykin/bz/release/forks/ENLocalize/translations/web/admin/tariffs/shared/en.json
+2023-08-29 12:45:57,589 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/admin/tariffs/view/en.json
+2023-08-29 12:45:57,589 - Base file path: /home/barykin/bz/release/forks/ENLocalize/translations/web/admin/tariffs/view/en.json
+2023-08-29 12:45:57,589 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/admin/tariffs/list/en.json
+2023-08-29 12:45:57,590 - Base file path: /home/barykin/bz/release/forks/ENLocalize/translations/web/admin/tariffs/list/en.json
+2023-08-29 12:45:57,590 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/app/en.json
+2023-08-29 12:45:57,590 - Base file path: /home/barykin/bz/release/forks/ENLocalize/translations/web/app/en.json
+2023-08-29 12:45:57,590 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/app/registries/suppliers/en.json
+2023-08-29 12:45:57,590 - Base file path: /home/barykin/bz/release/forks/ENLocalize/translations/web/app/registries/suppliers/en.json
+2023-08-29 12:45:57,591 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/app/registries/applications/en.json
+2023-08-29 12:45:57,591 - Base file path: /home/barykin/bz/release/forks/ENLocalize/translations/web/app/registries/applications/en.json
+2023-08-29 12:45:57,591 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/app/registries/guest/en.json
+2023-08-29 12:45:57,591 - Base file path: /home/barykin/bz/release/forks/ENLocalize/translations/web/app/registries/guest/en.json
+2023-08-29 12:45:57,591 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/app/registries/my/en.json
+2023-08-29 12:45:57,591 - Base file path: /home/barykin/bz/release/forks/ENLocalize/translations/web/app/registries/my/en.json
+2023-08-29 12:45:57,591 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/app/registries/owner/en.json
+2023-08-29 12:45:57,593 - Base file path: /home/barykin/bz/release/forks/ENLocalize/translations/web/app/registries/owner/en.json
+2023-08-29 12:45:57,593 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/app/registries/details/en.json
+2023-08-29 12:45:57,593 - Base file path: /home/barykin/bz/release/forks/ENLocalize/translations/web/app/registries/details/en.json
+2023-08-29 12:45:57,594 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/app/registries/participant/en.json
+2023-08-29 12:45:57,594 - Base file path: /home/barykin/bz/release/forks/ENLocalize/translations/web/app/registries/participant/en.json
+2023-08-29 12:45:57,594 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/app/registries/shared/en.json
+2023-08-29 12:45:57,594 - Base file path: /home/barykin/bz/release/forks/ENLocalize/translations/web/app/registries/shared/en.json
+2023-08-29 12:45:57,594 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/app/registries/view/en.json
+2023-08-29 12:45:57,595 - Base file path: /home/barykin/bz/release/forks/ENLocalize/translations/web/app/registries/view/en.json
+2023-08-29 12:45:57,595 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/app/ugroups/view/en.json
+2023-08-29 12:45:57,595 - Base file path: /home/barykin/bz/release/forks/ENLocalize/translations/web/app/ugroups/view/en.json
+2023-08-29 12:45:57,595 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/app/ugroups/list/en.json
+2023-08-29 12:45:57,595 - Base file path: /home/barykin/bz/release/forks/ENLocalize/translations/web/app/ugroups/list/en.json
+2023-08-29 12:45:57,595 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/app/hierarchy/en.json
+2023-08-29 12:45:57,595 - Base file path: /home/barykin/bz/release/forks/ENLocalize/translations/web/app/hierarchy/en.json
+2023-08-29 12:45:57,596 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/app/process/light/en.json
+2023-08-29 12:45:57,596 - Base file path: /home/barykin/bz/release/forks/ENLocalize/translations/web/app/process/light/en.json
+2023-08-29 12:45:57,596 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/app/process/light/proposal-positions/en.json
+2023-08-29 12:45:57,596 - Base file path: /home/barykin/bz/release/forks/ENLocalize/translations/web/app/process/light/proposal-positions/en.json
+2023-08-29 12:45:57,596 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/app/process/light/journal/en.json
+2023-08-29 12:45:57,596 - Base file path: /home/barykin/bz/release/forks/ENLocalize/translations/web/app/process/light/journal/en.json
+2023-08-29 12:45:57,596 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/app/process/light/conclusion/en.json
+2023-08-29 12:45:57,596 - Base file path: /home/barykin/bz/release/forks/ENLocalize/translations/web/app/process/light/conclusion/en.json
+2023-08-29 12:45:57,596 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/app/process/light/proposal/en.json
+2023-08-29 12:45:57,597 - Base file path: /home/barykin/bz/release/forks/ENLocalize/translations/web/app/process/light/proposal/en.json
+2023-08-29 12:45:57,597 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/app/process/light/request/en.json
+2023-08-29 12:45:57,597 - Base file path: /home/barykin/bz/release/forks/ENLocalize/translations/web/app/process/light/request/en.json
+2023-08-29 12:45:57,597 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/app/process/light/positions/buyer/en.json
+2023-08-29 12:45:57,597 - Base file path: /home/barykin/bz/release/forks/ENLocalize/translations/web/app/process/light/positions/buyer/en.json
+2023-08-29 12:45:57,598 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/app/process/light/positions/common/en.json
+2023-08-29 12:45:57,598 - Base file path: /home/barykin/bz/release/forks/ENLocalize/translations/web/app/process/light/positions/common/en.json
+2023-08-29 12:45:57,598 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/app/process/light/positions/seller/en.json
+2023-08-29 12:45:57,598 - Base file path: /home/barykin/bz/release/forks/ENLocalize/translations/web/app/process/light/positions/seller/en.json
+2023-08-29 12:45:57,598 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/app/process/light/banned-positions/en.json
+2023-08-29 12:45:57,598 - Base file path: /home/barykin/bz/release/forks/ENLocalize/translations/web/app/process/light/banned-positions/en.json
+2023-08-29 12:45:57,598 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/app/process/light/questionnaire/en.json
+2023-08-29 12:45:57,598 - Base file path: /home/barykin/bz/release/forks/ENLocalize/translations/web/app/process/light/questionnaire/en.json
+2023-08-29 12:45:57,598 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/app/process/light/comparator/en.json
+2023-08-29 12:45:57,598 - Base file path: /home/barykin/bz/release/forks/ENLocalize/translations/web/app/process/light/comparator/en.json
+2023-08-29 12:45:57,598 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/app/process/procedures/en.json
+2023-08-29 12:45:57,598 - Base file path: /home/barykin/bz/release/forks/ENLocalize/translations/web/app/process/procedures/en.json
+2023-08-29 12:45:57,598 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/app/process/shared/en.json
+2023-08-29 12:45:57,598 - Base file path: /home/barykin/bz/release/forks/ENLocalize/translations/web/app/process/shared/en.json
+2023-08-29 12:45:57,599 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/app/companies/invite/en.json
+2023-08-29 12:45:57,599 - Base file path: /home/barykin/bz/release/forks/ENLocalize/translations/web/app/companies/invite/en.json
+2023-08-29 12:45:57,599 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/app/companies/buyers/en.json
+2023-08-29 12:45:57,599 - Base file path: /home/barykin/bz/release/forks/ENLocalize/translations/web/app/companies/buyers/en.json
+2023-08-29 12:45:57,599 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/app/companies/esg/en.json
+2023-08-29 12:45:57,599 - Base file path: /home/barykin/bz/release/forks/ENLocalize/translations/web/app/companies/esg/en.json
+2023-08-29 12:45:57,599 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/app/companies/wizard/en.json
+2023-08-29 12:45:57,599 - Base file path: /home/barykin/bz/release/forks/ENLocalize/translations/web/app/companies/wizard/en.json
+2023-08-29 12:45:57,599 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/app/companies/smtp/en.json
+2023-08-29 12:45:57,599 - Base file path: /home/barykin/bz/release/forks/ENLocalize/translations/web/app/companies/smtp/en.json
+2023-08-29 12:45:57,599 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/app/companies/public/en.json
+2023-08-29 12:45:57,599 - Base file path: /home/barykin/bz/release/forks/ENLocalize/translations/web/app/companies/public/en.json
+2023-08-29 12:45:57,599 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/app/unsubscribe/en.json
+2023-08-29 12:45:57,599 - Base file path: /home/barykin/bz/release/forks/ENLocalize/translations/web/app/unsubscribe/en.json
+2023-08-29 12:45:57,600 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/app/cgroups/items/en.json
+2023-08-29 12:45:57,600 - Base file path: /home/barykin/bz/release/forks/ENLocalize/translations/web/app/cgroups/items/en.json
+2023-08-29 12:45:57,600 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/app/cgroups/view/en.json
+2023-08-29 12:45:57,600 - Base file path: /home/barykin/bz/release/forks/ENLocalize/translations/web/app/cgroups/view/en.json
+2023-08-29 12:45:57,600 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/app/cgroups/list/en.json
+2023-08-29 12:45:57,600 - Base file path: /home/barykin/bz/release/forks/ENLocalize/translations/web/app/cgroups/list/en.json
+2023-08-29 12:45:57,600 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/app/mail-customizer/en.json
+2023-08-29 12:45:57,600 - Base file path: /home/barykin/bz/release/forks/ENLocalize/translations/web/app/mail-customizer/en.json
+2023-08-29 12:45:57,600 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/components/locations/filters/en.json
+2023-08-29 12:45:57,600 - Base file path: /home/barykin/bz/release/forks/ENLocalize/translations/web/components/locations/filters/en.json
+2023-08-29 12:45:57,600 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/components/locations/components/en.json
+2023-08-29 12:45:57,600 - Base file path: /home/barykin/bz/release/forks/ENLocalize/translations/web/components/locations/components/en.json
+2023-08-29 12:45:57,601 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/components/requisites/en.json
+2023-08-29 12:45:57,601 - Base file path: /home/barykin/bz/release/forks/ENLocalize/translations/web/components/requisites/en.json
+2023-08-29 12:45:57,601 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/components/achievements/en.json
+2023-08-29 12:45:57,601 - Base file path: /home/barykin/bz/release/forks/ENLocalize/translations/web/components/achievements/en.json
+2023-08-29 12:45:57,601 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/components/users/en.json
+2023-08-29 12:45:57,601 - Base file path: /home/barykin/bz/release/forks/ENLocalize/translations/web/components/users/en.json
+2023-08-29 12:45:57,601 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/components/tags/en.json
+2023-08-29 12:45:57,601 - Base file path: /home/barykin/bz/release/forks/ENLocalize/translations/web/components/tags/en.json
+2023-08-29 12:45:57,601 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/components/dialogs/en.json
+2023-08-29 12:45:57,601 - Base file path: /home/barykin/bz/release/forks/ENLocalize/translations/web/components/dialogs/en.json
+2023-08-29 12:45:57,601 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/components/errors/store/en.json
+2023-08-29 12:45:57,601 - Base file path: /home/barykin/bz/release/forks/ENLocalize/translations/web/components/errors/store/en.json
+2023-08-29 12:45:57,601 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/components/errors/models/en.json
+2023-08-29 12:45:57,601 - Base file path: /home/barykin/bz/release/forks/ENLocalize/translations/web/components/errors/models/en.json
+2023-08-29 12:45:57,602 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/components/positions-table/en.json
+2023-08-29 12:45:57,602 - Base file path: /home/barykin/bz/release/forks/ENLocalize/translations/web/components/positions-table/en.json
+2023-08-29 12:45:57,602 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/components/esg/en.json
+2023-08-29 12:45:57,602 - Base file path: /home/barykin/bz/release/forks/ENLocalize/translations/web/components/esg/en.json
+2023-08-29 12:45:57,602 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/components/hierarchy/en.json
+2023-08-29 12:45:57,602 - Base file path: /home/barykin/bz/release/forks/ENLocalize/translations/web/components/hierarchy/en.json
+2023-08-29 12:45:57,602 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/components/comments/en.json
+2023-08-29 12:45:57,602 - Base file path: /home/barykin/bz/release/forks/ENLocalize/translations/web/components/comments/en.json
+2023-08-29 12:45:57,602 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/components/rights/en.json
+2023-08-29 12:45:57,602 - Base file path: /home/barykin/bz/release/forks/ENLocalize/translations/web/components/rights/en.json
+2023-08-29 12:45:57,602 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/components/user-management/en.json
+2023-08-29 12:45:57,602 - Base file path: /home/barykin/bz/release/forks/ENLocalize/translations/web/components/user-management/en.json
+2023-08-29 12:45:57,602 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/components/filters/en.json
+2023-08-29 12:45:57,602 - Base file path: /home/barykin/bz/release/forks/ENLocalize/translations/web/components/filters/en.json
+2023-08-29 12:45:57,603 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/components/companies/en.json
+2023-08-29 12:45:57,603 - Base file path: /home/barykin/bz/release/forks/ENLocalize/translations/web/components/companies/en.json
+2023-08-29 12:45:57,603 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/components/companies/bills/en.json
+2023-08-29 12:45:57,603 - Base file path: /home/barykin/bz/release/forks/ENLocalize/translations/web/components/companies/bills/en.json
+2023-08-29 12:45:57,603 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/components/phone-input/en.json
+2023-08-29 12:45:57,603 - Base file path: /home/barykin/bz/release/forks/ENLocalize/translations/web/components/phone-input/en.json
+2023-08-29 12:45:57,603 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/components/questionnaire/en.json
+2023-08-29 12:45:57,603 - Base file path: /home/barykin/bz/release/forks/ENLocalize/translations/web/components/questionnaire/en.json
+2023-08-29 12:45:57,603 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/components/categories/en.json
+2023-08-29 12:45:57,603 - Base file path: /home/barykin/bz/release/forks/ENLocalize/translations/web/components/categories/en.json
+2023-08-29 12:45:57,603 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/components/timepickers/en.json
+2023-08-29 12:45:57,603 - Base file path: /home/barykin/bz/release/forks/ENLocalize/translations/web/components/timepickers/en.json
+2023-08-29 12:45:57,603 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/components/requests/components/en.json
+2023-08-29 12:45:57,603 - Base file path: /home/barykin/bz/release/forks/ENLocalize/translations/web/components/requests/components/en.json
+2023-08-29 12:45:57,604 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/components/requests/models/en.json
+2023-08-29 12:45:57,604 - Base file path: /home/barykin/bz/release/forks/ENLocalize/translations/web/components/requests/models/en.json
+2023-08-29 12:45:57,604 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/components/requests/events/en.json
+2023-08-29 12:45:57,604 - Base file path: /home/barykin/bz/release/forks/ENLocalize/translations/web/components/requests/events/en.json
+2023-08-29 12:45:57,604 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/components/files/en.json
+2023-08-29 12:45:57,604 - Base file path: /home/barykin/bz/release/forks/ENLocalize/translations/web/components/files/en.json
+2023-08-29 12:45:57,604 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/components/labels/en.json
+2023-08-29 12:45:57,604 - Base file path: /home/barykin/bz/release/forks/ENLocalize/translations/web/components/labels/en.json
+2023-08-29 12:46:40,992 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/companies/profile/en.json
+2023-08-29 12:46:40,993 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/companies/shared/en.json
+2023-08-29 12:46:40,995 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/requests/participants/en.json
+2023-08-29 12:46:40,997 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/requests/invites/en.json
+2023-08-29 12:46:41,015 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/en.json
+2023-08-29 12:46:41,041 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/process/light/en.json
+2023-08-29 12:46:41,045 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/process/light/conclusion/en.json
+2023-08-29 12:46:41,048 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/process/light/positions/buyer/en.json
+2023-08-29 12:46:41,050 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/process/light/positions/common/en.json
+2023-08-29 12:46:41,053 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/process/light/positions/seller/en.json
+2023-08-29 12:46:41,054 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/process/light/questionnaire/en.json
+2023-08-29 12:46:41,056 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/process/light/comparator/en.json
+2023-08-29 12:46:41,062 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/components/filters/en.json
+2023-08-29 12:46:41,073 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/components/questionnaire/en.json
+2023-08-29 12:46:41,090 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/components/requests/models/en.json
+2023-08-29 12:46:41,093 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/components/requests/events/en.json
+2023-08-29 13:25:47,068 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/backend/ProcedureChatNotificator/LocalizedStrings.az.resx.json
+2023-08-29 13:25:47,069 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/backend/ProcedureChatNotificator/LocalizedStrings.en-gb.resx.json
+2023-08-29 13:25:47,069 - Base file path: /home/barykin/bz/release/forks/ENLocalize/translations/backend/ProcedureChatNotificator/LocalizedStrings.en-gb.resx.json
+2023-08-29 13:25:47,076 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/backend/ProcedureChatNotificator/LocalizedStrings.resx.json
+2023-08-29 13:25:47,084 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/backend/AuthServer/SharedResource.en-GB.resx.json
+2023-08-29 13:25:47,084 - Base file path: /home/barykin/bz/release/forks/ENLocalize/translations/backend/AuthServer/SharedResource.en-GB.resx.json
+2023-08-29 13:25:47,089 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/backend/ReportGenerator/LocalizedStrings.az.resx.json
+2023-08-29 13:25:47,090 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/backend/ReportGenerator/LocalizedStrings.en-gb.resx.json
+2023-08-29 13:25:47,090 - Base file path: /home/barykin/bz/release/forks/ENLocalize/translations/backend/ReportGenerator/LocalizedStrings.en-gb.resx.json
+2023-08-29 13:25:47,096 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/backend/ReportGenerator/LocalizedStrings.resx.json
+2023-08-29 13:25:47,098 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/backend/ProcessLight/LocalizedStrings.en-gb.resx.json
+2023-08-29 13:25:47,098 - Base file path: /home/barykin/bz/release/forks/ENLocalize/translations/backend/ProcessLight/LocalizedStrings.en-gb.resx.json
+2023-08-29 13:25:47,099 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/backend/ProcessLight/LocalizedStrings.resx.json
+2023-08-29 13:25:47,100 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/backend/PublicProfile/Strings.en-gb.resx.json
+2023-08-29 13:25:47,100 - Base file path: /home/barykin/bz/release/forks/ENLocalize/translations/backend/PublicProfile/Strings.en-gb.resx.json
+2023-08-29 13:25:47,104 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/backend/ImportExport/LocalizedStrings.az.resx.json
+2023-08-29 13:25:47,104 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/backend/ImportExport/LocalizedStrings.en-gb.resx.json
+2023-08-29 13:25:47,104 - Base file path: /home/barykin/bz/release/forks/ENLocalize/translations/backend/ImportExport/LocalizedStrings.en-gb.resx.json
+2023-08-29 13:25:47,106 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/backend/ImportExport/LocalizedStrings.resx.json
+2023-08-29 13:25:47,108 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/backend/EmailNotifier/LocalizedStrings.en-gb.resx.json
+2023-08-29 13:25:47,108 - Base file path: /home/barykin/bz/release/forks/ENLocalize/translations/backend/EmailNotifier/LocalizedStrings.en-gb.resx.json
+2023-08-29 13:25:47,110 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/backend/Registry/LocalizedStrings.en-gb.resx.json
+2023-08-29 13:25:47,110 - Base file path: /home/barykin/bz/release/forks/ENLocalize/translations/backend/Registry/LocalizedStrings.en-gb.resx.json
+2023-08-29 13:25:47,110 - File not found in target directory: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/backend/Registry/LocalizedStrings.en-us.resx.json
+2023-08-29 13:25:47,110 - Base file path: /home/barykin/bz/release/forks/ENLocalize/translations/backend/Registry/LocalizedStrings.en-us.resx.json
+2023-08-29 13:25:47,111 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/backend/Registry/LocalizedStrings.resx.json
+2023-08-29 15:09:37,736 - Updated: /home/barykin/bz/release/emailtemplates/src/forks/AZN_FORK/subjects/az-AZ/subjects.json
+2023-08-29 15:09:37,737 - Updated: /home/barykin/bz/release/emailtemplates/src/forks/AZN_FORK/subjects/en-GB/subjects.json
+2023-08-29 15:09:37,746 - Updated: /home/barykin/bz/release/emailtemplates/src/subjects/ru-RU/subjects.json
+2023-08-29 15:09:37,747 - Updated: /home/barykin/bz/release/emailtemplates/src/subjects/en-GB/subjects.json
+2023-08-29 15:13:37,947 - Updated: /home/barykin/bz/release/emailtemplates/src/subjects/en-GB/subjects.json
+2023-08-29 15:14:17,882 - Updated: /home/barykin/bz/release/emailtemplates/src/forks/AZN_FORK/subjects/en-GB/subjects.json
+2023-09-01 13:45:56,528 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/en.json
+2023-09-01 13:45:56,530 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/ru.json
+2023-09-01 13:45:56,534 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/az.json
+2023-09-01 13:45:56,536 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/rating/en.json
+2023-09-01 13:45:56,543 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/promo-codes/list/az.json
+2023-09-01 13:45:56,544 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/users/en.json
+2023-09-01 13:45:56,547 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/users/ru.json
+2023-09-01 13:45:56,549 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/users/az.json
+2023-09-01 13:45:56,553 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/tags/merge/en.json
+2023-09-01 13:45:56,557 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/tags/shared/en.json
+2023-09-01 13:45:56,560 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/tags/stop/en.json
+2023-09-01 13:45:56,563 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/tags/stop/az.json
+2023-09-01 13:45:56,564 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/buyers/en.json
+2023-09-01 13:45:56,568 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/companies/users/en.json
+2023-09-01 13:45:56,571 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/companies/users/ru.json
+2023-09-01 13:45:56,572 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/companies/users/az.json
+2023-09-01 13:45:56,574 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/companies/profile/en.json
+2023-09-01 13:45:56,576 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/companies/profile/tech.json
+2023-09-01 13:45:56,578 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/companies/profile/ru.json
+2023-09-01 13:45:56,580 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/companies/profile/az.json
+2023-09-01 13:45:56,585 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/companies/shared/en.json
+2023-09-01 13:45:56,591 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/companies/shared/ru.json
+2023-09-01 13:45:56,592 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/companies/shared/az.json
+2023-09-01 13:45:56,594 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/requests/side/en.json
+2023-09-01 13:45:56,597 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/requests/side/az.json
+2023-09-01 13:45:56,598 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/requests/participants/en.json
+2023-09-01 13:45:56,602 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/requests/participants/ru.json
+2023-09-01 13:45:56,603 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/requests/participants/az.json
+2023-09-01 13:45:56,605 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/requests/invites/en.json
+2023-09-01 13:45:56,607 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/requests/invites/ru.json
+2023-09-01 13:45:56,609 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/requests/invites/az.json
+2023-09-01 13:45:56,613 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/requests/details/en.json
+2023-09-01 13:45:56,620 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/requests/details/az.json
+2023-09-01 13:45:56,622 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/requests/positions/en.json
+2023-09-01 13:45:56,625 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/requests/shared/en.json
+2023-09-01 13:45:56,627 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/requests/shared/ru.json
+2023-09-01 13:45:56,629 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/requests/shared/az.json
+2023-09-01 13:45:56,630 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/requests/view/en.json
+2023-09-01 13:45:56,634 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/requests/events/en.json
+2023-09-01 13:45:56,638 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/requests/list/en.json
+2023-09-01 13:45:56,640 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/requests/list/ru.json
+2023-09-01 13:45:56,642 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/requests/list/az.json
+2023-09-01 13:45:56,643 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/tariffs/companies-list/en.json
+2023-09-01 13:45:56,646 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/tariffs/companies-list/ru.json
+2023-09-01 13:45:56,648 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/tariffs/companies-list/az.json
+2023-09-01 13:45:56,651 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/tariffs/packages-list/ru.json
+2023-09-01 13:45:56,652 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/tariffs/packages-list/az.json
+2023-09-01 13:45:56,654 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/tariffs/shared/en.json
+2023-09-01 13:45:56,656 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/tariffs/shared/az.json
+2023-09-01 13:45:56,658 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/tariffs/view/en.json
+2023-09-01 13:45:56,661 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/tariffs/view/az.json
+2023-09-01 13:45:56,670 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/tariffs/list/az.json
+2023-09-01 13:45:56,684 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/en.json
+2023-09-01 13:45:56,703 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/ru.json
+2023-09-01 13:45:56,718 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/az.json
+2023-09-01 13:45:56,723 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/registries/guest/en.json
+2023-09-01 13:45:56,725 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/registries/guest/ru.json
+2023-09-01 13:45:56,740 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/registries/owner/az.json
+2023-09-01 13:45:56,754 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/registries/participant/en.json
+2023-09-01 13:45:56,757 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/registries/participant/az.json
+2023-09-01 13:45:56,766 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/registries/shared/en.json
+2023-09-01 13:45:56,770 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/registries/shared/ru.json
+2023-09-01 13:45:56,772 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/registries/shared/az.json
+2023-09-01 13:45:56,779 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/registries/view/az.json
+2023-09-01 13:45:56,790 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/hierarchy/en.json
+2023-09-01 13:45:56,793 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/hierarchy/az.json
+2023-09-01 14:11:35,270 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/admin/tariffs/list/az.json
+2023-09-01 14:11:35,286 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/process/light/positions/seller/az.json
+2023-09-01 14:11:35,289 - Updated: /home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/app/companies/esg/az.json

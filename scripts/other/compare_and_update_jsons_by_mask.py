@@ -11,23 +11,22 @@ target_directory = "/home/barykin/bz/release/Localizer/src/Cognitive.Localizer/w
 # target_directory = "/home/barykin/bz/release/emailtemplates/src/forks/AZN_FORK/subjects/en-GB"
 
 
-log_file_path = "compare_and_update_jsons.txt"
-json_file_name = ["az.json"]  # Добавьте нужные имена файлов
-#json_file_name = "en.json"  # Добавьте нужные имена файлов
-
+log_file_path = "compare_and_update_jsons_by_mask.txt"
+json_file_pattern = "az.json"  # Маска для имен файлов
 
 def update_json(target_data, base_data):
     modified = False
-    for key, value in base_data.items():
-        if key not in target_data:
-            target_data[key] = value
-            modified = True
-        elif isinstance(value, dict):
-            modified |= update_json(target_data[key], value)
-        else:
-            if target_data[key] != value:
+    if isinstance(target_data, dict) and isinstance(base_data, dict):
+        for key, value in base_data.items():
+            if key not in target_data:
                 target_data[key] = value
                 modified = True
+            elif isinstance(value, dict):
+                modified |= update_json(target_data[key], value)
+            else:
+                if target_data[key] != value:
+                    target_data[key] = value
+                    modified = True
     return modified
 
 def compare_and_update_json(base_path, target_path):
@@ -56,11 +55,10 @@ def compare_and_update_jsons(base_dir, target_dir):
     logging.basicConfig(filename=log_file_path, level=logging.INFO, format='%(asctime)s - %(message)s')
 
     for root, _, files in os.walk(base_dir):
-        for filename in files:
-            if filename == json_file_name:
-                base_path = os.path.join(root, filename)
-                target_path = os.path.join(target_dir, os.path.relpath(base_path, base_dir))
-                compare_and_update_json(base_path, target_path)
+        for filename in glob.glob(os.path.join(root, json_file_pattern)):
+            base_path = filename
+            target_path = os.path.join(target_dir, os.path.relpath(base_path, base_dir))
+            compare_and_update_json(base_path, target_path)
 
 if __name__ == "__main__":
     compare_and_update_jsons(base_directory, target_directory)

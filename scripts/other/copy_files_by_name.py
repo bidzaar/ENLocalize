@@ -6,9 +6,12 @@ import logging
 # source_directory = "/home/barykin/bz/release/forks/ENLocalize/translations/web/components"
 # target_directory = "/home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/components"
 # file_to_copy = "en.json"
-source_directory = "/home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/backend"
-target_directory = "/home/barykin/bz/release/forks/ENLocalize/translations/backend"
-file_to_copy = "*.resx.json"
+# source_directory = "/home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/backend"
+# target_directory = "/home/barykin/bz/release/emailtemplates/src"
+# file_to_copy = "*.resx.json"
+source_directory = "/home/barykin/bz/release/forks/ENLocalize/translations/"
+target_directory = "/home/barykin/bz/release/forks/AZLocalize/translations/"
+files_to_copy = "en.json"
 
 def copy_files_by_name(source_dir, target_dir, file_name):
     log_file = "copy_files_by_name.txt"
@@ -31,4 +34,4 @@ def copy_files_by_name(source_dir, target_dir, file_name):
 
 
 
-copy_files_by_name(source_directory, target_directory, file_to_copy)
+copy_files_by_name(source_directory, target_directory, files_to_copy)

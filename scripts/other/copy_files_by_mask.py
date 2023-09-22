@@ -3,12 +3,16 @@ import shutil
 import logging
 import fnmatch
 
-source_directory = "/home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/backend"
-target_directory = "/home/barykin/bz/release/forks/ENLocalize/translations/backend"
-files_to_copy = ["*.en.resx.json", "*ru.resx.json", "*Strings.resx.json", "*Resource.resx.json"]
-log_file = "copy_files_by_mask.txt"
+# Пример использования:
+# source_directory = "/home/barykin/bz/release/forks/ENLocalize/translations/web/components"
+# target_directory = "/home/barykin/bz/release/Localizer/src/Cognitive.Localizer/wwwroot/web/components"
+# file_to_copy = "en.json"
+source_directory = "/home/barykin/bz/release/forks/ENLocalize/translations/"
+target_directory = "/home/barykin/bz/release/forks/AZLocalize/translations/"
+files_to_copy = "en.json"
 
 def copy_files_by_masks(source_dir, target_dir, file_masks):
+    log_file = "copy_files_by_mask.txt"
     logging.basicConfig(filename=log_file, filemode='a', level=logging.INFO,
                         format='%(asctime)s - %(message)s', datefmt='%Y-%m-%d %H:%M:%S')
 
